@@ -8,7 +8,7 @@
 
 ## Nome do Grupo: 3 </a>
 
-## Integrantes: <a href="https://www.linkedin.com/in/vanessa-ruama-b616a8138">Vanessa Ruama</a>, <a href="">Renato Rocha</a>, <a href="">Matheus Francisco</a>, <a href="">Alberto Roko</a>
+## Integrantes: <a href="https://www.linkedin.com/in/vanessa-ruama-b616a8138">Vanessa Ruama</a>, <a href="">Renato Rocha</a>, <a href="">Matheus Francisco</a>, <a href="https://br.linkedin.com/in/albertoroko">Alberto Roko</a>
 
 ## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Victor</a>, <a href="">Aimar</a>, <a href="">Francisco</a>, <a href="">Me. Yoda</a>, <a href="">Dr. Gero</a>
 
@@ -114,7 +114,7 @@ A cada atualização os detalhes devem ser lançados aqui.
     * Trabalho em andamento
 
 ## 📋 Licença/License
-
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/2022S1P3/PromoverSaude">Promover Saúde</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/2022S1P3/PromoverSaude">FECAP,Vanessa Ruama,Renato Rocha, Matheus Francisco, Alberto Roko</a> is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a></p>
 
 ## 🎓 Referências
 
