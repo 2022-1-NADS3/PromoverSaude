@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppPSOne.Cadastro"
+             Title="Cadastro">
+    
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Entry Placeholder="E-mail" x:Name="Cadastrar" Keyboard="Email" BackgroundColor="White" Margin="10" ClearButtonVisibility="WhileEditing"/>
+            <Entry Placeholder="Senha" IsPassword="True" Margin="10" ClearButtonVisibility="WhileEditing"/>
+            <Entry Placeholder="Nome" BackgroundColor="White" Margin="10" ClearButtonVisibility="WhileEditing"/>
+            <DatePicker x:Name="dPicData" Date="{Binding Data}">
+                <DatePicker.Format>dd/MM/yyyy</DatePicker.Format>
+            </DatePicker>
+            <Entry Placeholder="Data de Nascimento" BackgroundColor="White" Margin="10" ClearButtonVisibility="WhileEditing"/>
+            <Picker x:Name="pckFinalidade" Title="Sexo" BackgroundColor="White" Margin="10" FontSize="18">
+                <Picker.Items>
+                    <x:String>Feminino</x:String>
+                    <x:String>Masculino</x:String>
+                    <x:String>Não quero informar</x:String>
+                </Picker.Items>
+            </Picker>
+            <Button Text="Entrar" VerticalOptions="CenterAndExpand" Clicked="Cad" Margin="10" BorderRadius="10" BackgroundColor="DeepSkyBlue" TextColor="White"/>
+                <Button Text="Voltar" x:Name="Next" Clicked="Voltar" 
+                    VerticalOptions="CenterAndExpand" 
+                    BorderColor="Black" BorderWidth="2" 
+                    HorizontalOptions="Center" 
+                    BorderRadius="10" 
+                    BackgroundColor="White"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

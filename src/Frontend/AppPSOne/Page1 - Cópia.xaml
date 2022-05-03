@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppPSOne.Page1"
+             Title="Login">
+    
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Entry Placeholder="Seu usuário" x:Name="Login" BackgroundColor="White" Margin="10"/>
+            <Entry Placeholder="Sua senha" IsPassword="True" Margin="10"/>
+            <Button Text="Entrar" VerticalOptions="CenterAndExpand" Clicked="Entrar" Margin="10" BorderRadius="10" BackgroundColor="DeepSkyBlue" TextColor="White"/>
+            <Button Text="Voltar" x:Name="Next" Clicked="Voltar" 
+                    VerticalOptions="CenterAndExpand" 
+                    BorderColor="Black" BorderWidth="2" 
+                    HorizontalOptions="Center" 
+                    BorderRadius="10" 
+                    BackgroundColor="White"/>
+            <Label Text=" "
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
