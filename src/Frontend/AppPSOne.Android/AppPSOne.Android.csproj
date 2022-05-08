@@ -90,7 +90,9 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\eleven.jpg" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AppPSOne\AppPSOne.csproj">
       <Project>{6DEB13D7-7005-4842-B7CA-CC37B363720C}</Project>

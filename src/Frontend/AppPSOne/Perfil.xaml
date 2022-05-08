@@ -17,7 +17,7 @@
                     HorizontalOptions="Center"
                     VerticalOptions="Center">
                         <Image Source="eleven.jpg"
-                            Aspect="AspectFit"
+                            Aspect="AspectFill"
                             Margin="-20"
                             HeightRequest="50"
                             WidthRequest="50"
