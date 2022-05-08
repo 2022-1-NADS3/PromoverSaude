@@ -13,7 +13,7 @@
             <Label.FormattedText>
                 <FormattedString>
                     <FormattedString.Spans>
-                        <Span Text="Projeto Faculdade FECAP - https://github.com/promoversaude" />
+                        <Span Text="Projeto Faculdade FECAP - https://github.com/2022S1P3/PromoverSaude" />
                     </FormattedString.Spans>
                 </FormattedString>
             </Label.FormattedText>
