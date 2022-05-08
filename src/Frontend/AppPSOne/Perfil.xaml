@@ -6,33 +6,42 @@
              Title="Meu Perfil">
     
     <ContentPage.Content>
-        <StackLayout>
-            <controls:CircleImage 
-                Source="C:\Users\vanessa.ruama\source\repos\2022S1P3\PromoverSaude\imagenseleven-1.jpg" 
-                Aspect="AspectFill"
-                WidthRequest="250"
-                HeightRequest="250"
-                HorizontalOptions="Center"
-                VerticalOptions="Center"
-            />
-            <Entry Placeholder="Nome" x:Name="Perfil" Margin="10" ClearButtonVisibility="WhileEditing"/>
-            <Entry Placeholder="E-mail" Keyboard="Email" BackgroundColor="White" Margin="10" ClearButtonVisibility="WhileEditing"/>
-            <Entry Placeholder="Data de Nascimento" BackgroundColor="White" Margin="10" ClearButtonVisibility="WhileEditing"/>
-            <Picker x:Name="pckFinalidade" Title="Sexo" BackgroundColor="White" Margin="10" FontSize="18">
-                <Picker.Items>
-                    <x:String>Feminino</x:String>
-                    <x:String>Masculino</x:String>
-                    <x:String>Não quero informar</x:String>
-                </Picker.Items>
-            </Picker>
-            <Entry Placeholder="Senha" IsPassword="True" Margin="10" ClearButtonVisibility="WhileEditing"/>
-            <Button Text="Editar Perfil" VerticalOptions="CenterAndExpand" Margin="10" BorderRadius="10" BackgroundColor="DeepSkyBlue" TextColor="White"/>
-                <Button Text="Sair da Conta" Clicked="Voltar" 
-                    VerticalOptions="CenterAndExpand" 
-                    BorderColor="Black" BorderWidth="2" 
-                    HorizontalOptions="Center" 
-                    BorderRadius="10" 
-                    BackgroundColor="White"/>
-        </StackLayout>
+        <ScrollView>
+            <StackLayout>
+                <Frame Margin="10"
+                    BorderColor="Black"
+                    CornerRadius="150"
+                    HeightRequest="150"
+                    WidthRequest="150"
+                    IsClippedToBounds="True"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center">
+                        <Image Source="imagens/eleven-1.jpg"
+                            Aspect="AspectFill"
+                            Margin="-20"
+                            HeightRequest="50"
+                            WidthRequest="50"
+                        />
+                </Frame>
+                <Entry Placeholder="Nome" x:Name="Perfil" Margin="10" ClearButtonVisibility="WhileEditing"/>
+                <Entry Placeholder="E-mail" Keyboard="Email" BackgroundColor="White" Margin="10" ClearButtonVisibility="WhileEditing"/>
+                <Entry Placeholder="Data de Nascimento" BackgroundColor="White" Margin="10" ClearButtonVisibility="WhileEditing"/>
+                <Picker x:Name="pckFinalidade" Title="Sexo" BackgroundColor="White" Margin="10" FontSize="18">
+                    <Picker.Items>
+                        <x:String>Feminino</x:String>
+                        <x:String>Masculino</x:String>
+                        <x:String>Não quero informar</x:String>
+                    </Picker.Items>
+                </Picker>
+                <Entry Placeholder="Senha" IsPassword="True" Margin="10" ClearButtonVisibility="WhileEditing"/>
+                <Button Text="Editar Perfil" VerticalOptions="CenterAndExpand" Margin="10" BorderRadius="10" BackgroundColor="DeepSkyBlue" TextColor="White"/>
+                    <Button Text="Sair da Conta" Clicked="Voltar" 
+                        VerticalOptions="CenterAndExpand" 
+                        BorderColor="Black" BorderWidth="2" 
+                        HorizontalOptions="Center" 
+                        BorderRadius="10" 
+                        BackgroundColor="White"/>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
