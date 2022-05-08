@@ -16,17 +16,17 @@
                     IsClippedToBounds="True"
                     HorizontalOptions="Center"
                     VerticalOptions="Center">
-                        <Image Source="imagens/eleven-1.jpg"
-                            Aspect="AspectFill"
+                        <Image Source="eleven-1.jpg"
+                            Aspect="AspectFit"
                             Margin="-20"
                             HeightRequest="50"
                             WidthRequest="50"
                         />
                 </Frame>
                 <Entry Placeholder="Nome" x:Name="Perfil" Margin="10" ClearButtonVisibility="WhileEditing"/>
-                <Entry Placeholder="E-mail" Keyboard="Email" BackgroundColor="White" Margin="10" ClearButtonVisibility="WhileEditing"/>
-                <Entry Placeholder="Data de Nascimento" BackgroundColor="White" Margin="10" ClearButtonVisibility="WhileEditing"/>
-                <Picker x:Name="pckFinalidade" Title="Sexo" BackgroundColor="White" Margin="10" FontSize="18">
+                <Entry Placeholder="E-mail" Keyboard="Email" Margin="10" ClearButtonVisibility="WhileEditing"/>
+                <Entry Placeholder="Data de Nascimento"  Margin="10" ClearButtonVisibility="WhileEditing"/>
+                <Picker x:Name="pckFinalidade" Title="Sexo"  Margin="10" FontSize="18">
                     <Picker.Items>
                         <x:String>Feminino</x:String>
                         <x:String>Masculino</x:String>
