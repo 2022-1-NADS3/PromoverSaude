@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
+             x:Class="AppPSOne.Perfil"
+             Title="Meus Documentos">
+    
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame Margin="10"
+                    BorderColor="Black"
+                    CornerRadius="150"
+                    HeightRequest="150"
+                    WidthRequest="150"
+                    IsClippedToBounds="True"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center">
+                        <Image Source="eleven.jpg"
+                            Aspect="AspectFill"
+                            Margin="-20"
+                            HeightRequest="50"
+                            WidthRequest="50"
+                        />
+                </Frame>
+                <Entry Placeholder="Nome" x:Name="Perfil" Margin="10" ClearButtonVisibility="WhileEditing"/>
+                <Entry Placeholder="E-mail" Keyboard="Email" Margin="10" ClearButtonVisibility="WhileEditing"/>
+                <DatePicker Margin="10" MinimumDate="01/01/1900"
+                    MaximumDate="12/31/2050"/>
+                <Picker x:Name="pckFinalidade" Title="Sexo"  Margin="10" FontSize="18">
+                    <Picker.Items>
+                        <x:String>Feminino</x:String>
+                        <x:String>Masculino</x:String>
+                        <x:String>Não quero informar</x:String>
+                    </Picker.Items>
+                </Picker>
+                <Entry Placeholder="Senha" IsPassword="True" Margin="10" ClearButtonVisibility="WhileEditing"/>
+                <Button Text="Editar Perfil" VerticalOptions="CenterAndExpand" Margin="10" BorderRadius="10" BackgroundColor="DeepSkyBlue" TextColor="White"/>
+                    <Button Text="Sair da Conta" Clicked="Voltar" 
+                        VerticalOptions="CenterAndExpand" 
+                        BorderColor="Black" BorderWidth="2" 
+                        HorizontalOptions="Center" 
+                        BorderRadius="10" 
+                        BackgroundColor="White"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
