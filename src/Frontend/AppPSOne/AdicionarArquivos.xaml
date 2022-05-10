@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
+             x:Class="AppPSOne.Perfil"
+             Title="Adicionar Arquivos">
+    
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Image Source="nuvem.jpg"/>
+                <Button Text="Carregar Arquivos" Clicked="Carregar" VerticalOptions="CenterAndExpand" Margin="10" BorderRadius="10" BackgroundColor="DeepSkyBlue" TextColor="White"/>
+                <Button Text="Salvar" Clicked="Salvar" VerticalOptions="CenterAndExpand" Margin="10" BorderRadius="10" BackgroundColor="DeepSkyBlue" TextColor="White"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
