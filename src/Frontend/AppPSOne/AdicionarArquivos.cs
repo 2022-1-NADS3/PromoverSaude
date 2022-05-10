@@ -10,7 +10,7 @@ using Xamarin.Forms.Xaml;
 namespace AppPSOne
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class MeusDocumentos : ContentPage
+    public partial class AdicionarArquivos : ContentPage
     {
         public AdicionarArquivos()
         {

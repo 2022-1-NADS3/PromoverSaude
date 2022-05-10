@@ -29,5 +29,15 @@ namespace AppPSOne
             Navigation.PushAsync(new Perfil());
         }
 
+        private void Adicionar_Arquivos(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new AdicionarArquivos());
+        }
+
+        private void Meus_Doc(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new MeusDocumentos());
+        }
+
     }
 }
