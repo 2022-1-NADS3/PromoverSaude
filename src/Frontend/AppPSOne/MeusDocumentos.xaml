@@ -13,7 +13,9 @@
                         Padding="8"
                         HorizontalOptions="Center"
                         VerticalOptions="Center"/>
-                <Label  Text="30/06/2020"
+
+                    <StackLayout>
+                        <Label  Text="30/06/2020"
                             FontSize="Medium"
                             FontAttributes="Bold" />
                 <BoxView Color="Gray"
@@ -25,7 +27,8 @@
                         Padding="8"
                         HorizontalOptions="Center"
                         VerticalOptions="Center"/>
-                <Label  Text="01/07/2020"
+                    <StackLayout>
+                        <Label  Text="01/07/2020"
                             FontSize="Medium"
                             FontAttributes="Bold" />
                 <BoxView Color="Gray"
@@ -37,7 +40,8 @@
                         Padding="8"
                         HorizontalOptions="Center"
                         VerticalOptions="Center"/>
-                <Label  Text="02/07/2020"
+                    <StackLayout>
+                        <Label  Text="02/07/2020"
                             FontSize="Medium"
                             FontAttributes="Bold" />
                 <BoxView Color="Gray"
@@ -45,6 +49,7 @@
                                  HorizontalOptions="Fill" />
                 <Image Source="exame.jpg"/>
                 <Button Text="Adicionar" Clicked="Adicionar" VerticalOptions="CenterAndExpand" Margin="10" BorderRadius="10" BackgroundColor="DeepSkyBlue" TextColor="White"/>
+                    </StackLayout>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

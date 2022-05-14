@@ -8,9 +8,9 @@
 
 ## Nome do Grupo: 3 </a>
 
-## Integrantes: <a href="https://www.linkedin.com/in/vanessa-ruama-b616a8138">Vanessa Ruama</a>, <a href="">Renato Rocha</a>, <a href="">Matheus Francisco</a>, <a href="https://br.linkedin.com/in/albertoroko">Alberto Roko</a>
+## Integrantes: <a href="https://www.linkedin.com/in/vanessa-ruama-b616a8138">Vanessa Ruama</a>, <a href="https://www.linkedin.com/in/renatorb/">Renato Rocha</a>, <a href="">Matheus Francisco</a> e <a href="https://br.linkedin.com/in/albertoroko">Alberto Roko</a>
 
-## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Victor</a>, <a href="">Aimar</a>, <a href="">Francisco</a>, <a href="">Me. Yoda</a>, <a href="">Dr. Gero</a>
+## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Victor</a>, <a href="https://www.linkedin.com/in/aimarlopes/">Aimar</a>, <a href="https://www.linkedin.com/in/francisco-escobar/">Francisco</a> e <a href="https://www.linkedin.com/in/dolemes/">David</a>
 
 ## Descrição
 
