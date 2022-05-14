@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
-             x:Class="AppPSOne.Perfil"
+             x:Class="AppPSOne.MeusDocumentos"
              Title="Meus Documentos">
     
     <ContentPage.Content>
@@ -13,14 +13,15 @@
                         Padding="8"
                         HorizontalOptions="Center"
                         VerticalOptions="Center"/>
+
                     <StackLayout>
                         <Label  Text="30/06/2020"
                             FontSize="Medium"
                             FontAttributes="Bold" />
-                        <BoxView Color="Gray"
+                <BoxView Color="Gray"
                                  HeightRequest="2"
                                  HorizontalOptions="Fill" />
-                        <Image Source="exame.jpg"/>
+                <Image Source="exame.jpg"/>
                 <Frame  BorderColor="Gray"
                         CornerRadius="5"
                         Padding="8"
@@ -30,10 +31,10 @@
                         <Label  Text="01/07/2020"
                             FontSize="Medium"
                             FontAttributes="Bold" />
-                        <BoxView Color="Gray"
+                <BoxView Color="Gray"
                                  HeightRequest="2"
                                  HorizontalOptions="Fill" />
-                        <Image Source="exame.jpg"/>
+                <Image Source="exame.jpg"/>
                 <Frame  BorderColor="Gray"
                         CornerRadius="5"
                         Padding="8"
@@ -43,13 +44,12 @@
                         <Label  Text="02/07/2020"
                             FontSize="Medium"
                             FontAttributes="Bold" />
-                        <BoxView Color="Gray"
+                <BoxView Color="Gray"
                                  HeightRequest="2"
                                  HorizontalOptions="Fill" />
-                        <Image Source="exame.jpg"/>
+                <Image Source="exame.jpg"/>
                 <Button Text="Adicionar" Clicked="Adicionar" VerticalOptions="CenterAndExpand" Margin="10" BorderRadius="10" BackgroundColor="DeepSkyBlue" TextColor="White"/>
                     </StackLayout>
-                  
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>
