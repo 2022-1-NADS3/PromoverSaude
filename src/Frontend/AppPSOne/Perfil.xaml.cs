@@ -11,10 +11,10 @@ namespace AppPSOne
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
 
-    public partial class Perfil : ContentPage
+    public partial class MeuPerfil : ContentPage
     {
         public static DateTime Today { get; }
-        public Perfil()
+        public MeuPerfil()
         {
             InitializeComponent();
         }
@@ -32,7 +32,7 @@ namespace AppPSOne
 
         private void Editar_Perfil(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new Perfil());
+            Navigation.PushAsync(new MeuPerfil());
         }
 
     }

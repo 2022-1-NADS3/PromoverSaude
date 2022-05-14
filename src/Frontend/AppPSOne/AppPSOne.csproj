@@ -31,8 +31,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="Perfil.xaml.cs">
-      <DependentUpon>Perfil.xaml</DependentUpon>
+    <Compile Update="MeuPerfil.xaml.cs">
+      <DependentUpon>MeuPerfil.xaml</DependentUpon>
     </Compile>
     <Compile Update="Cadastro.xaml.cs">
       <DependentUpon>Cadastro.xaml</DependentUpon>

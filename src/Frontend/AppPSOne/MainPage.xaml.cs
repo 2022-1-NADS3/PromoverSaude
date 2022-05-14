@@ -26,7 +26,7 @@ namespace AppPSOne
 
         private void Editar_Perfil(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new Perfil());
+            Navigation.PushAsync(new MeuPerfil());
         }
 
         private void Adicionar_Arquivos(object sender, EventArgs e)
