@@ -44,7 +44,10 @@
                             HeightRequest="2"
                             HorizontalOptions="Fill" />
                 <Image Source="exame.jpeg" Margin="10" HeightRequest="150" WidthRequest="150"/>
-                <Button Text="Adicionar" Clicked="Adicionar" VerticalOptions="CenterAndExpand" Margin="10" BorderRadius="10" BackgroundColor="DeepSkyBlue" TextColor="White"/>
+                <Button Text="Adicionar" 
+                        Clicked="Adicionar" VerticalOptions="CenterAndExpand" 
+                        Margin="10" BorderRadius="10" 
+                        BackgroundColor="DeepSkyBlue" TextColor="White"/>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

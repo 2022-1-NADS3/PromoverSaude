@@ -24,7 +24,7 @@ namespace AppPSOne
         private void Entrar(object sender, EventArgs e)
         {
             Application.Current.Properties["Name"] = Login.Text;
-            Navigation.PushAsync(new Page2());
+            Navigation.PushAsync(new Calendario());
         }
     }
 }

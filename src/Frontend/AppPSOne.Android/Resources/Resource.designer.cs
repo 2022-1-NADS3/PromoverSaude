@@ -25,6 +25,5578 @@ namespace AppPSOne.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::Xamarin.CommunityToolkit.Resource.Animation.abc_fade_in = global::AppPSOne.Droid.Resource.Animation.abc_fade_in;
+			global::Xamarin.CommunityToolkit.Resource.Animation.abc_fade_out = global::AppPSOne.Droid.Resource.Animation.abc_fade_out;
+			global::Xamarin.CommunityToolkit.Resource.Animation.abc_grow_fade_in_from_bottom = global::AppPSOne.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::Xamarin.CommunityToolkit.Resource.Animation.abc_popup_enter = global::AppPSOne.Droid.Resource.Animation.abc_popup_enter;
+			global::Xamarin.CommunityToolkit.Resource.Animation.abc_popup_exit = global::AppPSOne.Droid.Resource.Animation.abc_popup_exit;
+			global::Xamarin.CommunityToolkit.Resource.Animation.abc_shrink_fade_out_from_bottom = global::AppPSOne.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::Xamarin.CommunityToolkit.Resource.Animation.abc_slide_in_bottom = global::AppPSOne.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::Xamarin.CommunityToolkit.Resource.Animation.abc_slide_in_top = global::AppPSOne.Droid.Resource.Animation.abc_slide_in_top;
+			global::Xamarin.CommunityToolkit.Resource.Animation.abc_slide_out_bottom = global::AppPSOne.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::Xamarin.CommunityToolkit.Resource.Animation.abc_slide_out_top = global::AppPSOne.Droid.Resource.Animation.abc_slide_out_top;
+			global::Xamarin.CommunityToolkit.Resource.Animation.abc_tooltip_enter = global::AppPSOne.Droid.Resource.Animation.abc_tooltip_enter;
+			global::Xamarin.CommunityToolkit.Resource.Animation.abc_tooltip_exit = global::AppPSOne.Droid.Resource.Animation.abc_tooltip_exit;
+			global::Xamarin.CommunityToolkit.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation = global::AppPSOne.Droid.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation;
+			global::Xamarin.CommunityToolkit.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation = global::AppPSOne.Droid.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation;
+			global::Xamarin.CommunityToolkit.Resource.Animation.btn_checkbox_to_checked_icon_null_animation = global::AppPSOne.Droid.Resource.Animation.btn_checkbox_to_checked_icon_null_animation;
+			global::Xamarin.CommunityToolkit.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation = global::AppPSOne.Droid.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation;
+			global::Xamarin.CommunityToolkit.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation = global::AppPSOne.Droid.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation;
+			global::Xamarin.CommunityToolkit.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation = global::AppPSOne.Droid.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation;
+			global::Xamarin.CommunityToolkit.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation = global::AppPSOne.Droid.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation;
+			global::Xamarin.CommunityToolkit.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation = global::AppPSOne.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation;
+			global::Xamarin.CommunityToolkit.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation = global::AppPSOne.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation;
+			global::Xamarin.CommunityToolkit.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation = global::AppPSOne.Droid.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation;
+			global::Xamarin.CommunityToolkit.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation = global::AppPSOne.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation;
+			global::Xamarin.CommunityToolkit.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation = global::AppPSOne.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation;
+			global::Xamarin.CommunityToolkit.Resource.Animation.design_bottom_sheet_slide_in = global::AppPSOne.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::Xamarin.CommunityToolkit.Resource.Animation.design_bottom_sheet_slide_out = global::AppPSOne.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::Xamarin.CommunityToolkit.Resource.Animation.design_snackbar_in = global::AppPSOne.Droid.Resource.Animation.design_snackbar_in;
+			global::Xamarin.CommunityToolkit.Resource.Animation.design_snackbar_out = global::AppPSOne.Droid.Resource.Animation.design_snackbar_out;
+			global::Xamarin.CommunityToolkit.Resource.Animation.EnterFromLeft = global::AppPSOne.Droid.Resource.Animation.EnterFromLeft;
+			global::Xamarin.CommunityToolkit.Resource.Animation.EnterFromRight = global::AppPSOne.Droid.Resource.Animation.EnterFromRight;
+			global::Xamarin.CommunityToolkit.Resource.Animation.ExitToLeft = global::AppPSOne.Droid.Resource.Animation.ExitToLeft;
+			global::Xamarin.CommunityToolkit.Resource.Animation.ExitToRight = global::AppPSOne.Droid.Resource.Animation.ExitToRight;
+			global::Xamarin.CommunityToolkit.Resource.Animation.fragment_fast_out_extra_slow_in = global::AppPSOne.Droid.Resource.Animation.fragment_fast_out_extra_slow_in;
+			global::Xamarin.CommunityToolkit.Resource.Animation.mtrl_bottom_sheet_slide_in = global::AppPSOne.Droid.Resource.Animation.mtrl_bottom_sheet_slide_in;
+			global::Xamarin.CommunityToolkit.Resource.Animation.mtrl_bottom_sheet_slide_out = global::AppPSOne.Droid.Resource.Animation.mtrl_bottom_sheet_slide_out;
+			global::Xamarin.CommunityToolkit.Resource.Animation.mtrl_card_lowers_interpolator = global::AppPSOne.Droid.Resource.Animation.mtrl_card_lowers_interpolator;
+			global::Xamarin.CommunityToolkit.Resource.Animation.nav_default_enter_anim = global::AppPSOne.Droid.Resource.Animation.nav_default_enter_anim;
+			global::Xamarin.CommunityToolkit.Resource.Animation.nav_default_exit_anim = global::AppPSOne.Droid.Resource.Animation.nav_default_exit_anim;
+			global::Xamarin.CommunityToolkit.Resource.Animation.nav_default_pop_enter_anim = global::AppPSOne.Droid.Resource.Animation.nav_default_pop_enter_anim;
+			global::Xamarin.CommunityToolkit.Resource.Animation.nav_default_pop_exit_anim = global::AppPSOne.Droid.Resource.Animation.nav_default_pop_exit_anim;
+			global::Xamarin.CommunityToolkit.Resource.Animator.design_appbar_state_list_animator = global::AppPSOne.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::Xamarin.CommunityToolkit.Resource.Animator.design_fab_hide_motion_spec = global::AppPSOne.Droid.Resource.Animator.design_fab_hide_motion_spec;
+			global::Xamarin.CommunityToolkit.Resource.Animator.design_fab_show_motion_spec = global::AppPSOne.Droid.Resource.Animator.design_fab_show_motion_spec;
+			global::Xamarin.CommunityToolkit.Resource.Animator.fragment_close_enter = global::AppPSOne.Droid.Resource.Animator.fragment_close_enter;
+			global::Xamarin.CommunityToolkit.Resource.Animator.fragment_close_exit = global::AppPSOne.Droid.Resource.Animator.fragment_close_exit;
+			global::Xamarin.CommunityToolkit.Resource.Animator.fragment_fade_enter = global::AppPSOne.Droid.Resource.Animator.fragment_fade_enter;
+			global::Xamarin.CommunityToolkit.Resource.Animator.fragment_fade_exit = global::AppPSOne.Droid.Resource.Animator.fragment_fade_exit;
+			global::Xamarin.CommunityToolkit.Resource.Animator.fragment_open_enter = global::AppPSOne.Droid.Resource.Animator.fragment_open_enter;
+			global::Xamarin.CommunityToolkit.Resource.Animator.fragment_open_exit = global::AppPSOne.Droid.Resource.Animator.fragment_open_exit;
+			global::Xamarin.CommunityToolkit.Resource.Animator.linear_indeterminate_line1_head_interpolator = global::AppPSOne.Droid.Resource.Animator.linear_indeterminate_line1_head_interpolator;
+			global::Xamarin.CommunityToolkit.Resource.Animator.linear_indeterminate_line1_tail_interpolator = global::AppPSOne.Droid.Resource.Animator.linear_indeterminate_line1_tail_interpolator;
+			global::Xamarin.CommunityToolkit.Resource.Animator.linear_indeterminate_line2_head_interpolator = global::AppPSOne.Droid.Resource.Animator.linear_indeterminate_line2_head_interpolator;
+			global::Xamarin.CommunityToolkit.Resource.Animator.linear_indeterminate_line2_tail_interpolator = global::AppPSOne.Droid.Resource.Animator.linear_indeterminate_line2_tail_interpolator;
+			global::Xamarin.CommunityToolkit.Resource.Animator.mtrl_btn_state_list_anim = global::AppPSOne.Droid.Resource.Animator.mtrl_btn_state_list_anim;
+			global::Xamarin.CommunityToolkit.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::AppPSOne.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
+			global::Xamarin.CommunityToolkit.Resource.Animator.mtrl_card_state_list_anim = global::AppPSOne.Droid.Resource.Animator.mtrl_card_state_list_anim;
+			global::Xamarin.CommunityToolkit.Resource.Animator.mtrl_chip_state_list_anim = global::AppPSOne.Droid.Resource.Animator.mtrl_chip_state_list_anim;
+			global::Xamarin.CommunityToolkit.Resource.Animator.mtrl_extended_fab_change_size_collapse_motion_spec = global::AppPSOne.Droid.Resource.Animator.mtrl_extended_fab_change_size_collapse_motion_spec;
+			global::Xamarin.CommunityToolkit.Resource.Animator.mtrl_extended_fab_change_size_expand_motion_spec = global::AppPSOne.Droid.Resource.Animator.mtrl_extended_fab_change_size_expand_motion_spec;
+			global::Xamarin.CommunityToolkit.Resource.Animator.mtrl_extended_fab_hide_motion_spec = global::AppPSOne.Droid.Resource.Animator.mtrl_extended_fab_hide_motion_spec;
+			global::Xamarin.CommunityToolkit.Resource.Animator.mtrl_extended_fab_show_motion_spec = global::AppPSOne.Droid.Resource.Animator.mtrl_extended_fab_show_motion_spec;
+			global::Xamarin.CommunityToolkit.Resource.Animator.mtrl_extended_fab_state_list_animator = global::AppPSOne.Droid.Resource.Animator.mtrl_extended_fab_state_list_animator;
+			global::Xamarin.CommunityToolkit.Resource.Animator.mtrl_fab_hide_motion_spec = global::AppPSOne.Droid.Resource.Animator.mtrl_fab_hide_motion_spec;
+			global::Xamarin.CommunityToolkit.Resource.Animator.mtrl_fab_show_motion_spec = global::AppPSOne.Droid.Resource.Animator.mtrl_fab_show_motion_spec;
+			global::Xamarin.CommunityToolkit.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::AppPSOne.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
+			global::Xamarin.CommunityToolkit.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec = global::AppPSOne.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec;
+			global::Xamarin.CommunityToolkit.Resource.Animator.nav_default_enter_anim = global::AppPSOne.Droid.Resource.Animator.nav_default_enter_anim;
+			global::Xamarin.CommunityToolkit.Resource.Animator.nav_default_exit_anim = global::AppPSOne.Droid.Resource.Animator.nav_default_exit_anim;
+			global::Xamarin.CommunityToolkit.Resource.Animator.nav_default_pop_enter_anim = global::AppPSOne.Droid.Resource.Animator.nav_default_pop_enter_anim;
+			global::Xamarin.CommunityToolkit.Resource.Animator.nav_default_pop_exit_anim = global::AppPSOne.Droid.Resource.Animator.nav_default_pop_exit_anim;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.action = global::AppPSOne.Droid.Resource.Attribute.action;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.actionBarDivider = global::AppPSOne.Droid.Resource.Attribute.actionBarDivider;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.actionBarItemBackground = global::AppPSOne.Droid.Resource.Attribute.actionBarItemBackground;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.actionBarPopupTheme = global::AppPSOne.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.actionBarSize = global::AppPSOne.Droid.Resource.Attribute.actionBarSize;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.actionBarSplitStyle = global::AppPSOne.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.actionBarStyle = global::AppPSOne.Droid.Resource.Attribute.actionBarStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.actionBarTabBarStyle = global::AppPSOne.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.actionBarTabStyle = global::AppPSOne.Droid.Resource.Attribute.actionBarTabStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.actionBarTabTextStyle = global::AppPSOne.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.actionBarTheme = global::AppPSOne.Droid.Resource.Attribute.actionBarTheme;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.actionBarWidgetTheme = global::AppPSOne.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.actionButtonStyle = global::AppPSOne.Droid.Resource.Attribute.actionButtonStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.actionDropDownStyle = global::AppPSOne.Droid.Resource.Attribute.actionDropDownStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.actionLayout = global::AppPSOne.Droid.Resource.Attribute.actionLayout;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.actionMenuTextAppearance = global::AppPSOne.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.actionMenuTextColor = global::AppPSOne.Droid.Resource.Attribute.actionMenuTextColor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.actionModeBackground = global::AppPSOne.Droid.Resource.Attribute.actionModeBackground;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.actionModeCloseButtonStyle = global::AppPSOne.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.actionModeCloseContentDescription = global::AppPSOne.Droid.Resource.Attribute.actionModeCloseContentDescription;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.actionModeCloseDrawable = global::AppPSOne.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.actionModeCopyDrawable = global::AppPSOne.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.actionModeCutDrawable = global::AppPSOne.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.actionModeFindDrawable = global::AppPSOne.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.actionModePasteDrawable = global::AppPSOne.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.actionModePopupWindowStyle = global::AppPSOne.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.actionModeSelectAllDrawable = global::AppPSOne.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.actionModeShareDrawable = global::AppPSOne.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.actionModeSplitBackground = global::AppPSOne.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.actionModeStyle = global::AppPSOne.Droid.Resource.Attribute.actionModeStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.actionModeTheme = global::AppPSOne.Droid.Resource.Attribute.actionModeTheme;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.actionModeWebSearchDrawable = global::AppPSOne.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.actionOverflowButtonStyle = global::AppPSOne.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.actionOverflowMenuStyle = global::AppPSOne.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.actionProviderClass = global::AppPSOne.Droid.Resource.Attribute.actionProviderClass;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.actionTextColorAlpha = global::AppPSOne.Droid.Resource.Attribute.actionTextColorAlpha;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.actionViewClass = global::AppPSOne.Droid.Resource.Attribute.actionViewClass;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.activityChooserViewStyle = global::AppPSOne.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.adjustable = global::AppPSOne.Droid.Resource.Attribute.adjustable;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.alertDialogButtonGroupStyle = global::AppPSOne.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.alertDialogCenterButtons = global::AppPSOne.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.alertDialogStyle = global::AppPSOne.Droid.Resource.Attribute.alertDialogStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.alertDialogTheme = global::AppPSOne.Droid.Resource.Attribute.alertDialogTheme;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.allowDividerAbove = global::AppPSOne.Droid.Resource.Attribute.allowDividerAbove;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.allowDividerAfterLastItem = global::AppPSOne.Droid.Resource.Attribute.allowDividerAfterLastItem;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.allowDividerBelow = global::AppPSOne.Droid.Resource.Attribute.allowDividerBelow;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.allowStacking = global::AppPSOne.Droid.Resource.Attribute.allowStacking;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.alpha = global::AppPSOne.Droid.Resource.Attribute.alpha;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.alphabeticModifiers = global::AppPSOne.Droid.Resource.Attribute.alphabeticModifiers;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.altSrc = global::AppPSOne.Droid.Resource.Attribute.altSrc;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.animateCircleAngleTo = global::AppPSOne.Droid.Resource.Attribute.animateCircleAngleTo;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.animateRelativeTo = global::AppPSOne.Droid.Resource.Attribute.animateRelativeTo;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.animationMode = global::AppPSOne.Droid.Resource.Attribute.animationMode;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.appBarLayoutStyle = global::AppPSOne.Droid.Resource.Attribute.appBarLayoutStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.applyMotionScene = global::AppPSOne.Droid.Resource.Attribute.applyMotionScene;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.arcMode = global::AppPSOne.Droid.Resource.Attribute.arcMode;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.argType = global::AppPSOne.Droid.Resource.Attribute.argType;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.arrowHeadLength = global::AppPSOne.Droid.Resource.Attribute.arrowHeadLength;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.arrowShaftLength = global::AppPSOne.Droid.Resource.Attribute.arrowShaftLength;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.attributeName = global::AppPSOne.Droid.Resource.Attribute.attributeName;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.autoCompleteMode = global::AppPSOne.Droid.Resource.Attribute.autoCompleteMode;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.autoCompleteTextViewStyle = global::AppPSOne.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.autoSizeMaxTextSize = global::AppPSOne.Droid.Resource.Attribute.autoSizeMaxTextSize;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.autoSizeMinTextSize = global::AppPSOne.Droid.Resource.Attribute.autoSizeMinTextSize;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.autoSizePresetSizes = global::AppPSOne.Droid.Resource.Attribute.autoSizePresetSizes;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.autoSizeStepGranularity = global::AppPSOne.Droid.Resource.Attribute.autoSizeStepGranularity;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.autoSizeTextType = global::AppPSOne.Droid.Resource.Attribute.autoSizeTextType;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.autoTransition = global::AppPSOne.Droid.Resource.Attribute.autoTransition;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.background = global::AppPSOne.Droid.Resource.Attribute.background;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.backgroundColor = global::AppPSOne.Droid.Resource.Attribute.backgroundColor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.backgroundInsetBottom = global::AppPSOne.Droid.Resource.Attribute.backgroundInsetBottom;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.backgroundInsetEnd = global::AppPSOne.Droid.Resource.Attribute.backgroundInsetEnd;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.backgroundInsetStart = global::AppPSOne.Droid.Resource.Attribute.backgroundInsetStart;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.backgroundInsetTop = global::AppPSOne.Droid.Resource.Attribute.backgroundInsetTop;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.backgroundOverlayColorAlpha = global::AppPSOne.Droid.Resource.Attribute.backgroundOverlayColorAlpha;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.backgroundSplit = global::AppPSOne.Droid.Resource.Attribute.backgroundSplit;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.backgroundStacked = global::AppPSOne.Droid.Resource.Attribute.backgroundStacked;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.backgroundTint = global::AppPSOne.Droid.Resource.Attribute.backgroundTint;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.backgroundTintMode = global::AppPSOne.Droid.Resource.Attribute.backgroundTintMode;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.badgeGravity = global::AppPSOne.Droid.Resource.Attribute.badgeGravity;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.badgeStyle = global::AppPSOne.Droid.Resource.Attribute.badgeStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.badgeTextColor = global::AppPSOne.Droid.Resource.Attribute.badgeTextColor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.barLength = global::AppPSOne.Droid.Resource.Attribute.barLength;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.barrierAllowsGoneWidgets = global::AppPSOne.Droid.Resource.Attribute.barrierAllowsGoneWidgets;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.barrierDirection = global::AppPSOne.Droid.Resource.Attribute.barrierDirection;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.barrierMargin = global::AppPSOne.Droid.Resource.Attribute.barrierMargin;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.behavior_autoHide = global::AppPSOne.Droid.Resource.Attribute.behavior_autoHide;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.behavior_autoShrink = global::AppPSOne.Droid.Resource.Attribute.behavior_autoShrink;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.behavior_draggable = global::AppPSOne.Droid.Resource.Attribute.behavior_draggable;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.behavior_expandedOffset = global::AppPSOne.Droid.Resource.Attribute.behavior_expandedOffset;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.behavior_fitToContents = global::AppPSOne.Droid.Resource.Attribute.behavior_fitToContents;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.behavior_halfExpandedRatio = global::AppPSOne.Droid.Resource.Attribute.behavior_halfExpandedRatio;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.behavior_hideable = global::AppPSOne.Droid.Resource.Attribute.behavior_hideable;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.behavior_overlapTop = global::AppPSOne.Droid.Resource.Attribute.behavior_overlapTop;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.behavior_peekHeight = global::AppPSOne.Droid.Resource.Attribute.behavior_peekHeight;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.behavior_saveFlags = global::AppPSOne.Droid.Resource.Attribute.behavior_saveFlags;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.behavior_skipCollapsed = global::AppPSOne.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.blendSrc = global::AppPSOne.Droid.Resource.Attribute.blendSrc;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.borderlessButtonStyle = global::AppPSOne.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.borderRound = global::AppPSOne.Droid.Resource.Attribute.borderRound;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.borderRoundPercent = global::AppPSOne.Droid.Resource.Attribute.borderRoundPercent;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.borderWidth = global::AppPSOne.Droid.Resource.Attribute.borderWidth;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.bottomAppBarStyle = global::AppPSOne.Droid.Resource.Attribute.bottomAppBarStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.bottomNavigationStyle = global::AppPSOne.Droid.Resource.Attribute.bottomNavigationStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.bottomSheetDialogTheme = global::AppPSOne.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.bottomSheetStyle = global::AppPSOne.Droid.Resource.Attribute.bottomSheetStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.boxBackgroundColor = global::AppPSOne.Droid.Resource.Attribute.boxBackgroundColor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.boxBackgroundMode = global::AppPSOne.Droid.Resource.Attribute.boxBackgroundMode;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.boxCollapsedPaddingTop = global::AppPSOne.Droid.Resource.Attribute.boxCollapsedPaddingTop;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.boxCornerRadiusBottomEnd = global::AppPSOne.Droid.Resource.Attribute.boxCornerRadiusBottomEnd;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.boxCornerRadiusBottomStart = global::AppPSOne.Droid.Resource.Attribute.boxCornerRadiusBottomStart;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.boxCornerRadiusTopEnd = global::AppPSOne.Droid.Resource.Attribute.boxCornerRadiusTopEnd;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.boxCornerRadiusTopStart = global::AppPSOne.Droid.Resource.Attribute.boxCornerRadiusTopStart;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.boxStrokeColor = global::AppPSOne.Droid.Resource.Attribute.boxStrokeColor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.boxStrokeErrorColor = global::AppPSOne.Droid.Resource.Attribute.boxStrokeErrorColor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.boxStrokeWidth = global::AppPSOne.Droid.Resource.Attribute.boxStrokeWidth;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.boxStrokeWidthFocused = global::AppPSOne.Droid.Resource.Attribute.boxStrokeWidthFocused;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.brightness = global::AppPSOne.Droid.Resource.Attribute.brightness;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.buttonBarButtonStyle = global::AppPSOne.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.buttonBarNegativeButtonStyle = global::AppPSOne.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.buttonBarNeutralButtonStyle = global::AppPSOne.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.buttonBarPositiveButtonStyle = global::AppPSOne.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.buttonBarStyle = global::AppPSOne.Droid.Resource.Attribute.buttonBarStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.buttonCompat = global::AppPSOne.Droid.Resource.Attribute.buttonCompat;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.buttonGravity = global::AppPSOne.Droid.Resource.Attribute.buttonGravity;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.buttonIconDimen = global::AppPSOne.Droid.Resource.Attribute.buttonIconDimen;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.buttonPanelSideLayout = global::AppPSOne.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.buttonStyle = global::AppPSOne.Droid.Resource.Attribute.buttonStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.buttonStyleSmall = global::AppPSOne.Droid.Resource.Attribute.buttonStyleSmall;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.buttonTint = global::AppPSOne.Droid.Resource.Attribute.buttonTint;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.buttonTintMode = global::AppPSOne.Droid.Resource.Attribute.buttonTintMode;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.cardBackgroundColor = global::AppPSOne.Droid.Resource.Attribute.cardBackgroundColor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.cardCornerRadius = global::AppPSOne.Droid.Resource.Attribute.cardCornerRadius;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.cardElevation = global::AppPSOne.Droid.Resource.Attribute.cardElevation;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.cardForegroundColor = global::AppPSOne.Droid.Resource.Attribute.cardForegroundColor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.cardMaxElevation = global::AppPSOne.Droid.Resource.Attribute.cardMaxElevation;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.cardPreventCornerOverlap = global::AppPSOne.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.cardUseCompatPadding = global::AppPSOne.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.cardViewStyle = global::AppPSOne.Droid.Resource.Attribute.cardViewStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.carousel_backwardTransition = global::AppPSOne.Droid.Resource.Attribute.carousel_backwardTransition;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.carousel_emptyViewsBehavior = global::AppPSOne.Droid.Resource.Attribute.carousel_emptyViewsBehavior;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.carousel_firstView = global::AppPSOne.Droid.Resource.Attribute.carousel_firstView;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.carousel_forwardTransition = global::AppPSOne.Droid.Resource.Attribute.carousel_forwardTransition;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.carousel_infinite = global::AppPSOne.Droid.Resource.Attribute.carousel_infinite;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.carousel_nextState = global::AppPSOne.Droid.Resource.Attribute.carousel_nextState;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.carousel_previousState = global::AppPSOne.Droid.Resource.Attribute.carousel_previousState;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.carousel_touchUpMode = global::AppPSOne.Droid.Resource.Attribute.carousel_touchUpMode;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.carousel_touchUp_dampeningFactor = global::AppPSOne.Droid.Resource.Attribute.carousel_touchUp_dampeningFactor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.carousel_touchUp_velocityThreshold = global::AppPSOne.Droid.Resource.Attribute.carousel_touchUp_velocityThreshold;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.chainUseRtl = global::AppPSOne.Droid.Resource.Attribute.chainUseRtl;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.checkBoxPreferenceStyle = global::AppPSOne.Droid.Resource.Attribute.checkBoxPreferenceStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.checkboxStyle = global::AppPSOne.Droid.Resource.Attribute.checkboxStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.checkedButton = global::AppPSOne.Droid.Resource.Attribute.checkedButton;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.checkedChip = global::AppPSOne.Droid.Resource.Attribute.checkedChip;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.checkedIcon = global::AppPSOne.Droid.Resource.Attribute.checkedIcon;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.checkedIconEnabled = global::AppPSOne.Droid.Resource.Attribute.checkedIconEnabled;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.checkedIconMargin = global::AppPSOne.Droid.Resource.Attribute.checkedIconMargin;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.checkedIconSize = global::AppPSOne.Droid.Resource.Attribute.checkedIconSize;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.checkedIconTint = global::AppPSOne.Droid.Resource.Attribute.checkedIconTint;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.checkedIconVisible = global::AppPSOne.Droid.Resource.Attribute.checkedIconVisible;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.checkedTextViewStyle = global::AppPSOne.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.chipBackgroundColor = global::AppPSOne.Droid.Resource.Attribute.chipBackgroundColor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.chipCornerRadius = global::AppPSOne.Droid.Resource.Attribute.chipCornerRadius;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.chipEndPadding = global::AppPSOne.Droid.Resource.Attribute.chipEndPadding;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.chipGroupStyle = global::AppPSOne.Droid.Resource.Attribute.chipGroupStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.chipIcon = global::AppPSOne.Droid.Resource.Attribute.chipIcon;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.chipIconEnabled = global::AppPSOne.Droid.Resource.Attribute.chipIconEnabled;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.chipIconSize = global::AppPSOne.Droid.Resource.Attribute.chipIconSize;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.chipIconTint = global::AppPSOne.Droid.Resource.Attribute.chipIconTint;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.chipIconVisible = global::AppPSOne.Droid.Resource.Attribute.chipIconVisible;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.chipMinHeight = global::AppPSOne.Droid.Resource.Attribute.chipMinHeight;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.chipMinTouchTargetSize = global::AppPSOne.Droid.Resource.Attribute.chipMinTouchTargetSize;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.chipSpacing = global::AppPSOne.Droid.Resource.Attribute.chipSpacing;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.chipSpacingHorizontal = global::AppPSOne.Droid.Resource.Attribute.chipSpacingHorizontal;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.chipSpacingVertical = global::AppPSOne.Droid.Resource.Attribute.chipSpacingVertical;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.chipStandaloneStyle = global::AppPSOne.Droid.Resource.Attribute.chipStandaloneStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.chipStartPadding = global::AppPSOne.Droid.Resource.Attribute.chipStartPadding;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.chipStrokeColor = global::AppPSOne.Droid.Resource.Attribute.chipStrokeColor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.chipStrokeWidth = global::AppPSOne.Droid.Resource.Attribute.chipStrokeWidth;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.chipStyle = global::AppPSOne.Droid.Resource.Attribute.chipStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.chipSurfaceColor = global::AppPSOne.Droid.Resource.Attribute.chipSurfaceColor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.circleRadius = global::AppPSOne.Droid.Resource.Attribute.circleRadius;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.circularflow_angles = global::AppPSOne.Droid.Resource.Attribute.circularflow_angles;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.circularflow_defaultAngle = global::AppPSOne.Droid.Resource.Attribute.circularflow_defaultAngle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.circularflow_defaultRadius = global::AppPSOne.Droid.Resource.Attribute.circularflow_defaultRadius;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.circularflow_radiusInDP = global::AppPSOne.Droid.Resource.Attribute.circularflow_radiusInDP;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.circularflow_viewCenter = global::AppPSOne.Droid.Resource.Attribute.circularflow_viewCenter;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.circularProgressIndicatorStyle = global::AppPSOne.Droid.Resource.Attribute.circularProgressIndicatorStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.clearsTag = global::AppPSOne.Droid.Resource.Attribute.clearsTag;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.clickAction = global::AppPSOne.Droid.Resource.Attribute.clickAction;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.clockFaceBackgroundColor = global::AppPSOne.Droid.Resource.Attribute.clockFaceBackgroundColor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.clockHandColor = global::AppPSOne.Droid.Resource.Attribute.clockHandColor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.clockIcon = global::AppPSOne.Droid.Resource.Attribute.clockIcon;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.clockNumberTextColor = global::AppPSOne.Droid.Resource.Attribute.clockNumberTextColor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.closeIcon = global::AppPSOne.Droid.Resource.Attribute.closeIcon;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.closeIconEnabled = global::AppPSOne.Droid.Resource.Attribute.closeIconEnabled;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.closeIconEndPadding = global::AppPSOne.Droid.Resource.Attribute.closeIconEndPadding;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.closeIconSize = global::AppPSOne.Droid.Resource.Attribute.closeIconSize;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.closeIconStartPadding = global::AppPSOne.Droid.Resource.Attribute.closeIconStartPadding;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.closeIconTint = global::AppPSOne.Droid.Resource.Attribute.closeIconTint;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.closeIconVisible = global::AppPSOne.Droid.Resource.Attribute.closeIconVisible;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.closeItemLayout = global::AppPSOne.Droid.Resource.Attribute.closeItemLayout;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.collapseContentDescription = global::AppPSOne.Droid.Resource.Attribute.collapseContentDescription;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.collapsedSize = global::AppPSOne.Droid.Resource.Attribute.collapsedSize;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.collapsedTitleGravity = global::AppPSOne.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.collapsedTitleTextAppearance = global::AppPSOne.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.collapseIcon = global::AppPSOne.Droid.Resource.Attribute.collapseIcon;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.collapsingToolbarLayoutStyle = global::AppPSOne.Droid.Resource.Attribute.collapsingToolbarLayoutStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.collectionViewStyle = global::AppPSOne.Droid.Resource.Attribute.collectionViewStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.color = global::AppPSOne.Droid.Resource.Attribute.color;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.colorAccent = global::AppPSOne.Droid.Resource.Attribute.colorAccent;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.colorBackgroundFloating = global::AppPSOne.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.colorButtonNormal = global::AppPSOne.Droid.Resource.Attribute.colorButtonNormal;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.colorControlActivated = global::AppPSOne.Droid.Resource.Attribute.colorControlActivated;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.colorControlHighlight = global::AppPSOne.Droid.Resource.Attribute.colorControlHighlight;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.colorControlNormal = global::AppPSOne.Droid.Resource.Attribute.colorControlNormal;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.colorError = global::AppPSOne.Droid.Resource.Attribute.colorError;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.colorOnBackground = global::AppPSOne.Droid.Resource.Attribute.colorOnBackground;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.colorOnError = global::AppPSOne.Droid.Resource.Attribute.colorOnError;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.colorOnPrimary = global::AppPSOne.Droid.Resource.Attribute.colorOnPrimary;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.colorOnPrimarySurface = global::AppPSOne.Droid.Resource.Attribute.colorOnPrimarySurface;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.colorOnSecondary = global::AppPSOne.Droid.Resource.Attribute.colorOnSecondary;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.colorOnSurface = global::AppPSOne.Droid.Resource.Attribute.colorOnSurface;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.colorPrimary = global::AppPSOne.Droid.Resource.Attribute.colorPrimary;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.colorPrimaryDark = global::AppPSOne.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.colorPrimarySurface = global::AppPSOne.Droid.Resource.Attribute.colorPrimarySurface;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.colorPrimaryVariant = global::AppPSOne.Droid.Resource.Attribute.colorPrimaryVariant;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.colorSecondary = global::AppPSOne.Droid.Resource.Attribute.colorSecondary;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.colorSecondaryVariant = global::AppPSOne.Droid.Resource.Attribute.colorSecondaryVariant;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.colorSurface = global::AppPSOne.Droid.Resource.Attribute.colorSurface;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.colorSwitchThumbNormal = global::AppPSOne.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.commitIcon = global::AppPSOne.Droid.Resource.Attribute.commitIcon;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.ConstraintRotate = global::AppPSOne.Droid.Resource.Attribute.ConstraintRotate;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.constraints = global::AppPSOne.Droid.Resource.Attribute.constraints;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.constraintSet = global::AppPSOne.Droid.Resource.Attribute.constraintSet;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.constraintSetEnd = global::AppPSOne.Droid.Resource.Attribute.constraintSetEnd;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.constraintSetStart = global::AppPSOne.Droid.Resource.Attribute.constraintSetStart;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.constraint_referenced_ids = global::AppPSOne.Droid.Resource.Attribute.constraint_referenced_ids;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.constraint_referenced_tags = global::AppPSOne.Droid.Resource.Attribute.constraint_referenced_tags;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.content = global::AppPSOne.Droid.Resource.Attribute.content;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.contentDescription = global::AppPSOne.Droid.Resource.Attribute.contentDescription;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.contentInsetEnd = global::AppPSOne.Droid.Resource.Attribute.contentInsetEnd;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.contentInsetEndWithActions = global::AppPSOne.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.contentInsetLeft = global::AppPSOne.Droid.Resource.Attribute.contentInsetLeft;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.contentInsetRight = global::AppPSOne.Droid.Resource.Attribute.contentInsetRight;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.contentInsetStart = global::AppPSOne.Droid.Resource.Attribute.contentInsetStart;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.contentInsetStartWithNavigation = global::AppPSOne.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.contentPadding = global::AppPSOne.Droid.Resource.Attribute.contentPadding;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.contentPaddingBottom = global::AppPSOne.Droid.Resource.Attribute.contentPaddingBottom;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.contentPaddingEnd = global::AppPSOne.Droid.Resource.Attribute.contentPaddingEnd;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.contentPaddingLeft = global::AppPSOne.Droid.Resource.Attribute.contentPaddingLeft;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.contentPaddingRight = global::AppPSOne.Droid.Resource.Attribute.contentPaddingRight;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.contentPaddingStart = global::AppPSOne.Droid.Resource.Attribute.contentPaddingStart;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.contentPaddingTop = global::AppPSOne.Droid.Resource.Attribute.contentPaddingTop;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.contentScrim = global::AppPSOne.Droid.Resource.Attribute.contentScrim;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.contrast = global::AppPSOne.Droid.Resource.Attribute.contrast;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.controlBackground = global::AppPSOne.Droid.Resource.Attribute.controlBackground;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.coordinatorLayoutStyle = global::AppPSOne.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.cornerFamily = global::AppPSOne.Droid.Resource.Attribute.cornerFamily;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.cornerFamilyBottomLeft = global::AppPSOne.Droid.Resource.Attribute.cornerFamilyBottomLeft;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.cornerFamilyBottomRight = global::AppPSOne.Droid.Resource.Attribute.cornerFamilyBottomRight;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.cornerFamilyTopLeft = global::AppPSOne.Droid.Resource.Attribute.cornerFamilyTopLeft;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.cornerFamilyTopRight = global::AppPSOne.Droid.Resource.Attribute.cornerFamilyTopRight;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.cornerRadius = global::AppPSOne.Droid.Resource.Attribute.cornerRadius;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.cornerSize = global::AppPSOne.Droid.Resource.Attribute.cornerSize;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.cornerSizeBottomLeft = global::AppPSOne.Droid.Resource.Attribute.cornerSizeBottomLeft;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.cornerSizeBottomRight = global::AppPSOne.Droid.Resource.Attribute.cornerSizeBottomRight;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.cornerSizeTopLeft = global::AppPSOne.Droid.Resource.Attribute.cornerSizeTopLeft;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.cornerSizeTopRight = global::AppPSOne.Droid.Resource.Attribute.cornerSizeTopRight;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.counterEnabled = global::AppPSOne.Droid.Resource.Attribute.counterEnabled;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.counterMaxLength = global::AppPSOne.Droid.Resource.Attribute.counterMaxLength;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.counterOverflowTextAppearance = global::AppPSOne.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.counterOverflowTextColor = global::AppPSOne.Droid.Resource.Attribute.counterOverflowTextColor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.counterTextAppearance = global::AppPSOne.Droid.Resource.Attribute.counterTextAppearance;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.counterTextColor = global::AppPSOne.Droid.Resource.Attribute.counterTextColor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.crossfade = global::AppPSOne.Droid.Resource.Attribute.crossfade;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.currentState = global::AppPSOne.Droid.Resource.Attribute.currentState;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.curveFit = global::AppPSOne.Droid.Resource.Attribute.curveFit;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.customBoolean = global::AppPSOne.Droid.Resource.Attribute.customBoolean;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.customColorDrawableValue = global::AppPSOne.Droid.Resource.Attribute.customColorDrawableValue;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.customColorValue = global::AppPSOne.Droid.Resource.Attribute.customColorValue;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.customDimension = global::AppPSOne.Droid.Resource.Attribute.customDimension;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.customFloatValue = global::AppPSOne.Droid.Resource.Attribute.customFloatValue;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.customIntegerValue = global::AppPSOne.Droid.Resource.Attribute.customIntegerValue;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.customNavigationLayout = global::AppPSOne.Droid.Resource.Attribute.customNavigationLayout;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.customPixelDimension = global::AppPSOne.Droid.Resource.Attribute.customPixelDimension;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.customReference = global::AppPSOne.Droid.Resource.Attribute.customReference;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.customStringValue = global::AppPSOne.Droid.Resource.Attribute.customStringValue;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.data = global::AppPSOne.Droid.Resource.Attribute.data;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.dataPattern = global::AppPSOne.Droid.Resource.Attribute.dataPattern;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.dayInvalidStyle = global::AppPSOne.Droid.Resource.Attribute.dayInvalidStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.daySelectedStyle = global::AppPSOne.Droid.Resource.Attribute.daySelectedStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.dayStyle = global::AppPSOne.Droid.Resource.Attribute.dayStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.dayTodayStyle = global::AppPSOne.Droid.Resource.Attribute.dayTodayStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.defaultDuration = global::AppPSOne.Droid.Resource.Attribute.defaultDuration;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.defaultQueryHint = global::AppPSOne.Droid.Resource.Attribute.defaultQueryHint;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.defaultState = global::AppPSOne.Droid.Resource.Attribute.defaultState;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.defaultValue = global::AppPSOne.Droid.Resource.Attribute.defaultValue;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.deltaPolarAngle = global::AppPSOne.Droid.Resource.Attribute.deltaPolarAngle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.deltaPolarRadius = global::AppPSOne.Droid.Resource.Attribute.deltaPolarRadius;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.dependency = global::AppPSOne.Droid.Resource.Attribute.dependency;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.deriveConstraintsFrom = global::AppPSOne.Droid.Resource.Attribute.deriveConstraintsFrom;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.destination = global::AppPSOne.Droid.Resource.Attribute.destination;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.dialogCornerRadius = global::AppPSOne.Droid.Resource.Attribute.dialogCornerRadius;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.dialogIcon = global::AppPSOne.Droid.Resource.Attribute.dialogIcon;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.dialogLayout = global::AppPSOne.Droid.Resource.Attribute.dialogLayout;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.dialogMessage = global::AppPSOne.Droid.Resource.Attribute.dialogMessage;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.dialogPreferenceStyle = global::AppPSOne.Droid.Resource.Attribute.dialogPreferenceStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.dialogPreferredPadding = global::AppPSOne.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.dialogTheme = global::AppPSOne.Droid.Resource.Attribute.dialogTheme;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.dialogTitle = global::AppPSOne.Droid.Resource.Attribute.dialogTitle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.disableDependentsState = global::AppPSOne.Droid.Resource.Attribute.disableDependentsState;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.displayOptions = global::AppPSOne.Droid.Resource.Attribute.displayOptions;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.divider = global::AppPSOne.Droid.Resource.Attribute.divider;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.dividerHorizontal = global::AppPSOne.Droid.Resource.Attribute.dividerHorizontal;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.dividerPadding = global::AppPSOne.Droid.Resource.Attribute.dividerPadding;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.dividerVertical = global::AppPSOne.Droid.Resource.Attribute.dividerVertical;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.dragDirection = global::AppPSOne.Droid.Resource.Attribute.dragDirection;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.dragScale = global::AppPSOne.Droid.Resource.Attribute.dragScale;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.dragThreshold = global::AppPSOne.Droid.Resource.Attribute.dragThreshold;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.drawableBottomCompat = global::AppPSOne.Droid.Resource.Attribute.drawableBottomCompat;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.drawableEndCompat = global::AppPSOne.Droid.Resource.Attribute.drawableEndCompat;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.drawableLeftCompat = global::AppPSOne.Droid.Resource.Attribute.drawableLeftCompat;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.drawableRightCompat = global::AppPSOne.Droid.Resource.Attribute.drawableRightCompat;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.drawableSize = global::AppPSOne.Droid.Resource.Attribute.drawableSize;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.drawableStartCompat = global::AppPSOne.Droid.Resource.Attribute.drawableStartCompat;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.drawableTint = global::AppPSOne.Droid.Resource.Attribute.drawableTint;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.drawableTintMode = global::AppPSOne.Droid.Resource.Attribute.drawableTintMode;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.drawableTopCompat = global::AppPSOne.Droid.Resource.Attribute.drawableTopCompat;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.drawerArrowStyle = global::AppPSOne.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.drawerLayoutStyle = global::AppPSOne.Droid.Resource.Attribute.drawerLayoutStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.drawPath = global::AppPSOne.Droid.Resource.Attribute.drawPath;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.dropdownListPreferredItemHeight = global::AppPSOne.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.dropDownListViewStyle = global::AppPSOne.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.dropdownPreferenceStyle = global::AppPSOne.Droid.Resource.Attribute.dropdownPreferenceStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.duration = global::AppPSOne.Droid.Resource.Attribute.duration;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.editTextBackground = global::AppPSOne.Droid.Resource.Attribute.editTextBackground;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.editTextColor = global::AppPSOne.Droid.Resource.Attribute.editTextColor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.editTextPreferenceStyle = global::AppPSOne.Droid.Resource.Attribute.editTextPreferenceStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.editTextStyle = global::AppPSOne.Droid.Resource.Attribute.editTextStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.elevation = global::AppPSOne.Droid.Resource.Attribute.elevation;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.elevationOverlayColor = global::AppPSOne.Droid.Resource.Attribute.elevationOverlayColor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.elevationOverlayEnabled = global::AppPSOne.Droid.Resource.Attribute.elevationOverlayEnabled;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.enableCopying = global::AppPSOne.Droid.Resource.Attribute.enableCopying;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.enabled = global::AppPSOne.Droid.Resource.Attribute.enabled;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.enableEdgeToEdge = global::AppPSOne.Droid.Resource.Attribute.enableEdgeToEdge;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.endIconCheckable = global::AppPSOne.Droid.Resource.Attribute.endIconCheckable;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.endIconContentDescription = global::AppPSOne.Droid.Resource.Attribute.endIconContentDescription;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.endIconDrawable = global::AppPSOne.Droid.Resource.Attribute.endIconDrawable;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.endIconMode = global::AppPSOne.Droid.Resource.Attribute.endIconMode;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.endIconTint = global::AppPSOne.Droid.Resource.Attribute.endIconTint;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.endIconTintMode = global::AppPSOne.Droid.Resource.Attribute.endIconTintMode;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.enforceMaterialTheme = global::AppPSOne.Droid.Resource.Attribute.enforceMaterialTheme;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.enforceTextAppearance = global::AppPSOne.Droid.Resource.Attribute.enforceTextAppearance;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.ensureMinTouchTargetSize = global::AppPSOne.Droid.Resource.Attribute.ensureMinTouchTargetSize;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.enterAnim = global::AppPSOne.Droid.Resource.Attribute.enterAnim;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.entries = global::AppPSOne.Droid.Resource.Attribute.entries;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.entryValues = global::AppPSOne.Droid.Resource.Attribute.entryValues;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.errorContentDescription = global::AppPSOne.Droid.Resource.Attribute.errorContentDescription;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.errorEnabled = global::AppPSOne.Droid.Resource.Attribute.errorEnabled;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.errorIconDrawable = global::AppPSOne.Droid.Resource.Attribute.errorIconDrawable;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.errorIconTint = global::AppPSOne.Droid.Resource.Attribute.errorIconTint;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.errorIconTintMode = global::AppPSOne.Droid.Resource.Attribute.errorIconTintMode;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.errorTextAppearance = global::AppPSOne.Droid.Resource.Attribute.errorTextAppearance;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.errorTextColor = global::AppPSOne.Droid.Resource.Attribute.errorTextColor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.exitAnim = global::AppPSOne.Droid.Resource.Attribute.exitAnim;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.expandActivityOverflowButtonDrawable = global::AppPSOne.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.expanded = global::AppPSOne.Droid.Resource.Attribute.expanded;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.expandedHintEnabled = global::AppPSOne.Droid.Resource.Attribute.expandedHintEnabled;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.expandedTitleGravity = global::AppPSOne.Droid.Resource.Attribute.expandedTitleGravity;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.expandedTitleMargin = global::AppPSOne.Droid.Resource.Attribute.expandedTitleMargin;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.expandedTitleMarginBottom = global::AppPSOne.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.expandedTitleMarginEnd = global::AppPSOne.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.expandedTitleMarginStart = global::AppPSOne.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.expandedTitleMarginTop = global::AppPSOne.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.expandedTitleTextAppearance = global::AppPSOne.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.extendedFloatingActionButtonStyle = global::AppPSOne.Droid.Resource.Attribute.extendedFloatingActionButtonStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.extendMotionSpec = global::AppPSOne.Droid.Resource.Attribute.extendMotionSpec;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.extraMultilineHeightEnabled = global::AppPSOne.Droid.Resource.Attribute.extraMultilineHeightEnabled;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.fabAlignmentMode = global::AppPSOne.Droid.Resource.Attribute.fabAlignmentMode;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.fabAnimationMode = global::AppPSOne.Droid.Resource.Attribute.fabAnimationMode;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.fabCradleMargin = global::AppPSOne.Droid.Resource.Attribute.fabCradleMargin;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.fabCradleRoundedCornerRadius = global::AppPSOne.Droid.Resource.Attribute.fabCradleRoundedCornerRadius;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.fabCradleVerticalOffset = global::AppPSOne.Droid.Resource.Attribute.fabCradleVerticalOffset;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.fabCustomSize = global::AppPSOne.Droid.Resource.Attribute.fabCustomSize;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.fabSize = global::AppPSOne.Droid.Resource.Attribute.fabSize;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.fastScrollEnabled = global::AppPSOne.Droid.Resource.Attribute.fastScrollEnabled;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::AppPSOne.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::AppPSOne.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.fastScrollVerticalThumbDrawable = global::AppPSOne.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.fastScrollVerticalTrackDrawable = global::AppPSOne.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.firstBaselineToTopHeight = global::AppPSOne.Droid.Resource.Attribute.firstBaselineToTopHeight;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.floatingActionButtonStyle = global::AppPSOne.Droid.Resource.Attribute.floatingActionButtonStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.flow_firstHorizontalBias = global::AppPSOne.Droid.Resource.Attribute.flow_firstHorizontalBias;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.flow_firstHorizontalStyle = global::AppPSOne.Droid.Resource.Attribute.flow_firstHorizontalStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.flow_firstVerticalBias = global::AppPSOne.Droid.Resource.Attribute.flow_firstVerticalBias;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.flow_firstVerticalStyle = global::AppPSOne.Droid.Resource.Attribute.flow_firstVerticalStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.flow_horizontalAlign = global::AppPSOne.Droid.Resource.Attribute.flow_horizontalAlign;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.flow_horizontalBias = global::AppPSOne.Droid.Resource.Attribute.flow_horizontalBias;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.flow_horizontalGap = global::AppPSOne.Droid.Resource.Attribute.flow_horizontalGap;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.flow_horizontalStyle = global::AppPSOne.Droid.Resource.Attribute.flow_horizontalStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.flow_lastHorizontalBias = global::AppPSOne.Droid.Resource.Attribute.flow_lastHorizontalBias;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.flow_lastHorizontalStyle = global::AppPSOne.Droid.Resource.Attribute.flow_lastHorizontalStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.flow_lastVerticalBias = global::AppPSOne.Droid.Resource.Attribute.flow_lastVerticalBias;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.flow_lastVerticalStyle = global::AppPSOne.Droid.Resource.Attribute.flow_lastVerticalStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.flow_maxElementsWrap = global::AppPSOne.Droid.Resource.Attribute.flow_maxElementsWrap;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.flow_padding = global::AppPSOne.Droid.Resource.Attribute.flow_padding;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.flow_verticalAlign = global::AppPSOne.Droid.Resource.Attribute.flow_verticalAlign;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.flow_verticalBias = global::AppPSOne.Droid.Resource.Attribute.flow_verticalBias;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.flow_verticalGap = global::AppPSOne.Droid.Resource.Attribute.flow_verticalGap;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.flow_verticalStyle = global::AppPSOne.Droid.Resource.Attribute.flow_verticalStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.flow_wrapMode = global::AppPSOne.Droid.Resource.Attribute.flow_wrapMode;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.font = global::AppPSOne.Droid.Resource.Attribute.font;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.fontFamily = global::AppPSOne.Droid.Resource.Attribute.fontFamily;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.fontProviderAuthority = global::AppPSOne.Droid.Resource.Attribute.fontProviderAuthority;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.fontProviderCerts = global::AppPSOne.Droid.Resource.Attribute.fontProviderCerts;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.fontProviderFetchStrategy = global::AppPSOne.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.fontProviderFetchTimeout = global::AppPSOne.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.fontProviderPackage = global::AppPSOne.Droid.Resource.Attribute.fontProviderPackage;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.fontProviderQuery = global::AppPSOne.Droid.Resource.Attribute.fontProviderQuery;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.fontProviderSystemFontFamily = global::AppPSOne.Droid.Resource.Attribute.fontProviderSystemFontFamily;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.fontStyle = global::AppPSOne.Droid.Resource.Attribute.fontStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.fontVariationSettings = global::AppPSOne.Droid.Resource.Attribute.fontVariationSettings;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.fontWeight = global::AppPSOne.Droid.Resource.Attribute.fontWeight;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.forceApplySystemWindowInsetTop = global::AppPSOne.Droid.Resource.Attribute.forceApplySystemWindowInsetTop;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.foregroundInsidePadding = global::AppPSOne.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.fragment = global::AppPSOne.Droid.Resource.Attribute.fragment;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.framePosition = global::AppPSOne.Droid.Resource.Attribute.framePosition;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.gapBetweenBars = global::AppPSOne.Droid.Resource.Attribute.gapBetweenBars;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.gestureInsetBottomIgnored = global::AppPSOne.Droid.Resource.Attribute.gestureInsetBottomIgnored;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.goIcon = global::AppPSOne.Droid.Resource.Attribute.goIcon;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.graph = global::AppPSOne.Droid.Resource.Attribute.graph;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.haloColor = global::AppPSOne.Droid.Resource.Attribute.haloColor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.haloRadius = global::AppPSOne.Droid.Resource.Attribute.haloRadius;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.headerLayout = global::AppPSOne.Droid.Resource.Attribute.headerLayout;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.height = global::AppPSOne.Droid.Resource.Attribute.height;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.helperText = global::AppPSOne.Droid.Resource.Attribute.helperText;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.helperTextEnabled = global::AppPSOne.Droid.Resource.Attribute.helperTextEnabled;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.helperTextTextAppearance = global::AppPSOne.Droid.Resource.Attribute.helperTextTextAppearance;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.helperTextTextColor = global::AppPSOne.Droid.Resource.Attribute.helperTextTextColor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.hideAnimationBehavior = global::AppPSOne.Droid.Resource.Attribute.hideAnimationBehavior;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.hideMotionSpec = global::AppPSOne.Droid.Resource.Attribute.hideMotionSpec;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.hideOnContentScroll = global::AppPSOne.Droid.Resource.Attribute.hideOnContentScroll;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.hideOnScroll = global::AppPSOne.Droid.Resource.Attribute.hideOnScroll;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.hintAnimationEnabled = global::AppPSOne.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.hintEnabled = global::AppPSOne.Droid.Resource.Attribute.hintEnabled;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.hintTextAppearance = global::AppPSOne.Droid.Resource.Attribute.hintTextAppearance;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.hintTextColor = global::AppPSOne.Droid.Resource.Attribute.hintTextColor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.homeAsUpIndicator = global::AppPSOne.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.homeLayout = global::AppPSOne.Droid.Resource.Attribute.homeLayout;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.horizontalOffset = global::AppPSOne.Droid.Resource.Attribute.horizontalOffset;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.hoveredFocusedTranslationZ = global::AppPSOne.Droid.Resource.Attribute.hoveredFocusedTranslationZ;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.icon = global::AppPSOne.Droid.Resource.Attribute.icon;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.iconEndPadding = global::AppPSOne.Droid.Resource.Attribute.iconEndPadding;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.iconGravity = global::AppPSOne.Droid.Resource.Attribute.iconGravity;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.iconifiedByDefault = global::AppPSOne.Droid.Resource.Attribute.iconifiedByDefault;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.iconPadding = global::AppPSOne.Droid.Resource.Attribute.iconPadding;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.iconSize = global::AppPSOne.Droid.Resource.Attribute.iconSize;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.iconSpaceReserved = global::AppPSOne.Droid.Resource.Attribute.iconSpaceReserved;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.iconStartPadding = global::AppPSOne.Droid.Resource.Attribute.iconStartPadding;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.iconTint = global::AppPSOne.Droid.Resource.Attribute.iconTint;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.iconTintMode = global::AppPSOne.Droid.Resource.Attribute.iconTintMode;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.ifTagNotSet = global::AppPSOne.Droid.Resource.Attribute.ifTagNotSet;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.ifTagSet = global::AppPSOne.Droid.Resource.Attribute.ifTagSet;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.imageButtonStyle = global::AppPSOne.Droid.Resource.Attribute.imageButtonStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.imagePanX = global::AppPSOne.Droid.Resource.Attribute.imagePanX;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.imagePanY = global::AppPSOne.Droid.Resource.Attribute.imagePanY;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.imageRotate = global::AppPSOne.Droid.Resource.Attribute.imageRotate;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.imageZoom = global::AppPSOne.Droid.Resource.Attribute.imageZoom;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.indeterminateAnimationType = global::AppPSOne.Droid.Resource.Attribute.indeterminateAnimationType;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.indeterminateProgressStyle = global::AppPSOne.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.indicatorColor = global::AppPSOne.Droid.Resource.Attribute.indicatorColor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.indicatorDirectionCircular = global::AppPSOne.Droid.Resource.Attribute.indicatorDirectionCircular;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.indicatorDirectionLinear = global::AppPSOne.Droid.Resource.Attribute.indicatorDirectionLinear;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.indicatorInset = global::AppPSOne.Droid.Resource.Attribute.indicatorInset;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.indicatorSize = global::AppPSOne.Droid.Resource.Attribute.indicatorSize;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.initialActivityCount = global::AppPSOne.Droid.Resource.Attribute.initialActivityCount;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.initialExpandedChildrenCount = global::AppPSOne.Droid.Resource.Attribute.initialExpandedChildrenCount;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.insetForeground = global::AppPSOne.Droid.Resource.Attribute.insetForeground;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.isLightTheme = global::AppPSOne.Droid.Resource.Attribute.isLightTheme;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.isMaterialTheme = global::AppPSOne.Droid.Resource.Attribute.isMaterialTheme;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.isPreferenceVisible = global::AppPSOne.Droid.Resource.Attribute.isPreferenceVisible;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.itemBackground = global::AppPSOne.Droid.Resource.Attribute.itemBackground;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.itemFillColor = global::AppPSOne.Droid.Resource.Attribute.itemFillColor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.itemHorizontalPadding = global::AppPSOne.Droid.Resource.Attribute.itemHorizontalPadding;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.itemHorizontalTranslationEnabled = global::AppPSOne.Droid.Resource.Attribute.itemHorizontalTranslationEnabled;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.itemIconPadding = global::AppPSOne.Droid.Resource.Attribute.itemIconPadding;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.itemIconSize = global::AppPSOne.Droid.Resource.Attribute.itemIconSize;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.itemIconTint = global::AppPSOne.Droid.Resource.Attribute.itemIconTint;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.itemMaxLines = global::AppPSOne.Droid.Resource.Attribute.itemMaxLines;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.itemPadding = global::AppPSOne.Droid.Resource.Attribute.itemPadding;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.itemRippleColor = global::AppPSOne.Droid.Resource.Attribute.itemRippleColor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.itemShapeAppearance = global::AppPSOne.Droid.Resource.Attribute.itemShapeAppearance;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.itemShapeAppearanceOverlay = global::AppPSOne.Droid.Resource.Attribute.itemShapeAppearanceOverlay;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.itemShapeFillColor = global::AppPSOne.Droid.Resource.Attribute.itemShapeFillColor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.itemShapeInsetBottom = global::AppPSOne.Droid.Resource.Attribute.itemShapeInsetBottom;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.itemShapeInsetEnd = global::AppPSOne.Droid.Resource.Attribute.itemShapeInsetEnd;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.itemShapeInsetStart = global::AppPSOne.Droid.Resource.Attribute.itemShapeInsetStart;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.itemShapeInsetTop = global::AppPSOne.Droid.Resource.Attribute.itemShapeInsetTop;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.itemSpacing = global::AppPSOne.Droid.Resource.Attribute.itemSpacing;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.itemStrokeColor = global::AppPSOne.Droid.Resource.Attribute.itemStrokeColor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.itemStrokeWidth = global::AppPSOne.Droid.Resource.Attribute.itemStrokeWidth;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.itemTextAppearance = global::AppPSOne.Droid.Resource.Attribute.itemTextAppearance;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.itemTextAppearanceActive = global::AppPSOne.Droid.Resource.Attribute.itemTextAppearanceActive;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.itemTextAppearanceInactive = global::AppPSOne.Droid.Resource.Attribute.itemTextAppearanceInactive;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.itemTextColor = global::AppPSOne.Droid.Resource.Attribute.itemTextColor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.key = global::AppPSOne.Droid.Resource.Attribute.key;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.keyboardIcon = global::AppPSOne.Droid.Resource.Attribute.keyboardIcon;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.keylines = global::AppPSOne.Droid.Resource.Attribute.keylines;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.keyPositionType = global::AppPSOne.Droid.Resource.Attribute.keyPositionType;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.labelBehavior = global::AppPSOne.Droid.Resource.Attribute.labelBehavior;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.labelStyle = global::AppPSOne.Droid.Resource.Attribute.labelStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.labelVisibilityMode = global::AppPSOne.Droid.Resource.Attribute.labelVisibilityMode;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.lastBaselineToBottomHeight = global::AppPSOne.Droid.Resource.Attribute.lastBaselineToBottomHeight;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.launchSingleTop = global::AppPSOne.Droid.Resource.Attribute.launchSingleTop;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout = global::AppPSOne.Droid.Resource.Attribute.layout;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layoutDescription = global::AppPSOne.Droid.Resource.Attribute.layoutDescription;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layoutDuringTransition = global::AppPSOne.Droid.Resource.Attribute.layoutDuringTransition;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layoutManager = global::AppPSOne.Droid.Resource.Attribute.layoutManager;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_anchor = global::AppPSOne.Droid.Resource.Attribute.layout_anchor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_anchorGravity = global::AppPSOne.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_behavior = global::AppPSOne.Droid.Resource.Attribute.layout_behavior;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_collapseMode = global::AppPSOne.Droid.Resource.Attribute.layout_collapseMode;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_collapseParallaxMultiplier = global::AppPSOne.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constrainedHeight = global::AppPSOne.Droid.Resource.Attribute.layout_constrainedHeight;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constrainedWidth = global::AppPSOne.Droid.Resource.Attribute.layout_constrainedWidth;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintBaseline_creator = global::AppPSOne.Droid.Resource.Attribute.layout_constraintBaseline_creator;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintBaseline_toBaselineOf = global::AppPSOne.Droid.Resource.Attribute.layout_constraintBaseline_toBaselineOf;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintBaseline_toBottomOf = global::AppPSOne.Droid.Resource.Attribute.layout_constraintBaseline_toBottomOf;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintBaseline_toTopOf = global::AppPSOne.Droid.Resource.Attribute.layout_constraintBaseline_toTopOf;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintBottom_creator = global::AppPSOne.Droid.Resource.Attribute.layout_constraintBottom_creator;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintBottom_toBottomOf = global::AppPSOne.Droid.Resource.Attribute.layout_constraintBottom_toBottomOf;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintBottom_toTopOf = global::AppPSOne.Droid.Resource.Attribute.layout_constraintBottom_toTopOf;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintCircle = global::AppPSOne.Droid.Resource.Attribute.layout_constraintCircle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintCircleAngle = global::AppPSOne.Droid.Resource.Attribute.layout_constraintCircleAngle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintCircleRadius = global::AppPSOne.Droid.Resource.Attribute.layout_constraintCircleRadius;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintDimensionRatio = global::AppPSOne.Droid.Resource.Attribute.layout_constraintDimensionRatio;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintEnd_toEndOf = global::AppPSOne.Droid.Resource.Attribute.layout_constraintEnd_toEndOf;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintEnd_toStartOf = global::AppPSOne.Droid.Resource.Attribute.layout_constraintEnd_toStartOf;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintGuide_begin = global::AppPSOne.Droid.Resource.Attribute.layout_constraintGuide_begin;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintGuide_end = global::AppPSOne.Droid.Resource.Attribute.layout_constraintGuide_end;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintGuide_percent = global::AppPSOne.Droid.Resource.Attribute.layout_constraintGuide_percent;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintHeight = global::AppPSOne.Droid.Resource.Attribute.layout_constraintHeight;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintHeight_default = global::AppPSOne.Droid.Resource.Attribute.layout_constraintHeight_default;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintHeight_max = global::AppPSOne.Droid.Resource.Attribute.layout_constraintHeight_max;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintHeight_min = global::AppPSOne.Droid.Resource.Attribute.layout_constraintHeight_min;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintHeight_percent = global::AppPSOne.Droid.Resource.Attribute.layout_constraintHeight_percent;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintHorizontal_bias = global::AppPSOne.Droid.Resource.Attribute.layout_constraintHorizontal_bias;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintHorizontal_chainStyle = global::AppPSOne.Droid.Resource.Attribute.layout_constraintHorizontal_chainStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintHorizontal_weight = global::AppPSOne.Droid.Resource.Attribute.layout_constraintHorizontal_weight;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintLeft_creator = global::AppPSOne.Droid.Resource.Attribute.layout_constraintLeft_creator;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintLeft_toLeftOf = global::AppPSOne.Droid.Resource.Attribute.layout_constraintLeft_toLeftOf;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintLeft_toRightOf = global::AppPSOne.Droid.Resource.Attribute.layout_constraintLeft_toRightOf;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintRight_creator = global::AppPSOne.Droid.Resource.Attribute.layout_constraintRight_creator;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintRight_toLeftOf = global::AppPSOne.Droid.Resource.Attribute.layout_constraintRight_toLeftOf;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintRight_toRightOf = global::AppPSOne.Droid.Resource.Attribute.layout_constraintRight_toRightOf;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintStart_toEndOf = global::AppPSOne.Droid.Resource.Attribute.layout_constraintStart_toEndOf;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintStart_toStartOf = global::AppPSOne.Droid.Resource.Attribute.layout_constraintStart_toStartOf;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintTag = global::AppPSOne.Droid.Resource.Attribute.layout_constraintTag;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintTop_creator = global::AppPSOne.Droid.Resource.Attribute.layout_constraintTop_creator;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintTop_toBottomOf = global::AppPSOne.Droid.Resource.Attribute.layout_constraintTop_toBottomOf;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintTop_toTopOf = global::AppPSOne.Droid.Resource.Attribute.layout_constraintTop_toTopOf;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintVertical_bias = global::AppPSOne.Droid.Resource.Attribute.layout_constraintVertical_bias;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintVertical_chainStyle = global::AppPSOne.Droid.Resource.Attribute.layout_constraintVertical_chainStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintVertical_weight = global::AppPSOne.Droid.Resource.Attribute.layout_constraintVertical_weight;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintWidth = global::AppPSOne.Droid.Resource.Attribute.layout_constraintWidth;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintWidth_default = global::AppPSOne.Droid.Resource.Attribute.layout_constraintWidth_default;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintWidth_max = global::AppPSOne.Droid.Resource.Attribute.layout_constraintWidth_max;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintWidth_min = global::AppPSOne.Droid.Resource.Attribute.layout_constraintWidth_min;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintWidth_percent = global::AppPSOne.Droid.Resource.Attribute.layout_constraintWidth_percent;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_dodgeInsetEdges = global::AppPSOne.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_editor_absoluteX = global::AppPSOne.Droid.Resource.Attribute.layout_editor_absoluteX;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_editor_absoluteY = global::AppPSOne.Droid.Resource.Attribute.layout_editor_absoluteY;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_goneMarginBaseline = global::AppPSOne.Droid.Resource.Attribute.layout_goneMarginBaseline;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_goneMarginBottom = global::AppPSOne.Droid.Resource.Attribute.layout_goneMarginBottom;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_goneMarginEnd = global::AppPSOne.Droid.Resource.Attribute.layout_goneMarginEnd;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_goneMarginLeft = global::AppPSOne.Droid.Resource.Attribute.layout_goneMarginLeft;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_goneMarginRight = global::AppPSOne.Droid.Resource.Attribute.layout_goneMarginRight;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_goneMarginStart = global::AppPSOne.Droid.Resource.Attribute.layout_goneMarginStart;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_goneMarginTop = global::AppPSOne.Droid.Resource.Attribute.layout_goneMarginTop;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_insetEdge = global::AppPSOne.Droid.Resource.Attribute.layout_insetEdge;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_keyline = global::AppPSOne.Droid.Resource.Attribute.layout_keyline;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_marginBaseline = global::AppPSOne.Droid.Resource.Attribute.layout_marginBaseline;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_optimizationLevel = global::AppPSOne.Droid.Resource.Attribute.layout_optimizationLevel;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_scrollFlags = global::AppPSOne.Droid.Resource.Attribute.layout_scrollFlags;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_scrollInterpolator = global::AppPSOne.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_wrapBehaviorInParent = global::AppPSOne.Droid.Resource.Attribute.layout_wrapBehaviorInParent;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.liftOnScroll = global::AppPSOne.Droid.Resource.Attribute.liftOnScroll;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.liftOnScrollTargetViewId = global::AppPSOne.Droid.Resource.Attribute.liftOnScrollTargetViewId;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.limitBoundsTo = global::AppPSOne.Droid.Resource.Attribute.limitBoundsTo;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.linearProgressIndicatorStyle = global::AppPSOne.Droid.Resource.Attribute.linearProgressIndicatorStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.lineHeight = global::AppPSOne.Droid.Resource.Attribute.lineHeight;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.lineSpacing = global::AppPSOne.Droid.Resource.Attribute.lineSpacing;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.listChoiceBackgroundIndicator = global::AppPSOne.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.listChoiceIndicatorMultipleAnimated = global::AppPSOne.Droid.Resource.Attribute.listChoiceIndicatorMultipleAnimated;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.listChoiceIndicatorSingleAnimated = global::AppPSOne.Droid.Resource.Attribute.listChoiceIndicatorSingleAnimated;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.listDividerAlertDialog = global::AppPSOne.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.listItemLayout = global::AppPSOne.Droid.Resource.Attribute.listItemLayout;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.listLayout = global::AppPSOne.Droid.Resource.Attribute.listLayout;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.listMenuViewStyle = global::AppPSOne.Droid.Resource.Attribute.listMenuViewStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.listPopupWindowStyle = global::AppPSOne.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.listPreferredItemHeight = global::AppPSOne.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.listPreferredItemHeightLarge = global::AppPSOne.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.listPreferredItemHeightSmall = global::AppPSOne.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.listPreferredItemPaddingEnd = global::AppPSOne.Droid.Resource.Attribute.listPreferredItemPaddingEnd;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.listPreferredItemPaddingLeft = global::AppPSOne.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.listPreferredItemPaddingRight = global::AppPSOne.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.listPreferredItemPaddingStart = global::AppPSOne.Droid.Resource.Attribute.listPreferredItemPaddingStart;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.logo = global::AppPSOne.Droid.Resource.Attribute.logo;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.logoDescription = global::AppPSOne.Droid.Resource.Attribute.logoDescription;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.materialAlertDialogBodyTextStyle = global::AppPSOne.Droid.Resource.Attribute.materialAlertDialogBodyTextStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.materialAlertDialogTheme = global::AppPSOne.Droid.Resource.Attribute.materialAlertDialogTheme;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.materialAlertDialogTitleIconStyle = global::AppPSOne.Droid.Resource.Attribute.materialAlertDialogTitleIconStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.materialAlertDialogTitlePanelStyle = global::AppPSOne.Droid.Resource.Attribute.materialAlertDialogTitlePanelStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.materialAlertDialogTitleTextStyle = global::AppPSOne.Droid.Resource.Attribute.materialAlertDialogTitleTextStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.materialButtonOutlinedStyle = global::AppPSOne.Droid.Resource.Attribute.materialButtonOutlinedStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.materialButtonStyle = global::AppPSOne.Droid.Resource.Attribute.materialButtonStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.materialButtonToggleGroupStyle = global::AppPSOne.Droid.Resource.Attribute.materialButtonToggleGroupStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.materialCalendarDay = global::AppPSOne.Droid.Resource.Attribute.materialCalendarDay;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.materialCalendarFullscreenTheme = global::AppPSOne.Droid.Resource.Attribute.materialCalendarFullscreenTheme;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.materialCalendarHeaderCancelButton = global::AppPSOne.Droid.Resource.Attribute.materialCalendarHeaderCancelButton;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.materialCalendarHeaderConfirmButton = global::AppPSOne.Droid.Resource.Attribute.materialCalendarHeaderConfirmButton;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.materialCalendarHeaderDivider = global::AppPSOne.Droid.Resource.Attribute.materialCalendarHeaderDivider;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.materialCalendarHeaderLayout = global::AppPSOne.Droid.Resource.Attribute.materialCalendarHeaderLayout;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.materialCalendarHeaderSelection = global::AppPSOne.Droid.Resource.Attribute.materialCalendarHeaderSelection;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.materialCalendarHeaderTitle = global::AppPSOne.Droid.Resource.Attribute.materialCalendarHeaderTitle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.materialCalendarHeaderToggleButton = global::AppPSOne.Droid.Resource.Attribute.materialCalendarHeaderToggleButton;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.materialCalendarMonth = global::AppPSOne.Droid.Resource.Attribute.materialCalendarMonth;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.materialCalendarMonthNavigationButton = global::AppPSOne.Droid.Resource.Attribute.materialCalendarMonthNavigationButton;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.materialCalendarStyle = global::AppPSOne.Droid.Resource.Attribute.materialCalendarStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.materialCalendarTheme = global::AppPSOne.Droid.Resource.Attribute.materialCalendarTheme;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.materialCalendarYearNavigationButton = global::AppPSOne.Droid.Resource.Attribute.materialCalendarYearNavigationButton;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.materialCardViewStyle = global::AppPSOne.Droid.Resource.Attribute.materialCardViewStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.materialCircleRadius = global::AppPSOne.Droid.Resource.Attribute.materialCircleRadius;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.materialClockStyle = global::AppPSOne.Droid.Resource.Attribute.materialClockStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.materialThemeOverlay = global::AppPSOne.Droid.Resource.Attribute.materialThemeOverlay;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.materialTimePickerStyle = global::AppPSOne.Droid.Resource.Attribute.materialTimePickerStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.materialTimePickerTheme = global::AppPSOne.Droid.Resource.Attribute.materialTimePickerTheme;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.maxAcceleration = global::AppPSOne.Droid.Resource.Attribute.maxAcceleration;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.maxActionInlineWidth = global::AppPSOne.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.maxButtonHeight = global::AppPSOne.Droid.Resource.Attribute.maxButtonHeight;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.maxCharacterCount = global::AppPSOne.Droid.Resource.Attribute.maxCharacterCount;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.maxHeight = global::AppPSOne.Droid.Resource.Attribute.maxHeight;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.maxImageSize = global::AppPSOne.Droid.Resource.Attribute.maxImageSize;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.maxLines = global::AppPSOne.Droid.Resource.Attribute.maxLines;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.maxVelocity = global::AppPSOne.Droid.Resource.Attribute.maxVelocity;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.maxWidth = global::AppPSOne.Droid.Resource.Attribute.maxWidth;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.measureWithLargestChild = global::AppPSOne.Droid.Resource.Attribute.measureWithLargestChild;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.menu = global::AppPSOne.Droid.Resource.Attribute.menu;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.menuGravity = global::AppPSOne.Droid.Resource.Attribute.menuGravity;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.methodName = global::AppPSOne.Droid.Resource.Attribute.methodName;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.mimeType = global::AppPSOne.Droid.Resource.Attribute.mimeType;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.min = global::AppPSOne.Droid.Resource.Attribute.min;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.minHeight = global::AppPSOne.Droid.Resource.Attribute.minHeight;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.minHideDelay = global::AppPSOne.Droid.Resource.Attribute.minHideDelay;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.minSeparation = global::AppPSOne.Droid.Resource.Attribute.minSeparation;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.minTouchTargetSize = global::AppPSOne.Droid.Resource.Attribute.minTouchTargetSize;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.minWidth = global::AppPSOne.Droid.Resource.Attribute.minWidth;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.mock_diagonalsColor = global::AppPSOne.Droid.Resource.Attribute.mock_diagonalsColor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.mock_label = global::AppPSOne.Droid.Resource.Attribute.mock_label;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.mock_labelBackgroundColor = global::AppPSOne.Droid.Resource.Attribute.mock_labelBackgroundColor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.mock_labelColor = global::AppPSOne.Droid.Resource.Attribute.mock_labelColor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.mock_showDiagonals = global::AppPSOne.Droid.Resource.Attribute.mock_showDiagonals;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.mock_showLabel = global::AppPSOne.Droid.Resource.Attribute.mock_showLabel;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.motionDebug = global::AppPSOne.Droid.Resource.Attribute.motionDebug;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.motionDurationLong1 = global::AppPSOne.Droid.Resource.Attribute.motionDurationLong1;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.motionDurationLong2 = global::AppPSOne.Droid.Resource.Attribute.motionDurationLong2;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.motionDurationMedium1 = global::AppPSOne.Droid.Resource.Attribute.motionDurationMedium1;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.motionDurationMedium2 = global::AppPSOne.Droid.Resource.Attribute.motionDurationMedium2;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.motionDurationShort1 = global::AppPSOne.Droid.Resource.Attribute.motionDurationShort1;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.motionDurationShort2 = global::AppPSOne.Droid.Resource.Attribute.motionDurationShort2;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.motionEasingAccelerated = global::AppPSOne.Droid.Resource.Attribute.motionEasingAccelerated;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.motionEasingDecelerated = global::AppPSOne.Droid.Resource.Attribute.motionEasingDecelerated;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.motionEasingEmphasized = global::AppPSOne.Droid.Resource.Attribute.motionEasingEmphasized;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.motionEasingLinear = global::AppPSOne.Droid.Resource.Attribute.motionEasingLinear;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.motionEasingStandard = global::AppPSOne.Droid.Resource.Attribute.motionEasingStandard;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.motionEffect_alpha = global::AppPSOne.Droid.Resource.Attribute.motionEffect_alpha;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.motionEffect_end = global::AppPSOne.Droid.Resource.Attribute.motionEffect_end;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.motionEffect_move = global::AppPSOne.Droid.Resource.Attribute.motionEffect_move;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.motionEffect_start = global::AppPSOne.Droid.Resource.Attribute.motionEffect_start;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.motionEffect_strict = global::AppPSOne.Droid.Resource.Attribute.motionEffect_strict;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.motionEffect_translationX = global::AppPSOne.Droid.Resource.Attribute.motionEffect_translationX;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.motionEffect_translationY = global::AppPSOne.Droid.Resource.Attribute.motionEffect_translationY;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.motionEffect_viewTransition = global::AppPSOne.Droid.Resource.Attribute.motionEffect_viewTransition;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.motionInterpolator = global::AppPSOne.Droid.Resource.Attribute.motionInterpolator;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.motionPath = global::AppPSOne.Droid.Resource.Attribute.motionPath;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.motionPathRotate = global::AppPSOne.Droid.Resource.Attribute.motionPathRotate;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.motionProgress = global::AppPSOne.Droid.Resource.Attribute.motionProgress;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.motionStagger = global::AppPSOne.Droid.Resource.Attribute.motionStagger;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.motionTarget = global::AppPSOne.Droid.Resource.Attribute.motionTarget;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.motion_postLayoutCollision = global::AppPSOne.Droid.Resource.Attribute.motion_postLayoutCollision;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.motion_triggerOnCollision = global::AppPSOne.Droid.Resource.Attribute.motion_triggerOnCollision;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.moveWhenScrollAtTop = global::AppPSOne.Droid.Resource.Attribute.moveWhenScrollAtTop;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.multiChoiceItemLayout = global::AppPSOne.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.navGraph = global::AppPSOne.Droid.Resource.Attribute.navGraph;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.navigationContentDescription = global::AppPSOne.Droid.Resource.Attribute.navigationContentDescription;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.navigationIcon = global::AppPSOne.Droid.Resource.Attribute.navigationIcon;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.navigationIconTint = global::AppPSOne.Droid.Resource.Attribute.navigationIconTint;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.navigationMode = global::AppPSOne.Droid.Resource.Attribute.navigationMode;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.navigationRailStyle = global::AppPSOne.Droid.Resource.Attribute.navigationRailStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.navigationViewStyle = global::AppPSOne.Droid.Resource.Attribute.navigationViewStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.negativeButtonText = global::AppPSOne.Droid.Resource.Attribute.negativeButtonText;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.nestedScrollable = global::AppPSOne.Droid.Resource.Attribute.nestedScrollable;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.nestedScrollFlags = global::AppPSOne.Droid.Resource.Attribute.nestedScrollFlags;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.nestedScrollViewStyle = global::AppPSOne.Droid.Resource.Attribute.nestedScrollViewStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.nullable = global::AppPSOne.Droid.Resource.Attribute.nullable;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.number = global::AppPSOne.Droid.Resource.Attribute.number;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.numericModifiers = global::AppPSOne.Droid.Resource.Attribute.numericModifiers;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.onCross = global::AppPSOne.Droid.Resource.Attribute.onCross;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.onHide = global::AppPSOne.Droid.Resource.Attribute.onHide;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.onNegativeCross = global::AppPSOne.Droid.Resource.Attribute.onNegativeCross;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.onPositiveCross = global::AppPSOne.Droid.Resource.Attribute.onPositiveCross;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.onShow = global::AppPSOne.Droid.Resource.Attribute.onShow;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.onStateTransition = global::AppPSOne.Droid.Resource.Attribute.onStateTransition;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.onTouchUp = global::AppPSOne.Droid.Resource.Attribute.onTouchUp;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.order = global::AppPSOne.Droid.Resource.Attribute.order;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.orderingFromXml = global::AppPSOne.Droid.Resource.Attribute.orderingFromXml;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.overlapAnchor = global::AppPSOne.Droid.Resource.Attribute.overlapAnchor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.overlay = global::AppPSOne.Droid.Resource.Attribute.overlay;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.paddingBottomNoButtons = global::AppPSOne.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.paddingBottomSystemWindowInsets = global::AppPSOne.Droid.Resource.Attribute.paddingBottomSystemWindowInsets;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.paddingEnd = global::AppPSOne.Droid.Resource.Attribute.paddingEnd;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.paddingLeftSystemWindowInsets = global::AppPSOne.Droid.Resource.Attribute.paddingLeftSystemWindowInsets;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.paddingRightSystemWindowInsets = global::AppPSOne.Droid.Resource.Attribute.paddingRightSystemWindowInsets;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.paddingStart = global::AppPSOne.Droid.Resource.Attribute.paddingStart;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.paddingTopNoTitle = global::AppPSOne.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.paddingTopSystemWindowInsets = global::AppPSOne.Droid.Resource.Attribute.paddingTopSystemWindowInsets;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.panelBackground = global::AppPSOne.Droid.Resource.Attribute.panelBackground;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.panelMenuListTheme = global::AppPSOne.Droid.Resource.Attribute.panelMenuListTheme;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.panelMenuListWidth = global::AppPSOne.Droid.Resource.Attribute.panelMenuListWidth;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.passwordToggleContentDescription = global::AppPSOne.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.passwordToggleDrawable = global::AppPSOne.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.passwordToggleEnabled = global::AppPSOne.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.passwordToggleTint = global::AppPSOne.Droid.Resource.Attribute.passwordToggleTint;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.passwordToggleTintMode = global::AppPSOne.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.pathMotionArc = global::AppPSOne.Droid.Resource.Attribute.pathMotionArc;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.path_percent = global::AppPSOne.Droid.Resource.Attribute.path_percent;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.percentHeight = global::AppPSOne.Droid.Resource.Attribute.percentHeight;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.percentWidth = global::AppPSOne.Droid.Resource.Attribute.percentWidth;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.percentX = global::AppPSOne.Droid.Resource.Attribute.percentX;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.percentY = global::AppPSOne.Droid.Resource.Attribute.percentY;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.perpendicularPath_percent = global::AppPSOne.Droid.Resource.Attribute.perpendicularPath_percent;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.persistent = global::AppPSOne.Droid.Resource.Attribute.persistent;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.pivotAnchor = global::AppPSOne.Droid.Resource.Attribute.pivotAnchor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.placeholderText = global::AppPSOne.Droid.Resource.Attribute.placeholderText;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.placeholderTextAppearance = global::AppPSOne.Droid.Resource.Attribute.placeholderTextAppearance;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.placeholderTextColor = global::AppPSOne.Droid.Resource.Attribute.placeholderTextColor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.placeholder_emptyVisibility = global::AppPSOne.Droid.Resource.Attribute.placeholder_emptyVisibility;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.polarRelativeTo = global::AppPSOne.Droid.Resource.Attribute.polarRelativeTo;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.popEnterAnim = global::AppPSOne.Droid.Resource.Attribute.popEnterAnim;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.popExitAnim = global::AppPSOne.Droid.Resource.Attribute.popExitAnim;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.popupMenuBackground = global::AppPSOne.Droid.Resource.Attribute.popupMenuBackground;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.popupMenuStyle = global::AppPSOne.Droid.Resource.Attribute.popupMenuStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.popupTheme = global::AppPSOne.Droid.Resource.Attribute.popupTheme;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.popUpTo = global::AppPSOne.Droid.Resource.Attribute.popUpTo;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.popUpToInclusive = global::AppPSOne.Droid.Resource.Attribute.popUpToInclusive;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.popupWindowStyle = global::AppPSOne.Droid.Resource.Attribute.popupWindowStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.positiveButtonText = global::AppPSOne.Droid.Resource.Attribute.positiveButtonText;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.preferenceCategoryStyle = global::AppPSOne.Droid.Resource.Attribute.preferenceCategoryStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.preferenceCategoryTitleTextAppearance = global::AppPSOne.Droid.Resource.Attribute.preferenceCategoryTitleTextAppearance;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.preferenceFragmentCompatStyle = global::AppPSOne.Droid.Resource.Attribute.preferenceFragmentCompatStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.preferenceFragmentListStyle = global::AppPSOne.Droid.Resource.Attribute.preferenceFragmentListStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.preferenceFragmentStyle = global::AppPSOne.Droid.Resource.Attribute.preferenceFragmentStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.preferenceInformationStyle = global::AppPSOne.Droid.Resource.Attribute.preferenceInformationStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.preferenceScreenStyle = global::AppPSOne.Droid.Resource.Attribute.preferenceScreenStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.preferenceStyle = global::AppPSOne.Droid.Resource.Attribute.preferenceStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.preferenceTheme = global::AppPSOne.Droid.Resource.Attribute.preferenceTheme;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.prefixText = global::AppPSOne.Droid.Resource.Attribute.prefixText;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.prefixTextAppearance = global::AppPSOne.Droid.Resource.Attribute.prefixTextAppearance;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.prefixTextColor = global::AppPSOne.Droid.Resource.Attribute.prefixTextColor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.preserveIconSpacing = global::AppPSOne.Droid.Resource.Attribute.preserveIconSpacing;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.pressedTranslationZ = global::AppPSOne.Droid.Resource.Attribute.pressedTranslationZ;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.progressBarPadding = global::AppPSOne.Droid.Resource.Attribute.progressBarPadding;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.progressBarStyle = global::AppPSOne.Droid.Resource.Attribute.progressBarStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.quantizeMotionInterpolator = global::AppPSOne.Droid.Resource.Attribute.quantizeMotionInterpolator;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.quantizeMotionPhase = global::AppPSOne.Droid.Resource.Attribute.quantizeMotionPhase;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.quantizeMotionSteps = global::AppPSOne.Droid.Resource.Attribute.quantizeMotionSteps;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.queryBackground = global::AppPSOne.Droid.Resource.Attribute.queryBackground;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.queryHint = global::AppPSOne.Droid.Resource.Attribute.queryHint;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.queryPatterns = global::AppPSOne.Droid.Resource.Attribute.queryPatterns;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.radioButtonStyle = global::AppPSOne.Droid.Resource.Attribute.radioButtonStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.rangeFillColor = global::AppPSOne.Droid.Resource.Attribute.rangeFillColor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.ratingBarStyle = global::AppPSOne.Droid.Resource.Attribute.ratingBarStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.ratingBarStyleIndicator = global::AppPSOne.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.ratingBarStyleSmall = global::AppPSOne.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.reactiveGuide_animateChange = global::AppPSOne.Droid.Resource.Attribute.reactiveGuide_animateChange;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.reactiveGuide_applyToAllConstraintSets = global::AppPSOne.Droid.Resource.Attribute.reactiveGuide_applyToAllConstraintSets;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.reactiveGuide_applyToConstraintSet = global::AppPSOne.Droid.Resource.Attribute.reactiveGuide_applyToConstraintSet;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.reactiveGuide_valueId = global::AppPSOne.Droid.Resource.Attribute.reactiveGuide_valueId;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.recyclerViewStyle = global::AppPSOne.Droid.Resource.Attribute.recyclerViewStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.region_heightLessThan = global::AppPSOne.Droid.Resource.Attribute.region_heightLessThan;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.region_heightMoreThan = global::AppPSOne.Droid.Resource.Attribute.region_heightMoreThan;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.region_widthLessThan = global::AppPSOne.Droid.Resource.Attribute.region_widthLessThan;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.region_widthMoreThan = global::AppPSOne.Droid.Resource.Attribute.region_widthMoreThan;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.reverseLayout = global::AppPSOne.Droid.Resource.Attribute.reverseLayout;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.rippleColor = global::AppPSOne.Droid.Resource.Attribute.rippleColor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.rotationCenterId = global::AppPSOne.Droid.Resource.Attribute.rotationCenterId;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.round = global::AppPSOne.Droid.Resource.Attribute.round;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.roundPercent = global::AppPSOne.Droid.Resource.Attribute.roundPercent;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.saturation = global::AppPSOne.Droid.Resource.Attribute.saturation;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.scaleFromTextSize = global::AppPSOne.Droid.Resource.Attribute.scaleFromTextSize;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.scrimAnimationDuration = global::AppPSOne.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.scrimBackground = global::AppPSOne.Droid.Resource.Attribute.scrimBackground;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.scrimVisibleHeightTrigger = global::AppPSOne.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.scrollViewStyle = global::AppPSOne.Droid.Resource.Attribute.scrollViewStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.searchHintIcon = global::AppPSOne.Droid.Resource.Attribute.searchHintIcon;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.searchIcon = global::AppPSOne.Droid.Resource.Attribute.searchIcon;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.searchViewStyle = global::AppPSOne.Droid.Resource.Attribute.searchViewStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.seekBarIncrement = global::AppPSOne.Droid.Resource.Attribute.seekBarIncrement;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.seekBarPreferenceStyle = global::AppPSOne.Droid.Resource.Attribute.seekBarPreferenceStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.seekBarStyle = global::AppPSOne.Droid.Resource.Attribute.seekBarStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.selectable = global::AppPSOne.Droid.Resource.Attribute.selectable;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.selectableItemBackground = global::AppPSOne.Droid.Resource.Attribute.selectableItemBackground;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.selectableItemBackgroundBorderless = global::AppPSOne.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.selectionRequired = global::AppPSOne.Droid.Resource.Attribute.selectionRequired;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.selectorSize = global::AppPSOne.Droid.Resource.Attribute.selectorSize;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.setsTag = global::AppPSOne.Droid.Resource.Attribute.setsTag;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.shapeAppearance = global::AppPSOne.Droid.Resource.Attribute.shapeAppearance;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.shapeAppearanceLargeComponent = global::AppPSOne.Droid.Resource.Attribute.shapeAppearanceLargeComponent;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.shapeAppearanceMediumComponent = global::AppPSOne.Droid.Resource.Attribute.shapeAppearanceMediumComponent;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.shapeAppearanceOverlay = global::AppPSOne.Droid.Resource.Attribute.shapeAppearanceOverlay;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.shapeAppearanceSmallComponent = global::AppPSOne.Droid.Resource.Attribute.shapeAppearanceSmallComponent;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.SharedValue = global::AppPSOne.Droid.Resource.Attribute.SharedValue;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.SharedValueId = global::AppPSOne.Droid.Resource.Attribute.SharedValueId;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.shortcutMatchRequired = global::AppPSOne.Droid.Resource.Attribute.shortcutMatchRequired;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.shouldDisableView = global::AppPSOne.Droid.Resource.Attribute.shouldDisableView;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.showAnimationBehavior = global::AppPSOne.Droid.Resource.Attribute.showAnimationBehavior;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.showAsAction = global::AppPSOne.Droid.Resource.Attribute.showAsAction;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.showDelay = global::AppPSOne.Droid.Resource.Attribute.showDelay;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.showDividers = global::AppPSOne.Droid.Resource.Attribute.showDividers;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.showMotionSpec = global::AppPSOne.Droid.Resource.Attribute.showMotionSpec;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.showPaths = global::AppPSOne.Droid.Resource.Attribute.showPaths;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.showSeekBarValue = global::AppPSOne.Droid.Resource.Attribute.showSeekBarValue;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.showText = global::AppPSOne.Droid.Resource.Attribute.showText;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.showTitle = global::AppPSOne.Droid.Resource.Attribute.showTitle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.shrinkMotionSpec = global::AppPSOne.Droid.Resource.Attribute.shrinkMotionSpec;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.singleChoiceItemLayout = global::AppPSOne.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.singleLine = global::AppPSOne.Droid.Resource.Attribute.singleLine;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.singleLineTitle = global::AppPSOne.Droid.Resource.Attribute.singleLineTitle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.singleSelection = global::AppPSOne.Droid.Resource.Attribute.singleSelection;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.sizePercent = global::AppPSOne.Droid.Resource.Attribute.sizePercent;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.sliderStyle = global::AppPSOne.Droid.Resource.Attribute.sliderStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.snackbarButtonStyle = global::AppPSOne.Droid.Resource.Attribute.snackbarButtonStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.snackbarStyle = global::AppPSOne.Droid.Resource.Attribute.snackbarStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.snackbarTextViewStyle = global::AppPSOne.Droid.Resource.Attribute.snackbarTextViewStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.spanCount = global::AppPSOne.Droid.Resource.Attribute.spanCount;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.spinBars = global::AppPSOne.Droid.Resource.Attribute.spinBars;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.spinnerDropDownItemStyle = global::AppPSOne.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.spinnerStyle = global::AppPSOne.Droid.Resource.Attribute.spinnerStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.splitTrack = global::AppPSOne.Droid.Resource.Attribute.splitTrack;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.springBoundary = global::AppPSOne.Droid.Resource.Attribute.springBoundary;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.springDamping = global::AppPSOne.Droid.Resource.Attribute.springDamping;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.springMass = global::AppPSOne.Droid.Resource.Attribute.springMass;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.springStiffness = global::AppPSOne.Droid.Resource.Attribute.springStiffness;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.springStopThreshold = global::AppPSOne.Droid.Resource.Attribute.springStopThreshold;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.srcCompat = global::AppPSOne.Droid.Resource.Attribute.srcCompat;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.stackFromEnd = global::AppPSOne.Droid.Resource.Attribute.stackFromEnd;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.staggered = global::AppPSOne.Droid.Resource.Attribute.staggered;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.startDestination = global::AppPSOne.Droid.Resource.Attribute.startDestination;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.startIconCheckable = global::AppPSOne.Droid.Resource.Attribute.startIconCheckable;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.startIconContentDescription = global::AppPSOne.Droid.Resource.Attribute.startIconContentDescription;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.startIconDrawable = global::AppPSOne.Droid.Resource.Attribute.startIconDrawable;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.startIconTint = global::AppPSOne.Droid.Resource.Attribute.startIconTint;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.startIconTintMode = global::AppPSOne.Droid.Resource.Attribute.startIconTintMode;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.state_above_anchor = global::AppPSOne.Droid.Resource.Attribute.state_above_anchor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.state_collapsed = global::AppPSOne.Droid.Resource.Attribute.state_collapsed;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.state_collapsible = global::AppPSOne.Droid.Resource.Attribute.state_collapsible;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.state_dragged = global::AppPSOne.Droid.Resource.Attribute.state_dragged;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.state_liftable = global::AppPSOne.Droid.Resource.Attribute.state_liftable;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.state_lifted = global::AppPSOne.Droid.Resource.Attribute.state_lifted;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.statusBarBackground = global::AppPSOne.Droid.Resource.Attribute.statusBarBackground;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.statusBarForeground = global::AppPSOne.Droid.Resource.Attribute.statusBarForeground;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.statusBarScrim = global::AppPSOne.Droid.Resource.Attribute.statusBarScrim;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.strokeColor = global::AppPSOne.Droid.Resource.Attribute.strokeColor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.strokeWidth = global::AppPSOne.Droid.Resource.Attribute.strokeWidth;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.subMenuArrow = global::AppPSOne.Droid.Resource.Attribute.subMenuArrow;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.submitBackground = global::AppPSOne.Droid.Resource.Attribute.submitBackground;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.subtitle = global::AppPSOne.Droid.Resource.Attribute.subtitle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.subtitleCentered = global::AppPSOne.Droid.Resource.Attribute.subtitleCentered;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.subtitleTextAppearance = global::AppPSOne.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.subtitleTextColor = global::AppPSOne.Droid.Resource.Attribute.subtitleTextColor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.subtitleTextStyle = global::AppPSOne.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.suffixText = global::AppPSOne.Droid.Resource.Attribute.suffixText;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.suffixTextAppearance = global::AppPSOne.Droid.Resource.Attribute.suffixTextAppearance;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.suffixTextColor = global::AppPSOne.Droid.Resource.Attribute.suffixTextColor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.suggestionRowLayout = global::AppPSOne.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.summary = global::AppPSOne.Droid.Resource.Attribute.summary;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.summaryOff = global::AppPSOne.Droid.Resource.Attribute.summaryOff;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.summaryOn = global::AppPSOne.Droid.Resource.Attribute.summaryOn;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.swipeRefreshLayoutProgressSpinnerBackgroundColor = global::AppPSOne.Droid.Resource.Attribute.swipeRefreshLayoutProgressSpinnerBackgroundColor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.switchMinWidth = global::AppPSOne.Droid.Resource.Attribute.switchMinWidth;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.switchPadding = global::AppPSOne.Droid.Resource.Attribute.switchPadding;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.switchPreferenceCompatStyle = global::AppPSOne.Droid.Resource.Attribute.switchPreferenceCompatStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.switchPreferenceStyle = global::AppPSOne.Droid.Resource.Attribute.switchPreferenceStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.switchStyle = global::AppPSOne.Droid.Resource.Attribute.switchStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.switchTextAppearance = global::AppPSOne.Droid.Resource.Attribute.switchTextAppearance;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.switchTextOff = global::AppPSOne.Droid.Resource.Attribute.switchTextOff;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.switchTextOn = global::AppPSOne.Droid.Resource.Attribute.switchTextOn;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.tabBackground = global::AppPSOne.Droid.Resource.Attribute.tabBackground;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.tabContentStart = global::AppPSOne.Droid.Resource.Attribute.tabContentStart;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.tabGravity = global::AppPSOne.Droid.Resource.Attribute.tabGravity;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.tabIconTint = global::AppPSOne.Droid.Resource.Attribute.tabIconTint;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.tabIconTintMode = global::AppPSOne.Droid.Resource.Attribute.tabIconTintMode;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.tabIndicator = global::AppPSOne.Droid.Resource.Attribute.tabIndicator;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.tabIndicatorAnimationDuration = global::AppPSOne.Droid.Resource.Attribute.tabIndicatorAnimationDuration;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.tabIndicatorAnimationMode = global::AppPSOne.Droid.Resource.Attribute.tabIndicatorAnimationMode;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.tabIndicatorColor = global::AppPSOne.Droid.Resource.Attribute.tabIndicatorColor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.tabIndicatorFullWidth = global::AppPSOne.Droid.Resource.Attribute.tabIndicatorFullWidth;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.tabIndicatorGravity = global::AppPSOne.Droid.Resource.Attribute.tabIndicatorGravity;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.tabIndicatorHeight = global::AppPSOne.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.tabInlineLabel = global::AppPSOne.Droid.Resource.Attribute.tabInlineLabel;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.tabMaxWidth = global::AppPSOne.Droid.Resource.Attribute.tabMaxWidth;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.tabMinWidth = global::AppPSOne.Droid.Resource.Attribute.tabMinWidth;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.tabMode = global::AppPSOne.Droid.Resource.Attribute.tabMode;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.tabPadding = global::AppPSOne.Droid.Resource.Attribute.tabPadding;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.tabPaddingBottom = global::AppPSOne.Droid.Resource.Attribute.tabPaddingBottom;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.tabPaddingEnd = global::AppPSOne.Droid.Resource.Attribute.tabPaddingEnd;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.tabPaddingStart = global::AppPSOne.Droid.Resource.Attribute.tabPaddingStart;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.tabPaddingTop = global::AppPSOne.Droid.Resource.Attribute.tabPaddingTop;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.tabRippleColor = global::AppPSOne.Droid.Resource.Attribute.tabRippleColor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.tabSelectedTextColor = global::AppPSOne.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.tabStyle = global::AppPSOne.Droid.Resource.Attribute.tabStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.tabTextAppearance = global::AppPSOne.Droid.Resource.Attribute.tabTextAppearance;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.tabTextColor = global::AppPSOne.Droid.Resource.Attribute.tabTextColor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.tabUnboundedRipple = global::AppPSOne.Droid.Resource.Attribute.tabUnboundedRipple;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.targetId = global::AppPSOne.Droid.Resource.Attribute.targetId;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.targetPackage = global::AppPSOne.Droid.Resource.Attribute.targetPackage;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.telltales_tailColor = global::AppPSOne.Droid.Resource.Attribute.telltales_tailColor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.telltales_tailScale = global::AppPSOne.Droid.Resource.Attribute.telltales_tailScale;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.telltales_velocityMode = global::AppPSOne.Droid.Resource.Attribute.telltales_velocityMode;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.textAllCaps = global::AppPSOne.Droid.Resource.Attribute.textAllCaps;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.textAppearanceBody1 = global::AppPSOne.Droid.Resource.Attribute.textAppearanceBody1;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.textAppearanceBody2 = global::AppPSOne.Droid.Resource.Attribute.textAppearanceBody2;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.textAppearanceButton = global::AppPSOne.Droid.Resource.Attribute.textAppearanceButton;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.textAppearanceCaption = global::AppPSOne.Droid.Resource.Attribute.textAppearanceCaption;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.textAppearanceHeadline1 = global::AppPSOne.Droid.Resource.Attribute.textAppearanceHeadline1;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.textAppearanceHeadline2 = global::AppPSOne.Droid.Resource.Attribute.textAppearanceHeadline2;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.textAppearanceHeadline3 = global::AppPSOne.Droid.Resource.Attribute.textAppearanceHeadline3;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.textAppearanceHeadline4 = global::AppPSOne.Droid.Resource.Attribute.textAppearanceHeadline4;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.textAppearanceHeadline5 = global::AppPSOne.Droid.Resource.Attribute.textAppearanceHeadline5;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.textAppearanceHeadline6 = global::AppPSOne.Droid.Resource.Attribute.textAppearanceHeadline6;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.textAppearanceLargePopupMenu = global::AppPSOne.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.textAppearanceLineHeightEnabled = global::AppPSOne.Droid.Resource.Attribute.textAppearanceLineHeightEnabled;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.textAppearanceListItem = global::AppPSOne.Droid.Resource.Attribute.textAppearanceListItem;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.textAppearanceListItemSecondary = global::AppPSOne.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.textAppearanceListItemSmall = global::AppPSOne.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.textAppearanceOverline = global::AppPSOne.Droid.Resource.Attribute.textAppearanceOverline;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.textAppearancePopupMenuHeader = global::AppPSOne.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.textAppearanceSearchResultSubtitle = global::AppPSOne.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.textAppearanceSearchResultTitle = global::AppPSOne.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.textAppearanceSmallPopupMenu = global::AppPSOne.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.textAppearanceSubtitle1 = global::AppPSOne.Droid.Resource.Attribute.textAppearanceSubtitle1;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.textAppearanceSubtitle2 = global::AppPSOne.Droid.Resource.Attribute.textAppearanceSubtitle2;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.textBackground = global::AppPSOne.Droid.Resource.Attribute.textBackground;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.textBackgroundPanX = global::AppPSOne.Droid.Resource.Attribute.textBackgroundPanX;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.textBackgroundPanY = global::AppPSOne.Droid.Resource.Attribute.textBackgroundPanY;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.textBackgroundRotate = global::AppPSOne.Droid.Resource.Attribute.textBackgroundRotate;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.textBackgroundZoom = global::AppPSOne.Droid.Resource.Attribute.textBackgroundZoom;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.textColorAlertDialogListItem = global::AppPSOne.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.textColorSearchUrl = global::AppPSOne.Droid.Resource.Attribute.textColorSearchUrl;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.textEndPadding = global::AppPSOne.Droid.Resource.Attribute.textEndPadding;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.textFillColor = global::AppPSOne.Droid.Resource.Attribute.textFillColor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.textInputLayoutFocusedRectEnabled = global::AppPSOne.Droid.Resource.Attribute.textInputLayoutFocusedRectEnabled;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.textInputStyle = global::AppPSOne.Droid.Resource.Attribute.textInputStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.textLocale = global::AppPSOne.Droid.Resource.Attribute.textLocale;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.textOutlineColor = global::AppPSOne.Droid.Resource.Attribute.textOutlineColor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.textOutlineThickness = global::AppPSOne.Droid.Resource.Attribute.textOutlineThickness;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.textPanX = global::AppPSOne.Droid.Resource.Attribute.textPanX;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.textPanY = global::AppPSOne.Droid.Resource.Attribute.textPanY;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.textStartPadding = global::AppPSOne.Droid.Resource.Attribute.textStartPadding;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.textureBlurFactor = global::AppPSOne.Droid.Resource.Attribute.textureBlurFactor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.textureEffect = global::AppPSOne.Droid.Resource.Attribute.textureEffect;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.textureHeight = global::AppPSOne.Droid.Resource.Attribute.textureHeight;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.textureWidth = global::AppPSOne.Droid.Resource.Attribute.textureWidth;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.theme = global::AppPSOne.Droid.Resource.Attribute.theme;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.themeLineHeight = global::AppPSOne.Droid.Resource.Attribute.themeLineHeight;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.thickness = global::AppPSOne.Droid.Resource.Attribute.thickness;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.thumbColor = global::AppPSOne.Droid.Resource.Attribute.thumbColor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.thumbElevation = global::AppPSOne.Droid.Resource.Attribute.thumbElevation;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.thumbRadius = global::AppPSOne.Droid.Resource.Attribute.thumbRadius;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.thumbStrokeColor = global::AppPSOne.Droid.Resource.Attribute.thumbStrokeColor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.thumbStrokeWidth = global::AppPSOne.Droid.Resource.Attribute.thumbStrokeWidth;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.thumbTextPadding = global::AppPSOne.Droid.Resource.Attribute.thumbTextPadding;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.thumbTint = global::AppPSOne.Droid.Resource.Attribute.thumbTint;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.thumbTintMode = global::AppPSOne.Droid.Resource.Attribute.thumbTintMode;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.tickColor = global::AppPSOne.Droid.Resource.Attribute.tickColor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.tickColorActive = global::AppPSOne.Droid.Resource.Attribute.tickColorActive;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.tickColorInactive = global::AppPSOne.Droid.Resource.Attribute.tickColorInactive;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.tickMark = global::AppPSOne.Droid.Resource.Attribute.tickMark;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.tickMarkTint = global::AppPSOne.Droid.Resource.Attribute.tickMarkTint;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.tickMarkTintMode = global::AppPSOne.Droid.Resource.Attribute.tickMarkTintMode;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.tickVisible = global::AppPSOne.Droid.Resource.Attribute.tickVisible;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.tint = global::AppPSOne.Droid.Resource.Attribute.tint;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.tintMode = global::AppPSOne.Droid.Resource.Attribute.tintMode;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.title = global::AppPSOne.Droid.Resource.Attribute.title;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.titleCentered = global::AppPSOne.Droid.Resource.Attribute.titleCentered;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.titleCollapseMode = global::AppPSOne.Droid.Resource.Attribute.titleCollapseMode;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.titleEnabled = global::AppPSOne.Droid.Resource.Attribute.titleEnabled;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.titleMargin = global::AppPSOne.Droid.Resource.Attribute.titleMargin;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.titleMarginBottom = global::AppPSOne.Droid.Resource.Attribute.titleMarginBottom;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.titleMarginEnd = global::AppPSOne.Droid.Resource.Attribute.titleMarginEnd;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.titleMargins = global::AppPSOne.Droid.Resource.Attribute.titleMargins;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.titleMarginStart = global::AppPSOne.Droid.Resource.Attribute.titleMarginStart;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.titleMarginTop = global::AppPSOne.Droid.Resource.Attribute.titleMarginTop;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.titleTextAppearance = global::AppPSOne.Droid.Resource.Attribute.titleTextAppearance;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.titleTextColor = global::AppPSOne.Droid.Resource.Attribute.titleTextColor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.titleTextStyle = global::AppPSOne.Droid.Resource.Attribute.titleTextStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.toolbarId = global::AppPSOne.Droid.Resource.Attribute.toolbarId;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.toolbarNavigationButtonStyle = global::AppPSOne.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.toolbarStyle = global::AppPSOne.Droid.Resource.Attribute.toolbarStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.tooltipForegroundColor = global::AppPSOne.Droid.Resource.Attribute.tooltipForegroundColor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.tooltipFrameBackground = global::AppPSOne.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.tooltipStyle = global::AppPSOne.Droid.Resource.Attribute.tooltipStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.tooltipText = global::AppPSOne.Droid.Resource.Attribute.tooltipText;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.touchAnchorId = global::AppPSOne.Droid.Resource.Attribute.touchAnchorId;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.touchAnchorSide = global::AppPSOne.Droid.Resource.Attribute.touchAnchorSide;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.touchRegionId = global::AppPSOne.Droid.Resource.Attribute.touchRegionId;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.track = global::AppPSOne.Droid.Resource.Attribute.track;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.trackColor = global::AppPSOne.Droid.Resource.Attribute.trackColor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.trackColorActive = global::AppPSOne.Droid.Resource.Attribute.trackColorActive;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.trackColorInactive = global::AppPSOne.Droid.Resource.Attribute.trackColorInactive;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.trackCornerRadius = global::AppPSOne.Droid.Resource.Attribute.trackCornerRadius;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.trackHeight = global::AppPSOne.Droid.Resource.Attribute.trackHeight;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.trackThickness = global::AppPSOne.Droid.Resource.Attribute.trackThickness;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.trackTint = global::AppPSOne.Droid.Resource.Attribute.trackTint;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.trackTintMode = global::AppPSOne.Droid.Resource.Attribute.trackTintMode;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.transformPivotTarget = global::AppPSOne.Droid.Resource.Attribute.transformPivotTarget;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.transitionDisable = global::AppPSOne.Droid.Resource.Attribute.transitionDisable;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.transitionEasing = global::AppPSOne.Droid.Resource.Attribute.transitionEasing;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.transitionFlags = global::AppPSOne.Droid.Resource.Attribute.transitionFlags;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.transitionPathRotate = global::AppPSOne.Droid.Resource.Attribute.transitionPathRotate;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.transitionShapeAppearance = global::AppPSOne.Droid.Resource.Attribute.transitionShapeAppearance;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.triggerId = global::AppPSOne.Droid.Resource.Attribute.triggerId;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.triggerReceiver = global::AppPSOne.Droid.Resource.Attribute.triggerReceiver;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.triggerSlack = global::AppPSOne.Droid.Resource.Attribute.triggerSlack;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.ttcIndex = global::AppPSOne.Droid.Resource.Attribute.ttcIndex;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.updatesContinuously = global::AppPSOne.Droid.Resource.Attribute.updatesContinuously;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.upDuration = global::AppPSOne.Droid.Resource.Attribute.upDuration;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.uri = global::AppPSOne.Droid.Resource.Attribute.uri;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.useCompatPadding = global::AppPSOne.Droid.Resource.Attribute.useCompatPadding;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.useMaterialThemeColors = global::AppPSOne.Droid.Resource.Attribute.useMaterialThemeColors;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.useSimpleSummaryProvider = global::AppPSOne.Droid.Resource.Attribute.useSimpleSummaryProvider;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.values = global::AppPSOne.Droid.Resource.Attribute.values;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.verticalOffset = global::AppPSOne.Droid.Resource.Attribute.verticalOffset;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.viewInflaterClass = global::AppPSOne.Droid.Resource.Attribute.viewInflaterClass;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.viewTransitionMode = global::AppPSOne.Droid.Resource.Attribute.viewTransitionMode;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.viewTransitionOnCross = global::AppPSOne.Droid.Resource.Attribute.viewTransitionOnCross;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.viewTransitionOnNegativeCross = global::AppPSOne.Droid.Resource.Attribute.viewTransitionOnNegativeCross;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.viewTransitionOnPositiveCross = global::AppPSOne.Droid.Resource.Attribute.viewTransitionOnPositiveCross;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.visibilityMode = global::AppPSOne.Droid.Resource.Attribute.visibilityMode;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.voiceIcon = global::AppPSOne.Droid.Resource.Attribute.voiceIcon;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.warmth = global::AppPSOne.Droid.Resource.Attribute.warmth;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.waveDecay = global::AppPSOne.Droid.Resource.Attribute.waveDecay;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.waveOffset = global::AppPSOne.Droid.Resource.Attribute.waveOffset;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.wavePeriod = global::AppPSOne.Droid.Resource.Attribute.wavePeriod;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.wavePhase = global::AppPSOne.Droid.Resource.Attribute.wavePhase;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.waveShape = global::AppPSOne.Droid.Resource.Attribute.waveShape;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.waveVariesBy = global::AppPSOne.Droid.Resource.Attribute.waveVariesBy;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.widgetLayout = global::AppPSOne.Droid.Resource.Attribute.widgetLayout;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.windowActionBar = global::AppPSOne.Droid.Resource.Attribute.windowActionBar;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.windowActionBarOverlay = global::AppPSOne.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.windowActionModeOverlay = global::AppPSOne.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.windowFixedHeightMajor = global::AppPSOne.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.windowFixedHeightMinor = global::AppPSOne.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.windowFixedWidthMajor = global::AppPSOne.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.windowFixedWidthMinor = global::AppPSOne.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.windowMinWidthMajor = global::AppPSOne.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.windowMinWidthMinor = global::AppPSOne.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.windowNoTitle = global::AppPSOne.Droid.Resource.Attribute.windowNoTitle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.yearSelectedStyle = global::AppPSOne.Droid.Resource.Attribute.yearSelectedStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.yearStyle = global::AppPSOne.Droid.Resource.Attribute.yearStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.yearTodayStyle = global::AppPSOne.Droid.Resource.Attribute.yearTodayStyle;
+			global::Xamarin.CommunityToolkit.Resource.Boolean.abc_action_bar_embed_tabs = global::AppPSOne.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Xamarin.CommunityToolkit.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::AppPSOne.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Xamarin.CommunityToolkit.Resource.Boolean.config_materialPreferenceIconSpaceReserved = global::AppPSOne.Droid.Resource.Boolean.config_materialPreferenceIconSpaceReserved;
+			global::Xamarin.CommunityToolkit.Resource.Boolean.mtrl_btn_textappearance_all_caps = global::AppPSOne.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps;
+			global::Xamarin.CommunityToolkit.Resource.Color.abc_background_cache_hint_selector_material_dark = global::AppPSOne.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::Xamarin.CommunityToolkit.Resource.Color.abc_background_cache_hint_selector_material_light = global::AppPSOne.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::Xamarin.CommunityToolkit.Resource.Color.abc_btn_colored_borderless_text_material = global::AppPSOne.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::Xamarin.CommunityToolkit.Resource.Color.abc_btn_colored_text_material = global::AppPSOne.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::Xamarin.CommunityToolkit.Resource.Color.abc_color_highlight_material = global::AppPSOne.Droid.Resource.Color.abc_color_highlight_material;
+			global::Xamarin.CommunityToolkit.Resource.Color.abc_decor_view_status_guard = global::AppPSOne.Droid.Resource.Color.abc_decor_view_status_guard;
+			global::Xamarin.CommunityToolkit.Resource.Color.abc_decor_view_status_guard_light = global::AppPSOne.Droid.Resource.Color.abc_decor_view_status_guard_light;
+			global::Xamarin.CommunityToolkit.Resource.Color.abc_hint_foreground_material_dark = global::AppPSOne.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::Xamarin.CommunityToolkit.Resource.Color.abc_hint_foreground_material_light = global::AppPSOne.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::Xamarin.CommunityToolkit.Resource.Color.abc_primary_text_disable_only_material_dark = global::AppPSOne.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::Xamarin.CommunityToolkit.Resource.Color.abc_primary_text_disable_only_material_light = global::AppPSOne.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::Xamarin.CommunityToolkit.Resource.Color.abc_primary_text_material_dark = global::AppPSOne.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::Xamarin.CommunityToolkit.Resource.Color.abc_primary_text_material_light = global::AppPSOne.Droid.Resource.Color.abc_primary_text_material_light;
+			global::Xamarin.CommunityToolkit.Resource.Color.abc_search_url_text = global::AppPSOne.Droid.Resource.Color.abc_search_url_text;
+			global::Xamarin.CommunityToolkit.Resource.Color.abc_search_url_text_normal = global::AppPSOne.Droid.Resource.Color.abc_search_url_text_normal;
+			global::Xamarin.CommunityToolkit.Resource.Color.abc_search_url_text_pressed = global::AppPSOne.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::Xamarin.CommunityToolkit.Resource.Color.abc_search_url_text_selected = global::AppPSOne.Droid.Resource.Color.abc_search_url_text_selected;
+			global::Xamarin.CommunityToolkit.Resource.Color.abc_secondary_text_material_dark = global::AppPSOne.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::Xamarin.CommunityToolkit.Resource.Color.abc_secondary_text_material_light = global::AppPSOne.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::Xamarin.CommunityToolkit.Resource.Color.abc_tint_btn_checkable = global::AppPSOne.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::Xamarin.CommunityToolkit.Resource.Color.abc_tint_default = global::AppPSOne.Droid.Resource.Color.abc_tint_default;
+			global::Xamarin.CommunityToolkit.Resource.Color.abc_tint_edittext = global::AppPSOne.Droid.Resource.Color.abc_tint_edittext;
+			global::Xamarin.CommunityToolkit.Resource.Color.abc_tint_seek_thumb = global::AppPSOne.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::Xamarin.CommunityToolkit.Resource.Color.abc_tint_spinner = global::AppPSOne.Droid.Resource.Color.abc_tint_spinner;
+			global::Xamarin.CommunityToolkit.Resource.Color.abc_tint_switch_track = global::AppPSOne.Droid.Resource.Color.abc_tint_switch_track;
+			global::Xamarin.CommunityToolkit.Resource.Color.accent_material_dark = global::AppPSOne.Droid.Resource.Color.accent_material_dark;
+			global::Xamarin.CommunityToolkit.Resource.Color.accent_material_light = global::AppPSOne.Droid.Resource.Color.accent_material_light;
+			global::Xamarin.CommunityToolkit.Resource.Color.androidx_core_ripple_material_light = global::AppPSOne.Droid.Resource.Color.androidx_core_ripple_material_light;
+			global::Xamarin.CommunityToolkit.Resource.Color.androidx_core_secondary_text_default_material_light = global::AppPSOne.Droid.Resource.Color.androidx_core_secondary_text_default_material_light;
+			global::Xamarin.CommunityToolkit.Resource.Color.background_floating_material_dark = global::AppPSOne.Droid.Resource.Color.background_floating_material_dark;
+			global::Xamarin.CommunityToolkit.Resource.Color.background_floating_material_light = global::AppPSOne.Droid.Resource.Color.background_floating_material_light;
+			global::Xamarin.CommunityToolkit.Resource.Color.background_material_dark = global::AppPSOne.Droid.Resource.Color.background_material_dark;
+			global::Xamarin.CommunityToolkit.Resource.Color.background_material_light = global::AppPSOne.Droid.Resource.Color.background_material_light;
+			global::Xamarin.CommunityToolkit.Resource.Color.bright_foreground_disabled_material_dark = global::AppPSOne.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::Xamarin.CommunityToolkit.Resource.Color.bright_foreground_disabled_material_light = global::AppPSOne.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::Xamarin.CommunityToolkit.Resource.Color.bright_foreground_inverse_material_dark = global::AppPSOne.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::Xamarin.CommunityToolkit.Resource.Color.bright_foreground_inverse_material_light = global::AppPSOne.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::Xamarin.CommunityToolkit.Resource.Color.bright_foreground_material_dark = global::AppPSOne.Droid.Resource.Color.bright_foreground_material_dark;
+			global::Xamarin.CommunityToolkit.Resource.Color.bright_foreground_material_light = global::AppPSOne.Droid.Resource.Color.bright_foreground_material_light;
+			global::Xamarin.CommunityToolkit.Resource.Color.browser_actions_bg_grey = global::AppPSOne.Droid.Resource.Color.browser_actions_bg_grey;
+			global::Xamarin.CommunityToolkit.Resource.Color.browser_actions_divider_color = global::AppPSOne.Droid.Resource.Color.browser_actions_divider_color;
+			global::Xamarin.CommunityToolkit.Resource.Color.browser_actions_text_color = global::AppPSOne.Droid.Resource.Color.browser_actions_text_color;
+			global::Xamarin.CommunityToolkit.Resource.Color.browser_actions_title_color = global::AppPSOne.Droid.Resource.Color.browser_actions_title_color;
+			global::Xamarin.CommunityToolkit.Resource.Color.button_material_dark = global::AppPSOne.Droid.Resource.Color.button_material_dark;
+			global::Xamarin.CommunityToolkit.Resource.Color.button_material_light = global::AppPSOne.Droid.Resource.Color.button_material_light;
+			global::Xamarin.CommunityToolkit.Resource.Color.cardview_dark_background = global::AppPSOne.Droid.Resource.Color.cardview_dark_background;
+			global::Xamarin.CommunityToolkit.Resource.Color.cardview_light_background = global::AppPSOne.Droid.Resource.Color.cardview_light_background;
+			global::Xamarin.CommunityToolkit.Resource.Color.cardview_shadow_end_color = global::AppPSOne.Droid.Resource.Color.cardview_shadow_end_color;
+			global::Xamarin.CommunityToolkit.Resource.Color.cardview_shadow_start_color = global::AppPSOne.Droid.Resource.Color.cardview_shadow_start_color;
+			global::Xamarin.CommunityToolkit.Resource.Color.checkbox_themeable_attribute_color = global::AppPSOne.Droid.Resource.Color.checkbox_themeable_attribute_color;
+			global::Xamarin.CommunityToolkit.Resource.Color.design_bottom_navigation_shadow_color = global::AppPSOne.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::Xamarin.CommunityToolkit.Resource.Color.design_box_stroke_color = global::AppPSOne.Droid.Resource.Color.design_box_stroke_color;
+			global::Xamarin.CommunityToolkit.Resource.Color.design_dark_default_color_background = global::AppPSOne.Droid.Resource.Color.design_dark_default_color_background;
+			global::Xamarin.CommunityToolkit.Resource.Color.design_dark_default_color_error = global::AppPSOne.Droid.Resource.Color.design_dark_default_color_error;
+			global::Xamarin.CommunityToolkit.Resource.Color.design_dark_default_color_on_background = global::AppPSOne.Droid.Resource.Color.design_dark_default_color_on_background;
+			global::Xamarin.CommunityToolkit.Resource.Color.design_dark_default_color_on_error = global::AppPSOne.Droid.Resource.Color.design_dark_default_color_on_error;
+			global::Xamarin.CommunityToolkit.Resource.Color.design_dark_default_color_on_primary = global::AppPSOne.Droid.Resource.Color.design_dark_default_color_on_primary;
+			global::Xamarin.CommunityToolkit.Resource.Color.design_dark_default_color_on_secondary = global::AppPSOne.Droid.Resource.Color.design_dark_default_color_on_secondary;
+			global::Xamarin.CommunityToolkit.Resource.Color.design_dark_default_color_on_surface = global::AppPSOne.Droid.Resource.Color.design_dark_default_color_on_surface;
+			global::Xamarin.CommunityToolkit.Resource.Color.design_dark_default_color_primary = global::AppPSOne.Droid.Resource.Color.design_dark_default_color_primary;
+			global::Xamarin.CommunityToolkit.Resource.Color.design_dark_default_color_primary_dark = global::AppPSOne.Droid.Resource.Color.design_dark_default_color_primary_dark;
+			global::Xamarin.CommunityToolkit.Resource.Color.design_dark_default_color_primary_variant = global::AppPSOne.Droid.Resource.Color.design_dark_default_color_primary_variant;
+			global::Xamarin.CommunityToolkit.Resource.Color.design_dark_default_color_secondary = global::AppPSOne.Droid.Resource.Color.design_dark_default_color_secondary;
+			global::Xamarin.CommunityToolkit.Resource.Color.design_dark_default_color_secondary_variant = global::AppPSOne.Droid.Resource.Color.design_dark_default_color_secondary_variant;
+			global::Xamarin.CommunityToolkit.Resource.Color.design_dark_default_color_surface = global::AppPSOne.Droid.Resource.Color.design_dark_default_color_surface;
+			global::Xamarin.CommunityToolkit.Resource.Color.design_default_color_background = global::AppPSOne.Droid.Resource.Color.design_default_color_background;
+			global::Xamarin.CommunityToolkit.Resource.Color.design_default_color_error = global::AppPSOne.Droid.Resource.Color.design_default_color_error;
+			global::Xamarin.CommunityToolkit.Resource.Color.design_default_color_on_background = global::AppPSOne.Droid.Resource.Color.design_default_color_on_background;
+			global::Xamarin.CommunityToolkit.Resource.Color.design_default_color_on_error = global::AppPSOne.Droid.Resource.Color.design_default_color_on_error;
+			global::Xamarin.CommunityToolkit.Resource.Color.design_default_color_on_primary = global::AppPSOne.Droid.Resource.Color.design_default_color_on_primary;
+			global::Xamarin.CommunityToolkit.Resource.Color.design_default_color_on_secondary = global::AppPSOne.Droid.Resource.Color.design_default_color_on_secondary;
+			global::Xamarin.CommunityToolkit.Resource.Color.design_default_color_on_surface = global::AppPSOne.Droid.Resource.Color.design_default_color_on_surface;
+			global::Xamarin.CommunityToolkit.Resource.Color.design_default_color_primary = global::AppPSOne.Droid.Resource.Color.design_default_color_primary;
+			global::Xamarin.CommunityToolkit.Resource.Color.design_default_color_primary_dark = global::AppPSOne.Droid.Resource.Color.design_default_color_primary_dark;
+			global::Xamarin.CommunityToolkit.Resource.Color.design_default_color_primary_variant = global::AppPSOne.Droid.Resource.Color.design_default_color_primary_variant;
+			global::Xamarin.CommunityToolkit.Resource.Color.design_default_color_secondary = global::AppPSOne.Droid.Resource.Color.design_default_color_secondary;
+			global::Xamarin.CommunityToolkit.Resource.Color.design_default_color_secondary_variant = global::AppPSOne.Droid.Resource.Color.design_default_color_secondary_variant;
+			global::Xamarin.CommunityToolkit.Resource.Color.design_default_color_surface = global::AppPSOne.Droid.Resource.Color.design_default_color_surface;
+			global::Xamarin.CommunityToolkit.Resource.Color.design_error = global::AppPSOne.Droid.Resource.Color.design_error;
+			global::Xamarin.CommunityToolkit.Resource.Color.design_fab_shadow_end_color = global::AppPSOne.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::Xamarin.CommunityToolkit.Resource.Color.design_fab_shadow_mid_color = global::AppPSOne.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::Xamarin.CommunityToolkit.Resource.Color.design_fab_shadow_start_color = global::AppPSOne.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::Xamarin.CommunityToolkit.Resource.Color.design_fab_stroke_end_inner_color = global::AppPSOne.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::Xamarin.CommunityToolkit.Resource.Color.design_fab_stroke_end_outer_color = global::AppPSOne.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::Xamarin.CommunityToolkit.Resource.Color.design_fab_stroke_top_inner_color = global::AppPSOne.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::Xamarin.CommunityToolkit.Resource.Color.design_fab_stroke_top_outer_color = global::AppPSOne.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::Xamarin.CommunityToolkit.Resource.Color.design_icon_tint = global::AppPSOne.Droid.Resource.Color.design_icon_tint;
+			global::Xamarin.CommunityToolkit.Resource.Color.design_snackbar_background_color = global::AppPSOne.Droid.Resource.Color.design_snackbar_background_color;
+			global::Xamarin.CommunityToolkit.Resource.Color.dim_foreground_disabled_material_dark = global::AppPSOne.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::Xamarin.CommunityToolkit.Resource.Color.dim_foreground_disabled_material_light = global::AppPSOne.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::Xamarin.CommunityToolkit.Resource.Color.dim_foreground_material_dark = global::AppPSOne.Droid.Resource.Color.dim_foreground_material_dark;
+			global::Xamarin.CommunityToolkit.Resource.Color.dim_foreground_material_light = global::AppPSOne.Droid.Resource.Color.dim_foreground_material_light;
+			global::Xamarin.CommunityToolkit.Resource.Color.error_color_material_dark = global::AppPSOne.Droid.Resource.Color.error_color_material_dark;
+			global::Xamarin.CommunityToolkit.Resource.Color.error_color_material_light = global::AppPSOne.Droid.Resource.Color.error_color_material_light;
+			global::Xamarin.CommunityToolkit.Resource.Color.foreground_material_dark = global::AppPSOne.Droid.Resource.Color.foreground_material_dark;
+			global::Xamarin.CommunityToolkit.Resource.Color.foreground_material_light = global::AppPSOne.Droid.Resource.Color.foreground_material_light;
+			global::Xamarin.CommunityToolkit.Resource.Color.highlighted_text_material_dark = global::AppPSOne.Droid.Resource.Color.highlighted_text_material_dark;
+			global::Xamarin.CommunityToolkit.Resource.Color.highlighted_text_material_light = global::AppPSOne.Droid.Resource.Color.highlighted_text_material_light;
+			global::Xamarin.CommunityToolkit.Resource.Color.material_blue_grey_800 = global::AppPSOne.Droid.Resource.Color.material_blue_grey_800;
+			global::Xamarin.CommunityToolkit.Resource.Color.material_blue_grey_900 = global::AppPSOne.Droid.Resource.Color.material_blue_grey_900;
+			global::Xamarin.CommunityToolkit.Resource.Color.material_blue_grey_950 = global::AppPSOne.Droid.Resource.Color.material_blue_grey_950;
+			global::Xamarin.CommunityToolkit.Resource.Color.material_cursor_color = global::AppPSOne.Droid.Resource.Color.material_cursor_color;
+			global::Xamarin.CommunityToolkit.Resource.Color.material_deep_teal_200 = global::AppPSOne.Droid.Resource.Color.material_deep_teal_200;
+			global::Xamarin.CommunityToolkit.Resource.Color.material_deep_teal_500 = global::AppPSOne.Droid.Resource.Color.material_deep_teal_500;
+			global::Xamarin.CommunityToolkit.Resource.Color.material_grey_100 = global::AppPSOne.Droid.Resource.Color.material_grey_100;
+			global::Xamarin.CommunityToolkit.Resource.Color.material_grey_300 = global::AppPSOne.Droid.Resource.Color.material_grey_300;
+			global::Xamarin.CommunityToolkit.Resource.Color.material_grey_50 = global::AppPSOne.Droid.Resource.Color.material_grey_50;
+			global::Xamarin.CommunityToolkit.Resource.Color.material_grey_600 = global::AppPSOne.Droid.Resource.Color.material_grey_600;
+			global::Xamarin.CommunityToolkit.Resource.Color.material_grey_800 = global::AppPSOne.Droid.Resource.Color.material_grey_800;
+			global::Xamarin.CommunityToolkit.Resource.Color.material_grey_850 = global::AppPSOne.Droid.Resource.Color.material_grey_850;
+			global::Xamarin.CommunityToolkit.Resource.Color.material_grey_900 = global::AppPSOne.Droid.Resource.Color.material_grey_900;
+			global::Xamarin.CommunityToolkit.Resource.Color.material_on_background_disabled = global::AppPSOne.Droid.Resource.Color.material_on_background_disabled;
+			global::Xamarin.CommunityToolkit.Resource.Color.material_on_background_emphasis_high_type = global::AppPSOne.Droid.Resource.Color.material_on_background_emphasis_high_type;
+			global::Xamarin.CommunityToolkit.Resource.Color.material_on_background_emphasis_medium = global::AppPSOne.Droid.Resource.Color.material_on_background_emphasis_medium;
+			global::Xamarin.CommunityToolkit.Resource.Color.material_on_primary_disabled = global::AppPSOne.Droid.Resource.Color.material_on_primary_disabled;
+			global::Xamarin.CommunityToolkit.Resource.Color.material_on_primary_emphasis_high_type = global::AppPSOne.Droid.Resource.Color.material_on_primary_emphasis_high_type;
+			global::Xamarin.CommunityToolkit.Resource.Color.material_on_primary_emphasis_medium = global::AppPSOne.Droid.Resource.Color.material_on_primary_emphasis_medium;
+			global::Xamarin.CommunityToolkit.Resource.Color.material_on_surface_disabled = global::AppPSOne.Droid.Resource.Color.material_on_surface_disabled;
+			global::Xamarin.CommunityToolkit.Resource.Color.material_on_surface_emphasis_high_type = global::AppPSOne.Droid.Resource.Color.material_on_surface_emphasis_high_type;
+			global::Xamarin.CommunityToolkit.Resource.Color.material_on_surface_emphasis_medium = global::AppPSOne.Droid.Resource.Color.material_on_surface_emphasis_medium;
+			global::Xamarin.CommunityToolkit.Resource.Color.material_on_surface_stroke = global::AppPSOne.Droid.Resource.Color.material_on_surface_stroke;
+			global::Xamarin.CommunityToolkit.Resource.Color.material_slider_active_tick_marks_color = global::AppPSOne.Droid.Resource.Color.material_slider_active_tick_marks_color;
+			global::Xamarin.CommunityToolkit.Resource.Color.material_slider_active_track_color = global::AppPSOne.Droid.Resource.Color.material_slider_active_track_color;
+			global::Xamarin.CommunityToolkit.Resource.Color.material_slider_halo_color = global::AppPSOne.Droid.Resource.Color.material_slider_halo_color;
+			global::Xamarin.CommunityToolkit.Resource.Color.material_slider_inactive_tick_marks_color = global::AppPSOne.Droid.Resource.Color.material_slider_inactive_tick_marks_color;
+			global::Xamarin.CommunityToolkit.Resource.Color.material_slider_inactive_track_color = global::AppPSOne.Droid.Resource.Color.material_slider_inactive_track_color;
+			global::Xamarin.CommunityToolkit.Resource.Color.material_slider_thumb_color = global::AppPSOne.Droid.Resource.Color.material_slider_thumb_color;
+			global::Xamarin.CommunityToolkit.Resource.Color.material_timepicker_button_background = global::AppPSOne.Droid.Resource.Color.material_timepicker_button_background;
+			global::Xamarin.CommunityToolkit.Resource.Color.material_timepicker_button_stroke = global::AppPSOne.Droid.Resource.Color.material_timepicker_button_stroke;
+			global::Xamarin.CommunityToolkit.Resource.Color.material_timepicker_clockface = global::AppPSOne.Droid.Resource.Color.material_timepicker_clockface;
+			global::Xamarin.CommunityToolkit.Resource.Color.material_timepicker_clock_text_color = global::AppPSOne.Droid.Resource.Color.material_timepicker_clock_text_color;
+			global::Xamarin.CommunityToolkit.Resource.Color.material_timepicker_modebutton_tint = global::AppPSOne.Droid.Resource.Color.material_timepicker_modebutton_tint;
+			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_btn_bg_color_selector = global::AppPSOne.Droid.Resource.Color.mtrl_btn_bg_color_selector;
+			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_btn_ripple_color = global::AppPSOne.Droid.Resource.Color.mtrl_btn_ripple_color;
+			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_btn_stroke_color_selector = global::AppPSOne.Droid.Resource.Color.mtrl_btn_stroke_color_selector;
+			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_btn_text_btn_bg_color_selector = global::AppPSOne.Droid.Resource.Color.mtrl_btn_text_btn_bg_color_selector;
+			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_btn_text_btn_ripple_color = global::AppPSOne.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color;
+			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_btn_text_color_disabled = global::AppPSOne.Droid.Resource.Color.mtrl_btn_text_color_disabled;
+			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_btn_text_color_selector = global::AppPSOne.Droid.Resource.Color.mtrl_btn_text_color_selector;
+			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_btn_transparent_bg_color = global::AppPSOne.Droid.Resource.Color.mtrl_btn_transparent_bg_color;
+			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_calendar_item_stroke_color = global::AppPSOne.Droid.Resource.Color.mtrl_calendar_item_stroke_color;
+			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_calendar_selected_range = global::AppPSOne.Droid.Resource.Color.mtrl_calendar_selected_range;
+			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_card_view_foreground = global::AppPSOne.Droid.Resource.Color.mtrl_card_view_foreground;
+			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_card_view_ripple = global::AppPSOne.Droid.Resource.Color.mtrl_card_view_ripple;
+			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_chip_background_color = global::AppPSOne.Droid.Resource.Color.mtrl_chip_background_color;
+			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_chip_close_icon_tint = global::AppPSOne.Droid.Resource.Color.mtrl_chip_close_icon_tint;
+			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_chip_surface_color = global::AppPSOne.Droid.Resource.Color.mtrl_chip_surface_color;
+			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_chip_text_color = global::AppPSOne.Droid.Resource.Color.mtrl_chip_text_color;
+			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_choice_chip_background_color = global::AppPSOne.Droid.Resource.Color.mtrl_choice_chip_background_color;
+			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_choice_chip_ripple_color = global::AppPSOne.Droid.Resource.Color.mtrl_choice_chip_ripple_color;
+			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_choice_chip_text_color = global::AppPSOne.Droid.Resource.Color.mtrl_choice_chip_text_color;
+			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_error = global::AppPSOne.Droid.Resource.Color.mtrl_error;
+			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_fab_bg_color_selector = global::AppPSOne.Droid.Resource.Color.mtrl_fab_bg_color_selector;
+			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_fab_icon_text_color_selector = global::AppPSOne.Droid.Resource.Color.mtrl_fab_icon_text_color_selector;
+			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_fab_ripple_color = global::AppPSOne.Droid.Resource.Color.mtrl_fab_ripple_color;
+			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_filled_background_color = global::AppPSOne.Droid.Resource.Color.mtrl_filled_background_color;
+			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_filled_icon_tint = global::AppPSOne.Droid.Resource.Color.mtrl_filled_icon_tint;
+			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_filled_stroke_color = global::AppPSOne.Droid.Resource.Color.mtrl_filled_stroke_color;
+			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_indicator_text_color = global::AppPSOne.Droid.Resource.Color.mtrl_indicator_text_color;
+			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_navigation_bar_colored_item_tint = global::AppPSOne.Droid.Resource.Color.mtrl_navigation_bar_colored_item_tint;
+			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_navigation_bar_colored_ripple_color = global::AppPSOne.Droid.Resource.Color.mtrl_navigation_bar_colored_ripple_color;
+			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_navigation_bar_item_tint = global::AppPSOne.Droid.Resource.Color.mtrl_navigation_bar_item_tint;
+			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_navigation_bar_ripple_color = global::AppPSOne.Droid.Resource.Color.mtrl_navigation_bar_ripple_color;
+			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_navigation_item_background_color = global::AppPSOne.Droid.Resource.Color.mtrl_navigation_item_background_color;
+			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_navigation_item_icon_tint = global::AppPSOne.Droid.Resource.Color.mtrl_navigation_item_icon_tint;
+			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_navigation_item_text_color = global::AppPSOne.Droid.Resource.Color.mtrl_navigation_item_text_color;
+			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_on_primary_text_btn_text_color_selector = global::AppPSOne.Droid.Resource.Color.mtrl_on_primary_text_btn_text_color_selector;
+			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_on_surface_ripple_color = global::AppPSOne.Droid.Resource.Color.mtrl_on_surface_ripple_color;
+			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_outlined_icon_tint = global::AppPSOne.Droid.Resource.Color.mtrl_outlined_icon_tint;
+			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_outlined_stroke_color = global::AppPSOne.Droid.Resource.Color.mtrl_outlined_stroke_color;
+			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_popupmenu_overlay_color = global::AppPSOne.Droid.Resource.Color.mtrl_popupmenu_overlay_color;
+			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_scrim_color = global::AppPSOne.Droid.Resource.Color.mtrl_scrim_color;
+			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_tabs_colored_ripple_color = global::AppPSOne.Droid.Resource.Color.mtrl_tabs_colored_ripple_color;
+			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_tabs_icon_color_selector = global::AppPSOne.Droid.Resource.Color.mtrl_tabs_icon_color_selector;
+			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_tabs_icon_color_selector_colored = global::AppPSOne.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored;
+			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_tabs_legacy_text_color_selector = global::AppPSOne.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector;
+			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_tabs_ripple_color = global::AppPSOne.Droid.Resource.Color.mtrl_tabs_ripple_color;
+			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_textinput_default_box_stroke_color = global::AppPSOne.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color;
+			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_textinput_disabled_color = global::AppPSOne.Droid.Resource.Color.mtrl_textinput_disabled_color;
+			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::AppPSOne.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color;
+			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_textinput_focused_box_stroke_color = global::AppPSOne.Droid.Resource.Color.mtrl_textinput_focused_box_stroke_color;
+			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::AppPSOne.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
+			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_text_btn_text_color_selector = global::AppPSOne.Droid.Resource.Color.mtrl_text_btn_text_color_selector;
+			global::Xamarin.CommunityToolkit.Resource.Color.notification_action_color_filter = global::AppPSOne.Droid.Resource.Color.notification_action_color_filter;
+			global::Xamarin.CommunityToolkit.Resource.Color.notification_icon_bg_color = global::AppPSOne.Droid.Resource.Color.notification_icon_bg_color;
+			global::Xamarin.CommunityToolkit.Resource.Color.notification_material_background_media_default_color = global::AppPSOne.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::Xamarin.CommunityToolkit.Resource.Color.preference_fallback_accent_color = global::AppPSOne.Droid.Resource.Color.preference_fallback_accent_color;
+			global::Xamarin.CommunityToolkit.Resource.Color.primary_dark_material_dark = global::AppPSOne.Droid.Resource.Color.primary_dark_material_dark;
+			global::Xamarin.CommunityToolkit.Resource.Color.primary_dark_material_light = global::AppPSOne.Droid.Resource.Color.primary_dark_material_light;
+			global::Xamarin.CommunityToolkit.Resource.Color.primary_material_dark = global::AppPSOne.Droid.Resource.Color.primary_material_dark;
+			global::Xamarin.CommunityToolkit.Resource.Color.primary_material_light = global::AppPSOne.Droid.Resource.Color.primary_material_light;
+			global::Xamarin.CommunityToolkit.Resource.Color.primary_text_default_material_dark = global::AppPSOne.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Xamarin.CommunityToolkit.Resource.Color.primary_text_default_material_light = global::AppPSOne.Droid.Resource.Color.primary_text_default_material_light;
+			global::Xamarin.CommunityToolkit.Resource.Color.primary_text_disabled_material_dark = global::AppPSOne.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::Xamarin.CommunityToolkit.Resource.Color.primary_text_disabled_material_light = global::AppPSOne.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Xamarin.CommunityToolkit.Resource.Color.radiobutton_themeable_attribute_color = global::AppPSOne.Droid.Resource.Color.radiobutton_themeable_attribute_color;
+			global::Xamarin.CommunityToolkit.Resource.Color.ripple_material_dark = global::AppPSOne.Droid.Resource.Color.ripple_material_dark;
+			global::Xamarin.CommunityToolkit.Resource.Color.ripple_material_light = global::AppPSOne.Droid.Resource.Color.ripple_material_light;
+			global::Xamarin.CommunityToolkit.Resource.Color.secondary_text_default_material_dark = global::AppPSOne.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Xamarin.CommunityToolkit.Resource.Color.secondary_text_default_material_light = global::AppPSOne.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Xamarin.CommunityToolkit.Resource.Color.secondary_text_disabled_material_dark = global::AppPSOne.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::Xamarin.CommunityToolkit.Resource.Color.secondary_text_disabled_material_light = global::AppPSOne.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::Xamarin.CommunityToolkit.Resource.Color.switch_thumb_disabled_material_dark = global::AppPSOne.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::Xamarin.CommunityToolkit.Resource.Color.switch_thumb_disabled_material_light = global::AppPSOne.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::Xamarin.CommunityToolkit.Resource.Color.switch_thumb_material_dark = global::AppPSOne.Droid.Resource.Color.switch_thumb_material_dark;
+			global::Xamarin.CommunityToolkit.Resource.Color.switch_thumb_material_light = global::AppPSOne.Droid.Resource.Color.switch_thumb_material_light;
+			global::Xamarin.CommunityToolkit.Resource.Color.switch_thumb_normal_material_dark = global::AppPSOne.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::Xamarin.CommunityToolkit.Resource.Color.switch_thumb_normal_material_light = global::AppPSOne.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Xamarin.CommunityToolkit.Resource.Color.test_mtrl_calendar_day = global::AppPSOne.Droid.Resource.Color.test_mtrl_calendar_day;
+			global::Xamarin.CommunityToolkit.Resource.Color.test_mtrl_calendar_day_selected = global::AppPSOne.Droid.Resource.Color.test_mtrl_calendar_day_selected;
+			global::Xamarin.CommunityToolkit.Resource.Color.tooltip_background_dark = global::AppPSOne.Droid.Resource.Color.tooltip_background_dark;
+			global::Xamarin.CommunityToolkit.Resource.Color.tooltip_background_light = global::AppPSOne.Droid.Resource.Color.tooltip_background_light;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_action_bar_content_inset_material = global::AppPSOne.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::AppPSOne.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_action_bar_default_height_material = global::AppPSOne.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_action_bar_default_padding_end_material = global::AppPSOne.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_action_bar_default_padding_start_material = global::AppPSOne.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_action_bar_elevation_material = global::AppPSOne.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::AppPSOne.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::AppPSOne.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::AppPSOne.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_action_bar_stacked_max_height = global::AppPSOne.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::AppPSOne.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::AppPSOne.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::AppPSOne.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_action_button_min_height_material = global::AppPSOne.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_action_button_min_width_material = global::AppPSOne.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_action_button_min_width_overflow_material = global::AppPSOne.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_alert_dialog_button_bar_height = global::AppPSOne.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_alert_dialog_button_dimen = global::AppPSOne.Droid.Resource.Dimension.abc_alert_dialog_button_dimen;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_button_inset_horizontal_material = global::AppPSOne.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_button_inset_vertical_material = global::AppPSOne.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_button_padding_horizontal_material = global::AppPSOne.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_button_padding_vertical_material = global::AppPSOne.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::AppPSOne.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_config_prefDialogWidth = global::AppPSOne.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_control_corner_material = global::AppPSOne.Droid.Resource.Dimension.abc_control_corner_material;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_control_inset_material = global::AppPSOne.Droid.Resource.Dimension.abc_control_inset_material;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_control_padding_material = global::AppPSOne.Droid.Resource.Dimension.abc_control_padding_material;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_dialog_corner_radius_material = global::AppPSOne.Droid.Resource.Dimension.abc_dialog_corner_radius_material;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_dialog_fixed_height_major = global::AppPSOne.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_dialog_fixed_height_minor = global::AppPSOne.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_dialog_fixed_width_major = global::AppPSOne.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_dialog_fixed_width_minor = global::AppPSOne.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::AppPSOne.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::AppPSOne.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_dialog_min_width_major = global::AppPSOne.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_dialog_min_width_minor = global::AppPSOne.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_dialog_padding_material = global::AppPSOne.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_dialog_padding_top_material = global::AppPSOne.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_dialog_title_divider_material = global::AppPSOne.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_disabled_alpha_material_dark = global::AppPSOne.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_disabled_alpha_material_light = global::AppPSOne.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_dropdownitem_icon_width = global::AppPSOne.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_dropdownitem_text_padding_left = global::AppPSOne.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_dropdownitem_text_padding_right = global::AppPSOne.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_edit_text_inset_bottom_material = global::AppPSOne.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::AppPSOne.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_edit_text_inset_top_material = global::AppPSOne.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_floating_window_z = global::AppPSOne.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_list_item_height_large_material = global::AppPSOne.Droid.Resource.Dimension.abc_list_item_height_large_material;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_list_item_height_material = global::AppPSOne.Droid.Resource.Dimension.abc_list_item_height_material;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_list_item_height_small_material = global::AppPSOne.Droid.Resource.Dimension.abc_list_item_height_small_material;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_list_item_padding_horizontal_material = global::AppPSOne.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_panel_menu_list_width = global::AppPSOne.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_progress_bar_height_material = global::AppPSOne.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_search_view_preferred_height = global::AppPSOne.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_search_view_preferred_width = global::AppPSOne.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_seekbar_track_background_height_material = global::AppPSOne.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_seekbar_track_progress_height_material = global::AppPSOne.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_select_dialog_padding_start_material = global::AppPSOne.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_star_big = global::AppPSOne.Droid.Resource.Dimension.abc_star_big;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_star_medium = global::AppPSOne.Droid.Resource.Dimension.abc_star_medium;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_star_small = global::AppPSOne.Droid.Resource.Dimension.abc_star_small;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_switch_padding = global::AppPSOne.Droid.Resource.Dimension.abc_switch_padding;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_text_size_body_1_material = global::AppPSOne.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_text_size_body_2_material = global::AppPSOne.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_text_size_button_material = global::AppPSOne.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_text_size_caption_material = global::AppPSOne.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_text_size_display_1_material = global::AppPSOne.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_text_size_display_2_material = global::AppPSOne.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_text_size_display_3_material = global::AppPSOne.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_text_size_display_4_material = global::AppPSOne.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_text_size_headline_material = global::AppPSOne.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_text_size_large_material = global::AppPSOne.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_text_size_medium_material = global::AppPSOne.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_text_size_menu_header_material = global::AppPSOne.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_text_size_menu_material = global::AppPSOne.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_text_size_small_material = global::AppPSOne.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_text_size_subhead_material = global::AppPSOne.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::AppPSOne.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_text_size_title_material = global::AppPSOne.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_text_size_title_material_toolbar = global::AppPSOne.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.action_bar_size = global::AppPSOne.Droid.Resource.Dimension.action_bar_size;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.appcompat_dialog_background_inset = global::AppPSOne.Droid.Resource.Dimension.appcompat_dialog_background_inset;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.browser_actions_context_menu_max_width = global::AppPSOne.Droid.Resource.Dimension.browser_actions_context_menu_max_width;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.browser_actions_context_menu_min_padding = global::AppPSOne.Droid.Resource.Dimension.browser_actions_context_menu_min_padding;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.cardview_compat_inset_shadow = global::AppPSOne.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.cardview_default_elevation = global::AppPSOne.Droid.Resource.Dimension.cardview_default_elevation;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.cardview_default_radius = global::AppPSOne.Droid.Resource.Dimension.cardview_default_radius;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.clock_face_margin_start = global::AppPSOne.Droid.Resource.Dimension.clock_face_margin_start;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.compat_button_inset_horizontal_material = global::AppPSOne.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.compat_button_inset_vertical_material = global::AppPSOne.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.compat_button_padding_horizontal_material = global::AppPSOne.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.compat_button_padding_vertical_material = global::AppPSOne.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.compat_control_corner_material = global::AppPSOne.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.compat_notification_large_icon_max_height = global::AppPSOne.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.compat_notification_large_icon_max_width = global::AppPSOne.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.default_dimension = global::AppPSOne.Droid.Resource.Dimension.default_dimension;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.def_drawer_elevation = global::AppPSOne.Droid.Resource.Dimension.def_drawer_elevation;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.design_appbar_elevation = global::AppPSOne.Droid.Resource.Dimension.design_appbar_elevation;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::AppPSOne.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::AppPSOne.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.design_bottom_navigation_active_text_size = global::AppPSOne.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.design_bottom_navigation_elevation = global::AppPSOne.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.design_bottom_navigation_height = global::AppPSOne.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.design_bottom_navigation_icon_size = global::AppPSOne.Droid.Resource.Dimension.design_bottom_navigation_icon_size;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.design_bottom_navigation_item_max_width = global::AppPSOne.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.design_bottom_navigation_item_min_width = global::AppPSOne.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.design_bottom_navigation_label_padding = global::AppPSOne.Droid.Resource.Dimension.design_bottom_navigation_label_padding;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.design_bottom_navigation_margin = global::AppPSOne.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.design_bottom_navigation_shadow_height = global::AppPSOne.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.design_bottom_navigation_text_size = global::AppPSOne.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.design_bottom_sheet_elevation = global::AppPSOne.Droid.Resource.Dimension.design_bottom_sheet_elevation;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.design_bottom_sheet_modal_elevation = global::AppPSOne.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.design_bottom_sheet_peek_height_min = global::AppPSOne.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.design_fab_border_width = global::AppPSOne.Droid.Resource.Dimension.design_fab_border_width;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.design_fab_elevation = global::AppPSOne.Droid.Resource.Dimension.design_fab_elevation;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.design_fab_image_size = global::AppPSOne.Droid.Resource.Dimension.design_fab_image_size;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.design_fab_size_mini = global::AppPSOne.Droid.Resource.Dimension.design_fab_size_mini;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.design_fab_size_normal = global::AppPSOne.Droid.Resource.Dimension.design_fab_size_normal;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.design_fab_translation_z_hovered_focused = global::AppPSOne.Droid.Resource.Dimension.design_fab_translation_z_hovered_focused;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.design_fab_translation_z_pressed = global::AppPSOne.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.design_navigation_elevation = global::AppPSOne.Droid.Resource.Dimension.design_navigation_elevation;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.design_navigation_icon_padding = global::AppPSOne.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.design_navigation_icon_size = global::AppPSOne.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.design_navigation_item_horizontal_padding = global::AppPSOne.Droid.Resource.Dimension.design_navigation_item_horizontal_padding;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.design_navigation_item_icon_padding = global::AppPSOne.Droid.Resource.Dimension.design_navigation_item_icon_padding;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.design_navigation_max_width = global::AppPSOne.Droid.Resource.Dimension.design_navigation_max_width;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.design_navigation_padding_bottom = global::AppPSOne.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.design_navigation_separator_vertical_padding = global::AppPSOne.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.design_snackbar_action_inline_max_width = global::AppPSOne.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.design_snackbar_action_text_color_alpha = global::AppPSOne.Droid.Resource.Dimension.design_snackbar_action_text_color_alpha;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.design_snackbar_background_corner_radius = global::AppPSOne.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.design_snackbar_elevation = global::AppPSOne.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::AppPSOne.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.design_snackbar_max_width = global::AppPSOne.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.design_snackbar_min_width = global::AppPSOne.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.design_snackbar_padding_horizontal = global::AppPSOne.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.design_snackbar_padding_vertical = global::AppPSOne.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::AppPSOne.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.design_snackbar_text_size = global::AppPSOne.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.design_tab_max_width = global::AppPSOne.Droid.Resource.Dimension.design_tab_max_width;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.design_tab_scrollable_min_width = global::AppPSOne.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.design_tab_text_size = global::AppPSOne.Droid.Resource.Dimension.design_tab_text_size;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.design_tab_text_size_2line = global::AppPSOne.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.design_textinput_caption_translate_y = global::AppPSOne.Droid.Resource.Dimension.design_textinput_caption_translate_y;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.disabled_alpha_material_dark = global::AppPSOne.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.disabled_alpha_material_light = global::AppPSOne.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.fastscroll_default_thickness = global::AppPSOne.Droid.Resource.Dimension.fastscroll_default_thickness;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.fastscroll_margin = global::AppPSOne.Droid.Resource.Dimension.fastscroll_margin;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.fastscroll_minimum_range = global::AppPSOne.Droid.Resource.Dimension.fastscroll_minimum_range;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.highlight_alpha_material_colored = global::AppPSOne.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.highlight_alpha_material_dark = global::AppPSOne.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.highlight_alpha_material_light = global::AppPSOne.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.hint_alpha_material_dark = global::AppPSOne.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.hint_alpha_material_light = global::AppPSOne.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.hint_pressed_alpha_material_dark = global::AppPSOne.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.hint_pressed_alpha_material_light = global::AppPSOne.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::AppPSOne.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::AppPSOne.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::AppPSOne.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.material_bottom_sheet_max_width = global::AppPSOne.Droid.Resource.Dimension.material_bottom_sheet_max_width;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.material_clock_display_padding = global::AppPSOne.Droid.Resource.Dimension.material_clock_display_padding;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.material_clock_face_margin_top = global::AppPSOne.Droid.Resource.Dimension.material_clock_face_margin_top;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.material_clock_hand_center_dot_radius = global::AppPSOne.Droid.Resource.Dimension.material_clock_hand_center_dot_radius;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.material_clock_hand_padding = global::AppPSOne.Droid.Resource.Dimension.material_clock_hand_padding;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.material_clock_hand_stroke_width = global::AppPSOne.Droid.Resource.Dimension.material_clock_hand_stroke_width;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.material_clock_number_text_size = global::AppPSOne.Droid.Resource.Dimension.material_clock_number_text_size;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.material_clock_period_toggle_height = global::AppPSOne.Droid.Resource.Dimension.material_clock_period_toggle_height;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.material_clock_period_toggle_margin_left = global::AppPSOne.Droid.Resource.Dimension.material_clock_period_toggle_margin_left;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.material_clock_period_toggle_width = global::AppPSOne.Droid.Resource.Dimension.material_clock_period_toggle_width;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.material_clock_size = global::AppPSOne.Droid.Resource.Dimension.material_clock_size;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.material_cursor_inset_bottom = global::AppPSOne.Droid.Resource.Dimension.material_cursor_inset_bottom;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.material_cursor_inset_top = global::AppPSOne.Droid.Resource.Dimension.material_cursor_inset_top;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.material_cursor_width = global::AppPSOne.Droid.Resource.Dimension.material_cursor_width;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.material_emphasis_disabled = global::AppPSOne.Droid.Resource.Dimension.material_emphasis_disabled;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.material_emphasis_high_type = global::AppPSOne.Droid.Resource.Dimension.material_emphasis_high_type;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.material_emphasis_medium = global::AppPSOne.Droid.Resource.Dimension.material_emphasis_medium;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.material_filled_edittext_font_1_3_padding_bottom = global::AppPSOne.Droid.Resource.Dimension.material_filled_edittext_font_1_3_padding_bottom;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.material_filled_edittext_font_1_3_padding_top = global::AppPSOne.Droid.Resource.Dimension.material_filled_edittext_font_1_3_padding_top;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.material_filled_edittext_font_2_0_padding_bottom = global::AppPSOne.Droid.Resource.Dimension.material_filled_edittext_font_2_0_padding_bottom;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.material_filled_edittext_font_2_0_padding_top = global::AppPSOne.Droid.Resource.Dimension.material_filled_edittext_font_2_0_padding_top;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.material_font_1_3_box_collapsed_padding_top = global::AppPSOne.Droid.Resource.Dimension.material_font_1_3_box_collapsed_padding_top;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.material_font_2_0_box_collapsed_padding_top = global::AppPSOne.Droid.Resource.Dimension.material_font_2_0_box_collapsed_padding_top;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.material_helper_text_default_padding_top = global::AppPSOne.Droid.Resource.Dimension.material_helper_text_default_padding_top;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.material_helper_text_font_1_3_padding_horizontal = global::AppPSOne.Droid.Resource.Dimension.material_helper_text_font_1_3_padding_horizontal;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.material_helper_text_font_1_3_padding_top = global::AppPSOne.Droid.Resource.Dimension.material_helper_text_font_1_3_padding_top;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.material_input_text_to_prefix_suffix_padding = global::AppPSOne.Droid.Resource.Dimension.material_input_text_to_prefix_suffix_padding;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.material_textinput_default_width = global::AppPSOne.Droid.Resource.Dimension.material_textinput_default_width;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.material_textinput_max_width = global::AppPSOne.Droid.Resource.Dimension.material_textinput_max_width;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.material_textinput_min_width = global::AppPSOne.Droid.Resource.Dimension.material_textinput_min_width;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.material_text_view_test_line_height = global::AppPSOne.Droid.Resource.Dimension.material_text_view_test_line_height;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.material_text_view_test_line_height_override = global::AppPSOne.Droid.Resource.Dimension.material_text_view_test_line_height_override;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.material_timepicker_dialog_buttons_margin_top = global::AppPSOne.Droid.Resource.Dimension.material_timepicker_dialog_buttons_margin_top;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.material_time_picker_minimum_screen_height = global::AppPSOne.Droid.Resource.Dimension.material_time_picker_minimum_screen_height;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.material_time_picker_minimum_screen_width = global::AppPSOne.Droid.Resource.Dimension.material_time_picker_minimum_screen_width;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_alert_dialog_background_inset_bottom = global::AppPSOne.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_bottom;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_alert_dialog_background_inset_end = global::AppPSOne.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_end;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_alert_dialog_background_inset_start = global::AppPSOne.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_start;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_alert_dialog_background_inset_top = global::AppPSOne.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_top;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_alert_dialog_picker_background_inset = global::AppPSOne.Droid.Resource.Dimension.mtrl_alert_dialog_picker_background_inset;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_badge_horizontal_edge_offset = global::AppPSOne.Droid.Resource.Dimension.mtrl_badge_horizontal_edge_offset;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_badge_long_text_horizontal_padding = global::AppPSOne.Droid.Resource.Dimension.mtrl_badge_long_text_horizontal_padding;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_badge_radius = global::AppPSOne.Droid.Resource.Dimension.mtrl_badge_radius;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_badge_text_horizontal_edge_offset = global::AppPSOne.Droid.Resource.Dimension.mtrl_badge_text_horizontal_edge_offset;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_badge_text_size = global::AppPSOne.Droid.Resource.Dimension.mtrl_badge_text_size;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_badge_toolbar_action_menu_item_horizontal_offset = global::AppPSOne.Droid.Resource.Dimension.mtrl_badge_toolbar_action_menu_item_horizontal_offset;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_badge_toolbar_action_menu_item_vertical_offset = global::AppPSOne.Droid.Resource.Dimension.mtrl_badge_toolbar_action_menu_item_vertical_offset;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_badge_with_text_radius = global::AppPSOne.Droid.Resource.Dimension.mtrl_badge_with_text_radius;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::AppPSOne.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_bottomappbar_fab_bottom_margin = global::AppPSOne.Droid.Resource.Dimension.mtrl_bottomappbar_fab_bottom_margin;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::AppPSOne.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::AppPSOne.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset = global::AppPSOne.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_bottomappbar_height = global::AppPSOne.Droid.Resource.Dimension.mtrl_bottomappbar_height;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_btn_corner_radius = global::AppPSOne.Droid.Resource.Dimension.mtrl_btn_corner_radius;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_btn_dialog_btn_min_width = global::AppPSOne.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_btn_disabled_elevation = global::AppPSOne.Droid.Resource.Dimension.mtrl_btn_disabled_elevation;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_btn_disabled_z = global::AppPSOne.Droid.Resource.Dimension.mtrl_btn_disabled_z;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_btn_elevation = global::AppPSOne.Droid.Resource.Dimension.mtrl_btn_elevation;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_btn_focused_z = global::AppPSOne.Droid.Resource.Dimension.mtrl_btn_focused_z;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_btn_hovered_z = global::AppPSOne.Droid.Resource.Dimension.mtrl_btn_hovered_z;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_btn_icon_btn_padding_left = global::AppPSOne.Droid.Resource.Dimension.mtrl_btn_icon_btn_padding_left;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_btn_icon_padding = global::AppPSOne.Droid.Resource.Dimension.mtrl_btn_icon_padding;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_btn_inset = global::AppPSOne.Droid.Resource.Dimension.mtrl_btn_inset;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_btn_letter_spacing = global::AppPSOne.Droid.Resource.Dimension.mtrl_btn_letter_spacing;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_btn_max_width = global::AppPSOne.Droid.Resource.Dimension.mtrl_btn_max_width;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_btn_padding_bottom = global::AppPSOne.Droid.Resource.Dimension.mtrl_btn_padding_bottom;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_btn_padding_left = global::AppPSOne.Droid.Resource.Dimension.mtrl_btn_padding_left;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_btn_padding_right = global::AppPSOne.Droid.Resource.Dimension.mtrl_btn_padding_right;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_btn_padding_top = global::AppPSOne.Droid.Resource.Dimension.mtrl_btn_padding_top;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_btn_pressed_z = global::AppPSOne.Droid.Resource.Dimension.mtrl_btn_pressed_z;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_btn_snackbar_margin_horizontal = global::AppPSOne.Droid.Resource.Dimension.mtrl_btn_snackbar_margin_horizontal;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_btn_stroke_size = global::AppPSOne.Droid.Resource.Dimension.mtrl_btn_stroke_size;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_btn_text_btn_icon_padding = global::AppPSOne.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_btn_text_btn_padding_left = global::AppPSOne.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::AppPSOne.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_btn_text_size = global::AppPSOne.Droid.Resource.Dimension.mtrl_btn_text_size;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_btn_z = global::AppPSOne.Droid.Resource.Dimension.mtrl_btn_z;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_action_confirm_button_min_width = global::AppPSOne.Droid.Resource.Dimension.mtrl_calendar_action_confirm_button_min_width;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_action_height = global::AppPSOne.Droid.Resource.Dimension.mtrl_calendar_action_height;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_action_padding = global::AppPSOne.Droid.Resource.Dimension.mtrl_calendar_action_padding;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_bottom_padding = global::AppPSOne.Droid.Resource.Dimension.mtrl_calendar_bottom_padding;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_content_padding = global::AppPSOne.Droid.Resource.Dimension.mtrl_calendar_content_padding;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_days_of_week_height = global::AppPSOne.Droid.Resource.Dimension.mtrl_calendar_days_of_week_height;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_day_corner = global::AppPSOne.Droid.Resource.Dimension.mtrl_calendar_day_corner;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_day_height = global::AppPSOne.Droid.Resource.Dimension.mtrl_calendar_day_height;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_day_horizontal_padding = global::AppPSOne.Droid.Resource.Dimension.mtrl_calendar_day_horizontal_padding;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_day_today_stroke = global::AppPSOne.Droid.Resource.Dimension.mtrl_calendar_day_today_stroke;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_day_vertical_padding = global::AppPSOne.Droid.Resource.Dimension.mtrl_calendar_day_vertical_padding;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_day_width = global::AppPSOne.Droid.Resource.Dimension.mtrl_calendar_day_width;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_dialog_background_inset = global::AppPSOne.Droid.Resource.Dimension.mtrl_calendar_dialog_background_inset;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_header_content_padding = global::AppPSOne.Droid.Resource.Dimension.mtrl_calendar_header_content_padding;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_header_content_padding_fullscreen = global::AppPSOne.Droid.Resource.Dimension.mtrl_calendar_header_content_padding_fullscreen;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_header_divider_thickness = global::AppPSOne.Droid.Resource.Dimension.mtrl_calendar_header_divider_thickness;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_header_height = global::AppPSOne.Droid.Resource.Dimension.mtrl_calendar_header_height;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_header_height_fullscreen = global::AppPSOne.Droid.Resource.Dimension.mtrl_calendar_header_height_fullscreen;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_header_selection_line_height = global::AppPSOne.Droid.Resource.Dimension.mtrl_calendar_header_selection_line_height;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_header_text_padding = global::AppPSOne.Droid.Resource.Dimension.mtrl_calendar_header_text_padding;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_header_toggle_margin_bottom = global::AppPSOne.Droid.Resource.Dimension.mtrl_calendar_header_toggle_margin_bottom;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_header_toggle_margin_top = global::AppPSOne.Droid.Resource.Dimension.mtrl_calendar_header_toggle_margin_top;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_landscape_header_width = global::AppPSOne.Droid.Resource.Dimension.mtrl_calendar_landscape_header_width;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_maximum_default_fullscreen_minor_axis = global::AppPSOne.Droid.Resource.Dimension.mtrl_calendar_maximum_default_fullscreen_minor_axis;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_month_horizontal_padding = global::AppPSOne.Droid.Resource.Dimension.mtrl_calendar_month_horizontal_padding;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_month_vertical_padding = global::AppPSOne.Droid.Resource.Dimension.mtrl_calendar_month_vertical_padding;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_navigation_bottom_padding = global::AppPSOne.Droid.Resource.Dimension.mtrl_calendar_navigation_bottom_padding;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_navigation_height = global::AppPSOne.Droid.Resource.Dimension.mtrl_calendar_navigation_height;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_navigation_top_padding = global::AppPSOne.Droid.Resource.Dimension.mtrl_calendar_navigation_top_padding;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_pre_l_text_clip_padding = global::AppPSOne.Droid.Resource.Dimension.mtrl_calendar_pre_l_text_clip_padding;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_selection_baseline_to_top_fullscreen = global::AppPSOne.Droid.Resource.Dimension.mtrl_calendar_selection_baseline_to_top_fullscreen;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_bottom = global::AppPSOne.Droid.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_bottom;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_bottom_fullscreen = global::AppPSOne.Droid.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_bottom_fullscreen;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_top = global::AppPSOne.Droid.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_top;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_text_input_padding_top = global::AppPSOne.Droid.Resource.Dimension.mtrl_calendar_text_input_padding_top;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_title_baseline_to_top = global::AppPSOne.Droid.Resource.Dimension.mtrl_calendar_title_baseline_to_top;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_title_baseline_to_top_fullscreen = global::AppPSOne.Droid.Resource.Dimension.mtrl_calendar_title_baseline_to_top_fullscreen;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_year_corner = global::AppPSOne.Droid.Resource.Dimension.mtrl_calendar_year_corner;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_year_height = global::AppPSOne.Droid.Resource.Dimension.mtrl_calendar_year_height;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_year_horizontal_padding = global::AppPSOne.Droid.Resource.Dimension.mtrl_calendar_year_horizontal_padding;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_year_vertical_padding = global::AppPSOne.Droid.Resource.Dimension.mtrl_calendar_year_vertical_padding;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_year_width = global::AppPSOne.Droid.Resource.Dimension.mtrl_calendar_year_width;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_card_checked_icon_margin = global::AppPSOne.Droid.Resource.Dimension.mtrl_card_checked_icon_margin;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_card_checked_icon_size = global::AppPSOne.Droid.Resource.Dimension.mtrl_card_checked_icon_size;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_card_corner_radius = global::AppPSOne.Droid.Resource.Dimension.mtrl_card_corner_radius;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_card_dragged_z = global::AppPSOne.Droid.Resource.Dimension.mtrl_card_dragged_z;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_card_elevation = global::AppPSOne.Droid.Resource.Dimension.mtrl_card_elevation;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_card_spacing = global::AppPSOne.Droid.Resource.Dimension.mtrl_card_spacing;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_chip_pressed_translation_z = global::AppPSOne.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_chip_text_size = global::AppPSOne.Droid.Resource.Dimension.mtrl_chip_text_size;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_edittext_rectangle_top_offset = global::AppPSOne.Droid.Resource.Dimension.mtrl_edittext_rectangle_top_offset;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_elevation = global::AppPSOne.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_elevation;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_offset = global::AppPSOne.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_offset;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_padding = global::AppPSOne.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_padding;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_extended_fab_bottom_padding = global::AppPSOne.Droid.Resource.Dimension.mtrl_extended_fab_bottom_padding;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_extended_fab_corner_radius = global::AppPSOne.Droid.Resource.Dimension.mtrl_extended_fab_corner_radius;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_extended_fab_disabled_elevation = global::AppPSOne.Droid.Resource.Dimension.mtrl_extended_fab_disabled_elevation;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_extended_fab_disabled_translation_z = global::AppPSOne.Droid.Resource.Dimension.mtrl_extended_fab_disabled_translation_z;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_extended_fab_elevation = global::AppPSOne.Droid.Resource.Dimension.mtrl_extended_fab_elevation;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_extended_fab_end_padding = global::AppPSOne.Droid.Resource.Dimension.mtrl_extended_fab_end_padding;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_extended_fab_end_padding_icon = global::AppPSOne.Droid.Resource.Dimension.mtrl_extended_fab_end_padding_icon;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_extended_fab_icon_size = global::AppPSOne.Droid.Resource.Dimension.mtrl_extended_fab_icon_size;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_extended_fab_icon_text_spacing = global::AppPSOne.Droid.Resource.Dimension.mtrl_extended_fab_icon_text_spacing;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_extended_fab_min_height = global::AppPSOne.Droid.Resource.Dimension.mtrl_extended_fab_min_height;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_extended_fab_min_width = global::AppPSOne.Droid.Resource.Dimension.mtrl_extended_fab_min_width;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_extended_fab_start_padding = global::AppPSOne.Droid.Resource.Dimension.mtrl_extended_fab_start_padding;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_extended_fab_start_padding_icon = global::AppPSOne.Droid.Resource.Dimension.mtrl_extended_fab_start_padding_icon;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_extended_fab_top_padding = global::AppPSOne.Droid.Resource.Dimension.mtrl_extended_fab_top_padding;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_extended_fab_translation_z_base = global::AppPSOne.Droid.Resource.Dimension.mtrl_extended_fab_translation_z_base;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_extended_fab_translation_z_hovered_focused = global::AppPSOne.Droid.Resource.Dimension.mtrl_extended_fab_translation_z_hovered_focused;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_extended_fab_translation_z_pressed = global::AppPSOne.Droid.Resource.Dimension.mtrl_extended_fab_translation_z_pressed;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_fab_elevation = global::AppPSOne.Droid.Resource.Dimension.mtrl_fab_elevation;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_fab_min_touch_target = global::AppPSOne.Droid.Resource.Dimension.mtrl_fab_min_touch_target;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_fab_translation_z_hovered_focused = global::AppPSOne.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_fab_translation_z_pressed = global::AppPSOne.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_high_ripple_default_alpha = global::AppPSOne.Droid.Resource.Dimension.mtrl_high_ripple_default_alpha;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_high_ripple_focused_alpha = global::AppPSOne.Droid.Resource.Dimension.mtrl_high_ripple_focused_alpha;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_high_ripple_hovered_alpha = global::AppPSOne.Droid.Resource.Dimension.mtrl_high_ripple_hovered_alpha;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_high_ripple_pressed_alpha = global::AppPSOne.Droid.Resource.Dimension.mtrl_high_ripple_pressed_alpha;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_large_touch_target = global::AppPSOne.Droid.Resource.Dimension.mtrl_large_touch_target;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_low_ripple_default_alpha = global::AppPSOne.Droid.Resource.Dimension.mtrl_low_ripple_default_alpha;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_low_ripple_focused_alpha = global::AppPSOne.Droid.Resource.Dimension.mtrl_low_ripple_focused_alpha;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_low_ripple_hovered_alpha = global::AppPSOne.Droid.Resource.Dimension.mtrl_low_ripple_hovered_alpha;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_low_ripple_pressed_alpha = global::AppPSOne.Droid.Resource.Dimension.mtrl_low_ripple_pressed_alpha;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_min_touch_target_size = global::AppPSOne.Droid.Resource.Dimension.mtrl_min_touch_target_size;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_navigation_bar_item_default_icon_size = global::AppPSOne.Droid.Resource.Dimension.mtrl_navigation_bar_item_default_icon_size;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_navigation_bar_item_default_margin = global::AppPSOne.Droid.Resource.Dimension.mtrl_navigation_bar_item_default_margin;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_navigation_elevation = global::AppPSOne.Droid.Resource.Dimension.mtrl_navigation_elevation;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::AppPSOne.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_navigation_item_icon_padding = global::AppPSOne.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_navigation_item_icon_size = global::AppPSOne.Droid.Resource.Dimension.mtrl_navigation_item_icon_size;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_navigation_item_shape_horizontal_margin = global::AppPSOne.Droid.Resource.Dimension.mtrl_navigation_item_shape_horizontal_margin;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_navigation_item_shape_vertical_margin = global::AppPSOne.Droid.Resource.Dimension.mtrl_navigation_item_shape_vertical_margin;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_navigation_rail_active_text_size = global::AppPSOne.Droid.Resource.Dimension.mtrl_navigation_rail_active_text_size;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_navigation_rail_compact_width = global::AppPSOne.Droid.Resource.Dimension.mtrl_navigation_rail_compact_width;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_navigation_rail_default_width = global::AppPSOne.Droid.Resource.Dimension.mtrl_navigation_rail_default_width;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_navigation_rail_elevation = global::AppPSOne.Droid.Resource.Dimension.mtrl_navigation_rail_elevation;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_navigation_rail_icon_margin = global::AppPSOne.Droid.Resource.Dimension.mtrl_navigation_rail_icon_margin;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_navigation_rail_icon_size = global::AppPSOne.Droid.Resource.Dimension.mtrl_navigation_rail_icon_size;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_navigation_rail_margin = global::AppPSOne.Droid.Resource.Dimension.mtrl_navigation_rail_margin;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_navigation_rail_text_bottom_margin = global::AppPSOne.Droid.Resource.Dimension.mtrl_navigation_rail_text_bottom_margin;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_navigation_rail_text_size = global::AppPSOne.Droid.Resource.Dimension.mtrl_navigation_rail_text_size;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_progress_circular_inset = global::AppPSOne.Droid.Resource.Dimension.mtrl_progress_circular_inset;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_progress_circular_inset_extra_small = global::AppPSOne.Droid.Resource.Dimension.mtrl_progress_circular_inset_extra_small;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_progress_circular_inset_medium = global::AppPSOne.Droid.Resource.Dimension.mtrl_progress_circular_inset_medium;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_progress_circular_inset_small = global::AppPSOne.Droid.Resource.Dimension.mtrl_progress_circular_inset_small;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_progress_circular_radius = global::AppPSOne.Droid.Resource.Dimension.mtrl_progress_circular_radius;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_progress_circular_size = global::AppPSOne.Droid.Resource.Dimension.mtrl_progress_circular_size;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_progress_circular_size_extra_small = global::AppPSOne.Droid.Resource.Dimension.mtrl_progress_circular_size_extra_small;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_progress_circular_size_medium = global::AppPSOne.Droid.Resource.Dimension.mtrl_progress_circular_size_medium;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_progress_circular_size_small = global::AppPSOne.Droid.Resource.Dimension.mtrl_progress_circular_size_small;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_progress_circular_track_thickness_extra_small = global::AppPSOne.Droid.Resource.Dimension.mtrl_progress_circular_track_thickness_extra_small;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_progress_circular_track_thickness_medium = global::AppPSOne.Droid.Resource.Dimension.mtrl_progress_circular_track_thickness_medium;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_progress_circular_track_thickness_small = global::AppPSOne.Droid.Resource.Dimension.mtrl_progress_circular_track_thickness_small;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_progress_indicator_full_rounded_corner_radius = global::AppPSOne.Droid.Resource.Dimension.mtrl_progress_indicator_full_rounded_corner_radius;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_progress_track_thickness = global::AppPSOne.Droid.Resource.Dimension.mtrl_progress_track_thickness;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_shape_corner_size_large_component = global::AppPSOne.Droid.Resource.Dimension.mtrl_shape_corner_size_large_component;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_shape_corner_size_medium_component = global::AppPSOne.Droid.Resource.Dimension.mtrl_shape_corner_size_medium_component;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_shape_corner_size_small_component = global::AppPSOne.Droid.Resource.Dimension.mtrl_shape_corner_size_small_component;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_slider_halo_radius = global::AppPSOne.Droid.Resource.Dimension.mtrl_slider_halo_radius;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_slider_label_padding = global::AppPSOne.Droid.Resource.Dimension.mtrl_slider_label_padding;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_slider_label_radius = global::AppPSOne.Droid.Resource.Dimension.mtrl_slider_label_radius;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_slider_label_square_side = global::AppPSOne.Droid.Resource.Dimension.mtrl_slider_label_square_side;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_slider_thumb_elevation = global::AppPSOne.Droid.Resource.Dimension.mtrl_slider_thumb_elevation;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_slider_thumb_radius = global::AppPSOne.Droid.Resource.Dimension.mtrl_slider_thumb_radius;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_slider_track_height = global::AppPSOne.Droid.Resource.Dimension.mtrl_slider_track_height;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_slider_track_side_padding = global::AppPSOne.Droid.Resource.Dimension.mtrl_slider_track_side_padding;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_slider_track_top = global::AppPSOne.Droid.Resource.Dimension.mtrl_slider_track_top;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_slider_widget_height = global::AppPSOne.Droid.Resource.Dimension.mtrl_slider_widget_height;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_snackbar_action_text_color_alpha = global::AppPSOne.Droid.Resource.Dimension.mtrl_snackbar_action_text_color_alpha;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::AppPSOne.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_snackbar_background_overlay_color_alpha = global::AppPSOne.Droid.Resource.Dimension.mtrl_snackbar_background_overlay_color_alpha;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_snackbar_margin = global::AppPSOne.Droid.Resource.Dimension.mtrl_snackbar_margin;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_snackbar_message_margin_horizontal = global::AppPSOne.Droid.Resource.Dimension.mtrl_snackbar_message_margin_horizontal;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_snackbar_padding_horizontal = global::AppPSOne.Droid.Resource.Dimension.mtrl_snackbar_padding_horizontal;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_switch_thumb_elevation = global::AppPSOne.Droid.Resource.Dimension.mtrl_switch_thumb_elevation;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::AppPSOne.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::AppPSOne.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::AppPSOne.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::AppPSOne.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::AppPSOne.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_textinput_counter_margin_start = global::AppPSOne.Droid.Resource.Dimension.mtrl_textinput_counter_margin_start;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_textinput_end_icon_margin_start = global::AppPSOne.Droid.Resource.Dimension.mtrl_textinput_end_icon_margin_start;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::AppPSOne.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_textinput_start_icon_margin_end = global::AppPSOne.Droid.Resource.Dimension.mtrl_textinput_start_icon_margin_end;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_toolbar_default_height = global::AppPSOne.Droid.Resource.Dimension.mtrl_toolbar_default_height;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_tooltip_arrowSize = global::AppPSOne.Droid.Resource.Dimension.mtrl_tooltip_arrowSize;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_tooltip_cornerSize = global::AppPSOne.Droid.Resource.Dimension.mtrl_tooltip_cornerSize;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_tooltip_minHeight = global::AppPSOne.Droid.Resource.Dimension.mtrl_tooltip_minHeight;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_tooltip_minWidth = global::AppPSOne.Droid.Resource.Dimension.mtrl_tooltip_minWidth;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_tooltip_padding = global::AppPSOne.Droid.Resource.Dimension.mtrl_tooltip_padding;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_transition_shared_axis_slide_distance = global::AppPSOne.Droid.Resource.Dimension.mtrl_transition_shared_axis_slide_distance;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.notification_action_icon_size = global::AppPSOne.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.notification_action_text_size = global::AppPSOne.Droid.Resource.Dimension.notification_action_text_size;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.notification_big_circle_margin = global::AppPSOne.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.notification_content_margin_start = global::AppPSOne.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.notification_large_icon_height = global::AppPSOne.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.notification_large_icon_width = global::AppPSOne.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.notification_main_column_padding_top = global::AppPSOne.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.notification_media_narrow_margin = global::AppPSOne.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.notification_right_icon_size = global::AppPSOne.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.notification_right_side_padding_top = global::AppPSOne.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.notification_small_icon_background_padding = global::AppPSOne.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.notification_small_icon_size_as_large = global::AppPSOne.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.notification_subtext_size = global::AppPSOne.Droid.Resource.Dimension.notification_subtext_size;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.notification_top_pad = global::AppPSOne.Droid.Resource.Dimension.notification_top_pad;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.notification_top_pad_large_text = global::AppPSOne.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.preference_dropdown_padding_start = global::AppPSOne.Droid.Resource.Dimension.preference_dropdown_padding_start;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.preference_icon_minWidth = global::AppPSOne.Droid.Resource.Dimension.preference_icon_minWidth;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.preference_seekbar_padding_horizontal = global::AppPSOne.Droid.Resource.Dimension.preference_seekbar_padding_horizontal;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.preference_seekbar_padding_vertical = global::AppPSOne.Droid.Resource.Dimension.preference_seekbar_padding_vertical;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.preference_seekbar_value_minWidth = global::AppPSOne.Droid.Resource.Dimension.preference_seekbar_value_minWidth;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.test_mtrl_calendar_day_cornerSize = global::AppPSOne.Droid.Resource.Dimension.test_mtrl_calendar_day_cornerSize;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.test_navigation_bar_active_item_max_width = global::AppPSOne.Droid.Resource.Dimension.test_navigation_bar_active_item_max_width;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.test_navigation_bar_active_item_min_width = global::AppPSOne.Droid.Resource.Dimension.test_navigation_bar_active_item_min_width;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.test_navigation_bar_active_text_size = global::AppPSOne.Droid.Resource.Dimension.test_navigation_bar_active_text_size;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.test_navigation_bar_elevation = global::AppPSOne.Droid.Resource.Dimension.test_navigation_bar_elevation;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.test_navigation_bar_height = global::AppPSOne.Droid.Resource.Dimension.test_navigation_bar_height;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.test_navigation_bar_icon_size = global::AppPSOne.Droid.Resource.Dimension.test_navigation_bar_icon_size;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.test_navigation_bar_item_max_width = global::AppPSOne.Droid.Resource.Dimension.test_navigation_bar_item_max_width;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.test_navigation_bar_item_min_width = global::AppPSOne.Droid.Resource.Dimension.test_navigation_bar_item_min_width;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.test_navigation_bar_label_padding = global::AppPSOne.Droid.Resource.Dimension.test_navigation_bar_label_padding;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.test_navigation_bar_shadow_height = global::AppPSOne.Droid.Resource.Dimension.test_navigation_bar_shadow_height;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.test_navigation_bar_text_size = global::AppPSOne.Droid.Resource.Dimension.test_navigation_bar_text_size;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.tooltip_corner_radius = global::AppPSOne.Droid.Resource.Dimension.tooltip_corner_radius;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.tooltip_horizontal_padding = global::AppPSOne.Droid.Resource.Dimension.tooltip_horizontal_padding;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.tooltip_margin = global::AppPSOne.Droid.Resource.Dimension.tooltip_margin;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::AppPSOne.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.tooltip_precise_anchor_threshold = global::AppPSOne.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.tooltip_vertical_padding = global::AppPSOne.Droid.Resource.Dimension.tooltip_vertical_padding;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.tooltip_y_offset_non_touch = global::AppPSOne.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.tooltip_y_offset_touch = global::AppPSOne.Droid.Resource.Dimension.tooltip_y_offset_touch;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::AppPSOne.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_action_bar_item_background_material = global::AppPSOne.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_btn_borderless_material = global::AppPSOne.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_btn_check_material = global::AppPSOne.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_btn_check_material_anim = global::AppPSOne.Droid.Resource.Drawable.abc_btn_check_material_anim;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::AppPSOne.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::AppPSOne.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_btn_colored_material = global::AppPSOne.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_btn_default_mtrl_shape = global::AppPSOne.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_btn_radio_material = global::AppPSOne.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_btn_radio_material_anim = global::AppPSOne.Droid.Resource.Drawable.abc_btn_radio_material_anim;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::AppPSOne.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::AppPSOne.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::AppPSOne.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::AppPSOne.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_cab_background_internal_bg = global::AppPSOne.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_cab_background_top_material = global::AppPSOne.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::AppPSOne.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_control_background_material = global::AppPSOne.Droid.Resource.Drawable.abc_control_background_material;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_dialog_material_background = global::AppPSOne.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_edit_text_material = global::AppPSOne.Droid.Resource.Drawable.abc_edit_text_material;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_ic_ab_back_material = global::AppPSOne.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::AppPSOne.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_ic_clear_material = global::AppPSOne.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::AppPSOne.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_ic_go_search_api_material = global::AppPSOne.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::AppPSOne.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::AppPSOne.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_ic_menu_overflow_material = global::AppPSOne.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::AppPSOne.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::AppPSOne.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::AppPSOne.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_ic_search_api_material = global::AppPSOne.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_ic_voice_search_api_material = global::AppPSOne.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_item_background_holo_dark = global::AppPSOne.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_item_background_holo_light = global::AppPSOne.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_list_divider_material = global::AppPSOne.Droid.Resource.Drawable.abc_list_divider_material;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_list_divider_mtrl_alpha = global::AppPSOne.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_list_focused_holo = global::AppPSOne.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_list_longpressed_holo = global::AppPSOne.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_list_pressed_holo_dark = global::AppPSOne.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_list_pressed_holo_light = global::AppPSOne.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::AppPSOne.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::AppPSOne.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::AppPSOne.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_list_selector_disabled_holo_light = global::AppPSOne.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_list_selector_holo_dark = global::AppPSOne.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_list_selector_holo_light = global::AppPSOne.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::AppPSOne.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_popup_background_mtrl_mult = global::AppPSOne.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_ratingbar_indicator_material = global::AppPSOne.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_ratingbar_material = global::AppPSOne.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_ratingbar_small_material = global::AppPSOne.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::AppPSOne.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::AppPSOne.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::AppPSOne.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::AppPSOne.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::AppPSOne.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_seekbar_thumb_material = global::AppPSOne.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_seekbar_tick_mark_material = global::AppPSOne.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_seekbar_track_material = global::AppPSOne.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::AppPSOne.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_spinner_textfield_background_material = global::AppPSOne.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_star_black_48dp = global::AppPSOne.Droid.Resource.Drawable.abc_star_black_48dp;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_star_half_black_48dp = global::AppPSOne.Droid.Resource.Drawable.abc_star_half_black_48dp;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_switch_thumb_material = global::AppPSOne.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_switch_track_mtrl_alpha = global::AppPSOne.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_tab_indicator_material = global::AppPSOne.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::AppPSOne.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::AppPSOne.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::AppPSOne.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::AppPSOne.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::AppPSOne.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_textfield_search_material = global::AppPSOne.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_text_cursor_material = global::AppPSOne.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_text_select_handle_left_mtrl = global::AppPSOne.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_text_select_handle_middle_mtrl = global::AppPSOne.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_text_select_handle_right_mtrl = global::AppPSOne.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.abc_vector_test = global::AppPSOne.Droid.Resource.Drawable.abc_vector_test;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.avd_hide_password = global::AppPSOne.Droid.Resource.Drawable.avd_hide_password;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.avd_show_password = global::AppPSOne.Droid.Resource.Drawable.avd_show_password;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.btn_checkbox_checked_mtrl = global::AppPSOne.Droid.Resource.Drawable.btn_checkbox_checked_mtrl;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation = global::AppPSOne.Droid.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.btn_checkbox_unchecked_mtrl = global::AppPSOne.Droid.Resource.Drawable.btn_checkbox_unchecked_mtrl;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation = global::AppPSOne.Droid.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.btn_radio_off_mtrl = global::AppPSOne.Droid.Resource.Drawable.btn_radio_off_mtrl;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.btn_radio_off_to_on_mtrl_animation = global::AppPSOne.Droid.Resource.Drawable.btn_radio_off_to_on_mtrl_animation;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.btn_radio_on_mtrl = global::AppPSOne.Droid.Resource.Drawable.btn_radio_on_mtrl;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.btn_radio_on_to_off_mtrl_animation = global::AppPSOne.Droid.Resource.Drawable.btn_radio_on_to_off_mtrl_animation;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.design_fab_background = global::AppPSOne.Droid.Resource.Drawable.design_fab_background;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.design_ic_visibility = global::AppPSOne.Droid.Resource.Drawable.design_ic_visibility;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.design_ic_visibility_off = global::AppPSOne.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.design_password_eye = global::AppPSOne.Droid.Resource.Drawable.design_password_eye;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.design_snackbar_background = global::AppPSOne.Droid.Resource.Drawable.design_snackbar_background;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.ic_arrow_down_24dp = global::AppPSOne.Droid.Resource.Drawable.ic_arrow_down_24dp;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.ic_clock_black_24dp = global::AppPSOne.Droid.Resource.Drawable.ic_clock_black_24dp;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.ic_keyboard_black_24dp = global::AppPSOne.Droid.Resource.Drawable.ic_keyboard_black_24dp;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.ic_mtrl_checked_circle = global::AppPSOne.Droid.Resource.Drawable.ic_mtrl_checked_circle;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.ic_mtrl_chip_checked_black = global::AppPSOne.Droid.Resource.Drawable.ic_mtrl_chip_checked_black;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.ic_mtrl_chip_checked_circle = global::AppPSOne.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.ic_mtrl_chip_close_circle = global::AppPSOne.Droid.Resource.Drawable.ic_mtrl_chip_close_circle;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.material_cursor_drawable = global::AppPSOne.Droid.Resource.Drawable.material_cursor_drawable;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.material_ic_calendar_black_24dp = global::AppPSOne.Droid.Resource.Drawable.material_ic_calendar_black_24dp;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.material_ic_clear_black_24dp = global::AppPSOne.Droid.Resource.Drawable.material_ic_clear_black_24dp;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.material_ic_edit_black_24dp = global::AppPSOne.Droid.Resource.Drawable.material_ic_edit_black_24dp;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.material_ic_keyboard_arrow_left_black_24dp = global::AppPSOne.Droid.Resource.Drawable.material_ic_keyboard_arrow_left_black_24dp;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.material_ic_keyboard_arrow_next_black_24dp = global::AppPSOne.Droid.Resource.Drawable.material_ic_keyboard_arrow_next_black_24dp;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.material_ic_keyboard_arrow_previous_black_24dp = global::AppPSOne.Droid.Resource.Drawable.material_ic_keyboard_arrow_previous_black_24dp;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.material_ic_keyboard_arrow_right_black_24dp = global::AppPSOne.Droid.Resource.Drawable.material_ic_keyboard_arrow_right_black_24dp;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.material_ic_menu_arrow_down_black_24dp = global::AppPSOne.Droid.Resource.Drawable.material_ic_menu_arrow_down_black_24dp;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.material_ic_menu_arrow_up_black_24dp = global::AppPSOne.Droid.Resource.Drawable.material_ic_menu_arrow_up_black_24dp;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.mtrl_dialog_background = global::AppPSOne.Droid.Resource.Drawable.mtrl_dialog_background;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.mtrl_dropdown_arrow = global::AppPSOne.Droid.Resource.Drawable.mtrl_dropdown_arrow;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.mtrl_ic_arrow_drop_down = global::AppPSOne.Droid.Resource.Drawable.mtrl_ic_arrow_drop_down;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.mtrl_ic_arrow_drop_up = global::AppPSOne.Droid.Resource.Drawable.mtrl_ic_arrow_drop_up;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.mtrl_ic_cancel = global::AppPSOne.Droid.Resource.Drawable.mtrl_ic_cancel;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.mtrl_ic_error = global::AppPSOne.Droid.Resource.Drawable.mtrl_ic_error;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.mtrl_navigation_bar_item_background = global::AppPSOne.Droid.Resource.Drawable.mtrl_navigation_bar_item_background;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.mtrl_popupmenu_background = global::AppPSOne.Droid.Resource.Drawable.mtrl_popupmenu_background;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.mtrl_popupmenu_background_dark = global::AppPSOne.Droid.Resource.Drawable.mtrl_popupmenu_background_dark;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.mtrl_tabs_default_indicator = global::AppPSOne.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.navigation_empty_icon = global::AppPSOne.Droid.Resource.Drawable.navigation_empty_icon;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.notification_action_background = global::AppPSOne.Droid.Resource.Drawable.notification_action_background;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.notification_bg = global::AppPSOne.Droid.Resource.Drawable.notification_bg;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.notification_bg_low = global::AppPSOne.Droid.Resource.Drawable.notification_bg_low;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.notification_bg_low_normal = global::AppPSOne.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.notification_bg_low_pressed = global::AppPSOne.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.notification_bg_normal = global::AppPSOne.Droid.Resource.Drawable.notification_bg_normal;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.notification_bg_normal_pressed = global::AppPSOne.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.notification_icon_background = global::AppPSOne.Droid.Resource.Drawable.notification_icon_background;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.notification_template_icon_bg = global::AppPSOne.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.notification_template_icon_low_bg = global::AppPSOne.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.notification_tile_bg = global::AppPSOne.Droid.Resource.Drawable.notification_tile_bg;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.notify_panel_notification_icon_bg = global::AppPSOne.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.preference_list_divider_material = global::AppPSOne.Droid.Resource.Drawable.preference_list_divider_material;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.test_custom_background = global::AppPSOne.Droid.Resource.Drawable.test_custom_background;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.tooltip_frame_dark = global::AppPSOne.Droid.Resource.Drawable.tooltip_frame_dark;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.tooltip_frame_light = global::AppPSOne.Droid.Resource.Drawable.tooltip_frame_light;
+			global::Xamarin.CommunityToolkit.Resource.Id.accelerate = global::AppPSOne.Droid.Resource.Id.accelerate;
+			global::Xamarin.CommunityToolkit.Resource.Id.accessibility_action_clickable_span = global::AppPSOne.Droid.Resource.Id.accessibility_action_clickable_span;
+			global::Xamarin.CommunityToolkit.Resource.Id.accessibility_custom_action_0 = global::AppPSOne.Droid.Resource.Id.accessibility_custom_action_0;
+			global::Xamarin.CommunityToolkit.Resource.Id.accessibility_custom_action_1 = global::AppPSOne.Droid.Resource.Id.accessibility_custom_action_1;
+			global::Xamarin.CommunityToolkit.Resource.Id.accessibility_custom_action_10 = global::AppPSOne.Droid.Resource.Id.accessibility_custom_action_10;
+			global::Xamarin.CommunityToolkit.Resource.Id.accessibility_custom_action_11 = global::AppPSOne.Droid.Resource.Id.accessibility_custom_action_11;
+			global::Xamarin.CommunityToolkit.Resource.Id.accessibility_custom_action_12 = global::AppPSOne.Droid.Resource.Id.accessibility_custom_action_12;
+			global::Xamarin.CommunityToolkit.Resource.Id.accessibility_custom_action_13 = global::AppPSOne.Droid.Resource.Id.accessibility_custom_action_13;
+			global::Xamarin.CommunityToolkit.Resource.Id.accessibility_custom_action_14 = global::AppPSOne.Droid.Resource.Id.accessibility_custom_action_14;
+			global::Xamarin.CommunityToolkit.Resource.Id.accessibility_custom_action_15 = global::AppPSOne.Droid.Resource.Id.accessibility_custom_action_15;
+			global::Xamarin.CommunityToolkit.Resource.Id.accessibility_custom_action_16 = global::AppPSOne.Droid.Resource.Id.accessibility_custom_action_16;
+			global::Xamarin.CommunityToolkit.Resource.Id.accessibility_custom_action_17 = global::AppPSOne.Droid.Resource.Id.accessibility_custom_action_17;
+			global::Xamarin.CommunityToolkit.Resource.Id.accessibility_custom_action_18 = global::AppPSOne.Droid.Resource.Id.accessibility_custom_action_18;
+			global::Xamarin.CommunityToolkit.Resource.Id.accessibility_custom_action_19 = global::AppPSOne.Droid.Resource.Id.accessibility_custom_action_19;
+			global::Xamarin.CommunityToolkit.Resource.Id.accessibility_custom_action_2 = global::AppPSOne.Droid.Resource.Id.accessibility_custom_action_2;
+			global::Xamarin.CommunityToolkit.Resource.Id.accessibility_custom_action_20 = global::AppPSOne.Droid.Resource.Id.accessibility_custom_action_20;
+			global::Xamarin.CommunityToolkit.Resource.Id.accessibility_custom_action_21 = global::AppPSOne.Droid.Resource.Id.accessibility_custom_action_21;
+			global::Xamarin.CommunityToolkit.Resource.Id.accessibility_custom_action_22 = global::AppPSOne.Droid.Resource.Id.accessibility_custom_action_22;
+			global::Xamarin.CommunityToolkit.Resource.Id.accessibility_custom_action_23 = global::AppPSOne.Droid.Resource.Id.accessibility_custom_action_23;
+			global::Xamarin.CommunityToolkit.Resource.Id.accessibility_custom_action_24 = global::AppPSOne.Droid.Resource.Id.accessibility_custom_action_24;
+			global::Xamarin.CommunityToolkit.Resource.Id.accessibility_custom_action_25 = global::AppPSOne.Droid.Resource.Id.accessibility_custom_action_25;
+			global::Xamarin.CommunityToolkit.Resource.Id.accessibility_custom_action_26 = global::AppPSOne.Droid.Resource.Id.accessibility_custom_action_26;
+			global::Xamarin.CommunityToolkit.Resource.Id.accessibility_custom_action_27 = global::AppPSOne.Droid.Resource.Id.accessibility_custom_action_27;
+			global::Xamarin.CommunityToolkit.Resource.Id.accessibility_custom_action_28 = global::AppPSOne.Droid.Resource.Id.accessibility_custom_action_28;
+			global::Xamarin.CommunityToolkit.Resource.Id.accessibility_custom_action_29 = global::AppPSOne.Droid.Resource.Id.accessibility_custom_action_29;
+			global::Xamarin.CommunityToolkit.Resource.Id.accessibility_custom_action_3 = global::AppPSOne.Droid.Resource.Id.accessibility_custom_action_3;
+			global::Xamarin.CommunityToolkit.Resource.Id.accessibility_custom_action_30 = global::AppPSOne.Droid.Resource.Id.accessibility_custom_action_30;
+			global::Xamarin.CommunityToolkit.Resource.Id.accessibility_custom_action_31 = global::AppPSOne.Droid.Resource.Id.accessibility_custom_action_31;
+			global::Xamarin.CommunityToolkit.Resource.Id.accessibility_custom_action_4 = global::AppPSOne.Droid.Resource.Id.accessibility_custom_action_4;
+			global::Xamarin.CommunityToolkit.Resource.Id.accessibility_custom_action_5 = global::AppPSOne.Droid.Resource.Id.accessibility_custom_action_5;
+			global::Xamarin.CommunityToolkit.Resource.Id.accessibility_custom_action_6 = global::AppPSOne.Droid.Resource.Id.accessibility_custom_action_6;
+			global::Xamarin.CommunityToolkit.Resource.Id.accessibility_custom_action_7 = global::AppPSOne.Droid.Resource.Id.accessibility_custom_action_7;
+			global::Xamarin.CommunityToolkit.Resource.Id.accessibility_custom_action_8 = global::AppPSOne.Droid.Resource.Id.accessibility_custom_action_8;
+			global::Xamarin.CommunityToolkit.Resource.Id.accessibility_custom_action_9 = global::AppPSOne.Droid.Resource.Id.accessibility_custom_action_9;
+			global::Xamarin.CommunityToolkit.Resource.Id.action0 = global::AppPSOne.Droid.Resource.Id.action0;
+			global::Xamarin.CommunityToolkit.Resource.Id.actionDown = global::AppPSOne.Droid.Resource.Id.actionDown;
+			global::Xamarin.CommunityToolkit.Resource.Id.actionDownUp = global::AppPSOne.Droid.Resource.Id.actionDownUp;
+			global::Xamarin.CommunityToolkit.Resource.Id.actions = global::AppPSOne.Droid.Resource.Id.actions;
+			global::Xamarin.CommunityToolkit.Resource.Id.actionUp = global::AppPSOne.Droid.Resource.Id.actionUp;
+			global::Xamarin.CommunityToolkit.Resource.Id.action_bar = global::AppPSOne.Droid.Resource.Id.action_bar;
+			global::Xamarin.CommunityToolkit.Resource.Id.action_bar_activity_content = global::AppPSOne.Droid.Resource.Id.action_bar_activity_content;
+			global::Xamarin.CommunityToolkit.Resource.Id.action_bar_container = global::AppPSOne.Droid.Resource.Id.action_bar_container;
+			global::Xamarin.CommunityToolkit.Resource.Id.action_bar_root = global::AppPSOne.Droid.Resource.Id.action_bar_root;
+			global::Xamarin.CommunityToolkit.Resource.Id.action_bar_spinner = global::AppPSOne.Droid.Resource.Id.action_bar_spinner;
+			global::Xamarin.CommunityToolkit.Resource.Id.action_bar_subtitle = global::AppPSOne.Droid.Resource.Id.action_bar_subtitle;
+			global::Xamarin.CommunityToolkit.Resource.Id.action_bar_title = global::AppPSOne.Droid.Resource.Id.action_bar_title;
+			global::Xamarin.CommunityToolkit.Resource.Id.action_container = global::AppPSOne.Droid.Resource.Id.action_container;
+			global::Xamarin.CommunityToolkit.Resource.Id.action_context_bar = global::AppPSOne.Droid.Resource.Id.action_context_bar;
+			global::Xamarin.CommunityToolkit.Resource.Id.action_divider = global::AppPSOne.Droid.Resource.Id.action_divider;
+			global::Xamarin.CommunityToolkit.Resource.Id.action_image = global::AppPSOne.Droid.Resource.Id.action_image;
+			global::Xamarin.CommunityToolkit.Resource.Id.action_menu_divider = global::AppPSOne.Droid.Resource.Id.action_menu_divider;
+			global::Xamarin.CommunityToolkit.Resource.Id.action_menu_presenter = global::AppPSOne.Droid.Resource.Id.action_menu_presenter;
+			global::Xamarin.CommunityToolkit.Resource.Id.action_mode_bar = global::AppPSOne.Droid.Resource.Id.action_mode_bar;
+			global::Xamarin.CommunityToolkit.Resource.Id.action_mode_bar_stub = global::AppPSOne.Droid.Resource.Id.action_mode_bar_stub;
+			global::Xamarin.CommunityToolkit.Resource.Id.action_mode_close_button = global::AppPSOne.Droid.Resource.Id.action_mode_close_button;
+			global::Xamarin.CommunityToolkit.Resource.Id.action_text = global::AppPSOne.Droid.Resource.Id.action_text;
+			global::Xamarin.CommunityToolkit.Resource.Id.activity_chooser_view_content = global::AppPSOne.Droid.Resource.Id.activity_chooser_view_content;
+			global::Xamarin.CommunityToolkit.Resource.Id.add = global::AppPSOne.Droid.Resource.Id.add;
+			global::Xamarin.CommunityToolkit.Resource.Id.alertTitle = global::AppPSOne.Droid.Resource.Id.alertTitle;
+			global::Xamarin.CommunityToolkit.Resource.Id.aligned = global::AppPSOne.Droid.Resource.Id.aligned;
+			global::Xamarin.CommunityToolkit.Resource.Id.all = global::AppPSOne.Droid.Resource.Id.all;
+			global::Xamarin.CommunityToolkit.Resource.Id.allStates = global::AppPSOne.Droid.Resource.Id.allStates;
+			global::Xamarin.CommunityToolkit.Resource.Id.ALT = global::AppPSOne.Droid.Resource.Id.ALT;
+			global::Xamarin.CommunityToolkit.Resource.Id.always = global::AppPSOne.Droid.Resource.Id.always;
+			global::Xamarin.CommunityToolkit.Resource.Id.animateToEnd = global::AppPSOne.Droid.Resource.Id.animateToEnd;
+			global::Xamarin.CommunityToolkit.Resource.Id.animateToStart = global::AppPSOne.Droid.Resource.Id.animateToStart;
+			global::Xamarin.CommunityToolkit.Resource.Id.anticipate = global::AppPSOne.Droid.Resource.Id.anticipate;
+			global::Xamarin.CommunityToolkit.Resource.Id.antiClockwise = global::AppPSOne.Droid.Resource.Id.antiClockwise;
+			global::Xamarin.CommunityToolkit.Resource.Id.arc = global::AppPSOne.Droid.Resource.Id.arc;
+			global::Xamarin.CommunityToolkit.Resource.Id.asConfigured = global::AppPSOne.Droid.Resource.Id.asConfigured;
+			global::Xamarin.CommunityToolkit.Resource.Id.async = global::AppPSOne.Droid.Resource.Id.async;
+			global::Xamarin.CommunityToolkit.Resource.Id.auto = global::AppPSOne.Droid.Resource.Id.auto;
+			global::Xamarin.CommunityToolkit.Resource.Id.autoComplete = global::AppPSOne.Droid.Resource.Id.autoComplete;
+			global::Xamarin.CommunityToolkit.Resource.Id.autoCompleteToEnd = global::AppPSOne.Droid.Resource.Id.autoCompleteToEnd;
+			global::Xamarin.CommunityToolkit.Resource.Id.autoCompleteToStart = global::AppPSOne.Droid.Resource.Id.autoCompleteToStart;
+			global::Xamarin.CommunityToolkit.Resource.Id.barrier = global::AppPSOne.Droid.Resource.Id.barrier;
+			global::Xamarin.CommunityToolkit.Resource.Id.baseline = global::AppPSOne.Droid.Resource.Id.baseline;
+			global::Xamarin.CommunityToolkit.Resource.Id.beginning = global::AppPSOne.Droid.Resource.Id.beginning;
+			global::Xamarin.CommunityToolkit.Resource.Id.beginOnFirstDraw = global::AppPSOne.Droid.Resource.Id.beginOnFirstDraw;
+			global::Xamarin.CommunityToolkit.Resource.Id.bestChoice = global::AppPSOne.Droid.Resource.Id.bestChoice;
+			global::Xamarin.CommunityToolkit.Resource.Id.blocking = global::AppPSOne.Droid.Resource.Id.blocking;
+			global::Xamarin.CommunityToolkit.Resource.Id.bottom = global::AppPSOne.Droid.Resource.Id.bottom;
+			global::Xamarin.CommunityToolkit.Resource.Id.bottomtab_navarea = global::AppPSOne.Droid.Resource.Id.bottomtab_navarea;
+			global::Xamarin.CommunityToolkit.Resource.Id.bottomtab_tabbar = global::AppPSOne.Droid.Resource.Id.bottomtab_tabbar;
+			global::Xamarin.CommunityToolkit.Resource.Id.BOTTOM_END = global::AppPSOne.Droid.Resource.Id.BOTTOM_END;
+			global::Xamarin.CommunityToolkit.Resource.Id.BOTTOM_START = global::AppPSOne.Droid.Resource.Id.BOTTOM_START;
+			global::Xamarin.CommunityToolkit.Resource.Id.bounce = global::AppPSOne.Droid.Resource.Id.bounce;
+			global::Xamarin.CommunityToolkit.Resource.Id.bounceBoth = global::AppPSOne.Droid.Resource.Id.bounceBoth;
+			global::Xamarin.CommunityToolkit.Resource.Id.bounceEnd = global::AppPSOne.Droid.Resource.Id.bounceEnd;
+			global::Xamarin.CommunityToolkit.Resource.Id.bounceStart = global::AppPSOne.Droid.Resource.Id.bounceStart;
+			global::Xamarin.CommunityToolkit.Resource.Id.browser_actions_header_text = global::AppPSOne.Droid.Resource.Id.browser_actions_header_text;
+			global::Xamarin.CommunityToolkit.Resource.Id.browser_actions_menu_items = global::AppPSOne.Droid.Resource.Id.browser_actions_menu_items;
+			global::Xamarin.CommunityToolkit.Resource.Id.browser_actions_menu_item_icon = global::AppPSOne.Droid.Resource.Id.browser_actions_menu_item_icon;
+			global::Xamarin.CommunityToolkit.Resource.Id.browser_actions_menu_item_text = global::AppPSOne.Droid.Resource.Id.browser_actions_menu_item_text;
+			global::Xamarin.CommunityToolkit.Resource.Id.browser_actions_menu_view = global::AppPSOne.Droid.Resource.Id.browser_actions_menu_view;
+			global::Xamarin.CommunityToolkit.Resource.Id.buttonPanel = global::AppPSOne.Droid.Resource.Id.buttonPanel;
+			global::Xamarin.CommunityToolkit.Resource.Id.cache_measures = global::AppPSOne.Droid.Resource.Id.cache_measures;
+			global::Xamarin.CommunityToolkit.Resource.Id.cameratexture = global::AppPSOne.Droid.Resource.Id.cameratexture;
+			global::Xamarin.CommunityToolkit.Resource.Id.cancel_action = global::AppPSOne.Droid.Resource.Id.cancel_action;
+			global::Xamarin.CommunityToolkit.Resource.Id.cancel_button = global::AppPSOne.Droid.Resource.Id.cancel_button;
+			global::Xamarin.CommunityToolkit.Resource.Id.carryVelocity = global::AppPSOne.Droid.Resource.Id.carryVelocity;
+			global::Xamarin.CommunityToolkit.Resource.Id.center = global::AppPSOne.Droid.Resource.Id.center;
+			global::Xamarin.CommunityToolkit.Resource.Id.center_horizontal = global::AppPSOne.Droid.Resource.Id.center_horizontal;
+			global::Xamarin.CommunityToolkit.Resource.Id.center_vertical = global::AppPSOne.Droid.Resource.Id.center_vertical;
+			global::Xamarin.CommunityToolkit.Resource.Id.chain = global::AppPSOne.Droid.Resource.Id.chain;
+			global::Xamarin.CommunityToolkit.Resource.Id.chains = global::AppPSOne.Droid.Resource.Id.chains;
+			global::Xamarin.CommunityToolkit.Resource.Id.checkbox = global::AppPSOne.Droid.Resource.Id.checkbox;
+			global::Xamarin.CommunityToolkit.Resource.Id.@checked = global::AppPSOne.Droid.Resource.Id.@checked;
+			global::Xamarin.CommunityToolkit.Resource.Id.chip = global::AppPSOne.Droid.Resource.Id.chip;
+			global::Xamarin.CommunityToolkit.Resource.Id.chip1 = global::AppPSOne.Droid.Resource.Id.chip1;
+			global::Xamarin.CommunityToolkit.Resource.Id.chip2 = global::AppPSOne.Droid.Resource.Id.chip2;
+			global::Xamarin.CommunityToolkit.Resource.Id.chip3 = global::AppPSOne.Droid.Resource.Id.chip3;
+			global::Xamarin.CommunityToolkit.Resource.Id.chip_group = global::AppPSOne.Droid.Resource.Id.chip_group;
+			global::Xamarin.CommunityToolkit.Resource.Id.chronometer = global::AppPSOne.Droid.Resource.Id.chronometer;
+			global::Xamarin.CommunityToolkit.Resource.Id.circle_center = global::AppPSOne.Droid.Resource.Id.circle_center;
+			global::Xamarin.CommunityToolkit.Resource.Id.clear_text = global::AppPSOne.Droid.Resource.Id.clear_text;
+			global::Xamarin.CommunityToolkit.Resource.Id.clip_horizontal = global::AppPSOne.Droid.Resource.Id.clip_horizontal;
+			global::Xamarin.CommunityToolkit.Resource.Id.clip_vertical = global::AppPSOne.Droid.Resource.Id.clip_vertical;
+			global::Xamarin.CommunityToolkit.Resource.Id.clockwise = global::AppPSOne.Droid.Resource.Id.clockwise;
+			global::Xamarin.CommunityToolkit.Resource.Id.closest = global::AppPSOne.Droid.Resource.Id.closest;
+			global::Xamarin.CommunityToolkit.Resource.Id.collapseActionView = global::AppPSOne.Droid.Resource.Id.collapseActionView;
+			global::Xamarin.CommunityToolkit.Resource.Id.confirm_button = global::AppPSOne.Droid.Resource.Id.confirm_button;
+			global::Xamarin.CommunityToolkit.Resource.Id.constraint = global::AppPSOne.Droid.Resource.Id.constraint;
+			global::Xamarin.CommunityToolkit.Resource.Id.container = global::AppPSOne.Droid.Resource.Id.container;
+			global::Xamarin.CommunityToolkit.Resource.Id.content = global::AppPSOne.Droid.Resource.Id.content;
+			global::Xamarin.CommunityToolkit.Resource.Id.contentPanel = global::AppPSOne.Droid.Resource.Id.contentPanel;
+			global::Xamarin.CommunityToolkit.Resource.Id.contiguous = global::AppPSOne.Droid.Resource.Id.contiguous;
+			global::Xamarin.CommunityToolkit.Resource.Id.continuousVelocity = global::AppPSOne.Droid.Resource.Id.continuousVelocity;
+			global::Xamarin.CommunityToolkit.Resource.Id.coordinator = global::AppPSOne.Droid.Resource.Id.coordinator;
+			global::Xamarin.CommunityToolkit.Resource.Id.cos = global::AppPSOne.Droid.Resource.Id.cos;
+			global::Xamarin.CommunityToolkit.Resource.Id.counterclockwise = global::AppPSOne.Droid.Resource.Id.counterclockwise;
+			global::Xamarin.CommunityToolkit.Resource.Id.CTRL = global::AppPSOne.Droid.Resource.Id.CTRL;
+			global::Xamarin.CommunityToolkit.Resource.Id.currentState = global::AppPSOne.Droid.Resource.Id.currentState;
+			global::Xamarin.CommunityToolkit.Resource.Id.custom = global::AppPSOne.Droid.Resource.Id.custom;
+			global::Xamarin.CommunityToolkit.Resource.Id.customPanel = global::AppPSOne.Droid.Resource.Id.customPanel;
+			global::Xamarin.CommunityToolkit.Resource.Id.cut = global::AppPSOne.Droid.Resource.Id.cut;
+			global::Xamarin.CommunityToolkit.Resource.Id.date_picker_actions = global::AppPSOne.Droid.Resource.Id.date_picker_actions;
+			global::Xamarin.CommunityToolkit.Resource.Id.decelerate = global::AppPSOne.Droid.Resource.Id.decelerate;
+			global::Xamarin.CommunityToolkit.Resource.Id.decelerateAndComplete = global::AppPSOne.Droid.Resource.Id.decelerateAndComplete;
+			global::Xamarin.CommunityToolkit.Resource.Id.decor_content_parent = global::AppPSOne.Droid.Resource.Id.decor_content_parent;
+			global::Xamarin.CommunityToolkit.Resource.Id.default_activity_button = global::AppPSOne.Droid.Resource.Id.default_activity_button;
+			global::Xamarin.CommunityToolkit.Resource.Id.deltaRelative = global::AppPSOne.Droid.Resource.Id.deltaRelative;
+			global::Xamarin.CommunityToolkit.Resource.Id.dependency_ordering = global::AppPSOne.Droid.Resource.Id.dependency_ordering;
+			global::Xamarin.CommunityToolkit.Resource.Id.design_bottom_sheet = global::AppPSOne.Droid.Resource.Id.design_bottom_sheet;
+			global::Xamarin.CommunityToolkit.Resource.Id.design_menu_item_action_area = global::AppPSOne.Droid.Resource.Id.design_menu_item_action_area;
+			global::Xamarin.CommunityToolkit.Resource.Id.design_menu_item_action_area_stub = global::AppPSOne.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::Xamarin.CommunityToolkit.Resource.Id.design_menu_item_text = global::AppPSOne.Droid.Resource.Id.design_menu_item_text;
+			global::Xamarin.CommunityToolkit.Resource.Id.design_navigation_view = global::AppPSOne.Droid.Resource.Id.design_navigation_view;
+			global::Xamarin.CommunityToolkit.Resource.Id.dialog_button = global::AppPSOne.Droid.Resource.Id.dialog_button;
+			global::Xamarin.CommunityToolkit.Resource.Id.dimensions = global::AppPSOne.Droid.Resource.Id.dimensions;
+			global::Xamarin.CommunityToolkit.Resource.Id.direct = global::AppPSOne.Droid.Resource.Id.direct;
+			global::Xamarin.CommunityToolkit.Resource.Id.disableHome = global::AppPSOne.Droid.Resource.Id.disableHome;
+			global::Xamarin.CommunityToolkit.Resource.Id.disableIntraAutoTransition = global::AppPSOne.Droid.Resource.Id.disableIntraAutoTransition;
+			global::Xamarin.CommunityToolkit.Resource.Id.disablePostScroll = global::AppPSOne.Droid.Resource.Id.disablePostScroll;
+			global::Xamarin.CommunityToolkit.Resource.Id.disableScroll = global::AppPSOne.Droid.Resource.Id.disableScroll;
+			global::Xamarin.CommunityToolkit.Resource.Id.disjoint = global::AppPSOne.Droid.Resource.Id.disjoint;
+			global::Xamarin.CommunityToolkit.Resource.Id.dragAnticlockwise = global::AppPSOne.Droid.Resource.Id.dragAnticlockwise;
+			global::Xamarin.CommunityToolkit.Resource.Id.dragClockwise = global::AppPSOne.Droid.Resource.Id.dragClockwise;
+			global::Xamarin.CommunityToolkit.Resource.Id.dragDown = global::AppPSOne.Droid.Resource.Id.dragDown;
+			global::Xamarin.CommunityToolkit.Resource.Id.dragEnd = global::AppPSOne.Droid.Resource.Id.dragEnd;
+			global::Xamarin.CommunityToolkit.Resource.Id.dragLeft = global::AppPSOne.Droid.Resource.Id.dragLeft;
+			global::Xamarin.CommunityToolkit.Resource.Id.dragRight = global::AppPSOne.Droid.Resource.Id.dragRight;
+			global::Xamarin.CommunityToolkit.Resource.Id.dragStart = global::AppPSOne.Droid.Resource.Id.dragStart;
+			global::Xamarin.CommunityToolkit.Resource.Id.dragUp = global::AppPSOne.Droid.Resource.Id.dragUp;
+			global::Xamarin.CommunityToolkit.Resource.Id.dropdown_menu = global::AppPSOne.Droid.Resource.Id.dropdown_menu;
+			global::Xamarin.CommunityToolkit.Resource.Id.easeIn = global::AppPSOne.Droid.Resource.Id.easeIn;
+			global::Xamarin.CommunityToolkit.Resource.Id.easeInOut = global::AppPSOne.Droid.Resource.Id.easeInOut;
+			global::Xamarin.CommunityToolkit.Resource.Id.easeOut = global::AppPSOne.Droid.Resource.Id.easeOut;
+			global::Xamarin.CommunityToolkit.Resource.Id.east = global::AppPSOne.Droid.Resource.Id.east;
+			global::Xamarin.CommunityToolkit.Resource.Id.edit_query = global::AppPSOne.Droid.Resource.Id.edit_query;
+			global::Xamarin.CommunityToolkit.Resource.Id.elastic = global::AppPSOne.Droid.Resource.Id.elastic;
+			global::Xamarin.CommunityToolkit.Resource.Id.end = global::AppPSOne.Droid.Resource.Id.end;
+			global::Xamarin.CommunityToolkit.Resource.Id.endToStart = global::AppPSOne.Droid.Resource.Id.endToStart;
+			global::Xamarin.CommunityToolkit.Resource.Id.end_padder = global::AppPSOne.Droid.Resource.Id.end_padder;
+			global::Xamarin.CommunityToolkit.Resource.Id.enterAlways = global::AppPSOne.Droid.Resource.Id.enterAlways;
+			global::Xamarin.CommunityToolkit.Resource.Id.enterAlwaysCollapsed = global::AppPSOne.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::Xamarin.CommunityToolkit.Resource.Id.exitUntilCollapsed = global::AppPSOne.Droid.Resource.Id.exitUntilCollapsed;
+			global::Xamarin.CommunityToolkit.Resource.Id.expanded_menu = global::AppPSOne.Droid.Resource.Id.expanded_menu;
+			global::Xamarin.CommunityToolkit.Resource.Id.expand_activities_button = global::AppPSOne.Droid.Resource.Id.expand_activities_button;
+			global::Xamarin.CommunityToolkit.Resource.Id.fade = global::AppPSOne.Droid.Resource.Id.fade;
+			global::Xamarin.CommunityToolkit.Resource.Id.fill = global::AppPSOne.Droid.Resource.Id.fill;
+			global::Xamarin.CommunityToolkit.Resource.Id.filled = global::AppPSOne.Droid.Resource.Id.filled;
+			global::Xamarin.CommunityToolkit.Resource.Id.fill_horizontal = global::AppPSOne.Droid.Resource.Id.fill_horizontal;
+			global::Xamarin.CommunityToolkit.Resource.Id.fill_vertical = global::AppPSOne.Droid.Resource.Id.fill_vertical;
+			global::Xamarin.CommunityToolkit.Resource.Id.fitToContents = global::AppPSOne.Droid.Resource.Id.fitToContents;
+			global::Xamarin.CommunityToolkit.Resource.Id.@fixed = global::AppPSOne.Droid.Resource.Id.@fixed;
+			global::Xamarin.CommunityToolkit.Resource.Id.flip = global::AppPSOne.Droid.Resource.Id.flip;
+			global::Xamarin.CommunityToolkit.Resource.Id.floating = global::AppPSOne.Droid.Resource.Id.floating;
+			global::Xamarin.CommunityToolkit.Resource.Id.flyoutcontent_appbar = global::AppPSOne.Droid.Resource.Id.flyoutcontent_appbar;
+			global::Xamarin.CommunityToolkit.Resource.Id.forever = global::AppPSOne.Droid.Resource.Id.forever;
+			global::Xamarin.CommunityToolkit.Resource.Id.fragment_container_view_tag = global::AppPSOne.Droid.Resource.Id.fragment_container_view_tag;
+			global::Xamarin.CommunityToolkit.Resource.Id.frost = global::AppPSOne.Droid.Resource.Id.frost;
+			global::Xamarin.CommunityToolkit.Resource.Id.FUNCTION = global::AppPSOne.Droid.Resource.Id.FUNCTION;
+			global::Xamarin.CommunityToolkit.Resource.Id.ghost_view = global::AppPSOne.Droid.Resource.Id.ghost_view;
+			global::Xamarin.CommunityToolkit.Resource.Id.ghost_view_holder = global::AppPSOne.Droid.Resource.Id.ghost_view_holder;
+			global::Xamarin.CommunityToolkit.Resource.Id.gone = global::AppPSOne.Droid.Resource.Id.gone;
+			global::Xamarin.CommunityToolkit.Resource.Id.graph = global::AppPSOne.Droid.Resource.Id.graph;
+			global::Xamarin.CommunityToolkit.Resource.Id.graph_wrap = global::AppPSOne.Droid.Resource.Id.graph_wrap;
+			global::Xamarin.CommunityToolkit.Resource.Id.grouping = global::AppPSOne.Droid.Resource.Id.grouping;
+			global::Xamarin.CommunityToolkit.Resource.Id.groups = global::AppPSOne.Droid.Resource.Id.groups;
+			global::Xamarin.CommunityToolkit.Resource.Id.group_divider = global::AppPSOne.Droid.Resource.Id.group_divider;
+			global::Xamarin.CommunityToolkit.Resource.Id.guideline = global::AppPSOne.Droid.Resource.Id.guideline;
+			global::Xamarin.CommunityToolkit.Resource.Id.header_title = global::AppPSOne.Droid.Resource.Id.header_title;
+			global::Xamarin.CommunityToolkit.Resource.Id.hideable = global::AppPSOne.Droid.Resource.Id.hideable;
+			global::Xamarin.CommunityToolkit.Resource.Id.home = global::AppPSOne.Droid.Resource.Id.home;
+			global::Xamarin.CommunityToolkit.Resource.Id.homeAsUp = global::AppPSOne.Droid.Resource.Id.homeAsUp;
+			global::Xamarin.CommunityToolkit.Resource.Id.honorRequest = global::AppPSOne.Droid.Resource.Id.honorRequest;
+			global::Xamarin.CommunityToolkit.Resource.Id.horizontal_only = global::AppPSOne.Droid.Resource.Id.horizontal_only;
+			global::Xamarin.CommunityToolkit.Resource.Id.icon = global::AppPSOne.Droid.Resource.Id.icon;
+			global::Xamarin.CommunityToolkit.Resource.Id.icon_frame = global::AppPSOne.Droid.Resource.Id.icon_frame;
+			global::Xamarin.CommunityToolkit.Resource.Id.icon_group = global::AppPSOne.Droid.Resource.Id.icon_group;
+			global::Xamarin.CommunityToolkit.Resource.Id.ifRoom = global::AppPSOne.Droid.Resource.Id.ifRoom;
+			global::Xamarin.CommunityToolkit.Resource.Id.ignore = global::AppPSOne.Droid.Resource.Id.ignore;
+			global::Xamarin.CommunityToolkit.Resource.Id.ignoreRequest = global::AppPSOne.Droid.Resource.Id.ignoreRequest;
+			global::Xamarin.CommunityToolkit.Resource.Id.image = global::AppPSOne.Droid.Resource.Id.image;
+			global::Xamarin.CommunityToolkit.Resource.Id.immediateStop = global::AppPSOne.Droid.Resource.Id.immediateStop;
+			global::Xamarin.CommunityToolkit.Resource.Id.included = global::AppPSOne.Droid.Resource.Id.included;
+			global::Xamarin.CommunityToolkit.Resource.Id.info = global::AppPSOne.Droid.Resource.Id.info;
+			global::Xamarin.CommunityToolkit.Resource.Id.invisible = global::AppPSOne.Droid.Resource.Id.invisible;
+			global::Xamarin.CommunityToolkit.Resource.Id.inward = global::AppPSOne.Droid.Resource.Id.inward;
+			global::Xamarin.CommunityToolkit.Resource.Id.italic = global::AppPSOne.Droid.Resource.Id.italic;
+			global::Xamarin.CommunityToolkit.Resource.Id.item_touch_helper_previous_elevation = global::AppPSOne.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Xamarin.CommunityToolkit.Resource.Id.jumpToEnd = global::AppPSOne.Droid.Resource.Id.jumpToEnd;
+			global::Xamarin.CommunityToolkit.Resource.Id.jumpToStart = global::AppPSOne.Droid.Resource.Id.jumpToStart;
+			global::Xamarin.CommunityToolkit.Resource.Id.labeled = global::AppPSOne.Droid.Resource.Id.labeled;
+			global::Xamarin.CommunityToolkit.Resource.Id.layout = global::AppPSOne.Droid.Resource.Id.layout;
+			global::Xamarin.CommunityToolkit.Resource.Id.left = global::AppPSOne.Droid.Resource.Id.left;
+			global::Xamarin.CommunityToolkit.Resource.Id.leftToRight = global::AppPSOne.Droid.Resource.Id.leftToRight;
+			global::Xamarin.CommunityToolkit.Resource.Id.legacy = global::AppPSOne.Droid.Resource.Id.legacy;
+			global::Xamarin.CommunityToolkit.Resource.Id.line1 = global::AppPSOne.Droid.Resource.Id.line1;
+			global::Xamarin.CommunityToolkit.Resource.Id.line3 = global::AppPSOne.Droid.Resource.Id.line3;
+			global::Xamarin.CommunityToolkit.Resource.Id.linear = global::AppPSOne.Droid.Resource.Id.linear;
+			global::Xamarin.CommunityToolkit.Resource.Id.listMode = global::AppPSOne.Droid.Resource.Id.listMode;
+			global::Xamarin.CommunityToolkit.Resource.Id.list_item = global::AppPSOne.Droid.Resource.Id.list_item;
+			global::Xamarin.CommunityToolkit.Resource.Id.main_appbar = global::AppPSOne.Droid.Resource.Id.main_appbar;
+			global::Xamarin.CommunityToolkit.Resource.Id.main_tablayout = global::AppPSOne.Droid.Resource.Id.main_tablayout;
+			global::Xamarin.CommunityToolkit.Resource.Id.main_toolbar = global::AppPSOne.Droid.Resource.Id.main_toolbar;
+			global::Xamarin.CommunityToolkit.Resource.Id.main_viewpager = global::AppPSOne.Droid.Resource.Id.main_viewpager;
+			global::Xamarin.CommunityToolkit.Resource.Id.masked = global::AppPSOne.Droid.Resource.Id.masked;
+			global::Xamarin.CommunityToolkit.Resource.Id.match_constraint = global::AppPSOne.Droid.Resource.Id.match_constraint;
+			global::Xamarin.CommunityToolkit.Resource.Id.match_parent = global::AppPSOne.Droid.Resource.Id.match_parent;
+			global::Xamarin.CommunityToolkit.Resource.Id.material_clock_display = global::AppPSOne.Droid.Resource.Id.material_clock_display;
+			global::Xamarin.CommunityToolkit.Resource.Id.material_clock_face = global::AppPSOne.Droid.Resource.Id.material_clock_face;
+			global::Xamarin.CommunityToolkit.Resource.Id.material_clock_hand = global::AppPSOne.Droid.Resource.Id.material_clock_hand;
+			global::Xamarin.CommunityToolkit.Resource.Id.material_clock_period_am_button = global::AppPSOne.Droid.Resource.Id.material_clock_period_am_button;
+			global::Xamarin.CommunityToolkit.Resource.Id.material_clock_period_pm_button = global::AppPSOne.Droid.Resource.Id.material_clock_period_pm_button;
+			global::Xamarin.CommunityToolkit.Resource.Id.material_clock_period_toggle = global::AppPSOne.Droid.Resource.Id.material_clock_period_toggle;
+			global::Xamarin.CommunityToolkit.Resource.Id.material_hour_text_input = global::AppPSOne.Droid.Resource.Id.material_hour_text_input;
+			global::Xamarin.CommunityToolkit.Resource.Id.material_hour_tv = global::AppPSOne.Droid.Resource.Id.material_hour_tv;
+			global::Xamarin.CommunityToolkit.Resource.Id.material_label = global::AppPSOne.Droid.Resource.Id.material_label;
+			global::Xamarin.CommunityToolkit.Resource.Id.material_minute_text_input = global::AppPSOne.Droid.Resource.Id.material_minute_text_input;
+			global::Xamarin.CommunityToolkit.Resource.Id.material_minute_tv = global::AppPSOne.Droid.Resource.Id.material_minute_tv;
+			global::Xamarin.CommunityToolkit.Resource.Id.material_textinput_timepicker = global::AppPSOne.Droid.Resource.Id.material_textinput_timepicker;
+			global::Xamarin.CommunityToolkit.Resource.Id.material_timepicker_cancel_button = global::AppPSOne.Droid.Resource.Id.material_timepicker_cancel_button;
+			global::Xamarin.CommunityToolkit.Resource.Id.material_timepicker_container = global::AppPSOne.Droid.Resource.Id.material_timepicker_container;
+			global::Xamarin.CommunityToolkit.Resource.Id.material_timepicker_edit_text = global::AppPSOne.Droid.Resource.Id.material_timepicker_edit_text;
+			global::Xamarin.CommunityToolkit.Resource.Id.material_timepicker_mode_button = global::AppPSOne.Droid.Resource.Id.material_timepicker_mode_button;
+			global::Xamarin.CommunityToolkit.Resource.Id.material_timepicker_ok_button = global::AppPSOne.Droid.Resource.Id.material_timepicker_ok_button;
+			global::Xamarin.CommunityToolkit.Resource.Id.material_timepicker_view = global::AppPSOne.Droid.Resource.Id.material_timepicker_view;
+			global::Xamarin.CommunityToolkit.Resource.Id.material_value_index = global::AppPSOne.Droid.Resource.Id.material_value_index;
+			global::Xamarin.CommunityToolkit.Resource.Id.media_actions = global::AppPSOne.Droid.Resource.Id.media_actions;
+			global::Xamarin.CommunityToolkit.Resource.Id.media_controller_compat_view_tag = global::AppPSOne.Droid.Resource.Id.media_controller_compat_view_tag;
+			global::Xamarin.CommunityToolkit.Resource.Id.message = global::AppPSOne.Droid.Resource.Id.message;
+			global::Xamarin.CommunityToolkit.Resource.Id.META = global::AppPSOne.Droid.Resource.Id.META;
+			global::Xamarin.CommunityToolkit.Resource.Id.middle = global::AppPSOne.Droid.Resource.Id.middle;
+			global::Xamarin.CommunityToolkit.Resource.Id.mini = global::AppPSOne.Droid.Resource.Id.mini;
+			global::Xamarin.CommunityToolkit.Resource.Id.month_grid = global::AppPSOne.Droid.Resource.Id.month_grid;
+			global::Xamarin.CommunityToolkit.Resource.Id.month_navigation_bar = global::AppPSOne.Droid.Resource.Id.month_navigation_bar;
+			global::Xamarin.CommunityToolkit.Resource.Id.month_navigation_fragment_toggle = global::AppPSOne.Droid.Resource.Id.month_navigation_fragment_toggle;
+			global::Xamarin.CommunityToolkit.Resource.Id.month_navigation_next = global::AppPSOne.Droid.Resource.Id.month_navigation_next;
+			global::Xamarin.CommunityToolkit.Resource.Id.month_navigation_previous = global::AppPSOne.Droid.Resource.Id.month_navigation_previous;
+			global::Xamarin.CommunityToolkit.Resource.Id.month_title = global::AppPSOne.Droid.Resource.Id.month_title;
+			global::Xamarin.CommunityToolkit.Resource.Id.motion_base = global::AppPSOne.Droid.Resource.Id.motion_base;
+			global::Xamarin.CommunityToolkit.Resource.Id.mtrl_anchor_parent = global::AppPSOne.Droid.Resource.Id.mtrl_anchor_parent;
+			global::Xamarin.CommunityToolkit.Resource.Id.mtrl_calendar_days_of_week = global::AppPSOne.Droid.Resource.Id.mtrl_calendar_days_of_week;
+			global::Xamarin.CommunityToolkit.Resource.Id.mtrl_calendar_day_selector_frame = global::AppPSOne.Droid.Resource.Id.mtrl_calendar_day_selector_frame;
+			global::Xamarin.CommunityToolkit.Resource.Id.mtrl_calendar_frame = global::AppPSOne.Droid.Resource.Id.mtrl_calendar_frame;
+			global::Xamarin.CommunityToolkit.Resource.Id.mtrl_calendar_main_pane = global::AppPSOne.Droid.Resource.Id.mtrl_calendar_main_pane;
+			global::Xamarin.CommunityToolkit.Resource.Id.mtrl_calendar_months = global::AppPSOne.Droid.Resource.Id.mtrl_calendar_months;
+			global::Xamarin.CommunityToolkit.Resource.Id.mtrl_calendar_selection_frame = global::AppPSOne.Droid.Resource.Id.mtrl_calendar_selection_frame;
+			global::Xamarin.CommunityToolkit.Resource.Id.mtrl_calendar_text_input_frame = global::AppPSOne.Droid.Resource.Id.mtrl_calendar_text_input_frame;
+			global::Xamarin.CommunityToolkit.Resource.Id.mtrl_calendar_year_selector_frame = global::AppPSOne.Droid.Resource.Id.mtrl_calendar_year_selector_frame;
+			global::Xamarin.CommunityToolkit.Resource.Id.mtrl_card_checked_layer_id = global::AppPSOne.Droid.Resource.Id.mtrl_card_checked_layer_id;
+			global::Xamarin.CommunityToolkit.Resource.Id.mtrl_child_content_container = global::AppPSOne.Droid.Resource.Id.mtrl_child_content_container;
+			global::Xamarin.CommunityToolkit.Resource.Id.mtrl_internal_children_alpha_tag = global::AppPSOne.Droid.Resource.Id.mtrl_internal_children_alpha_tag;
+			global::Xamarin.CommunityToolkit.Resource.Id.mtrl_motion_snapshot_view = global::AppPSOne.Droid.Resource.Id.mtrl_motion_snapshot_view;
+			global::Xamarin.CommunityToolkit.Resource.Id.mtrl_picker_fullscreen = global::AppPSOne.Droid.Resource.Id.mtrl_picker_fullscreen;
+			global::Xamarin.CommunityToolkit.Resource.Id.mtrl_picker_header = global::AppPSOne.Droid.Resource.Id.mtrl_picker_header;
+			global::Xamarin.CommunityToolkit.Resource.Id.mtrl_picker_header_selection_text = global::AppPSOne.Droid.Resource.Id.mtrl_picker_header_selection_text;
+			global::Xamarin.CommunityToolkit.Resource.Id.mtrl_picker_header_title_and_selection = global::AppPSOne.Droid.Resource.Id.mtrl_picker_header_title_and_selection;
+			global::Xamarin.CommunityToolkit.Resource.Id.mtrl_picker_header_toggle = global::AppPSOne.Droid.Resource.Id.mtrl_picker_header_toggle;
+			global::Xamarin.CommunityToolkit.Resource.Id.mtrl_picker_text_input_date = global::AppPSOne.Droid.Resource.Id.mtrl_picker_text_input_date;
+			global::Xamarin.CommunityToolkit.Resource.Id.mtrl_picker_text_input_range_end = global::AppPSOne.Droid.Resource.Id.mtrl_picker_text_input_range_end;
+			global::Xamarin.CommunityToolkit.Resource.Id.mtrl_picker_text_input_range_start = global::AppPSOne.Droid.Resource.Id.mtrl_picker_text_input_range_start;
+			global::Xamarin.CommunityToolkit.Resource.Id.mtrl_picker_title_text = global::AppPSOne.Droid.Resource.Id.mtrl_picker_title_text;
+			global::Xamarin.CommunityToolkit.Resource.Id.mtrl_view_tag_bottom_padding = global::AppPSOne.Droid.Resource.Id.mtrl_view_tag_bottom_padding;
+			global::Xamarin.CommunityToolkit.Resource.Id.multiply = global::AppPSOne.Droid.Resource.Id.multiply;
+			global::Xamarin.CommunityToolkit.Resource.Id.navigation_bar_item_icon_view = global::AppPSOne.Droid.Resource.Id.navigation_bar_item_icon_view;
+			global::Xamarin.CommunityToolkit.Resource.Id.navigation_bar_item_labels_group = global::AppPSOne.Droid.Resource.Id.navigation_bar_item_labels_group;
+			global::Xamarin.CommunityToolkit.Resource.Id.navigation_bar_item_large_label_view = global::AppPSOne.Droid.Resource.Id.navigation_bar_item_large_label_view;
+			global::Xamarin.CommunityToolkit.Resource.Id.navigation_bar_item_small_label_view = global::AppPSOne.Droid.Resource.Id.navigation_bar_item_small_label_view;
+			global::Xamarin.CommunityToolkit.Resource.Id.navigation_header_container = global::AppPSOne.Droid.Resource.Id.navigation_header_container;
+			global::Xamarin.CommunityToolkit.Resource.Id.nav_controller_view_tag = global::AppPSOne.Droid.Resource.Id.nav_controller_view_tag;
+			global::Xamarin.CommunityToolkit.Resource.Id.never = global::AppPSOne.Droid.Resource.Id.never;
+			global::Xamarin.CommunityToolkit.Resource.Id.neverCompleteToEnd = global::AppPSOne.Droid.Resource.Id.neverCompleteToEnd;
+			global::Xamarin.CommunityToolkit.Resource.Id.neverCompleteToStart = global::AppPSOne.Droid.Resource.Id.neverCompleteToStart;
+			global::Xamarin.CommunityToolkit.Resource.Id.none = global::AppPSOne.Droid.Resource.Id.none;
+			global::Xamarin.CommunityToolkit.Resource.Id.normal = global::AppPSOne.Droid.Resource.Id.normal;
+			global::Xamarin.CommunityToolkit.Resource.Id.north = global::AppPSOne.Droid.Resource.Id.north;
+			global::Xamarin.CommunityToolkit.Resource.Id.noScroll = global::AppPSOne.Droid.Resource.Id.noScroll;
+			global::Xamarin.CommunityToolkit.Resource.Id.noState = global::AppPSOne.Droid.Resource.Id.noState;
+			global::Xamarin.CommunityToolkit.Resource.Id.notification_background = global::AppPSOne.Droid.Resource.Id.notification_background;
+			global::Xamarin.CommunityToolkit.Resource.Id.notification_main_column = global::AppPSOne.Droid.Resource.Id.notification_main_column;
+			global::Xamarin.CommunityToolkit.Resource.Id.notification_main_column_container = global::AppPSOne.Droid.Resource.Id.notification_main_column_container;
+			global::Xamarin.CommunityToolkit.Resource.Id.NO_DEBUG = global::AppPSOne.Droid.Resource.Id.NO_DEBUG;
+			global::Xamarin.CommunityToolkit.Resource.Id.off = global::AppPSOne.Droid.Resource.Id.off;
+			global::Xamarin.CommunityToolkit.Resource.Id.on = global::AppPSOne.Droid.Resource.Id.on;
+			global::Xamarin.CommunityToolkit.Resource.Id.outline = global::AppPSOne.Droid.Resource.Id.outline;
+			global::Xamarin.CommunityToolkit.Resource.Id.outward = global::AppPSOne.Droid.Resource.Id.outward;
+			global::Xamarin.CommunityToolkit.Resource.Id.overshoot = global::AppPSOne.Droid.Resource.Id.overshoot;
+			global::Xamarin.CommunityToolkit.Resource.Id.packed = global::AppPSOne.Droid.Resource.Id.packed;
+			global::Xamarin.CommunityToolkit.Resource.Id.parallax = global::AppPSOne.Droid.Resource.Id.parallax;
+			global::Xamarin.CommunityToolkit.Resource.Id.parent = global::AppPSOne.Droid.Resource.Id.parent;
+			global::Xamarin.CommunityToolkit.Resource.Id.parentPanel = global::AppPSOne.Droid.Resource.Id.parentPanel;
+			global::Xamarin.CommunityToolkit.Resource.Id.parentRelative = global::AppPSOne.Droid.Resource.Id.parentRelative;
+			global::Xamarin.CommunityToolkit.Resource.Id.parent_matrix = global::AppPSOne.Droid.Resource.Id.parent_matrix;
+			global::Xamarin.CommunityToolkit.Resource.Id.password_toggle = global::AppPSOne.Droid.Resource.Id.password_toggle;
+			global::Xamarin.CommunityToolkit.Resource.Id.path = global::AppPSOne.Droid.Resource.Id.path;
+			global::Xamarin.CommunityToolkit.Resource.Id.pathRelative = global::AppPSOne.Droid.Resource.Id.pathRelative;
+			global::Xamarin.CommunityToolkit.Resource.Id.peekHeight = global::AppPSOne.Droid.Resource.Id.peekHeight;
+			global::Xamarin.CommunityToolkit.Resource.Id.percent = global::AppPSOne.Droid.Resource.Id.percent;
+			global::Xamarin.CommunityToolkit.Resource.Id.pin = global::AppPSOne.Droid.Resource.Id.pin;
+			global::Xamarin.CommunityToolkit.Resource.Id.position = global::AppPSOne.Droid.Resource.Id.position;
+			global::Xamarin.CommunityToolkit.Resource.Id.postLayout = global::AppPSOne.Droid.Resource.Id.postLayout;
+			global::Xamarin.CommunityToolkit.Resource.Id.progress_circular = global::AppPSOne.Droid.Resource.Id.progress_circular;
+			global::Xamarin.CommunityToolkit.Resource.Id.progress_horizontal = global::AppPSOne.Droid.Resource.Id.progress_horizontal;
+			global::Xamarin.CommunityToolkit.Resource.Id.radio = global::AppPSOne.Droid.Resource.Id.radio;
+			global::Xamarin.CommunityToolkit.Resource.Id.ratio = global::AppPSOne.Droid.Resource.Id.ratio;
+			global::Xamarin.CommunityToolkit.Resource.Id.rectangles = global::AppPSOne.Droid.Resource.Id.rectangles;
+			global::Xamarin.CommunityToolkit.Resource.Id.recycler_view = global::AppPSOne.Droid.Resource.Id.recycler_view;
+			global::Xamarin.CommunityToolkit.Resource.Id.reverseSawtooth = global::AppPSOne.Droid.Resource.Id.reverseSawtooth;
+			global::Xamarin.CommunityToolkit.Resource.Id.right = global::AppPSOne.Droid.Resource.Id.right;
+			global::Xamarin.CommunityToolkit.Resource.Id.rightToLeft = global::AppPSOne.Droid.Resource.Id.rightToLeft;
+			global::Xamarin.CommunityToolkit.Resource.Id.right_icon = global::AppPSOne.Droid.Resource.Id.right_icon;
+			global::Xamarin.CommunityToolkit.Resource.Id.right_side = global::AppPSOne.Droid.Resource.Id.right_side;
+			global::Xamarin.CommunityToolkit.Resource.Id.rounded = global::AppPSOne.Droid.Resource.Id.rounded;
+			global::Xamarin.CommunityToolkit.Resource.Id.row_index_key = global::AppPSOne.Droid.Resource.Id.row_index_key;
+			global::Xamarin.CommunityToolkit.Resource.Id.save_non_transition_alpha = global::AppPSOne.Droid.Resource.Id.save_non_transition_alpha;
+			global::Xamarin.CommunityToolkit.Resource.Id.save_overlay_view = global::AppPSOne.Droid.Resource.Id.save_overlay_view;
+			global::Xamarin.CommunityToolkit.Resource.Id.sawtooth = global::AppPSOne.Droid.Resource.Id.sawtooth;
+			global::Xamarin.CommunityToolkit.Resource.Id.scale = global::AppPSOne.Droid.Resource.Id.scale;
+			global::Xamarin.CommunityToolkit.Resource.Id.screen = global::AppPSOne.Droid.Resource.Id.screen;
+			global::Xamarin.CommunityToolkit.Resource.Id.scroll = global::AppPSOne.Droid.Resource.Id.scroll;
+			global::Xamarin.CommunityToolkit.Resource.Id.scrollable = global::AppPSOne.Droid.Resource.Id.scrollable;
+			global::Xamarin.CommunityToolkit.Resource.Id.scrollIndicatorDown = global::AppPSOne.Droid.Resource.Id.scrollIndicatorDown;
+			global::Xamarin.CommunityToolkit.Resource.Id.scrollIndicatorUp = global::AppPSOne.Droid.Resource.Id.scrollIndicatorUp;
+			global::Xamarin.CommunityToolkit.Resource.Id.scrollView = global::AppPSOne.Droid.Resource.Id.scrollView;
+			global::Xamarin.CommunityToolkit.Resource.Id.search_badge = global::AppPSOne.Droid.Resource.Id.search_badge;
+			global::Xamarin.CommunityToolkit.Resource.Id.search_bar = global::AppPSOne.Droid.Resource.Id.search_bar;
+			global::Xamarin.CommunityToolkit.Resource.Id.search_button = global::AppPSOne.Droid.Resource.Id.search_button;
+			global::Xamarin.CommunityToolkit.Resource.Id.search_close_btn = global::AppPSOne.Droid.Resource.Id.search_close_btn;
+			global::Xamarin.CommunityToolkit.Resource.Id.search_edit_frame = global::AppPSOne.Droid.Resource.Id.search_edit_frame;
+			global::Xamarin.CommunityToolkit.Resource.Id.search_go_btn = global::AppPSOne.Droid.Resource.Id.search_go_btn;
+			global::Xamarin.CommunityToolkit.Resource.Id.search_mag_icon = global::AppPSOne.Droid.Resource.Id.search_mag_icon;
+			global::Xamarin.CommunityToolkit.Resource.Id.search_plate = global::AppPSOne.Droid.Resource.Id.search_plate;
+			global::Xamarin.CommunityToolkit.Resource.Id.search_src_text = global::AppPSOne.Droid.Resource.Id.search_src_text;
+			global::Xamarin.CommunityToolkit.Resource.Id.search_voice_btn = global::AppPSOne.Droid.Resource.Id.search_voice_btn;
+			global::Xamarin.CommunityToolkit.Resource.Id.seekbar = global::AppPSOne.Droid.Resource.Id.seekbar;
+			global::Xamarin.CommunityToolkit.Resource.Id.seekbar_value = global::AppPSOne.Droid.Resource.Id.seekbar_value;
+			global::Xamarin.CommunityToolkit.Resource.Id.selected = global::AppPSOne.Droid.Resource.Id.selected;
+			global::Xamarin.CommunityToolkit.Resource.Id.selection_type = global::AppPSOne.Droid.Resource.Id.selection_type;
+			global::Xamarin.CommunityToolkit.Resource.Id.select_dialog_listview = global::AppPSOne.Droid.Resource.Id.select_dialog_listview;
+			global::Xamarin.CommunityToolkit.Resource.Id.sharedValueSet = global::AppPSOne.Droid.Resource.Id.sharedValueSet;
+			global::Xamarin.CommunityToolkit.Resource.Id.sharedValueUnset = global::AppPSOne.Droid.Resource.Id.sharedValueUnset;
+			global::Xamarin.CommunityToolkit.Resource.Id.shellcontent_appbar = global::AppPSOne.Droid.Resource.Id.shellcontent_appbar;
+			global::Xamarin.CommunityToolkit.Resource.Id.shellcontent_toolbar = global::AppPSOne.Droid.Resource.Id.shellcontent_toolbar;
+			global::Xamarin.CommunityToolkit.Resource.Id.SHIFT = global::AppPSOne.Droid.Resource.Id.SHIFT;
+			global::Xamarin.CommunityToolkit.Resource.Id.shortcut = global::AppPSOne.Droid.Resource.Id.shortcut;
+			global::Xamarin.CommunityToolkit.Resource.Id.showCustom = global::AppPSOne.Droid.Resource.Id.showCustom;
+			global::Xamarin.CommunityToolkit.Resource.Id.showHome = global::AppPSOne.Droid.Resource.Id.showHome;
+			global::Xamarin.CommunityToolkit.Resource.Id.showTitle = global::AppPSOne.Droid.Resource.Id.showTitle;
+			global::Xamarin.CommunityToolkit.Resource.Id.SHOW_ALL = global::AppPSOne.Droid.Resource.Id.SHOW_ALL;
+			global::Xamarin.CommunityToolkit.Resource.Id.SHOW_PATH = global::AppPSOne.Droid.Resource.Id.SHOW_PATH;
+			global::Xamarin.CommunityToolkit.Resource.Id.SHOW_PROGRESS = global::AppPSOne.Droid.Resource.Id.SHOW_PROGRESS;
+			global::Xamarin.CommunityToolkit.Resource.Id.sin = global::AppPSOne.Droid.Resource.Id.sin;
+			global::Xamarin.CommunityToolkit.Resource.Id.skipCollapsed = global::AppPSOne.Droid.Resource.Id.skipCollapsed;
+			global::Xamarin.CommunityToolkit.Resource.Id.skipped = global::AppPSOne.Droid.Resource.Id.skipped;
+			global::Xamarin.CommunityToolkit.Resource.Id.slide = global::AppPSOne.Droid.Resource.Id.slide;
+			global::Xamarin.CommunityToolkit.Resource.Id.sliding_tabs = global::AppPSOne.Droid.Resource.Id.sliding_tabs;
+			global::Xamarin.CommunityToolkit.Resource.Id.snackbar_action = global::AppPSOne.Droid.Resource.Id.snackbar_action;
+			global::Xamarin.CommunityToolkit.Resource.Id.snackbar_text = global::AppPSOne.Droid.Resource.Id.snackbar_text;
+			global::Xamarin.CommunityToolkit.Resource.Id.snap = global::AppPSOne.Droid.Resource.Id.snap;
+			global::Xamarin.CommunityToolkit.Resource.Id.snapMargins = global::AppPSOne.Droid.Resource.Id.snapMargins;
+			global::Xamarin.CommunityToolkit.Resource.Id.south = global::AppPSOne.Droid.Resource.Id.south;
+			global::Xamarin.CommunityToolkit.Resource.Id.spacer = global::AppPSOne.Droid.Resource.Id.spacer;
+			global::Xamarin.CommunityToolkit.Resource.Id.special_effects_controller_view_tag = global::AppPSOne.Droid.Resource.Id.special_effects_controller_view_tag;
+			global::Xamarin.CommunityToolkit.Resource.Id.spinner = global::AppPSOne.Droid.Resource.Id.spinner;
+			global::Xamarin.CommunityToolkit.Resource.Id.spline = global::AppPSOne.Droid.Resource.Id.spline;
+			global::Xamarin.CommunityToolkit.Resource.Id.split_action_bar = global::AppPSOne.Droid.Resource.Id.split_action_bar;
+			global::Xamarin.CommunityToolkit.Resource.Id.spread = global::AppPSOne.Droid.Resource.Id.spread;
+			global::Xamarin.CommunityToolkit.Resource.Id.spread_inside = global::AppPSOne.Droid.Resource.Id.spread_inside;
+			global::Xamarin.CommunityToolkit.Resource.Id.spring = global::AppPSOne.Droid.Resource.Id.spring;
+			global::Xamarin.CommunityToolkit.Resource.Id.square = global::AppPSOne.Droid.Resource.Id.square;
+			global::Xamarin.CommunityToolkit.Resource.Id.src_atop = global::AppPSOne.Droid.Resource.Id.src_atop;
+			global::Xamarin.CommunityToolkit.Resource.Id.src_in = global::AppPSOne.Droid.Resource.Id.src_in;
+			global::Xamarin.CommunityToolkit.Resource.Id.src_over = global::AppPSOne.Droid.Resource.Id.src_over;
+			global::Xamarin.CommunityToolkit.Resource.Id.standard = global::AppPSOne.Droid.Resource.Id.standard;
+			global::Xamarin.CommunityToolkit.Resource.Id.start = global::AppPSOne.Droid.Resource.Id.start;
+			global::Xamarin.CommunityToolkit.Resource.Id.startHorizontal = global::AppPSOne.Droid.Resource.Id.startHorizontal;
+			global::Xamarin.CommunityToolkit.Resource.Id.startToEnd = global::AppPSOne.Droid.Resource.Id.startToEnd;
+			global::Xamarin.CommunityToolkit.Resource.Id.startVertical = global::AppPSOne.Droid.Resource.Id.startVertical;
+			global::Xamarin.CommunityToolkit.Resource.Id.staticLayout = global::AppPSOne.Droid.Resource.Id.staticLayout;
+			global::Xamarin.CommunityToolkit.Resource.Id.staticPostLayout = global::AppPSOne.Droid.Resource.Id.staticPostLayout;
+			global::Xamarin.CommunityToolkit.Resource.Id.status_bar_latest_event_content = global::AppPSOne.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Xamarin.CommunityToolkit.Resource.Id.stop = global::AppPSOne.Droid.Resource.Id.stop;
+			global::Xamarin.CommunityToolkit.Resource.Id.stretch = global::AppPSOne.Droid.Resource.Id.stretch;
+			global::Xamarin.CommunityToolkit.Resource.Id.submenuarrow = global::AppPSOne.Droid.Resource.Id.submenuarrow;
+			global::Xamarin.CommunityToolkit.Resource.Id.submit_area = global::AppPSOne.Droid.Resource.Id.submit_area;
+			global::Xamarin.CommunityToolkit.Resource.Id.supportScrollUp = global::AppPSOne.Droid.Resource.Id.supportScrollUp;
+			global::Xamarin.CommunityToolkit.Resource.Id.switchWidget = global::AppPSOne.Droid.Resource.Id.switchWidget;
+			global::Xamarin.CommunityToolkit.Resource.Id.SYM = global::AppPSOne.Droid.Resource.Id.SYM;
+			global::Xamarin.CommunityToolkit.Resource.Id.tabMode = global::AppPSOne.Droid.Resource.Id.tabMode;
+			global::Xamarin.CommunityToolkit.Resource.Id.tag_accessibility_actions = global::AppPSOne.Droid.Resource.Id.tag_accessibility_actions;
+			global::Xamarin.CommunityToolkit.Resource.Id.tag_accessibility_clickable_spans = global::AppPSOne.Droid.Resource.Id.tag_accessibility_clickable_spans;
+			global::Xamarin.CommunityToolkit.Resource.Id.tag_accessibility_heading = global::AppPSOne.Droid.Resource.Id.tag_accessibility_heading;
+			global::Xamarin.CommunityToolkit.Resource.Id.tag_accessibility_pane_title = global::AppPSOne.Droid.Resource.Id.tag_accessibility_pane_title;
+			global::Xamarin.CommunityToolkit.Resource.Id.tag_on_apply_window_listener = global::AppPSOne.Droid.Resource.Id.tag_on_apply_window_listener;
+			global::Xamarin.CommunityToolkit.Resource.Id.tag_on_receive_content_listener = global::AppPSOne.Droid.Resource.Id.tag_on_receive_content_listener;
+			global::Xamarin.CommunityToolkit.Resource.Id.tag_on_receive_content_mime_types = global::AppPSOne.Droid.Resource.Id.tag_on_receive_content_mime_types;
+			global::Xamarin.CommunityToolkit.Resource.Id.tag_screen_reader_focusable = global::AppPSOne.Droid.Resource.Id.tag_screen_reader_focusable;
+			global::Xamarin.CommunityToolkit.Resource.Id.tag_state_description = global::AppPSOne.Droid.Resource.Id.tag_state_description;
+			global::Xamarin.CommunityToolkit.Resource.Id.tag_transition_group = global::AppPSOne.Droid.Resource.Id.tag_transition_group;
+			global::Xamarin.CommunityToolkit.Resource.Id.tag_unhandled_key_event_manager = global::AppPSOne.Droid.Resource.Id.tag_unhandled_key_event_manager;
+			global::Xamarin.CommunityToolkit.Resource.Id.tag_unhandled_key_listeners = global::AppPSOne.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::Xamarin.CommunityToolkit.Resource.Id.tag_window_insets_animation_callback = global::AppPSOne.Droid.Resource.Id.tag_window_insets_animation_callback;
+			global::Xamarin.CommunityToolkit.Resource.Id.test_checkbox_android_button_tint = global::AppPSOne.Droid.Resource.Id.test_checkbox_android_button_tint;
+			global::Xamarin.CommunityToolkit.Resource.Id.test_checkbox_app_button_tint = global::AppPSOne.Droid.Resource.Id.test_checkbox_app_button_tint;
+			global::Xamarin.CommunityToolkit.Resource.Id.test_radiobutton_android_button_tint = global::AppPSOne.Droid.Resource.Id.test_radiobutton_android_button_tint;
+			global::Xamarin.CommunityToolkit.Resource.Id.test_radiobutton_app_button_tint = global::AppPSOne.Droid.Resource.Id.test_radiobutton_app_button_tint;
+			global::Xamarin.CommunityToolkit.Resource.Id.text = global::AppPSOne.Droid.Resource.Id.text;
+			global::Xamarin.CommunityToolkit.Resource.Id.text2 = global::AppPSOne.Droid.Resource.Id.text2;
+			global::Xamarin.CommunityToolkit.Resource.Id.textEnd = global::AppPSOne.Droid.Resource.Id.textEnd;
+			global::Xamarin.CommunityToolkit.Resource.Id.textinput_counter = global::AppPSOne.Droid.Resource.Id.textinput_counter;
+			global::Xamarin.CommunityToolkit.Resource.Id.textinput_error = global::AppPSOne.Droid.Resource.Id.textinput_error;
+			global::Xamarin.CommunityToolkit.Resource.Id.textinput_helper_text = global::AppPSOne.Droid.Resource.Id.textinput_helper_text;
+			global::Xamarin.CommunityToolkit.Resource.Id.textinput_placeholder = global::AppPSOne.Droid.Resource.Id.textinput_placeholder;
+			global::Xamarin.CommunityToolkit.Resource.Id.textinput_prefix_text = global::AppPSOne.Droid.Resource.Id.textinput_prefix_text;
+			global::Xamarin.CommunityToolkit.Resource.Id.textinput_suffix_text = global::AppPSOne.Droid.Resource.Id.textinput_suffix_text;
+			global::Xamarin.CommunityToolkit.Resource.Id.textSpacerNoButtons = global::AppPSOne.Droid.Resource.Id.textSpacerNoButtons;
+			global::Xamarin.CommunityToolkit.Resource.Id.textSpacerNoTitle = global::AppPSOne.Droid.Resource.Id.textSpacerNoTitle;
+			global::Xamarin.CommunityToolkit.Resource.Id.textStart = global::AppPSOne.Droid.Resource.Id.textStart;
+			global::Xamarin.CommunityToolkit.Resource.Id.textTop = global::AppPSOne.Droid.Resource.Id.textTop;
+			global::Xamarin.CommunityToolkit.Resource.Id.text_input_end_icon = global::AppPSOne.Droid.Resource.Id.text_input_end_icon;
+			global::Xamarin.CommunityToolkit.Resource.Id.text_input_error_icon = global::AppPSOne.Droid.Resource.Id.text_input_error_icon;
+			global::Xamarin.CommunityToolkit.Resource.Id.text_input_start_icon = global::AppPSOne.Droid.Resource.Id.text_input_start_icon;
+			global::Xamarin.CommunityToolkit.Resource.Id.time = global::AppPSOne.Droid.Resource.Id.time;
+			global::Xamarin.CommunityToolkit.Resource.Id.title = global::AppPSOne.Droid.Resource.Id.title;
+			global::Xamarin.CommunityToolkit.Resource.Id.titleDividerNoCustom = global::AppPSOne.Droid.Resource.Id.titleDividerNoCustom;
+			global::Xamarin.CommunityToolkit.Resource.Id.title_template = global::AppPSOne.Droid.Resource.Id.title_template;
+			global::Xamarin.CommunityToolkit.Resource.Id.toggle = global::AppPSOne.Droid.Resource.Id.toggle;
+			global::Xamarin.CommunityToolkit.Resource.Id.toolbar = global::AppPSOne.Droid.Resource.Id.toolbar;
+			global::Xamarin.CommunityToolkit.Resource.Id.top = global::AppPSOne.Droid.Resource.Id.top;
+			global::Xamarin.CommunityToolkit.Resource.Id.topPanel = global::AppPSOne.Droid.Resource.Id.topPanel;
+			global::Xamarin.CommunityToolkit.Resource.Id.TOP_END = global::AppPSOne.Droid.Resource.Id.TOP_END;
+			global::Xamarin.CommunityToolkit.Resource.Id.TOP_START = global::AppPSOne.Droid.Resource.Id.TOP_START;
+			global::Xamarin.CommunityToolkit.Resource.Id.touch_outside = global::AppPSOne.Droid.Resource.Id.touch_outside;
+			global::Xamarin.CommunityToolkit.Resource.Id.transitionToEnd = global::AppPSOne.Droid.Resource.Id.transitionToEnd;
+			global::Xamarin.CommunityToolkit.Resource.Id.transitionToStart = global::AppPSOne.Droid.Resource.Id.transitionToStart;
+			global::Xamarin.CommunityToolkit.Resource.Id.transition_current_scene = global::AppPSOne.Droid.Resource.Id.transition_current_scene;
+			global::Xamarin.CommunityToolkit.Resource.Id.transition_layout_save = global::AppPSOne.Droid.Resource.Id.transition_layout_save;
+			global::Xamarin.CommunityToolkit.Resource.Id.transition_position = global::AppPSOne.Droid.Resource.Id.transition_position;
+			global::Xamarin.CommunityToolkit.Resource.Id.transition_scene_layoutid_cache = global::AppPSOne.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::Xamarin.CommunityToolkit.Resource.Id.transition_transform = global::AppPSOne.Droid.Resource.Id.transition_transform;
+			global::Xamarin.CommunityToolkit.Resource.Id.triangle = global::AppPSOne.Droid.Resource.Id.triangle;
+			global::Xamarin.CommunityToolkit.Resource.Id.@unchecked = global::AppPSOne.Droid.Resource.Id.@unchecked;
+			global::Xamarin.CommunityToolkit.Resource.Id.uniform = global::AppPSOne.Droid.Resource.Id.uniform;
+			global::Xamarin.CommunityToolkit.Resource.Id.unlabeled = global::AppPSOne.Droid.Resource.Id.unlabeled;
+			global::Xamarin.CommunityToolkit.Resource.Id.up = global::AppPSOne.Droid.Resource.Id.up;
+			global::Xamarin.CommunityToolkit.Resource.Id.useLogo = global::AppPSOne.Droid.Resource.Id.useLogo;
+			global::Xamarin.CommunityToolkit.Resource.Id.vertical_only = global::AppPSOne.Droid.Resource.Id.vertical_only;
+			global::Xamarin.CommunityToolkit.Resource.Id.view_offset_helper = global::AppPSOne.Droid.Resource.Id.view_offset_helper;
+			global::Xamarin.CommunityToolkit.Resource.Id.view_transition = global::AppPSOne.Droid.Resource.Id.view_transition;
+			global::Xamarin.CommunityToolkit.Resource.Id.view_tree_lifecycle_owner = global::AppPSOne.Droid.Resource.Id.view_tree_lifecycle_owner;
+			global::Xamarin.CommunityToolkit.Resource.Id.view_tree_saved_state_registry_owner = global::AppPSOne.Droid.Resource.Id.view_tree_saved_state_registry_owner;
+			global::Xamarin.CommunityToolkit.Resource.Id.view_tree_view_model_store_owner = global::AppPSOne.Droid.Resource.Id.view_tree_view_model_store_owner;
+			global::Xamarin.CommunityToolkit.Resource.Id.visible = global::AppPSOne.Droid.Resource.Id.visible;
+			global::Xamarin.CommunityToolkit.Resource.Id.visible_removing_fragment_view_tag = global::AppPSOne.Droid.Resource.Id.visible_removing_fragment_view_tag;
+			global::Xamarin.CommunityToolkit.Resource.Id.west = global::AppPSOne.Droid.Resource.Id.west;
+			global::Xamarin.CommunityToolkit.Resource.Id.withinBounds = global::AppPSOne.Droid.Resource.Id.withinBounds;
+			global::Xamarin.CommunityToolkit.Resource.Id.withText = global::AppPSOne.Droid.Resource.Id.withText;
+			global::Xamarin.CommunityToolkit.Resource.Id.wrap = global::AppPSOne.Droid.Resource.Id.wrap;
+			global::Xamarin.CommunityToolkit.Resource.Id.wrap_content = global::AppPSOne.Droid.Resource.Id.wrap_content;
+			global::Xamarin.CommunityToolkit.Resource.Id.wrap_content_constrained = global::AppPSOne.Droid.Resource.Id.wrap_content_constrained;
+			global::Xamarin.CommunityToolkit.Resource.Id.x_left = global::AppPSOne.Droid.Resource.Id.x_left;
+			global::Xamarin.CommunityToolkit.Resource.Id.x_right = global::AppPSOne.Droid.Resource.Id.x_right;
+			global::Xamarin.CommunityToolkit.Resource.Id.zero_corner_chip = global::AppPSOne.Droid.Resource.Id.zero_corner_chip;
+			global::Xamarin.CommunityToolkit.Resource.Integer.abc_config_activityDefaultDur = global::AppPSOne.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::Xamarin.CommunityToolkit.Resource.Integer.abc_config_activityShortDur = global::AppPSOne.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::Xamarin.CommunityToolkit.Resource.Integer.app_bar_elevation_anim_duration = global::AppPSOne.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::Xamarin.CommunityToolkit.Resource.Integer.bottom_sheet_slide_duration = global::AppPSOne.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::Xamarin.CommunityToolkit.Resource.Integer.cancel_button_image_alpha = global::AppPSOne.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Xamarin.CommunityToolkit.Resource.Integer.config_navAnimTime = global::AppPSOne.Droid.Resource.Integer.config_navAnimTime;
+			global::Xamarin.CommunityToolkit.Resource.Integer.config_tooltipAnimTime = global::AppPSOne.Droid.Resource.Integer.config_tooltipAnimTime;
+			global::Xamarin.CommunityToolkit.Resource.Integer.design_snackbar_text_max_lines = global::AppPSOne.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::Xamarin.CommunityToolkit.Resource.Integer.design_tab_indicator_anim_duration_ms = global::AppPSOne.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms;
+			global::Xamarin.CommunityToolkit.Resource.Integer.hide_password_duration = global::AppPSOne.Droid.Resource.Integer.hide_password_duration;
+			global::Xamarin.CommunityToolkit.Resource.Integer.material_motion_duration_long_1 = global::AppPSOne.Droid.Resource.Integer.material_motion_duration_long_1;
+			global::Xamarin.CommunityToolkit.Resource.Integer.material_motion_duration_long_2 = global::AppPSOne.Droid.Resource.Integer.material_motion_duration_long_2;
+			global::Xamarin.CommunityToolkit.Resource.Integer.material_motion_duration_medium_1 = global::AppPSOne.Droid.Resource.Integer.material_motion_duration_medium_1;
+			global::Xamarin.CommunityToolkit.Resource.Integer.material_motion_duration_medium_2 = global::AppPSOne.Droid.Resource.Integer.material_motion_duration_medium_2;
+			global::Xamarin.CommunityToolkit.Resource.Integer.material_motion_duration_short_1 = global::AppPSOne.Droid.Resource.Integer.material_motion_duration_short_1;
+			global::Xamarin.CommunityToolkit.Resource.Integer.material_motion_duration_short_2 = global::AppPSOne.Droid.Resource.Integer.material_motion_duration_short_2;
+			global::Xamarin.CommunityToolkit.Resource.Integer.material_motion_path = global::AppPSOne.Droid.Resource.Integer.material_motion_path;
+			global::Xamarin.CommunityToolkit.Resource.Integer.mtrl_badge_max_character_count = global::AppPSOne.Droid.Resource.Integer.mtrl_badge_max_character_count;
+			global::Xamarin.CommunityToolkit.Resource.Integer.mtrl_btn_anim_delay_ms = global::AppPSOne.Droid.Resource.Integer.mtrl_btn_anim_delay_ms;
+			global::Xamarin.CommunityToolkit.Resource.Integer.mtrl_btn_anim_duration_ms = global::AppPSOne.Droid.Resource.Integer.mtrl_btn_anim_duration_ms;
+			global::Xamarin.CommunityToolkit.Resource.Integer.mtrl_calendar_header_orientation = global::AppPSOne.Droid.Resource.Integer.mtrl_calendar_header_orientation;
+			global::Xamarin.CommunityToolkit.Resource.Integer.mtrl_calendar_selection_text_lines = global::AppPSOne.Droid.Resource.Integer.mtrl_calendar_selection_text_lines;
+			global::Xamarin.CommunityToolkit.Resource.Integer.mtrl_calendar_year_selector_span = global::AppPSOne.Droid.Resource.Integer.mtrl_calendar_year_selector_span;
+			global::Xamarin.CommunityToolkit.Resource.Integer.mtrl_card_anim_delay_ms = global::AppPSOne.Droid.Resource.Integer.mtrl_card_anim_delay_ms;
+			global::Xamarin.CommunityToolkit.Resource.Integer.mtrl_card_anim_duration_ms = global::AppPSOne.Droid.Resource.Integer.mtrl_card_anim_duration_ms;
+			global::Xamarin.CommunityToolkit.Resource.Integer.mtrl_chip_anim_duration = global::AppPSOne.Droid.Resource.Integer.mtrl_chip_anim_duration;
+			global::Xamarin.CommunityToolkit.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::AppPSOne.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
+			global::Xamarin.CommunityToolkit.Resource.Integer.show_password_duration = global::AppPSOne.Droid.Resource.Integer.show_password_duration;
+			global::Xamarin.CommunityToolkit.Resource.Integer.status_bar_notification_info_maxnum = global::AppPSOne.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Xamarin.CommunityToolkit.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0 = global::AppPSOne.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0;
+			global::Xamarin.CommunityToolkit.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1 = global::AppPSOne.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1;
+			global::Xamarin.CommunityToolkit.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0 = global::AppPSOne.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0;
+			global::Xamarin.CommunityToolkit.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1 = global::AppPSOne.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1;
+			global::Xamarin.CommunityToolkit.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0 = global::AppPSOne.Droid.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0;
+			global::Xamarin.CommunityToolkit.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0 = global::AppPSOne.Droid.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0;
+			global::Xamarin.CommunityToolkit.Resource.Interpolator.fast_out_slow_in = global::AppPSOne.Droid.Resource.Interpolator.fast_out_slow_in;
+			global::Xamarin.CommunityToolkit.Resource.Interpolator.mtrl_fast_out_linear_in = global::AppPSOne.Droid.Resource.Interpolator.mtrl_fast_out_linear_in;
+			global::Xamarin.CommunityToolkit.Resource.Interpolator.mtrl_fast_out_slow_in = global::AppPSOne.Droid.Resource.Interpolator.mtrl_fast_out_slow_in;
+			global::Xamarin.CommunityToolkit.Resource.Interpolator.mtrl_linear = global::AppPSOne.Droid.Resource.Interpolator.mtrl_linear;
+			global::Xamarin.CommunityToolkit.Resource.Interpolator.mtrl_linear_out_slow_in = global::AppPSOne.Droid.Resource.Interpolator.mtrl_linear_out_slow_in;
+			global::Xamarin.CommunityToolkit.Resource.Layout.abc_action_bar_title_item = global::AppPSOne.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::Xamarin.CommunityToolkit.Resource.Layout.abc_action_bar_up_container = global::AppPSOne.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::Xamarin.CommunityToolkit.Resource.Layout.abc_action_menu_item_layout = global::AppPSOne.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::Xamarin.CommunityToolkit.Resource.Layout.abc_action_menu_layout = global::AppPSOne.Droid.Resource.Layout.abc_action_menu_layout;
+			global::Xamarin.CommunityToolkit.Resource.Layout.abc_action_mode_bar = global::AppPSOne.Droid.Resource.Layout.abc_action_mode_bar;
+			global::Xamarin.CommunityToolkit.Resource.Layout.abc_action_mode_close_item_material = global::AppPSOne.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::Xamarin.CommunityToolkit.Resource.Layout.abc_activity_chooser_view = global::AppPSOne.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::Xamarin.CommunityToolkit.Resource.Layout.abc_activity_chooser_view_list_item = global::AppPSOne.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::Xamarin.CommunityToolkit.Resource.Layout.abc_alert_dialog_button_bar_material = global::AppPSOne.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::Xamarin.CommunityToolkit.Resource.Layout.abc_alert_dialog_material = global::AppPSOne.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::Xamarin.CommunityToolkit.Resource.Layout.abc_alert_dialog_title_material = global::AppPSOne.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::Xamarin.CommunityToolkit.Resource.Layout.abc_cascading_menu_item_layout = global::AppPSOne.Droid.Resource.Layout.abc_cascading_menu_item_layout;
+			global::Xamarin.CommunityToolkit.Resource.Layout.abc_dialog_title_material = global::AppPSOne.Droid.Resource.Layout.abc_dialog_title_material;
+			global::Xamarin.CommunityToolkit.Resource.Layout.abc_expanded_menu_layout = global::AppPSOne.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::Xamarin.CommunityToolkit.Resource.Layout.abc_list_menu_item_checkbox = global::AppPSOne.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::Xamarin.CommunityToolkit.Resource.Layout.abc_list_menu_item_icon = global::AppPSOne.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::Xamarin.CommunityToolkit.Resource.Layout.abc_list_menu_item_layout = global::AppPSOne.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::Xamarin.CommunityToolkit.Resource.Layout.abc_list_menu_item_radio = global::AppPSOne.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::Xamarin.CommunityToolkit.Resource.Layout.abc_popup_menu_header_item_layout = global::AppPSOne.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::Xamarin.CommunityToolkit.Resource.Layout.abc_popup_menu_item_layout = global::AppPSOne.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::Xamarin.CommunityToolkit.Resource.Layout.abc_screen_content_include = global::AppPSOne.Droid.Resource.Layout.abc_screen_content_include;
+			global::Xamarin.CommunityToolkit.Resource.Layout.abc_screen_simple = global::AppPSOne.Droid.Resource.Layout.abc_screen_simple;
+			global::Xamarin.CommunityToolkit.Resource.Layout.abc_screen_simple_overlay_action_mode = global::AppPSOne.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::Xamarin.CommunityToolkit.Resource.Layout.abc_screen_toolbar = global::AppPSOne.Droid.Resource.Layout.abc_screen_toolbar;
+			global::Xamarin.CommunityToolkit.Resource.Layout.abc_search_dropdown_item_icons_2line = global::AppPSOne.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::Xamarin.CommunityToolkit.Resource.Layout.abc_search_view = global::AppPSOne.Droid.Resource.Layout.abc_search_view;
+			global::Xamarin.CommunityToolkit.Resource.Layout.abc_select_dialog_material = global::AppPSOne.Droid.Resource.Layout.abc_select_dialog_material;
+			global::Xamarin.CommunityToolkit.Resource.Layout.abc_tooltip = global::AppPSOne.Droid.Resource.Layout.abc_tooltip;
+			global::Xamarin.CommunityToolkit.Resource.Layout.BottomTabLayout = global::AppPSOne.Droid.Resource.Layout.BottomTabLayout;
+			global::Xamarin.CommunityToolkit.Resource.Layout.browser_actions_context_menu_page = global::AppPSOne.Droid.Resource.Layout.browser_actions_context_menu_page;
+			global::Xamarin.CommunityToolkit.Resource.Layout.browser_actions_context_menu_row = global::AppPSOne.Droid.Resource.Layout.browser_actions_context_menu_row;
+			global::Xamarin.CommunityToolkit.Resource.Layout.CameraFragment = global::AppPSOne.Droid.Resource.Layout.CameraFragment;
+			global::Xamarin.CommunityToolkit.Resource.Layout.custom_dialog = global::AppPSOne.Droid.Resource.Layout.custom_dialog;
+			global::Xamarin.CommunityToolkit.Resource.Layout.design_bottom_navigation_item = global::AppPSOne.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::Xamarin.CommunityToolkit.Resource.Layout.design_bottom_sheet_dialog = global::AppPSOne.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::Xamarin.CommunityToolkit.Resource.Layout.design_layout_snackbar = global::AppPSOne.Droid.Resource.Layout.design_layout_snackbar;
+			global::Xamarin.CommunityToolkit.Resource.Layout.design_layout_snackbar_include = global::AppPSOne.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::Xamarin.CommunityToolkit.Resource.Layout.design_layout_tab_icon = global::AppPSOne.Droid.Resource.Layout.design_layout_tab_icon;
+			global::Xamarin.CommunityToolkit.Resource.Layout.design_layout_tab_text = global::AppPSOne.Droid.Resource.Layout.design_layout_tab_text;
+			global::Xamarin.CommunityToolkit.Resource.Layout.design_menu_item_action_area = global::AppPSOne.Droid.Resource.Layout.design_menu_item_action_area;
+			global::Xamarin.CommunityToolkit.Resource.Layout.design_navigation_item = global::AppPSOne.Droid.Resource.Layout.design_navigation_item;
+			global::Xamarin.CommunityToolkit.Resource.Layout.design_navigation_item_header = global::AppPSOne.Droid.Resource.Layout.design_navigation_item_header;
+			global::Xamarin.CommunityToolkit.Resource.Layout.design_navigation_item_separator = global::AppPSOne.Droid.Resource.Layout.design_navigation_item_separator;
+			global::Xamarin.CommunityToolkit.Resource.Layout.design_navigation_item_subheader = global::AppPSOne.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::Xamarin.CommunityToolkit.Resource.Layout.design_navigation_menu = global::AppPSOne.Droid.Resource.Layout.design_navigation_menu;
+			global::Xamarin.CommunityToolkit.Resource.Layout.design_navigation_menu_item = global::AppPSOne.Droid.Resource.Layout.design_navigation_menu_item;
+			global::Xamarin.CommunityToolkit.Resource.Layout.design_text_input_end_icon = global::AppPSOne.Droid.Resource.Layout.design_text_input_end_icon;
+			global::Xamarin.CommunityToolkit.Resource.Layout.design_text_input_start_icon = global::AppPSOne.Droid.Resource.Layout.design_text_input_start_icon;
+			global::Xamarin.CommunityToolkit.Resource.Layout.expand_button = global::AppPSOne.Droid.Resource.Layout.expand_button;
+			global::Xamarin.CommunityToolkit.Resource.Layout.FallbackTabbarDoNotUse = global::AppPSOne.Droid.Resource.Layout.FallbackTabbarDoNotUse;
+			global::Xamarin.CommunityToolkit.Resource.Layout.FallbackToolbarDoNotUse = global::AppPSOne.Droid.Resource.Layout.FallbackToolbarDoNotUse;
+			global::Xamarin.CommunityToolkit.Resource.Layout.FlyoutContent = global::AppPSOne.Droid.Resource.Layout.FlyoutContent;
+			global::Xamarin.CommunityToolkit.Resource.Layout.image_frame = global::AppPSOne.Droid.Resource.Layout.image_frame;
+			global::Xamarin.CommunityToolkit.Resource.Layout.material_chip_input_combo = global::AppPSOne.Droid.Resource.Layout.material_chip_input_combo;
+			global::Xamarin.CommunityToolkit.Resource.Layout.material_clockface_textview = global::AppPSOne.Droid.Resource.Layout.material_clockface_textview;
+			global::Xamarin.CommunityToolkit.Resource.Layout.material_clockface_view = global::AppPSOne.Droid.Resource.Layout.material_clockface_view;
+			global::Xamarin.CommunityToolkit.Resource.Layout.material_clock_display = global::AppPSOne.Droid.Resource.Layout.material_clock_display;
+			global::Xamarin.CommunityToolkit.Resource.Layout.material_clock_display_divider = global::AppPSOne.Droid.Resource.Layout.material_clock_display_divider;
+			global::Xamarin.CommunityToolkit.Resource.Layout.material_clock_period_toggle = global::AppPSOne.Droid.Resource.Layout.material_clock_period_toggle;
+			global::Xamarin.CommunityToolkit.Resource.Layout.material_clock_period_toggle_land = global::AppPSOne.Droid.Resource.Layout.material_clock_period_toggle_land;
+			global::Xamarin.CommunityToolkit.Resource.Layout.material_radial_view_group = global::AppPSOne.Droid.Resource.Layout.material_radial_view_group;
+			global::Xamarin.CommunityToolkit.Resource.Layout.material_textinput_timepicker = global::AppPSOne.Droid.Resource.Layout.material_textinput_timepicker;
+			global::Xamarin.CommunityToolkit.Resource.Layout.material_timepicker = global::AppPSOne.Droid.Resource.Layout.material_timepicker;
+			global::Xamarin.CommunityToolkit.Resource.Layout.material_timepicker_dialog = global::AppPSOne.Droid.Resource.Layout.material_timepicker_dialog;
+			global::Xamarin.CommunityToolkit.Resource.Layout.material_timepicker_textinput_display = global::AppPSOne.Droid.Resource.Layout.material_timepicker_textinput_display;
+			global::Xamarin.CommunityToolkit.Resource.Layout.material_time_chip = global::AppPSOne.Droid.Resource.Layout.material_time_chip;
+			global::Xamarin.CommunityToolkit.Resource.Layout.material_time_input = global::AppPSOne.Droid.Resource.Layout.material_time_input;
+			global::Xamarin.CommunityToolkit.Resource.Layout.mtrl_alert_dialog = global::AppPSOne.Droid.Resource.Layout.mtrl_alert_dialog;
+			global::Xamarin.CommunityToolkit.Resource.Layout.mtrl_alert_dialog_actions = global::AppPSOne.Droid.Resource.Layout.mtrl_alert_dialog_actions;
+			global::Xamarin.CommunityToolkit.Resource.Layout.mtrl_alert_dialog_title = global::AppPSOne.Droid.Resource.Layout.mtrl_alert_dialog_title;
+			global::Xamarin.CommunityToolkit.Resource.Layout.mtrl_alert_select_dialog_item = global::AppPSOne.Droid.Resource.Layout.mtrl_alert_select_dialog_item;
+			global::Xamarin.CommunityToolkit.Resource.Layout.mtrl_alert_select_dialog_multichoice = global::AppPSOne.Droid.Resource.Layout.mtrl_alert_select_dialog_multichoice;
+			global::Xamarin.CommunityToolkit.Resource.Layout.mtrl_alert_select_dialog_singlechoice = global::AppPSOne.Droid.Resource.Layout.mtrl_alert_select_dialog_singlechoice;
+			global::Xamarin.CommunityToolkit.Resource.Layout.mtrl_calendar_day = global::AppPSOne.Droid.Resource.Layout.mtrl_calendar_day;
+			global::Xamarin.CommunityToolkit.Resource.Layout.mtrl_calendar_days_of_week = global::AppPSOne.Droid.Resource.Layout.mtrl_calendar_days_of_week;
+			global::Xamarin.CommunityToolkit.Resource.Layout.mtrl_calendar_day_of_week = global::AppPSOne.Droid.Resource.Layout.mtrl_calendar_day_of_week;
+			global::Xamarin.CommunityToolkit.Resource.Layout.mtrl_calendar_horizontal = global::AppPSOne.Droid.Resource.Layout.mtrl_calendar_horizontal;
+			global::Xamarin.CommunityToolkit.Resource.Layout.mtrl_calendar_month = global::AppPSOne.Droid.Resource.Layout.mtrl_calendar_month;
+			global::Xamarin.CommunityToolkit.Resource.Layout.mtrl_calendar_months = global::AppPSOne.Droid.Resource.Layout.mtrl_calendar_months;
+			global::Xamarin.CommunityToolkit.Resource.Layout.mtrl_calendar_month_labeled = global::AppPSOne.Droid.Resource.Layout.mtrl_calendar_month_labeled;
+			global::Xamarin.CommunityToolkit.Resource.Layout.mtrl_calendar_month_navigation = global::AppPSOne.Droid.Resource.Layout.mtrl_calendar_month_navigation;
+			global::Xamarin.CommunityToolkit.Resource.Layout.mtrl_calendar_vertical = global::AppPSOne.Droid.Resource.Layout.mtrl_calendar_vertical;
+			global::Xamarin.CommunityToolkit.Resource.Layout.mtrl_calendar_year = global::AppPSOne.Droid.Resource.Layout.mtrl_calendar_year;
+			global::Xamarin.CommunityToolkit.Resource.Layout.mtrl_layout_snackbar = global::AppPSOne.Droid.Resource.Layout.mtrl_layout_snackbar;
+			global::Xamarin.CommunityToolkit.Resource.Layout.mtrl_layout_snackbar_include = global::AppPSOne.Droid.Resource.Layout.mtrl_layout_snackbar_include;
+			global::Xamarin.CommunityToolkit.Resource.Layout.mtrl_navigation_rail_item = global::AppPSOne.Droid.Resource.Layout.mtrl_navigation_rail_item;
+			global::Xamarin.CommunityToolkit.Resource.Layout.mtrl_picker_actions = global::AppPSOne.Droid.Resource.Layout.mtrl_picker_actions;
+			global::Xamarin.CommunityToolkit.Resource.Layout.mtrl_picker_dialog = global::AppPSOne.Droid.Resource.Layout.mtrl_picker_dialog;
+			global::Xamarin.CommunityToolkit.Resource.Layout.mtrl_picker_fullscreen = global::AppPSOne.Droid.Resource.Layout.mtrl_picker_fullscreen;
+			global::Xamarin.CommunityToolkit.Resource.Layout.mtrl_picker_header_dialog = global::AppPSOne.Droid.Resource.Layout.mtrl_picker_header_dialog;
+			global::Xamarin.CommunityToolkit.Resource.Layout.mtrl_picker_header_fullscreen = global::AppPSOne.Droid.Resource.Layout.mtrl_picker_header_fullscreen;
+			global::Xamarin.CommunityToolkit.Resource.Layout.mtrl_picker_header_selection_text = global::AppPSOne.Droid.Resource.Layout.mtrl_picker_header_selection_text;
+			global::Xamarin.CommunityToolkit.Resource.Layout.mtrl_picker_header_title_text = global::AppPSOne.Droid.Resource.Layout.mtrl_picker_header_title_text;
+			global::Xamarin.CommunityToolkit.Resource.Layout.mtrl_picker_header_toggle = global::AppPSOne.Droid.Resource.Layout.mtrl_picker_header_toggle;
+			global::Xamarin.CommunityToolkit.Resource.Layout.mtrl_picker_text_input_date = global::AppPSOne.Droid.Resource.Layout.mtrl_picker_text_input_date;
+			global::Xamarin.CommunityToolkit.Resource.Layout.mtrl_picker_text_input_date_range = global::AppPSOne.Droid.Resource.Layout.mtrl_picker_text_input_date_range;
+			global::Xamarin.CommunityToolkit.Resource.Layout.notification_action = global::AppPSOne.Droid.Resource.Layout.notification_action;
+			global::Xamarin.CommunityToolkit.Resource.Layout.notification_action_tombstone = global::AppPSOne.Droid.Resource.Layout.notification_action_tombstone;
+			global::Xamarin.CommunityToolkit.Resource.Layout.notification_media_action = global::AppPSOne.Droid.Resource.Layout.notification_media_action;
+			global::Xamarin.CommunityToolkit.Resource.Layout.notification_media_cancel_action = global::AppPSOne.Droid.Resource.Layout.notification_media_cancel_action;
+			global::Xamarin.CommunityToolkit.Resource.Layout.notification_template_big_media = global::AppPSOne.Droid.Resource.Layout.notification_template_big_media;
+			global::Xamarin.CommunityToolkit.Resource.Layout.notification_template_big_media_custom = global::AppPSOne.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::Xamarin.CommunityToolkit.Resource.Layout.notification_template_big_media_narrow = global::AppPSOne.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::Xamarin.CommunityToolkit.Resource.Layout.notification_template_big_media_narrow_custom = global::AppPSOne.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::Xamarin.CommunityToolkit.Resource.Layout.notification_template_custom_big = global::AppPSOne.Droid.Resource.Layout.notification_template_custom_big;
+			global::Xamarin.CommunityToolkit.Resource.Layout.notification_template_icon_group = global::AppPSOne.Droid.Resource.Layout.notification_template_icon_group;
+			global::Xamarin.CommunityToolkit.Resource.Layout.notification_template_lines_media = global::AppPSOne.Droid.Resource.Layout.notification_template_lines_media;
+			global::Xamarin.CommunityToolkit.Resource.Layout.notification_template_media = global::AppPSOne.Droid.Resource.Layout.notification_template_media;
+			global::Xamarin.CommunityToolkit.Resource.Layout.notification_template_media_custom = global::AppPSOne.Droid.Resource.Layout.notification_template_media_custom;
+			global::Xamarin.CommunityToolkit.Resource.Layout.notification_template_part_chronometer = global::AppPSOne.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Xamarin.CommunityToolkit.Resource.Layout.notification_template_part_time = global::AppPSOne.Droid.Resource.Layout.notification_template_part_time;
+			global::Xamarin.CommunityToolkit.Resource.Layout.preference = global::AppPSOne.Droid.Resource.Layout.preference;
+			global::Xamarin.CommunityToolkit.Resource.Layout.preference_category = global::AppPSOne.Droid.Resource.Layout.preference_category;
+			global::Xamarin.CommunityToolkit.Resource.Layout.preference_category_material = global::AppPSOne.Droid.Resource.Layout.preference_category_material;
+			global::Xamarin.CommunityToolkit.Resource.Layout.preference_dialog_edittext = global::AppPSOne.Droid.Resource.Layout.preference_dialog_edittext;
+			global::Xamarin.CommunityToolkit.Resource.Layout.preference_dropdown = global::AppPSOne.Droid.Resource.Layout.preference_dropdown;
+			global::Xamarin.CommunityToolkit.Resource.Layout.preference_dropdown_material = global::AppPSOne.Droid.Resource.Layout.preference_dropdown_material;
+			global::Xamarin.CommunityToolkit.Resource.Layout.preference_information = global::AppPSOne.Droid.Resource.Layout.preference_information;
+			global::Xamarin.CommunityToolkit.Resource.Layout.preference_information_material = global::AppPSOne.Droid.Resource.Layout.preference_information_material;
+			global::Xamarin.CommunityToolkit.Resource.Layout.preference_list_fragment = global::AppPSOne.Droid.Resource.Layout.preference_list_fragment;
+			global::Xamarin.CommunityToolkit.Resource.Layout.preference_material = global::AppPSOne.Droid.Resource.Layout.preference_material;
+			global::Xamarin.CommunityToolkit.Resource.Layout.preference_recyclerview = global::AppPSOne.Droid.Resource.Layout.preference_recyclerview;
+			global::Xamarin.CommunityToolkit.Resource.Layout.preference_widget_checkbox = global::AppPSOne.Droid.Resource.Layout.preference_widget_checkbox;
+			global::Xamarin.CommunityToolkit.Resource.Layout.preference_widget_seekbar = global::AppPSOne.Droid.Resource.Layout.preference_widget_seekbar;
+			global::Xamarin.CommunityToolkit.Resource.Layout.preference_widget_seekbar_material = global::AppPSOne.Droid.Resource.Layout.preference_widget_seekbar_material;
+			global::Xamarin.CommunityToolkit.Resource.Layout.preference_widget_switch = global::AppPSOne.Droid.Resource.Layout.preference_widget_switch;
+			global::Xamarin.CommunityToolkit.Resource.Layout.preference_widget_switch_compat = global::AppPSOne.Droid.Resource.Layout.preference_widget_switch_compat;
+			global::Xamarin.CommunityToolkit.Resource.Layout.RootLayout = global::AppPSOne.Droid.Resource.Layout.RootLayout;
+			global::Xamarin.CommunityToolkit.Resource.Layout.select_dialog_item_material = global::AppPSOne.Droid.Resource.Layout.select_dialog_item_material;
+			global::Xamarin.CommunityToolkit.Resource.Layout.select_dialog_multichoice_material = global::AppPSOne.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::Xamarin.CommunityToolkit.Resource.Layout.select_dialog_singlechoice_material = global::AppPSOne.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Xamarin.CommunityToolkit.Resource.Layout.ShellContent = global::AppPSOne.Droid.Resource.Layout.ShellContent;
+			global::Xamarin.CommunityToolkit.Resource.Layout.support_simple_spinner_dropdown_item = global::AppPSOne.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Xamarin.CommunityToolkit.Resource.Layout.Tabbar = global::AppPSOne.Droid.Resource.Layout.Tabbar;
+			global::Xamarin.CommunityToolkit.Resource.Layout.test_action_chip = global::AppPSOne.Droid.Resource.Layout.test_action_chip;
+			global::Xamarin.CommunityToolkit.Resource.Layout.test_chip_zero_corner_radius = global::AppPSOne.Droid.Resource.Layout.test_chip_zero_corner_radius;
+			global::Xamarin.CommunityToolkit.Resource.Layout.test_design_checkbox = global::AppPSOne.Droid.Resource.Layout.test_design_checkbox;
+			global::Xamarin.CommunityToolkit.Resource.Layout.test_design_radiobutton = global::AppPSOne.Droid.Resource.Layout.test_design_radiobutton;
+			global::Xamarin.CommunityToolkit.Resource.Layout.test_navigation_bar_item_layout = global::AppPSOne.Droid.Resource.Layout.test_navigation_bar_item_layout;
+			global::Xamarin.CommunityToolkit.Resource.Layout.test_reflow_chipgroup = global::AppPSOne.Droid.Resource.Layout.test_reflow_chipgroup;
+			global::Xamarin.CommunityToolkit.Resource.Layout.test_toolbar = global::AppPSOne.Droid.Resource.Layout.test_toolbar;
+			global::Xamarin.CommunityToolkit.Resource.Layout.test_toolbar_custom_background = global::AppPSOne.Droid.Resource.Layout.test_toolbar_custom_background;
+			global::Xamarin.CommunityToolkit.Resource.Layout.test_toolbar_elevation = global::AppPSOne.Droid.Resource.Layout.test_toolbar_elevation;
+			global::Xamarin.CommunityToolkit.Resource.Layout.test_toolbar_surface = global::AppPSOne.Droid.Resource.Layout.test_toolbar_surface;
+			global::Xamarin.CommunityToolkit.Resource.Layout.text_view_without_line_height = global::AppPSOne.Droid.Resource.Layout.text_view_without_line_height;
+			global::Xamarin.CommunityToolkit.Resource.Layout.text_view_with_line_height_from_appearance = global::AppPSOne.Droid.Resource.Layout.text_view_with_line_height_from_appearance;
+			global::Xamarin.CommunityToolkit.Resource.Layout.text_view_with_line_height_from_layout = global::AppPSOne.Droid.Resource.Layout.text_view_with_line_height_from_layout;
+			global::Xamarin.CommunityToolkit.Resource.Layout.text_view_with_line_height_from_style = global::AppPSOne.Droid.Resource.Layout.text_view_with_line_height_from_style;
+			global::Xamarin.CommunityToolkit.Resource.Layout.text_view_with_theme_line_height = global::AppPSOne.Droid.Resource.Layout.text_view_with_theme_line_height;
+			global::Xamarin.CommunityToolkit.Resource.Layout.Toolbar = global::AppPSOne.Droid.Resource.Layout.Toolbar;
+			global::Xamarin.CommunityToolkit.Resource.Plurals.mtrl_badge_content_description = global::AppPSOne.Droid.Resource.Plurals.mtrl_badge_content_description;
+			global::Xamarin.CommunityToolkit.Resource.String.abc_action_bar_home_description = global::AppPSOne.Droid.Resource.String.abc_action_bar_home_description;
+			global::Xamarin.CommunityToolkit.Resource.String.abc_action_bar_up_description = global::AppPSOne.Droid.Resource.String.abc_action_bar_up_description;
+			global::Xamarin.CommunityToolkit.Resource.String.abc_action_menu_overflow_description = global::AppPSOne.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::Xamarin.CommunityToolkit.Resource.String.abc_action_mode_done = global::AppPSOne.Droid.Resource.String.abc_action_mode_done;
+			global::Xamarin.CommunityToolkit.Resource.String.abc_activitychooserview_choose_application = global::AppPSOne.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::Xamarin.CommunityToolkit.Resource.String.abc_activity_chooser_view_see_all = global::AppPSOne.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::Xamarin.CommunityToolkit.Resource.String.abc_capital_off = global::AppPSOne.Droid.Resource.String.abc_capital_off;
+			global::Xamarin.CommunityToolkit.Resource.String.abc_capital_on = global::AppPSOne.Droid.Resource.String.abc_capital_on;
+			global::Xamarin.CommunityToolkit.Resource.String.abc_menu_alt_shortcut_label = global::AppPSOne.Droid.Resource.String.abc_menu_alt_shortcut_label;
+			global::Xamarin.CommunityToolkit.Resource.String.abc_menu_ctrl_shortcut_label = global::AppPSOne.Droid.Resource.String.abc_menu_ctrl_shortcut_label;
+			global::Xamarin.CommunityToolkit.Resource.String.abc_menu_delete_shortcut_label = global::AppPSOne.Droid.Resource.String.abc_menu_delete_shortcut_label;
+			global::Xamarin.CommunityToolkit.Resource.String.abc_menu_enter_shortcut_label = global::AppPSOne.Droid.Resource.String.abc_menu_enter_shortcut_label;
+			global::Xamarin.CommunityToolkit.Resource.String.abc_menu_function_shortcut_label = global::AppPSOne.Droid.Resource.String.abc_menu_function_shortcut_label;
+			global::Xamarin.CommunityToolkit.Resource.String.abc_menu_meta_shortcut_label = global::AppPSOne.Droid.Resource.String.abc_menu_meta_shortcut_label;
+			global::Xamarin.CommunityToolkit.Resource.String.abc_menu_shift_shortcut_label = global::AppPSOne.Droid.Resource.String.abc_menu_shift_shortcut_label;
+			global::Xamarin.CommunityToolkit.Resource.String.abc_menu_space_shortcut_label = global::AppPSOne.Droid.Resource.String.abc_menu_space_shortcut_label;
+			global::Xamarin.CommunityToolkit.Resource.String.abc_menu_sym_shortcut_label = global::AppPSOne.Droid.Resource.String.abc_menu_sym_shortcut_label;
+			global::Xamarin.CommunityToolkit.Resource.String.abc_prepend_shortcut_label = global::AppPSOne.Droid.Resource.String.abc_prepend_shortcut_label;
+			global::Xamarin.CommunityToolkit.Resource.String.abc_searchview_description_clear = global::AppPSOne.Droid.Resource.String.abc_searchview_description_clear;
+			global::Xamarin.CommunityToolkit.Resource.String.abc_searchview_description_query = global::AppPSOne.Droid.Resource.String.abc_searchview_description_query;
+			global::Xamarin.CommunityToolkit.Resource.String.abc_searchview_description_search = global::AppPSOne.Droid.Resource.String.abc_searchview_description_search;
+			global::Xamarin.CommunityToolkit.Resource.String.abc_searchview_description_submit = global::AppPSOne.Droid.Resource.String.abc_searchview_description_submit;
+			global::Xamarin.CommunityToolkit.Resource.String.abc_searchview_description_voice = global::AppPSOne.Droid.Resource.String.abc_searchview_description_voice;
+			global::Xamarin.CommunityToolkit.Resource.String.abc_search_hint = global::AppPSOne.Droid.Resource.String.abc_search_hint;
+			global::Xamarin.CommunityToolkit.Resource.String.abc_shareactionprovider_share_with = global::AppPSOne.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::Xamarin.CommunityToolkit.Resource.String.abc_shareactionprovider_share_with_application = global::AppPSOne.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::Xamarin.CommunityToolkit.Resource.String.abc_toolbar_collapse_description = global::AppPSOne.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Xamarin.CommunityToolkit.Resource.String.appbar_scrolling_view_behavior = global::AppPSOne.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::Xamarin.CommunityToolkit.Resource.String.bottomsheet_action_expand_halfway = global::AppPSOne.Droid.Resource.String.bottomsheet_action_expand_halfway;
+			global::Xamarin.CommunityToolkit.Resource.String.bottom_sheet_behavior = global::AppPSOne.Droid.Resource.String.bottom_sheet_behavior;
+			global::Xamarin.CommunityToolkit.Resource.String.character_counter_content_description = global::AppPSOne.Droid.Resource.String.character_counter_content_description;
+			global::Xamarin.CommunityToolkit.Resource.String.character_counter_overflowed_content_description = global::AppPSOne.Droid.Resource.String.character_counter_overflowed_content_description;
+			global::Xamarin.CommunityToolkit.Resource.String.character_counter_pattern = global::AppPSOne.Droid.Resource.String.character_counter_pattern;
+			global::Xamarin.CommunityToolkit.Resource.String.chip_text = global::AppPSOne.Droid.Resource.String.chip_text;
+			global::Xamarin.CommunityToolkit.Resource.String.clear_text_end_icon_content_description = global::AppPSOne.Droid.Resource.String.clear_text_end_icon_content_description;
+			global::Xamarin.CommunityToolkit.Resource.String.copy = global::AppPSOne.Droid.Resource.String.copy;
+			global::Xamarin.CommunityToolkit.Resource.String.copy_toast_msg = global::AppPSOne.Droid.Resource.String.copy_toast_msg;
+			global::Xamarin.CommunityToolkit.Resource.String.error_icon_content_description = global::AppPSOne.Droid.Resource.String.error_icon_content_description;
+			global::Xamarin.CommunityToolkit.Resource.String.expand_button_title = global::AppPSOne.Droid.Resource.String.expand_button_title;
+			global::Xamarin.CommunityToolkit.Resource.String.exposed_dropdown_menu_content_description = global::AppPSOne.Droid.Resource.String.exposed_dropdown_menu_content_description;
+			global::Xamarin.CommunityToolkit.Resource.String.fab_transformation_scrim_behavior = global::AppPSOne.Droid.Resource.String.fab_transformation_scrim_behavior;
+			global::Xamarin.CommunityToolkit.Resource.String.fab_transformation_sheet_behavior = global::AppPSOne.Droid.Resource.String.fab_transformation_sheet_behavior;
+			global::Xamarin.CommunityToolkit.Resource.String.fallback_menu_item_copy_link = global::AppPSOne.Droid.Resource.String.fallback_menu_item_copy_link;
+			global::Xamarin.CommunityToolkit.Resource.String.fallback_menu_item_open_in_browser = global::AppPSOne.Droid.Resource.String.fallback_menu_item_open_in_browser;
+			global::Xamarin.CommunityToolkit.Resource.String.fallback_menu_item_share_link = global::AppPSOne.Droid.Resource.String.fallback_menu_item_share_link;
+			global::Xamarin.CommunityToolkit.Resource.String.hide_bottom_view_on_scroll_behavior = global::AppPSOne.Droid.Resource.String.hide_bottom_view_on_scroll_behavior;
+			global::Xamarin.CommunityToolkit.Resource.String.icon_content_description = global::AppPSOne.Droid.Resource.String.icon_content_description;
+			global::Xamarin.CommunityToolkit.Resource.String.item_view_role_description = global::AppPSOne.Droid.Resource.String.item_view_role_description;
+			global::Xamarin.CommunityToolkit.Resource.String.material_clock_display_divider = global::AppPSOne.Droid.Resource.String.material_clock_display_divider;
+			global::Xamarin.CommunityToolkit.Resource.String.material_clock_toggle_content_description = global::AppPSOne.Droid.Resource.String.material_clock_toggle_content_description;
+			global::Xamarin.CommunityToolkit.Resource.String.material_hour_selection = global::AppPSOne.Droid.Resource.String.material_hour_selection;
+			global::Xamarin.CommunityToolkit.Resource.String.material_hour_suffix = global::AppPSOne.Droid.Resource.String.material_hour_suffix;
+			global::Xamarin.CommunityToolkit.Resource.String.material_minute_selection = global::AppPSOne.Droid.Resource.String.material_minute_selection;
+			global::Xamarin.CommunityToolkit.Resource.String.material_minute_suffix = global::AppPSOne.Droid.Resource.String.material_minute_suffix;
+			global::Xamarin.CommunityToolkit.Resource.String.material_motion_easing_accelerated = global::AppPSOne.Droid.Resource.String.material_motion_easing_accelerated;
+			global::Xamarin.CommunityToolkit.Resource.String.material_motion_easing_decelerated = global::AppPSOne.Droid.Resource.String.material_motion_easing_decelerated;
+			global::Xamarin.CommunityToolkit.Resource.String.material_motion_easing_emphasized = global::AppPSOne.Droid.Resource.String.material_motion_easing_emphasized;
+			global::Xamarin.CommunityToolkit.Resource.String.material_motion_easing_linear = global::AppPSOne.Droid.Resource.String.material_motion_easing_linear;
+			global::Xamarin.CommunityToolkit.Resource.String.material_motion_easing_standard = global::AppPSOne.Droid.Resource.String.material_motion_easing_standard;
+			global::Xamarin.CommunityToolkit.Resource.String.material_slider_range_end = global::AppPSOne.Droid.Resource.String.material_slider_range_end;
+			global::Xamarin.CommunityToolkit.Resource.String.material_slider_range_start = global::AppPSOne.Droid.Resource.String.material_slider_range_start;
+			global::Xamarin.CommunityToolkit.Resource.String.material_timepicker_am = global::AppPSOne.Droid.Resource.String.material_timepicker_am;
+			global::Xamarin.CommunityToolkit.Resource.String.material_timepicker_clock_mode_description = global::AppPSOne.Droid.Resource.String.material_timepicker_clock_mode_description;
+			global::Xamarin.CommunityToolkit.Resource.String.material_timepicker_hour = global::AppPSOne.Droid.Resource.String.material_timepicker_hour;
+			global::Xamarin.CommunityToolkit.Resource.String.material_timepicker_minute = global::AppPSOne.Droid.Resource.String.material_timepicker_minute;
+			global::Xamarin.CommunityToolkit.Resource.String.material_timepicker_pm = global::AppPSOne.Droid.Resource.String.material_timepicker_pm;
+			global::Xamarin.CommunityToolkit.Resource.String.material_timepicker_select_time = global::AppPSOne.Droid.Resource.String.material_timepicker_select_time;
+			global::Xamarin.CommunityToolkit.Resource.String.material_timepicker_text_input_mode_description = global::AppPSOne.Droid.Resource.String.material_timepicker_text_input_mode_description;
+			global::Xamarin.CommunityToolkit.Resource.String.mtrl_badge_numberless_content_description = global::AppPSOne.Droid.Resource.String.mtrl_badge_numberless_content_description;
+			global::Xamarin.CommunityToolkit.Resource.String.mtrl_chip_close_icon_content_description = global::AppPSOne.Droid.Resource.String.mtrl_chip_close_icon_content_description;
+			global::Xamarin.CommunityToolkit.Resource.String.mtrl_exceed_max_badge_number_content_description = global::AppPSOne.Droid.Resource.String.mtrl_exceed_max_badge_number_content_description;
+			global::Xamarin.CommunityToolkit.Resource.String.mtrl_exceed_max_badge_number_suffix = global::AppPSOne.Droid.Resource.String.mtrl_exceed_max_badge_number_suffix;
+			global::Xamarin.CommunityToolkit.Resource.String.mtrl_picker_a11y_next_month = global::AppPSOne.Droid.Resource.String.mtrl_picker_a11y_next_month;
+			global::Xamarin.CommunityToolkit.Resource.String.mtrl_picker_a11y_prev_month = global::AppPSOne.Droid.Resource.String.mtrl_picker_a11y_prev_month;
+			global::Xamarin.CommunityToolkit.Resource.String.mtrl_picker_announce_current_selection = global::AppPSOne.Droid.Resource.String.mtrl_picker_announce_current_selection;
+			global::Xamarin.CommunityToolkit.Resource.String.mtrl_picker_cancel = global::AppPSOne.Droid.Resource.String.mtrl_picker_cancel;
+			global::Xamarin.CommunityToolkit.Resource.String.mtrl_picker_confirm = global::AppPSOne.Droid.Resource.String.mtrl_picker_confirm;
+			global::Xamarin.CommunityToolkit.Resource.String.mtrl_picker_date_header_selected = global::AppPSOne.Droid.Resource.String.mtrl_picker_date_header_selected;
+			global::Xamarin.CommunityToolkit.Resource.String.mtrl_picker_date_header_title = global::AppPSOne.Droid.Resource.String.mtrl_picker_date_header_title;
+			global::Xamarin.CommunityToolkit.Resource.String.mtrl_picker_date_header_unselected = global::AppPSOne.Droid.Resource.String.mtrl_picker_date_header_unselected;
+			global::Xamarin.CommunityToolkit.Resource.String.mtrl_picker_day_of_week_column_header = global::AppPSOne.Droid.Resource.String.mtrl_picker_day_of_week_column_header;
+			global::Xamarin.CommunityToolkit.Resource.String.mtrl_picker_invalid_format = global::AppPSOne.Droid.Resource.String.mtrl_picker_invalid_format;
+			global::Xamarin.CommunityToolkit.Resource.String.mtrl_picker_invalid_format_example = global::AppPSOne.Droid.Resource.String.mtrl_picker_invalid_format_example;
+			global::Xamarin.CommunityToolkit.Resource.String.mtrl_picker_invalid_format_use = global::AppPSOne.Droid.Resource.String.mtrl_picker_invalid_format_use;
+			global::Xamarin.CommunityToolkit.Resource.String.mtrl_picker_invalid_range = global::AppPSOne.Droid.Resource.String.mtrl_picker_invalid_range;
+			global::Xamarin.CommunityToolkit.Resource.String.mtrl_picker_navigate_to_year_description = global::AppPSOne.Droid.Resource.String.mtrl_picker_navigate_to_year_description;
+			global::Xamarin.CommunityToolkit.Resource.String.mtrl_picker_out_of_range = global::AppPSOne.Droid.Resource.String.mtrl_picker_out_of_range;
+			global::Xamarin.CommunityToolkit.Resource.String.mtrl_picker_range_header_only_end_selected = global::AppPSOne.Droid.Resource.String.mtrl_picker_range_header_only_end_selected;
+			global::Xamarin.CommunityToolkit.Resource.String.mtrl_picker_range_header_only_start_selected = global::AppPSOne.Droid.Resource.String.mtrl_picker_range_header_only_start_selected;
+			global::Xamarin.CommunityToolkit.Resource.String.mtrl_picker_range_header_selected = global::AppPSOne.Droid.Resource.String.mtrl_picker_range_header_selected;
+			global::Xamarin.CommunityToolkit.Resource.String.mtrl_picker_range_header_title = global::AppPSOne.Droid.Resource.String.mtrl_picker_range_header_title;
+			global::Xamarin.CommunityToolkit.Resource.String.mtrl_picker_range_header_unselected = global::AppPSOne.Droid.Resource.String.mtrl_picker_range_header_unselected;
+			global::Xamarin.CommunityToolkit.Resource.String.mtrl_picker_save = global::AppPSOne.Droid.Resource.String.mtrl_picker_save;
+			global::Xamarin.CommunityToolkit.Resource.String.mtrl_picker_text_input_date_hint = global::AppPSOne.Droid.Resource.String.mtrl_picker_text_input_date_hint;
+			global::Xamarin.CommunityToolkit.Resource.String.mtrl_picker_text_input_date_range_end_hint = global::AppPSOne.Droid.Resource.String.mtrl_picker_text_input_date_range_end_hint;
+			global::Xamarin.CommunityToolkit.Resource.String.mtrl_picker_text_input_date_range_start_hint = global::AppPSOne.Droid.Resource.String.mtrl_picker_text_input_date_range_start_hint;
+			global::Xamarin.CommunityToolkit.Resource.String.mtrl_picker_text_input_day_abbr = global::AppPSOne.Droid.Resource.String.mtrl_picker_text_input_day_abbr;
+			global::Xamarin.CommunityToolkit.Resource.String.mtrl_picker_text_input_month_abbr = global::AppPSOne.Droid.Resource.String.mtrl_picker_text_input_month_abbr;
+			global::Xamarin.CommunityToolkit.Resource.String.mtrl_picker_text_input_year_abbr = global::AppPSOne.Droid.Resource.String.mtrl_picker_text_input_year_abbr;
+			global::Xamarin.CommunityToolkit.Resource.String.mtrl_picker_toggle_to_calendar_input_mode = global::AppPSOne.Droid.Resource.String.mtrl_picker_toggle_to_calendar_input_mode;
+			global::Xamarin.CommunityToolkit.Resource.String.mtrl_picker_toggle_to_day_selection = global::AppPSOne.Droid.Resource.String.mtrl_picker_toggle_to_day_selection;
+			global::Xamarin.CommunityToolkit.Resource.String.mtrl_picker_toggle_to_text_input_mode = global::AppPSOne.Droid.Resource.String.mtrl_picker_toggle_to_text_input_mode;
+			global::Xamarin.CommunityToolkit.Resource.String.mtrl_picker_toggle_to_year_selection = global::AppPSOne.Droid.Resource.String.mtrl_picker_toggle_to_year_selection;
+			global::Xamarin.CommunityToolkit.Resource.String.nav_app_bar_navigate_up_description = global::AppPSOne.Droid.Resource.String.nav_app_bar_navigate_up_description;
+			global::Xamarin.CommunityToolkit.Resource.String.nav_app_bar_open_drawer_description = global::AppPSOne.Droid.Resource.String.nav_app_bar_open_drawer_description;
+			global::Xamarin.CommunityToolkit.Resource.String.not_set = global::AppPSOne.Droid.Resource.String.not_set;
+			global::Xamarin.CommunityToolkit.Resource.String.overflow_tab_title = global::AppPSOne.Droid.Resource.String.overflow_tab_title;
+			global::Xamarin.CommunityToolkit.Resource.String.password_toggle_content_description = global::AppPSOne.Droid.Resource.String.password_toggle_content_description;
+			global::Xamarin.CommunityToolkit.Resource.String.path_password_eye = global::AppPSOne.Droid.Resource.String.path_password_eye;
+			global::Xamarin.CommunityToolkit.Resource.String.path_password_eye_mask_strike_through = global::AppPSOne.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::Xamarin.CommunityToolkit.Resource.String.path_password_eye_mask_visible = global::AppPSOne.Droid.Resource.String.path_password_eye_mask_visible;
+			global::Xamarin.CommunityToolkit.Resource.String.path_password_strike_through = global::AppPSOne.Droid.Resource.String.path_password_strike_through;
+			global::Xamarin.CommunityToolkit.Resource.String.preference_copied = global::AppPSOne.Droid.Resource.String.preference_copied;
+			global::Xamarin.CommunityToolkit.Resource.String.search_menu_title = global::AppPSOne.Droid.Resource.String.search_menu_title;
+			global::Xamarin.CommunityToolkit.Resource.String.status_bar_notification_info_overflow = global::AppPSOne.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Xamarin.CommunityToolkit.Resource.String.summary_collapsed_preference_list = global::AppPSOne.Droid.Resource.String.summary_collapsed_preference_list;
+			global::Xamarin.CommunityToolkit.Resource.String.v7_preference_off = global::AppPSOne.Droid.Resource.String.v7_preference_off;
+			global::Xamarin.CommunityToolkit.Resource.String.v7_preference_on = global::AppPSOne.Droid.Resource.String.v7_preference_on;
+			global::Xamarin.CommunityToolkit.Resource.Style.AlertDialog_AppCompat = global::AppPSOne.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::Xamarin.CommunityToolkit.Resource.Style.AlertDialog_AppCompat_Light = global::AppPSOne.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Xamarin.CommunityToolkit.Resource.Style.AndroidThemeColorAccentYellow = global::AppPSOne.Droid.Resource.Style.AndroidThemeColorAccentYellow;
+			global::Xamarin.CommunityToolkit.Resource.Style.Animation_AppCompat_Dialog = global::AppPSOne.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::Xamarin.CommunityToolkit.Resource.Style.Animation_AppCompat_DropDownUp = global::AppPSOne.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::Xamarin.CommunityToolkit.Resource.Style.Animation_AppCompat_Tooltip = global::AppPSOne.Droid.Resource.Style.Animation_AppCompat_Tooltip;
+			global::Xamarin.CommunityToolkit.Resource.Style.Animation_Design_BottomSheetDialog = global::AppPSOne.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Xamarin.CommunityToolkit.Resource.Style.Animation_MaterialComponents_BottomSheetDialog = global::AppPSOne.Droid.Resource.Style.Animation_MaterialComponents_BottomSheetDialog;
+			global::Xamarin.CommunityToolkit.Resource.Style.AppCompatDialogStyle = global::AppPSOne.Droid.Resource.Style.AppCompatDialogStyle;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_AlertDialog_AppCompat = global::AppPSOne.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_AlertDialog_AppCompat_Light = global::AppPSOne.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Animation_AppCompat_Dialog = global::AppPSOne.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::AppPSOne.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Animation_AppCompat_Tooltip = global::AppPSOne.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_CardView = global::AppPSOne.Droid.Resource.Style.Base_CardView;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::AppPSOne.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_DialogWindowTitle_AppCompat = global::AppPSOne.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Icon = global::AppPSOne.Droid.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Icon;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Panel = global::AppPSOne.Droid.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Panel;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Text = global::AppPSOne.Droid.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Text;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_TextAppearance_AppCompat = global::AppPSOne.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::AppPSOne.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::AppPSOne.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_TextAppearance_AppCompat_Button = global::AppPSOne.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::AppPSOne.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::AppPSOne.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::AppPSOne.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::AppPSOne.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::AppPSOne.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::AppPSOne.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::AppPSOne.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_TextAppearance_AppCompat_Large = global::AppPSOne.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::AppPSOne.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::AppPSOne.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::AppPSOne.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::AppPSOne.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::AppPSOne.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::AppPSOne.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::AppPSOne.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::AppPSOne.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::AppPSOne.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_TextAppearance_AppCompat_Small = global::AppPSOne.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::AppPSOne.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::AppPSOne.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::AppPSOne.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_TextAppearance_AppCompat_Title = global::AppPSOne.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::AppPSOne.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::AppPSOne.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::AppPSOne.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::AppPSOne.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::AppPSOne.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::AppPSOne.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::AppPSOne.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::AppPSOne.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::AppPSOne.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::AppPSOne.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::AppPSOne.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::AppPSOne.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::AppPSOne.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::AppPSOne.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::AppPSOne.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::AppPSOne.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::AppPSOne.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::AppPSOne.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::AppPSOne.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_TextAppearance_MaterialComponents_Badge = global::AppPSOne.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Badge;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_TextAppearance_MaterialComponents_Button = global::AppPSOne.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Button;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_TextAppearance_MaterialComponents_Headline6 = global::AppPSOne.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Headline6;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_TextAppearance_MaterialComponents_Subtitle2 = global::AppPSOne.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Subtitle2;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::AppPSOne.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::AppPSOne.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::AppPSOne.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_ThemeOverlay_AppCompat = global::AppPSOne.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::AppPSOne.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::AppPSOne.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::AppPSOne.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::AppPSOne.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::AppPSOne.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::AppPSOne.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::AppPSOne.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::AppPSOne.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert_Framework = global::AppPSOne.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert_Framework;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework = global::AppPSOne.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_ThemeOverlay_MaterialComponents_MaterialAlertDialog = global::AppPSOne.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_MaterialAlertDialog;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Theme_AppCompat = global::AppPSOne.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::AppPSOne.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Theme_AppCompat_Dialog = global::AppPSOne.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::AppPSOne.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::AppPSOne.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::AppPSOne.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::AppPSOne.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Theme_AppCompat_Light = global::AppPSOne.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::AppPSOne.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::AppPSOne.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::AppPSOne.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::AppPSOne.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::AppPSOne.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::AppPSOne.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Theme_MaterialComponents = global::AppPSOne.Droid.Resource.Style.Base_Theme_MaterialComponents;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Theme_MaterialComponents_Bridge = global::AppPSOne.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Theme_MaterialComponents_CompactMenu = global::AppPSOne.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::AppPSOne.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::AppPSOne.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::AppPSOne.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Theme_MaterialComponents_Dialog_Bridge = global::AppPSOne.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Bridge;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::AppPSOne.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::AppPSOne.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Theme_MaterialComponents_Light = global::AppPSOne.Droid.Resource.Style.Base_Theme_MaterialComponents_Light;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge = global::AppPSOne.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar = global::AppPSOne.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::AppPSOne.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::AppPSOne.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::AppPSOne.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::AppPSOne.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Bridge = global::AppPSOne.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Bridge;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::AppPSOne.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::AppPSOne.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_BottomSheetDialog = global::AppPSOne.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_BottomSheetDialog;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::AppPSOne.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::AppPSOne.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_MaterialAlertDialog = global::AppPSOne.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_MaterialAlertDialog;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_V14_Theme_MaterialComponents = global::AppPSOne.Droid.Resource.Style.Base_V14_Theme_MaterialComponents;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::AppPSOne.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::AppPSOne.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog_Bridge = global::AppPSOne.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog_Bridge;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_V14_Theme_MaterialComponents_Light = global::AppPSOne.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::AppPSOne.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::AppPSOne.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::AppPSOne.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog_Bridge = global::AppPSOne.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog_Bridge;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::AppPSOne.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_V21_ThemeOverlay_MaterialComponents_BottomSheetDialog = global::AppPSOne.Droid.Resource.Style.Base_V21_ThemeOverlay_MaterialComponents_BottomSheetDialog;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_V21_Theme_AppCompat = global::AppPSOne.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::AppPSOne.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_V21_Theme_AppCompat_Light = global::AppPSOne.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::AppPSOne.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_V21_Theme_MaterialComponents = global::AppPSOne.Droid.Resource.Style.Base_V21_Theme_MaterialComponents;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_V21_Theme_MaterialComponents_Dialog = global::AppPSOne.Droid.Resource.Style.Base_V21_Theme_MaterialComponents_Dialog;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_V21_Theme_MaterialComponents_Light = global::AppPSOne.Droid.Resource.Style.Base_V21_Theme_MaterialComponents_Light;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_V21_Theme_MaterialComponents_Light_Dialog = global::AppPSOne.Droid.Resource.Style.Base_V21_Theme_MaterialComponents_Light_Dialog;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_V22_Theme_AppCompat = global::AppPSOne.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_V22_Theme_AppCompat_Light = global::AppPSOne.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_V23_Theme_AppCompat = global::AppPSOne.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_V23_Theme_AppCompat_Light = global::AppPSOne.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_V26_Theme_AppCompat = global::AppPSOne.Droid.Resource.Style.Base_V26_Theme_AppCompat;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_V26_Theme_AppCompat_Light = global::AppPSOne.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::AppPSOne.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_V28_Theme_AppCompat = global::AppPSOne.Droid.Resource.Style.Base_V28_Theme_AppCompat;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_V28_Theme_AppCompat_Light = global::AppPSOne.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::AppPSOne.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_V7_Theme_AppCompat = global::AppPSOne.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::AppPSOne.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_V7_Theme_AppCompat_Light = global::AppPSOne.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::AppPSOne.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::AppPSOne.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::AppPSOne.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::AppPSOne.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_AppCompat_ActionBar = global::AppPSOne.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::AppPSOne.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::AppPSOne.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::AppPSOne.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::AppPSOne.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_AppCompat_ActionButton = global::AppPSOne.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::AppPSOne.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::AppPSOne.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_AppCompat_ActionMode = global::AppPSOne.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::AppPSOne.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::AppPSOne.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_AppCompat_Button = global::AppPSOne.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::AppPSOne.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::AppPSOne.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::AppPSOne.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::AppPSOne.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::AppPSOne.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::AppPSOne.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_AppCompat_Button_Small = global::AppPSOne.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::AppPSOne.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::AppPSOne.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::AppPSOne.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::AppPSOne.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::AppPSOne.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::AppPSOne.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_AppCompat_EditText = global::AppPSOne.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_AppCompat_ImageButton = global::AppPSOne.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::AppPSOne.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::AppPSOne.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::AppPSOne.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::AppPSOne.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::AppPSOne.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::AppPSOne.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::AppPSOne.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::AppPSOne.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::AppPSOne.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::AppPSOne.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_AppCompat_ListView = global::AppPSOne.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::AppPSOne.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::AppPSOne.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::AppPSOne.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::AppPSOne.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::AppPSOne.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::AppPSOne.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::AppPSOne.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_AppCompat_RatingBar = global::AppPSOne.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::AppPSOne.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::AppPSOne.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_AppCompat_SearchView = global::AppPSOne.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::AppPSOne.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_AppCompat_SeekBar = global::AppPSOne.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::AppPSOne.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_AppCompat_Spinner = global::AppPSOne.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::AppPSOne.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_AppCompat_TextView = global::AppPSOne.Droid.Resource.Style.Base_Widget_AppCompat_TextView;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::AppPSOne.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_AppCompat_Toolbar = global::AppPSOne.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::AppPSOne.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_Design_TabLayout = global::AppPSOne.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_MaterialComponents_AutoCompleteTextView = global::AppPSOne.Droid.Resource.Style.Base_Widget_MaterialComponents_AutoCompleteTextView;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_MaterialComponents_CheckedTextView = global::AppPSOne.Droid.Resource.Style.Base_Widget_MaterialComponents_CheckedTextView;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_MaterialComponents_Chip = global::AppPSOne.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_MaterialComponents_MaterialCalendar_NavigationButton = global::AppPSOne.Droid.Resource.Style.Base_Widget_MaterialComponents_MaterialCalendar_NavigationButton;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_MaterialComponents_PopupMenu = global::AppPSOne.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ContextMenu = global::AppPSOne.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ContextMenu;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ListPopupWindow = global::AppPSOne.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ListPopupWindow;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_Overflow = global::AppPSOne.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_Overflow;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_MaterialComponents_Slider = global::AppPSOne.Droid.Resource.Style.Base_Widget_MaterialComponents_Slider;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_MaterialComponents_Snackbar = global::AppPSOne.Droid.Resource.Style.Base_Widget_MaterialComponents_Snackbar;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::AppPSOne.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::AppPSOne.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_MaterialComponents_TextView = global::AppPSOne.Droid.Resource.Style.Base_Widget_MaterialComponents_TextView;
+			global::Xamarin.CommunityToolkit.Resource.Style.CardView = global::AppPSOne.Droid.Resource.Style.CardView;
+			global::Xamarin.CommunityToolkit.Resource.Style.CardView_Dark = global::AppPSOne.Droid.Resource.Style.CardView_Dark;
+			global::Xamarin.CommunityToolkit.Resource.Style.CardView_Light = global::AppPSOne.Droid.Resource.Style.CardView_Light;
+			global::Xamarin.CommunityToolkit.Resource.Style.collectionViewTheme = global::AppPSOne.Droid.Resource.Style.collectionViewTheme;
+			global::Xamarin.CommunityToolkit.Resource.Style.EmptyTheme = global::AppPSOne.Droid.Resource.Style.EmptyTheme;
+			global::Xamarin.CommunityToolkit.Resource.Style.MainTheme = global::AppPSOne.Droid.Resource.Style.MainTheme;
+			global::Xamarin.CommunityToolkit.Resource.Style.MainTheme_Base = global::AppPSOne.Droid.Resource.Style.MainTheme_Base;
+			global::Xamarin.CommunityToolkit.Resource.Style.MaterialAlertDialog_MaterialComponents = global::AppPSOne.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents;
+			global::Xamarin.CommunityToolkit.Resource.Style.MaterialAlertDialog_MaterialComponents_Body_Text = global::AppPSOne.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Body_Text;
+			global::Xamarin.CommunityToolkit.Resource.Style.MaterialAlertDialog_MaterialComponents_Picker_Date_Calendar = global::AppPSOne.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Picker_Date_Calendar;
+			global::Xamarin.CommunityToolkit.Resource.Style.MaterialAlertDialog_MaterialComponents_Picker_Date_Spinner = global::AppPSOne.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Picker_Date_Spinner;
+			global::Xamarin.CommunityToolkit.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Icon = global::AppPSOne.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Icon;
+			global::Xamarin.CommunityToolkit.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Icon_CenterStacked = global::AppPSOne.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Icon_CenterStacked;
+			global::Xamarin.CommunityToolkit.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Panel = global::AppPSOne.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Panel;
+			global::Xamarin.CommunityToolkit.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Panel_CenterStacked = global::AppPSOne.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Panel_CenterStacked;
+			global::Xamarin.CommunityToolkit.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Text = global::AppPSOne.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Text;
+			global::Xamarin.CommunityToolkit.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Text_CenterStacked = global::AppPSOne.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Text_CenterStacked;
+			global::Xamarin.CommunityToolkit.Resource.Style.Platform_AppCompat = global::AppPSOne.Droid.Resource.Style.Platform_AppCompat;
+			global::Xamarin.CommunityToolkit.Resource.Style.Platform_AppCompat_Light = global::AppPSOne.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::Xamarin.CommunityToolkit.Resource.Style.Platform_MaterialComponents = global::AppPSOne.Droid.Resource.Style.Platform_MaterialComponents;
+			global::Xamarin.CommunityToolkit.Resource.Style.Platform_MaterialComponents_Dialog = global::AppPSOne.Droid.Resource.Style.Platform_MaterialComponents_Dialog;
+			global::Xamarin.CommunityToolkit.Resource.Style.Platform_MaterialComponents_Light = global::AppPSOne.Droid.Resource.Style.Platform_MaterialComponents_Light;
+			global::Xamarin.CommunityToolkit.Resource.Style.Platform_MaterialComponents_Light_Dialog = global::AppPSOne.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog;
+			global::Xamarin.CommunityToolkit.Resource.Style.Platform_ThemeOverlay_AppCompat = global::AppPSOne.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::Xamarin.CommunityToolkit.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::AppPSOne.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::Xamarin.CommunityToolkit.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::AppPSOne.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::Xamarin.CommunityToolkit.Resource.Style.Platform_V21_AppCompat = global::AppPSOne.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::Xamarin.CommunityToolkit.Resource.Style.Platform_V21_AppCompat_Light = global::AppPSOne.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::Xamarin.CommunityToolkit.Resource.Style.Platform_V25_AppCompat = global::AppPSOne.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::Xamarin.CommunityToolkit.Resource.Style.Platform_V25_AppCompat_Light = global::AppPSOne.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::Xamarin.CommunityToolkit.Resource.Style.Platform_Widget_AppCompat_Spinner = global::AppPSOne.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::Xamarin.CommunityToolkit.Resource.Style.Preference = global::AppPSOne.Droid.Resource.Style.Preference;
+			global::Xamarin.CommunityToolkit.Resource.Style.PreferenceCategoryTitleTextStyle = global::AppPSOne.Droid.Resource.Style.PreferenceCategoryTitleTextStyle;
+			global::Xamarin.CommunityToolkit.Resource.Style.PreferenceFragment = global::AppPSOne.Droid.Resource.Style.PreferenceFragment;
+			global::Xamarin.CommunityToolkit.Resource.Style.PreferenceFragmentList = global::AppPSOne.Droid.Resource.Style.PreferenceFragmentList;
+			global::Xamarin.CommunityToolkit.Resource.Style.PreferenceFragmentList_Material = global::AppPSOne.Droid.Resource.Style.PreferenceFragmentList_Material;
+			global::Xamarin.CommunityToolkit.Resource.Style.PreferenceFragment_Material = global::AppPSOne.Droid.Resource.Style.PreferenceFragment_Material;
+			global::Xamarin.CommunityToolkit.Resource.Style.PreferenceSummaryTextStyle = global::AppPSOne.Droid.Resource.Style.PreferenceSummaryTextStyle;
+			global::Xamarin.CommunityToolkit.Resource.Style.PreferenceThemeOverlay = global::AppPSOne.Droid.Resource.Style.PreferenceThemeOverlay;
+			global::Xamarin.CommunityToolkit.Resource.Style.PreferenceThemeOverlay_v14 = global::AppPSOne.Droid.Resource.Style.PreferenceThemeOverlay_v14;
+			global::Xamarin.CommunityToolkit.Resource.Style.PreferenceThemeOverlay_v14_Material = global::AppPSOne.Droid.Resource.Style.PreferenceThemeOverlay_v14_Material;
+			global::Xamarin.CommunityToolkit.Resource.Style.Preference_Category = global::AppPSOne.Droid.Resource.Style.Preference_Category;
+			global::Xamarin.CommunityToolkit.Resource.Style.Preference_Category_Material = global::AppPSOne.Droid.Resource.Style.Preference_Category_Material;
+			global::Xamarin.CommunityToolkit.Resource.Style.Preference_CheckBoxPreference = global::AppPSOne.Droid.Resource.Style.Preference_CheckBoxPreference;
+			global::Xamarin.CommunityToolkit.Resource.Style.Preference_CheckBoxPreference_Material = global::AppPSOne.Droid.Resource.Style.Preference_CheckBoxPreference_Material;
+			global::Xamarin.CommunityToolkit.Resource.Style.Preference_DialogPreference = global::AppPSOne.Droid.Resource.Style.Preference_DialogPreference;
+			global::Xamarin.CommunityToolkit.Resource.Style.Preference_DialogPreference_EditTextPreference = global::AppPSOne.Droid.Resource.Style.Preference_DialogPreference_EditTextPreference;
+			global::Xamarin.CommunityToolkit.Resource.Style.Preference_DialogPreference_EditTextPreference_Material = global::AppPSOne.Droid.Resource.Style.Preference_DialogPreference_EditTextPreference_Material;
+			global::Xamarin.CommunityToolkit.Resource.Style.Preference_DialogPreference_Material = global::AppPSOne.Droid.Resource.Style.Preference_DialogPreference_Material;
+			global::Xamarin.CommunityToolkit.Resource.Style.Preference_DropDown = global::AppPSOne.Droid.Resource.Style.Preference_DropDown;
+			global::Xamarin.CommunityToolkit.Resource.Style.Preference_DropDown_Material = global::AppPSOne.Droid.Resource.Style.Preference_DropDown_Material;
+			global::Xamarin.CommunityToolkit.Resource.Style.Preference_Information = global::AppPSOne.Droid.Resource.Style.Preference_Information;
+			global::Xamarin.CommunityToolkit.Resource.Style.Preference_Information_Material = global::AppPSOne.Droid.Resource.Style.Preference_Information_Material;
+			global::Xamarin.CommunityToolkit.Resource.Style.Preference_Material = global::AppPSOne.Droid.Resource.Style.Preference_Material;
+			global::Xamarin.CommunityToolkit.Resource.Style.Preference_PreferenceScreen = global::AppPSOne.Droid.Resource.Style.Preference_PreferenceScreen;
+			global::Xamarin.CommunityToolkit.Resource.Style.Preference_PreferenceScreen_Material = global::AppPSOne.Droid.Resource.Style.Preference_PreferenceScreen_Material;
+			global::Xamarin.CommunityToolkit.Resource.Style.Preference_SeekBarPreference = global::AppPSOne.Droid.Resource.Style.Preference_SeekBarPreference;
+			global::Xamarin.CommunityToolkit.Resource.Style.Preference_SeekBarPreference_Material = global::AppPSOne.Droid.Resource.Style.Preference_SeekBarPreference_Material;
+			global::Xamarin.CommunityToolkit.Resource.Style.Preference_SwitchPreference = global::AppPSOne.Droid.Resource.Style.Preference_SwitchPreference;
+			global::Xamarin.CommunityToolkit.Resource.Style.Preference_SwitchPreferenceCompat = global::AppPSOne.Droid.Resource.Style.Preference_SwitchPreferenceCompat;
+			global::Xamarin.CommunityToolkit.Resource.Style.Preference_SwitchPreferenceCompat_Material = global::AppPSOne.Droid.Resource.Style.Preference_SwitchPreferenceCompat_Material;
+			global::Xamarin.CommunityToolkit.Resource.Style.Preference_SwitchPreference_Material = global::AppPSOne.Droid.Resource.Style.Preference_SwitchPreference_Material;
+			global::Xamarin.CommunityToolkit.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::AppPSOne.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::Xamarin.CommunityToolkit.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::AppPSOne.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::Xamarin.CommunityToolkit.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::AppPSOne.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::Xamarin.CommunityToolkit.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::AppPSOne.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::Xamarin.CommunityToolkit.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::AppPSOne.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::Xamarin.CommunityToolkit.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = global::AppPSOne.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut;
+			global::Xamarin.CommunityToolkit.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::AppPSOne.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
+			global::Xamarin.CommunityToolkit.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::AppPSOne.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::Xamarin.CommunityToolkit.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::AppPSOne.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
+			global::Xamarin.CommunityToolkit.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::AppPSOne.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::Xamarin.CommunityToolkit.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::AppPSOne.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::Xamarin.CommunityToolkit.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::AppPSOne.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::Xamarin.CommunityToolkit.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::AppPSOne.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::Xamarin.CommunityToolkit.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::AppPSOne.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::Xamarin.CommunityToolkit.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::AppPSOne.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::Xamarin.CommunityToolkit.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::AppPSOne.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::Xamarin.CommunityToolkit.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::AppPSOne.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Xamarin.CommunityToolkit.Resource.Style.scrollViewScrollBars = global::AppPSOne.Droid.Resource.Style.scrollViewScrollBars;
+			global::Xamarin.CommunityToolkit.Resource.Style.scrollViewTheme = global::AppPSOne.Droid.Resource.Style.scrollViewTheme;
+			global::Xamarin.CommunityToolkit.Resource.Style.ShapeAppearanceOverlay = global::AppPSOne.Droid.Resource.Style.ShapeAppearanceOverlay;
+			global::Xamarin.CommunityToolkit.Resource.Style.ShapeAppearanceOverlay_BottomLeftDifferentCornerSize = global::AppPSOne.Droid.Resource.Style.ShapeAppearanceOverlay_BottomLeftDifferentCornerSize;
+			global::Xamarin.CommunityToolkit.Resource.Style.ShapeAppearanceOverlay_BottomRightCut = global::AppPSOne.Droid.Resource.Style.ShapeAppearanceOverlay_BottomRightCut;
+			global::Xamarin.CommunityToolkit.Resource.Style.ShapeAppearanceOverlay_Cut = global::AppPSOne.Droid.Resource.Style.ShapeAppearanceOverlay_Cut;
+			global::Xamarin.CommunityToolkit.Resource.Style.ShapeAppearanceOverlay_DifferentCornerSize = global::AppPSOne.Droid.Resource.Style.ShapeAppearanceOverlay_DifferentCornerSize;
+			global::Xamarin.CommunityToolkit.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_BottomSheet = global::AppPSOne.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_BottomSheet;
+			global::Xamarin.CommunityToolkit.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_Chip = global::AppPSOne.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_Chip;
+			global::Xamarin.CommunityToolkit.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_ExtendedFloatingActionButton = global::AppPSOne.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_ExtendedFloatingActionButton;
+			global::Xamarin.CommunityToolkit.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_FloatingActionButton = global::AppPSOne.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_FloatingActionButton;
+			global::Xamarin.CommunityToolkit.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day = global::AppPSOne.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day;
+			global::Xamarin.CommunityToolkit.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Window_Fullscreen = global::AppPSOne.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Window_Fullscreen;
+			global::Xamarin.CommunityToolkit.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Year = global::AppPSOne.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Year;
+			global::Xamarin.CommunityToolkit.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_TextInputLayout_FilledBox = global::AppPSOne.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_TextInputLayout_FilledBox;
+			global::Xamarin.CommunityToolkit.Resource.Style.ShapeAppearanceOverlay_TopLeftCut = global::AppPSOne.Droid.Resource.Style.ShapeAppearanceOverlay_TopLeftCut;
+			global::Xamarin.CommunityToolkit.Resource.Style.ShapeAppearanceOverlay_TopRightDifferentCornerSize = global::AppPSOne.Droid.Resource.Style.ShapeAppearanceOverlay_TopRightDifferentCornerSize;
+			global::Xamarin.CommunityToolkit.Resource.Style.ShapeAppearance_MaterialComponents = global::AppPSOne.Droid.Resource.Style.ShapeAppearance_MaterialComponents;
+			global::Xamarin.CommunityToolkit.Resource.Style.ShapeAppearance_MaterialComponents_LargeComponent = global::AppPSOne.Droid.Resource.Style.ShapeAppearance_MaterialComponents_LargeComponent;
+			global::Xamarin.CommunityToolkit.Resource.Style.ShapeAppearance_MaterialComponents_MediumComponent = global::AppPSOne.Droid.Resource.Style.ShapeAppearance_MaterialComponents_MediumComponent;
+			global::Xamarin.CommunityToolkit.Resource.Style.ShapeAppearance_MaterialComponents_SmallComponent = global::AppPSOne.Droid.Resource.Style.ShapeAppearance_MaterialComponents_SmallComponent;
+			global::Xamarin.CommunityToolkit.Resource.Style.ShapeAppearance_MaterialComponents_Test = global::AppPSOne.Droid.Resource.Style.ShapeAppearance_MaterialComponents_Test;
+			global::Xamarin.CommunityToolkit.Resource.Style.ShapeAppearance_MaterialComponents_Tooltip = global::AppPSOne.Droid.Resource.Style.ShapeAppearance_MaterialComponents_Tooltip;
+			global::Xamarin.CommunityToolkit.Resource.Style.TestStyleWithLineHeight = global::AppPSOne.Droid.Resource.Style.TestStyleWithLineHeight;
+			global::Xamarin.CommunityToolkit.Resource.Style.TestStyleWithLineHeightAppearance = global::AppPSOne.Droid.Resource.Style.TestStyleWithLineHeightAppearance;
+			global::Xamarin.CommunityToolkit.Resource.Style.TestStyleWithoutLineHeight = global::AppPSOne.Droid.Resource.Style.TestStyleWithoutLineHeight;
+			global::Xamarin.CommunityToolkit.Resource.Style.TestStyleWithThemeLineHeightAttribute = global::AppPSOne.Droid.Resource.Style.TestStyleWithThemeLineHeightAttribute;
+			global::Xamarin.CommunityToolkit.Resource.Style.TestThemeWithLineHeight = global::AppPSOne.Droid.Resource.Style.TestThemeWithLineHeight;
+			global::Xamarin.CommunityToolkit.Resource.Style.TestThemeWithLineHeightDisabled = global::AppPSOne.Droid.Resource.Style.TestThemeWithLineHeightDisabled;
+			global::Xamarin.CommunityToolkit.Resource.Style.Test_ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day = global::AppPSOne.Droid.Resource.Style.Test_ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day;
+			global::Xamarin.CommunityToolkit.Resource.Style.Test_Theme_MaterialComponents_MaterialCalendar = global::AppPSOne.Droid.Resource.Style.Test_Theme_MaterialComponents_MaterialCalendar;
+			global::Xamarin.CommunityToolkit.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar = global::AppPSOne.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar;
+			global::Xamarin.CommunityToolkit.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day = global::AppPSOne.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day;
+			global::Xamarin.CommunityToolkit.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day_Selected = global::AppPSOne.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day_Selected;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_AppCompat = global::AppPSOne.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_AppCompat_Body1 = global::AppPSOne.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_AppCompat_Body2 = global::AppPSOne.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_AppCompat_Button = global::AppPSOne.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_AppCompat_Caption = global::AppPSOne.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_AppCompat_Display1 = global::AppPSOne.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_AppCompat_Display2 = global::AppPSOne.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_AppCompat_Display3 = global::AppPSOne.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_AppCompat_Display4 = global::AppPSOne.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_AppCompat_Headline = global::AppPSOne.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_AppCompat_Inverse = global::AppPSOne.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_AppCompat_Large = global::AppPSOne.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::AppPSOne.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::AppPSOne.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::AppPSOne.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::AppPSOne.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::AppPSOne.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_AppCompat_Medium = global::AppPSOne.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::AppPSOne.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_AppCompat_Menu = global::AppPSOne.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::AppPSOne.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::AppPSOne.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_AppCompat_Small = global::AppPSOne.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::AppPSOne.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_AppCompat_Subhead = global::AppPSOne.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::AppPSOne.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_AppCompat_Title = global::AppPSOne.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::AppPSOne.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_AppCompat_Tooltip = global::AppPSOne.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::AppPSOne.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::AppPSOne.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::AppPSOne.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::AppPSOne.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::AppPSOne.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::AppPSOne.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::AppPSOne.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::AppPSOne.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::AppPSOne.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::AppPSOne.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::AppPSOne.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::AppPSOne.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::AppPSOne.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::AppPSOne.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::AppPSOne.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::AppPSOne.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::AppPSOne.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::AppPSOne.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::AppPSOne.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_Compat_Notification = global::AppPSOne.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_Compat_Notification_Info = global::AppPSOne.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::AppPSOne.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::AppPSOne.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::AppPSOne.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_Compat_Notification_Media = global::AppPSOne.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_Compat_Notification_Time = global::AppPSOne.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::AppPSOne.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_Compat_Notification_Title = global::AppPSOne.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::AppPSOne.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::AppPSOne.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_Design_Counter = global::AppPSOne.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_Design_Counter_Overflow = global::AppPSOne.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_Design_Error = global::AppPSOne.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_Design_HelperText = global::AppPSOne.Droid.Resource.Style.TextAppearance_Design_HelperText;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_Design_Hint = global::AppPSOne.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_Design_Placeholder = global::AppPSOne.Droid.Resource.Style.TextAppearance_Design_Placeholder;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_Design_Prefix = global::AppPSOne.Droid.Resource.Style.TextAppearance_Design_Prefix;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_Design_Snackbar_Message = global::AppPSOne.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_Design_Suffix = global::AppPSOne.Droid.Resource.Style.TextAppearance_Design_Suffix;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_Design_Tab = global::AppPSOne.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_MaterialComponents_Badge = global::AppPSOne.Droid.Resource.Style.TextAppearance_MaterialComponents_Badge;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::AppPSOne.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_MaterialComponents_Body2 = global::AppPSOne.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_MaterialComponents_Button = global::AppPSOne.Droid.Resource.Style.TextAppearance_MaterialComponents_Button;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_MaterialComponents_Caption = global::AppPSOne.Droid.Resource.Style.TextAppearance_MaterialComponents_Caption;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_MaterialComponents_Chip = global::AppPSOne.Droid.Resource.Style.TextAppearance_MaterialComponents_Chip;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_MaterialComponents_Headline1 = global::AppPSOne.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline1;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_MaterialComponents_Headline2 = global::AppPSOne.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline2;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_MaterialComponents_Headline3 = global::AppPSOne.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline3;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_MaterialComponents_Headline4 = global::AppPSOne.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline4;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_MaterialComponents_Headline5 = global::AppPSOne.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline5;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_MaterialComponents_Headline6 = global::AppPSOne.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline6;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_MaterialComponents_Overline = global::AppPSOne.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::AppPSOne.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::AppPSOne.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_MaterialComponents_TimePicker_Title = global::AppPSOne.Droid.Resource.Style.TextAppearance_MaterialComponents_TimePicker_Title;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_MaterialComponents_Tooltip = global::AppPSOne.Droid.Resource.Style.TextAppearance_MaterialComponents_Tooltip;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::AppPSOne.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::AppPSOne.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::AppPSOne.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlayColorAccentRed = global::AppPSOne.Droid.Resource.Style.ThemeOverlayColorAccentRed;
+			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_AppCompat = global::AppPSOne.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::AppPSOne.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_AppCompat_Dark = global::AppPSOne.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::AppPSOne.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_AppCompat_DayNight = global::AppPSOne.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight;
+			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar = global::AppPSOne.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar;
+			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::AppPSOne.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::AppPSOne.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_AppCompat_Light = global::AppPSOne.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_Design_TextInputEditText = global::AppPSOne.Droid.Resource.Style.ThemeOverlay_Design_TextInputEditText;
+			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents = global::AppPSOne.Droid.Resource.Style.ThemeOverlay_MaterialComponents;
+			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::AppPSOne.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
+			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar_Primary = global::AppPSOne.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar_Primary;
+			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar_Surface = global::AppPSOne.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar_Surface;
+			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView = global::AppPSOne.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView;
+			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox = global::AppPSOne.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox;
+			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox_Dense = global::AppPSOne.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox_Dense;
+			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox = global::AppPSOne.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox;
+			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense = global::AppPSOne.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense;
+			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_BottomAppBar_Primary = global::AppPSOne.Droid.Resource.Style.ThemeOverlay_MaterialComponents_BottomAppBar_Primary;
+			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_BottomAppBar_Surface = global::AppPSOne.Droid.Resource.Style.ThemeOverlay_MaterialComponents_BottomAppBar_Surface;
+			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_BottomSheetDialog = global::AppPSOne.Droid.Resource.Style.ThemeOverlay_MaterialComponents_BottomSheetDialog;
+			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::AppPSOne.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
+			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar = global::AppPSOne.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar;
+			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_DayNight_BottomSheetDialog = global::AppPSOne.Droid.Resource.Style.ThemeOverlay_MaterialComponents_DayNight_BottomSheetDialog;
+			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::AppPSOne.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
+			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::AppPSOne.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert_Framework = global::AppPSOne.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert_Framework;
+			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::AppPSOne.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light;
+			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework = global::AppPSOne.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework;
+			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog = global::AppPSOne.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog;
+			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Centered = global::AppPSOne.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Centered;
+			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date = global::AppPSOne.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date;
+			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Calendar = global::AppPSOne.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Calendar;
+			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text = global::AppPSOne.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text;
+			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text_Day = global::AppPSOne.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text_Day;
+			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Spinner = global::AppPSOne.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Spinner;
+			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_MaterialCalendar = global::AppPSOne.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialCalendar;
+			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_MaterialCalendar_Fullscreen = global::AppPSOne.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialCalendar_Fullscreen;
+			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText = global::AppPSOne.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText;
+			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = global::AppPSOne.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox;
+			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::AppPSOne.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::AppPSOne.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::AppPSOne.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_TimePicker = global::AppPSOne.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TimePicker;
+			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_TimePicker_Display = global::AppPSOne.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TimePicker_Display;
+			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Primary = global::AppPSOne.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Primary;
+			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Surface = global::AppPSOne.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Surface;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_AppCompat = global::AppPSOne.Droid.Resource.Style.Theme_AppCompat;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_AppCompat_CompactMenu = global::AppPSOne.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_AppCompat_DayNight = global::AppPSOne.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::AppPSOne.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::AppPSOne.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::AppPSOne.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::AppPSOne.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::AppPSOne.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::AppPSOne.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_AppCompat_Dialog = global::AppPSOne.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::AppPSOne.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_AppCompat_Dialog_Alert = global::AppPSOne.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::AppPSOne.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_AppCompat_Empty = global::AppPSOne.Droid.Resource.Style.Theme_AppCompat_Empty;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_AppCompat_Light = global::AppPSOne.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::AppPSOne.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_AppCompat_Light_Dialog = global::AppPSOne.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::AppPSOne.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::AppPSOne.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::AppPSOne.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::AppPSOne.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_AppCompat_NoActionBar = global::AppPSOne.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_Design = global::AppPSOne.Droid.Resource.Style.Theme_Design;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_Design_BottomSheetDialog = global::AppPSOne.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_Design_Light = global::AppPSOne.Droid.Resource.Style.Theme_Design_Light;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::AppPSOne.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_Design_Light_NoActionBar = global::AppPSOne.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_Design_NoActionBar = global::AppPSOne.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents = global::AppPSOne.Droid.Resource.Style.Theme_MaterialComponents;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::AppPSOne.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_Bridge = global::AppPSOne.Droid.Resource.Style.Theme_MaterialComponents_Bridge;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_CompactMenu = global::AppPSOne.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_DayNight = global::AppPSOne.Droid.Resource.Style.Theme_MaterialComponents_DayNight;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_DayNight_BottomSheetDialog = global::AppPSOne.Droid.Resource.Style.Theme_MaterialComponents_DayNight_BottomSheetDialog;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_DayNight_Bridge = global::AppPSOne.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Bridge;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_DayNight_DarkActionBar = global::AppPSOne.Droid.Resource.Style.Theme_MaterialComponents_DayNight_DarkActionBar;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_DayNight_DarkActionBar_Bridge = global::AppPSOne.Droid.Resource.Style.Theme_MaterialComponents_DayNight_DarkActionBar_Bridge;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_DayNight_Dialog = global::AppPSOne.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_DayNight_DialogWhenLarge = global::AppPSOne.Droid.Resource.Style.Theme_MaterialComponents_DayNight_DialogWhenLarge;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Alert = global::AppPSOne.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Alert;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Alert_Bridge = global::AppPSOne.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Alert_Bridge;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Bridge = global::AppPSOne.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Bridge;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_FixedSize = global::AppPSOne.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_FixedSize;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_FixedSize_Bridge = global::AppPSOne.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_FixedSize_Bridge;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_MinWidth = global::AppPSOne.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_MinWidth;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_MinWidth_Bridge = global::AppPSOne.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_MinWidth_Bridge;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_DayNight_NoActionBar = global::AppPSOne.Droid.Resource.Style.Theme_MaterialComponents_DayNight_NoActionBar;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_DayNight_NoActionBar_Bridge = global::AppPSOne.Droid.Resource.Style.Theme_MaterialComponents_DayNight_NoActionBar_Bridge;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_Dialog = global::AppPSOne.Droid.Resource.Style.Theme_MaterialComponents_Dialog;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::AppPSOne.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::AppPSOne.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_Dialog_Alert_Bridge = global::AppPSOne.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert_Bridge;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_Dialog_Bridge = global::AppPSOne.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Bridge;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_Dialog_FixedSize = global::AppPSOne.Droid.Resource.Style.Theme_MaterialComponents_Dialog_FixedSize;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_Dialog_FixedSize_Bridge = global::AppPSOne.Droid.Resource.Style.Theme_MaterialComponents_Dialog_FixedSize_Bridge;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::AppPSOne.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth_Bridge = global::AppPSOne.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth_Bridge;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_Light = global::AppPSOne.Droid.Resource.Style.Theme_MaterialComponents_Light;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_Light_BarSize = global::AppPSOne.Droid.Resource.Style.Theme_MaterialComponents_Light_BarSize;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::AppPSOne.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::AppPSOne.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::AppPSOne.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::AppPSOne.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::AppPSOne.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::AppPSOne.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::AppPSOne.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert_Bridge = global::AppPSOne.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert_Bridge;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_Light_Dialog_Bridge = global::AppPSOne.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Bridge;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize = global::AppPSOne.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize_Bridge = global::AppPSOne.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize_Bridge;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::AppPSOne.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth_Bridge = global::AppPSOne.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth_Bridge;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_Light_LargeTouch = global::AppPSOne.Droid.Resource.Style.Theme_MaterialComponents_Light_LargeTouch;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::AppPSOne.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::AppPSOne.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_NoActionBar = global::AppPSOne.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
+			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge = global::AppPSOne.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_ActionBar = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_ActionButton = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_ActionMode = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_ActivityChooserView = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_Button = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_ButtonBar = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_Button_Borderless = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_Button_Colored = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_Button_Small = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_EditText = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_ImageButton = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_Light_ActionBar = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_Light_ActionButton = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_Light_SearchView = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_ListMenuView = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_ListPopupWindow = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_ListView = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_ListView_DropDown = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_ListView_Menu = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_PopupMenu = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_PopupWindow = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_ProgressBar = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_RatingBar = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_RatingBar_Small = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_SearchView = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_SeekBar = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_Spinner = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_TextView = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_TextView;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_Toolbar = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::AppPSOne.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_Compat_NotificationActionContainer = global::AppPSOne.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_Compat_NotificationActionText = global::AppPSOne.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_Design_AppBarLayout = global::AppPSOne.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_Design_BottomNavigationView = global::AppPSOne.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_Design_BottomSheet_Modal = global::AppPSOne.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_Design_CollapsingToolbar = global::AppPSOne.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_Design_FloatingActionButton = global::AppPSOne.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_Design_NavigationView = global::AppPSOne.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::AppPSOne.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_Design_Snackbar = global::AppPSOne.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_Design_TabLayout = global::AppPSOne.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_Design_TextInputEditText = global::AppPSOne.Droid.Resource.Style.Widget_Design_TextInputEditText;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_Design_TextInputLayout = global::AppPSOne.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_ActionBar_Primary = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_Primary;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_ActionBar_PrimarySurface = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_PrimarySurface;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_ActionBar_Solid = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_Solid;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_ActionBar_Surface = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_Surface;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_AppBarLayout_Primary = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_AppBarLayout_Primary;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_AppBarLayout_PrimarySurface = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_AppBarLayout_PrimarySurface;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_AppBarLayout_Surface = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_AppBarLayout_Surface;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_FilledBox = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_FilledBox;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_FilledBox_Dense = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_FilledBox_Dense;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_Badge = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_Badge;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_BottomAppBar = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_BottomAppBar_PrimarySurface = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_PrimarySurface;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_BottomNavigationView = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_BottomNavigationView_PrimarySurface = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_PrimarySurface;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_BottomSheet = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_Button = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_Button;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_Button_Icon = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_Button_TextButton = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Flush = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Flush;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_Button_TextButton_Snackbar = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Snackbar;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_CardView = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_CardView;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_CheckedTextView = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_CheckedTextView;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_ChipGroup = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_Chip_Action = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_CircularProgressIndicator = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_CircularProgressIndicator;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_CircularProgressIndicator_ExtraSmall = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_CircularProgressIndicator_ExtraSmall;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_CircularProgressIndicator_Medium = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_CircularProgressIndicator_Medium;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_CircularProgressIndicator_Small = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_CircularProgressIndicator_Small;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_CollapsingToolbar = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_CollapsingToolbar;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_CompoundButton_CheckBox = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_CompoundButton_CheckBox;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_CompoundButton_RadioButton = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_CompoundButton_RadioButton;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_CompoundButton_Switch = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_CompoundButton_Switch;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_ExtendedFloatingActionButton = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_ExtendedFloatingActionButton;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_ExtendedFloatingActionButton_Icon = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_ExtendedFloatingActionButton_Icon;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_Light_ActionBar_Solid = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_Light_ActionBar_Solid;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_LinearProgressIndicator = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_LinearProgressIndicator;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_MaterialButtonToggleGroup = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_MaterialButtonToggleGroup;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_MaterialCalendar = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_MaterialCalendar_DayTextView = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_DayTextView;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Invalid = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Invalid;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Selected = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Selected;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Today = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Today;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Fullscreen = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Fullscreen;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderCancelButton = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderCancelButton;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderConfirmButton = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderConfirmButton;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderDivider = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderDivider;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderLayout = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderLayout;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderSelection = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderSelection;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderSelection_Fullscreen = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderSelection_Fullscreen;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderTitle = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderTitle;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderToggleButton = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderToggleButton;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Item = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Item;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_MaterialCalendar_MonthNavigationButton = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_MonthNavigationButton;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_MaterialCalendar_MonthTextView = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_MonthTextView;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_MaterialCalendar_YearNavigationButton = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_YearNavigationButton;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Selected = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Selected;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Today = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Today;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_NavigationRailView = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_NavigationRailView;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_NavigationRailView_Colored = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_NavigationRailView_Colored;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_NavigationRailView_Colored_Compact = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_NavigationRailView_Colored_Compact;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_NavigationRailView_Compact = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_NavigationRailView_Compact;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_NavigationRailView_PrimarySurface = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_NavigationRailView_PrimarySurface;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_NavigationView = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_NavigationView;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_PopupMenu = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_PopupMenu_ContextMenu = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_ContextMenu;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_PopupMenu_ListPopupWindow = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_ListPopupWindow;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_PopupMenu_Overflow = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_Overflow;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_ProgressIndicator = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_ProgressIndicator;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_ShapeableImageView = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_ShapeableImageView;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_Slider = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_Slider;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_Snackbar = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_Snackbar;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_Snackbar_TextView = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_TextView;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_TabLayout = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_TabLayout;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_TabLayout_PrimarySurface = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_PrimarySurface;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense_ExposedDropdownMenu = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense_ExposedDropdownMenu;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_ExposedDropdownMenu = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_ExposedDropdownMenu;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense_ExposedDropdownMenu = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense_ExposedDropdownMenu;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_ExposedDropdownMenu = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_ExposedDropdownMenu;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_TextView = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_TextView;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_TimePicker = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_TimePicker;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_TimePicker_Button = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_TimePicker_Button;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_TimePicker_Clock = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_TimePicker_Clock;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_TimePicker_Display = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_TimePicker_Display;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_TimePicker_Display_TextInputEditText = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_TimePicker_Display_TextInputEditText;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_TimePicker_ImageButton = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_TimePicker_ImageButton;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_TimePicker_ImageButton_ShapeAppearance = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_TimePicker_ImageButton_ShapeAppearance;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_Toolbar = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_Toolbar;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_Toolbar_Primary = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_Toolbar_Primary;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_Toolbar_PrimarySurface = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_Toolbar_PrimarySurface;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_Toolbar_Surface = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_Toolbar_Surface;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_Tooltip = global::AppPSOne.Droid.Resource.Style.Widget_MaterialComponents_Tooltip;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_Support_CoordinatorLayout = global::AppPSOne.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ActionBar = global::AppPSOne.Droid.Resource.Styleable.ActionBar;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ActionBarLayout = global::AppPSOne.Droid.Resource.Styleable.ActionBarLayout;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::AppPSOne.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ActionBar_background = global::AppPSOne.Droid.Resource.Styleable.ActionBar_background;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ActionBar_backgroundSplit = global::AppPSOne.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ActionBar_backgroundStacked = global::AppPSOne.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ActionBar_contentInsetEnd = global::AppPSOne.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::AppPSOne.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ActionBar_contentInsetLeft = global::AppPSOne.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ActionBar_contentInsetRight = global::AppPSOne.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ActionBar_contentInsetStart = global::AppPSOne.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::AppPSOne.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ActionBar_customNavigationLayout = global::AppPSOne.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ActionBar_displayOptions = global::AppPSOne.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ActionBar_divider = global::AppPSOne.Droid.Resource.Styleable.ActionBar_divider;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ActionBar_elevation = global::AppPSOne.Droid.Resource.Styleable.ActionBar_elevation;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ActionBar_height = global::AppPSOne.Droid.Resource.Styleable.ActionBar_height;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ActionBar_hideOnContentScroll = global::AppPSOne.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ActionBar_homeAsUpIndicator = global::AppPSOne.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ActionBar_homeLayout = global::AppPSOne.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ActionBar_icon = global::AppPSOne.Droid.Resource.Styleable.ActionBar_icon;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::AppPSOne.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ActionBar_itemPadding = global::AppPSOne.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ActionBar_logo = global::AppPSOne.Droid.Resource.Styleable.ActionBar_logo;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ActionBar_navigationMode = global::AppPSOne.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ActionBar_popupTheme = global::AppPSOne.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ActionBar_progressBarPadding = global::AppPSOne.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ActionBar_progressBarStyle = global::AppPSOne.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ActionBar_subtitle = global::AppPSOne.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ActionBar_subtitleTextStyle = global::AppPSOne.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ActionBar_title = global::AppPSOne.Droid.Resource.Styleable.ActionBar_title;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ActionBar_titleTextStyle = global::AppPSOne.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ActionMenuItemView = global::AppPSOne.Droid.Resource.Styleable.ActionMenuItemView;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ActionMenuItemView_android_minWidth = global::AppPSOne.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ActionMenuView = global::AppPSOne.Droid.Resource.Styleable.ActionMenuView;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ActionMode = global::AppPSOne.Droid.Resource.Styleable.ActionMode;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ActionMode_background = global::AppPSOne.Droid.Resource.Styleable.ActionMode_background;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ActionMode_backgroundSplit = global::AppPSOne.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ActionMode_closeItemLayout = global::AppPSOne.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ActionMode_height = global::AppPSOne.Droid.Resource.Styleable.ActionMode_height;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ActionMode_subtitleTextStyle = global::AppPSOne.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ActionMode_titleTextStyle = global::AppPSOne.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ActivityChooserView = global::AppPSOne.Droid.Resource.Styleable.ActivityChooserView;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::AppPSOne.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ActivityChooserView_initialActivityCount = global::AppPSOne.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ActivityNavigator = global::AppPSOne.Droid.Resource.Styleable.ActivityNavigator;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ActivityNavigator_action = global::AppPSOne.Droid.Resource.Styleable.ActivityNavigator_action;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ActivityNavigator_android_name = global::AppPSOne.Droid.Resource.Styleable.ActivityNavigator_android_name;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ActivityNavigator_data = global::AppPSOne.Droid.Resource.Styleable.ActivityNavigator_data;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ActivityNavigator_dataPattern = global::AppPSOne.Droid.Resource.Styleable.ActivityNavigator_dataPattern;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ActivityNavigator_targetPackage = global::AppPSOne.Droid.Resource.Styleable.ActivityNavigator_targetPackage;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AlertDialog = global::AppPSOne.Droid.Resource.Styleable.AlertDialog;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AlertDialog_android_layout = global::AppPSOne.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AlertDialog_buttonIconDimen = global::AppPSOne.Droid.Resource.Styleable.AlertDialog_buttonIconDimen;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::AppPSOne.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AlertDialog_listItemLayout = global::AppPSOne.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AlertDialog_listLayout = global::AppPSOne.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::AppPSOne.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AlertDialog_showTitle = global::AppPSOne.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::AppPSOne.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AnimatedStateListDrawableCompat = global::AppPSOne.Droid.Resource.Styleable.AnimatedStateListDrawableCompat;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::AppPSOne.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::AppPSOne.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration = global::AppPSOne.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration = global::AppPSOne.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding = global::AppPSOne.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible = global::AppPSOne.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AnimatedStateListDrawableItem = global::AppPSOne.Droid.Resource.Styleable.AnimatedStateListDrawableItem;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable = global::AppPSOne.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AnimatedStateListDrawableItem_android_id = global::AppPSOne.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AnimatedStateListDrawableTransition = global::AppPSOne.Droid.Resource.Styleable.AnimatedStateListDrawableTransition;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable = global::AppPSOne.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId = global::AppPSOne.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::AppPSOne.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::AppPSOne.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppBarLayout = global::AppPSOne.Droid.Resource.Styleable.AppBarLayout;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppBarLayoutStates = global::AppPSOne.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::AppPSOne.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::AppPSOne.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppBarLayoutStates_state_liftable = global::AppPSOne.Droid.Resource.Styleable.AppBarLayoutStates_state_liftable;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppBarLayoutStates_state_lifted = global::AppPSOne.Droid.Resource.Styleable.AppBarLayoutStates_state_lifted;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppBarLayout_android_background = global::AppPSOne.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::AppPSOne.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::AppPSOne.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppBarLayout_elevation = global::AppPSOne.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppBarLayout_expanded = global::AppPSOne.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppBarLayout_Layout = global::AppPSOne.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::AppPSOne.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::AppPSOne.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppBarLayout_liftOnScroll = global::AppPSOne.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppBarLayout_liftOnScrollTargetViewId = global::AppPSOne.Droid.Resource.Styleable.AppBarLayout_liftOnScrollTargetViewId;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppBarLayout_statusBarForeground = global::AppPSOne.Droid.Resource.Styleable.AppBarLayout_statusBarForeground;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatImageView = global::AppPSOne.Droid.Resource.Styleable.AppCompatImageView;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatImageView_android_src = global::AppPSOne.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatImageView_srcCompat = global::AppPSOne.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatImageView_tint = global::AppPSOne.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatImageView_tintMode = global::AppPSOne.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatSeekBar = global::AppPSOne.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatSeekBar_android_thumb = global::AppPSOne.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatSeekBar_tickMark = global::AppPSOne.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::AppPSOne.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::AppPSOne.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTextHelper = global::AppPSOne.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::AppPSOne.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::AppPSOne.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::AppPSOne.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::AppPSOne.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::AppPSOne.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::AppPSOne.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::AppPSOne.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTextView = global::AppPSOne.Droid.Resource.Styleable.AppCompatTextView;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTextView_android_textAppearance = global::AppPSOne.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::AppPSOne.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::AppPSOne.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::AppPSOne.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::AppPSOne.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::AppPSOne.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTextView_drawableBottomCompat = global::AppPSOne.Droid.Resource.Styleable.AppCompatTextView_drawableBottomCompat;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTextView_drawableEndCompat = global::AppPSOne.Droid.Resource.Styleable.AppCompatTextView_drawableEndCompat;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTextView_drawableLeftCompat = global::AppPSOne.Droid.Resource.Styleable.AppCompatTextView_drawableLeftCompat;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTextView_drawableRightCompat = global::AppPSOne.Droid.Resource.Styleable.AppCompatTextView_drawableRightCompat;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTextView_drawableStartCompat = global::AppPSOne.Droid.Resource.Styleable.AppCompatTextView_drawableStartCompat;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTextView_drawableTint = global::AppPSOne.Droid.Resource.Styleable.AppCompatTextView_drawableTint;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTextView_drawableTintMode = global::AppPSOne.Droid.Resource.Styleable.AppCompatTextView_drawableTintMode;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTextView_drawableTopCompat = global::AppPSOne.Droid.Resource.Styleable.AppCompatTextView_drawableTopCompat;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::AppPSOne.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTextView_fontFamily = global::AppPSOne.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTextView_fontVariationSettings = global::AppPSOne.Droid.Resource.Styleable.AppCompatTextView_fontVariationSettings;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::AppPSOne.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTextView_lineHeight = global::AppPSOne.Droid.Resource.Styleable.AppCompatTextView_lineHeight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTextView_textAllCaps = global::AppPSOne.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTextView_textLocale = global::AppPSOne.Droid.Resource.Styleable.AppCompatTextView_textLocale;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_actionBarDivider = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_actionBarSize = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_actionBarStyle = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_actionBarTheme = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_actionModeBackground = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_actionModeCloseContentDescription = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseContentDescription;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_actionModeStyle = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_actionModeTheme = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_actionModeTheme;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_buttonStyle = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_checkboxStyle = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_colorAccent = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_colorControlActivated = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_colorControlNormal = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_colorError = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_colorError;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_colorPrimary = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_controlBackground = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_dialogCornerRadius = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_dialogTheme = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_dividerVertical = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_editTextBackground = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_editTextColor = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_editTextStyle = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_panelBackground = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_searchViewStyle = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_seekBarStyle = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_spinnerStyle = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_switchStyle = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_toolbarStyle = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_viewInflaterClass = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_windowActionBar = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_windowNoTitle = global::AppPSOne.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.BackgroundStyle = global::AppPSOne.Droid.Resource.Styleable.BackgroundStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.BackgroundStyle_android_selectableItemBackground = global::AppPSOne.Droid.Resource.Styleable.BackgroundStyle_android_selectableItemBackground;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.BackgroundStyle_selectableItemBackground = global::AppPSOne.Droid.Resource.Styleable.BackgroundStyle_selectableItemBackground;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Badge = global::AppPSOne.Droid.Resource.Styleable.Badge;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Badge_backgroundColor = global::AppPSOne.Droid.Resource.Styleable.Badge_backgroundColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Badge_badgeGravity = global::AppPSOne.Droid.Resource.Styleable.Badge_badgeGravity;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Badge_badgeTextColor = global::AppPSOne.Droid.Resource.Styleable.Badge_badgeTextColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Badge_horizontalOffset = global::AppPSOne.Droid.Resource.Styleable.Badge_horizontalOffset;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Badge_maxCharacterCount = global::AppPSOne.Droid.Resource.Styleable.Badge_maxCharacterCount;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Badge_number = global::AppPSOne.Droid.Resource.Styleable.Badge_number;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Badge_verticalOffset = global::AppPSOne.Droid.Resource.Styleable.Badge_verticalOffset;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.BaseProgressIndicator = global::AppPSOne.Droid.Resource.Styleable.BaseProgressIndicator;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.BaseProgressIndicator_android_indeterminate = global::AppPSOne.Droid.Resource.Styleable.BaseProgressIndicator_android_indeterminate;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.BaseProgressIndicator_hideAnimationBehavior = global::AppPSOne.Droid.Resource.Styleable.BaseProgressIndicator_hideAnimationBehavior;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.BaseProgressIndicator_indicatorColor = global::AppPSOne.Droid.Resource.Styleable.BaseProgressIndicator_indicatorColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.BaseProgressIndicator_minHideDelay = global::AppPSOne.Droid.Resource.Styleable.BaseProgressIndicator_minHideDelay;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.BaseProgressIndicator_showAnimationBehavior = global::AppPSOne.Droid.Resource.Styleable.BaseProgressIndicator_showAnimationBehavior;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.BaseProgressIndicator_showDelay = global::AppPSOne.Droid.Resource.Styleable.BaseProgressIndicator_showDelay;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.BaseProgressIndicator_trackColor = global::AppPSOne.Droid.Resource.Styleable.BaseProgressIndicator_trackColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.BaseProgressIndicator_trackCornerRadius = global::AppPSOne.Droid.Resource.Styleable.BaseProgressIndicator_trackCornerRadius;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.BaseProgressIndicator_trackThickness = global::AppPSOne.Droid.Resource.Styleable.BaseProgressIndicator_trackThickness;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomAppBar = global::AppPSOne.Droid.Resource.Styleable.BottomAppBar;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomAppBar_backgroundTint = global::AppPSOne.Droid.Resource.Styleable.BottomAppBar_backgroundTint;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomAppBar_elevation = global::AppPSOne.Droid.Resource.Styleable.BottomAppBar_elevation;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::AppPSOne.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomAppBar_fabAnimationMode = global::AppPSOne.Droid.Resource.Styleable.BottomAppBar_fabAnimationMode;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomAppBar_fabCradleMargin = global::AppPSOne.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::AppPSOne.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::AppPSOne.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomAppBar_hideOnScroll = global::AppPSOne.Droid.Resource.Styleable.BottomAppBar_hideOnScroll;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomAppBar_paddingBottomSystemWindowInsets = global::AppPSOne.Droid.Resource.Styleable.BottomAppBar_paddingBottomSystemWindowInsets;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomAppBar_paddingLeftSystemWindowInsets = global::AppPSOne.Droid.Resource.Styleable.BottomAppBar_paddingLeftSystemWindowInsets;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomAppBar_paddingRightSystemWindowInsets = global::AppPSOne.Droid.Resource.Styleable.BottomAppBar_paddingRightSystemWindowInsets;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomNavigationView = global::AppPSOne.Droid.Resource.Styleable.BottomNavigationView;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::AppPSOne.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomSheetBehavior_Layout = global::AppPSOne.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomSheetBehavior_Layout_android_elevation = global::AppPSOne.Droid.Resource.Styleable.BottomSheetBehavior_Layout_android_elevation;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomSheetBehavior_Layout_android_maxWidth = global::AppPSOne.Droid.Resource.Styleable.BottomSheetBehavior_Layout_android_maxWidth;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomSheetBehavior_Layout_backgroundTint = global::AppPSOne.Droid.Resource.Styleable.BottomSheetBehavior_Layout_backgroundTint;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomSheetBehavior_Layout_behavior_draggable = global::AppPSOne.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_draggable;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomSheetBehavior_Layout_behavior_expandedOffset = global::AppPSOne.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_expandedOffset;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::AppPSOne.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomSheetBehavior_Layout_behavior_halfExpandedRatio = global::AppPSOne.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_halfExpandedRatio;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::AppPSOne.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::AppPSOne.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomSheetBehavior_Layout_behavior_saveFlags = global::AppPSOne.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_saveFlags;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::AppPSOne.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomSheetBehavior_Layout_gestureInsetBottomIgnored = global::AppPSOne.Droid.Resource.Styleable.BottomSheetBehavior_Layout_gestureInsetBottomIgnored;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomSheetBehavior_Layout_paddingBottomSystemWindowInsets = global::AppPSOne.Droid.Resource.Styleable.BottomSheetBehavior_Layout_paddingBottomSystemWindowInsets;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomSheetBehavior_Layout_paddingLeftSystemWindowInsets = global::AppPSOne.Droid.Resource.Styleable.BottomSheetBehavior_Layout_paddingLeftSystemWindowInsets;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomSheetBehavior_Layout_paddingRightSystemWindowInsets = global::AppPSOne.Droid.Resource.Styleable.BottomSheetBehavior_Layout_paddingRightSystemWindowInsets;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomSheetBehavior_Layout_paddingTopSystemWindowInsets = global::AppPSOne.Droid.Resource.Styleable.BottomSheetBehavior_Layout_paddingTopSystemWindowInsets;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearance = global::AppPSOne.Droid.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearance;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearanceOverlay = global::AppPSOne.Droid.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearanceOverlay;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ButtonBarLayout = global::AppPSOne.Droid.Resource.Styleable.ButtonBarLayout;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ButtonBarLayout_allowStacking = global::AppPSOne.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Capability = global::AppPSOne.Droid.Resource.Styleable.Capability;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Capability_queryPatterns = global::AppPSOne.Droid.Resource.Styleable.Capability_queryPatterns;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Capability_shortcutMatchRequired = global::AppPSOne.Droid.Resource.Styleable.Capability_shortcutMatchRequired;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CardView = global::AppPSOne.Droid.Resource.Styleable.CardView;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CardView_android_minHeight = global::AppPSOne.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CardView_android_minWidth = global::AppPSOne.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CardView_cardBackgroundColor = global::AppPSOne.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CardView_cardCornerRadius = global::AppPSOne.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CardView_cardElevation = global::AppPSOne.Droid.Resource.Styleable.CardView_cardElevation;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CardView_cardMaxElevation = global::AppPSOne.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CardView_cardPreventCornerOverlap = global::AppPSOne.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CardView_cardUseCompatPadding = global::AppPSOne.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CardView_contentPadding = global::AppPSOne.Droid.Resource.Styleable.CardView_contentPadding;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CardView_contentPaddingBottom = global::AppPSOne.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CardView_contentPaddingLeft = global::AppPSOne.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CardView_contentPaddingRight = global::AppPSOne.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CardView_contentPaddingTop = global::AppPSOne.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Carousel = global::AppPSOne.Droid.Resource.Styleable.Carousel;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Carousel_carousel_backwardTransition = global::AppPSOne.Droid.Resource.Styleable.Carousel_carousel_backwardTransition;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Carousel_carousel_emptyViewsBehavior = global::AppPSOne.Droid.Resource.Styleable.Carousel_carousel_emptyViewsBehavior;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Carousel_carousel_firstView = global::AppPSOne.Droid.Resource.Styleable.Carousel_carousel_firstView;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Carousel_carousel_forwardTransition = global::AppPSOne.Droid.Resource.Styleable.Carousel_carousel_forwardTransition;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Carousel_carousel_infinite = global::AppPSOne.Droid.Resource.Styleable.Carousel_carousel_infinite;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Carousel_carousel_nextState = global::AppPSOne.Droid.Resource.Styleable.Carousel_carousel_nextState;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Carousel_carousel_previousState = global::AppPSOne.Droid.Resource.Styleable.Carousel_carousel_previousState;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Carousel_carousel_touchUpMode = global::AppPSOne.Droid.Resource.Styleable.Carousel_carousel_touchUpMode;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Carousel_carousel_touchUp_dampeningFactor = global::AppPSOne.Droid.Resource.Styleable.Carousel_carousel_touchUp_dampeningFactor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Carousel_carousel_touchUp_velocityThreshold = global::AppPSOne.Droid.Resource.Styleable.Carousel_carousel_touchUp_velocityThreshold;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CheckBoxPreference = global::AppPSOne.Droid.Resource.Styleable.CheckBoxPreference;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CheckBoxPreference_android_disableDependentsState = global::AppPSOne.Droid.Resource.Styleable.CheckBoxPreference_android_disableDependentsState;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CheckBoxPreference_android_summaryOff = global::AppPSOne.Droid.Resource.Styleable.CheckBoxPreference_android_summaryOff;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CheckBoxPreference_android_summaryOn = global::AppPSOne.Droid.Resource.Styleable.CheckBoxPreference_android_summaryOn;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CheckBoxPreference_disableDependentsState = global::AppPSOne.Droid.Resource.Styleable.CheckBoxPreference_disableDependentsState;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CheckBoxPreference_summaryOff = global::AppPSOne.Droid.Resource.Styleable.CheckBoxPreference_summaryOff;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CheckBoxPreference_summaryOn = global::AppPSOne.Droid.Resource.Styleable.CheckBoxPreference_summaryOn;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip = global::AppPSOne.Droid.Resource.Styleable.Chip;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ChipGroup = global::AppPSOne.Droid.Resource.Styleable.ChipGroup;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ChipGroup_checkedChip = global::AppPSOne.Droid.Resource.Styleable.ChipGroup_checkedChip;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ChipGroup_chipSpacing = global::AppPSOne.Droid.Resource.Styleable.ChipGroup_chipSpacing;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::AppPSOne.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ChipGroup_chipSpacingVertical = global::AppPSOne.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ChipGroup_selectionRequired = global::AppPSOne.Droid.Resource.Styleable.ChipGroup_selectionRequired;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ChipGroup_singleLine = global::AppPSOne.Droid.Resource.Styleable.ChipGroup_singleLine;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ChipGroup_singleSelection = global::AppPSOne.Droid.Resource.Styleable.ChipGroup_singleSelection;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_android_checkable = global::AppPSOne.Droid.Resource.Styleable.Chip_android_checkable;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_android_ellipsize = global::AppPSOne.Droid.Resource.Styleable.Chip_android_ellipsize;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_android_maxWidth = global::AppPSOne.Droid.Resource.Styleable.Chip_android_maxWidth;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_android_text = global::AppPSOne.Droid.Resource.Styleable.Chip_android_text;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_android_textAppearance = global::AppPSOne.Droid.Resource.Styleable.Chip_android_textAppearance;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_android_textColor = global::AppPSOne.Droid.Resource.Styleable.Chip_android_textColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_android_textSize = global::AppPSOne.Droid.Resource.Styleable.Chip_android_textSize;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_checkedIcon = global::AppPSOne.Droid.Resource.Styleable.Chip_checkedIcon;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_checkedIconEnabled = global::AppPSOne.Droid.Resource.Styleable.Chip_checkedIconEnabled;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_checkedIconTint = global::AppPSOne.Droid.Resource.Styleable.Chip_checkedIconTint;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_checkedIconVisible = global::AppPSOne.Droid.Resource.Styleable.Chip_checkedIconVisible;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_chipBackgroundColor = global::AppPSOne.Droid.Resource.Styleable.Chip_chipBackgroundColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_chipCornerRadius = global::AppPSOne.Droid.Resource.Styleable.Chip_chipCornerRadius;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_chipEndPadding = global::AppPSOne.Droid.Resource.Styleable.Chip_chipEndPadding;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_chipIcon = global::AppPSOne.Droid.Resource.Styleable.Chip_chipIcon;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_chipIconEnabled = global::AppPSOne.Droid.Resource.Styleable.Chip_chipIconEnabled;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_chipIconSize = global::AppPSOne.Droid.Resource.Styleable.Chip_chipIconSize;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_chipIconTint = global::AppPSOne.Droid.Resource.Styleable.Chip_chipIconTint;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_chipIconVisible = global::AppPSOne.Droid.Resource.Styleable.Chip_chipIconVisible;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_chipMinHeight = global::AppPSOne.Droid.Resource.Styleable.Chip_chipMinHeight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_chipMinTouchTargetSize = global::AppPSOne.Droid.Resource.Styleable.Chip_chipMinTouchTargetSize;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_chipStartPadding = global::AppPSOne.Droid.Resource.Styleable.Chip_chipStartPadding;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_chipStrokeColor = global::AppPSOne.Droid.Resource.Styleable.Chip_chipStrokeColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_chipStrokeWidth = global::AppPSOne.Droid.Resource.Styleable.Chip_chipStrokeWidth;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_chipSurfaceColor = global::AppPSOne.Droid.Resource.Styleable.Chip_chipSurfaceColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_closeIcon = global::AppPSOne.Droid.Resource.Styleable.Chip_closeIcon;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_closeIconEnabled = global::AppPSOne.Droid.Resource.Styleable.Chip_closeIconEnabled;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_closeIconEndPadding = global::AppPSOne.Droid.Resource.Styleable.Chip_closeIconEndPadding;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_closeIconSize = global::AppPSOne.Droid.Resource.Styleable.Chip_closeIconSize;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_closeIconStartPadding = global::AppPSOne.Droid.Resource.Styleable.Chip_closeIconStartPadding;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_closeIconTint = global::AppPSOne.Droid.Resource.Styleable.Chip_closeIconTint;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_closeIconVisible = global::AppPSOne.Droid.Resource.Styleable.Chip_closeIconVisible;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_ensureMinTouchTargetSize = global::AppPSOne.Droid.Resource.Styleable.Chip_ensureMinTouchTargetSize;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_hideMotionSpec = global::AppPSOne.Droid.Resource.Styleable.Chip_hideMotionSpec;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_iconEndPadding = global::AppPSOne.Droid.Resource.Styleable.Chip_iconEndPadding;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_iconStartPadding = global::AppPSOne.Droid.Resource.Styleable.Chip_iconStartPadding;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_rippleColor = global::AppPSOne.Droid.Resource.Styleable.Chip_rippleColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_shapeAppearance = global::AppPSOne.Droid.Resource.Styleable.Chip_shapeAppearance;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_shapeAppearanceOverlay = global::AppPSOne.Droid.Resource.Styleable.Chip_shapeAppearanceOverlay;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_showMotionSpec = global::AppPSOne.Droid.Resource.Styleable.Chip_showMotionSpec;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_textEndPadding = global::AppPSOne.Droid.Resource.Styleable.Chip_textEndPadding;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_textStartPadding = global::AppPSOne.Droid.Resource.Styleable.Chip_textStartPadding;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CircularProgressIndicator = global::AppPSOne.Droid.Resource.Styleable.CircularProgressIndicator;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CircularProgressIndicator_indicatorDirectionCircular = global::AppPSOne.Droid.Resource.Styleable.CircularProgressIndicator_indicatorDirectionCircular;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CircularProgressIndicator_indicatorInset = global::AppPSOne.Droid.Resource.Styleable.CircularProgressIndicator_indicatorInset;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CircularProgressIndicator_indicatorSize = global::AppPSOne.Droid.Resource.Styleable.CircularProgressIndicator_indicatorSize;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ClockFaceView = global::AppPSOne.Droid.Resource.Styleable.ClockFaceView;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ClockFaceView_clockFaceBackgroundColor = global::AppPSOne.Droid.Resource.Styleable.ClockFaceView_clockFaceBackgroundColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ClockFaceView_clockNumberTextColor = global::AppPSOne.Droid.Resource.Styleable.ClockFaceView_clockNumberTextColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ClockHandView = global::AppPSOne.Droid.Resource.Styleable.ClockHandView;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ClockHandView_clockHandColor = global::AppPSOne.Droid.Resource.Styleable.ClockHandView_clockHandColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ClockHandView_materialCircleRadius = global::AppPSOne.Droid.Resource.Styleable.ClockHandView_materialCircleRadius;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ClockHandView_selectorSize = global::AppPSOne.Droid.Resource.Styleable.ClockHandView_selectorSize;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CollapsingToolbarLayout = global::AppPSOne.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::AppPSOne.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::AppPSOne.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::AppPSOne.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::AppPSOne.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::AppPSOne.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::AppPSOne.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::AppPSOne.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::AppPSOne.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::AppPSOne.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::AppPSOne.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CollapsingToolbarLayout_extraMultilineHeightEnabled = global::AppPSOne.Droid.Resource.Styleable.CollapsingToolbarLayout_extraMultilineHeightEnabled;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CollapsingToolbarLayout_forceApplySystemWindowInsetTop = global::AppPSOne.Droid.Resource.Styleable.CollapsingToolbarLayout_forceApplySystemWindowInsetTop;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CollapsingToolbarLayout_Layout = global::AppPSOne.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::AppPSOne.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::AppPSOne.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CollapsingToolbarLayout_maxLines = global::AppPSOne.Droid.Resource.Styleable.CollapsingToolbarLayout_maxLines;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::AppPSOne.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::AppPSOne.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::AppPSOne.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CollapsingToolbarLayout_title = global::AppPSOne.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CollapsingToolbarLayout_titleCollapseMode = global::AppPSOne.Droid.Resource.Styleable.CollapsingToolbarLayout_titleCollapseMode;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::AppPSOne.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::AppPSOne.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ColorStateListItem = global::AppPSOne.Droid.Resource.Styleable.ColorStateListItem;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ColorStateListItem_alpha = global::AppPSOne.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ColorStateListItem_android_alpha = global::AppPSOne.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ColorStateListItem_android_color = global::AppPSOne.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CompoundButton = global::AppPSOne.Droid.Resource.Styleable.CompoundButton;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CompoundButton_android_button = global::AppPSOne.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CompoundButton_buttonCompat = global::AppPSOne.Droid.Resource.Styleable.CompoundButton_buttonCompat;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CompoundButton_buttonTint = global::AppPSOne.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CompoundButton_buttonTintMode = global::AppPSOne.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint = global::AppPSOne.Droid.Resource.Styleable.Constraint;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_android_elevation = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_android_elevation;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_android_layout_height = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_android_layout_height;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_android_layout_margin = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_android_layout_margin;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_android_layout_marginBottom = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_android_layout_marginBottom;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_android_layout_marginEnd = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_android_layout_marginEnd;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_android_layout_marginHorizontal = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_android_layout_marginHorizontal;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_android_layout_marginLeft = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_android_layout_marginLeft;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_android_layout_marginRight = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_android_layout_marginRight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_android_layout_marginStart = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_android_layout_marginStart;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_android_layout_marginTop = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_android_layout_marginTop;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_android_layout_marginVertical = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_android_layout_marginVertical;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_android_layout_width = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_android_layout_width;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_android_maxHeight = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_android_maxHeight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_android_maxWidth = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_android_maxWidth;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_android_minHeight = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_android_minHeight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_android_minWidth = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_android_minWidth;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_android_orientation = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_android_orientation;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_android_padding = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_android_padding;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_android_paddingBottom = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_android_paddingBottom;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_android_paddingEnd = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_android_paddingEnd;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_android_paddingLeft = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_android_paddingLeft;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_android_paddingRight = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_android_paddingRight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_android_paddingStart = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_android_paddingStart;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_android_paddingTop = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_android_paddingTop;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_android_visibility = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_android_visibility;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_barrierAllowsGoneWidgets = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_barrierAllowsGoneWidgets;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_barrierDirection = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_barrierDirection;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_barrierMargin = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_barrierMargin;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_chainUseRtl = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_chainUseRtl;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_circularflow_angles = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_circularflow_angles;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_circularflow_defaultAngle = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_circularflow_defaultAngle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_circularflow_defaultRadius = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_circularflow_defaultRadius;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_circularflow_radiusInDP = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_circularflow_radiusInDP;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_circularflow_viewCenter = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_circularflow_viewCenter;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_constraintSet = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_constraintSet;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_constraint_referenced_ids = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_constraint_referenced_ids;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_constraint_referenced_tags = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_constraint_referenced_tags;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_flow_firstHorizontalBias = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_firstHorizontalBias;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_flow_firstHorizontalStyle = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_firstHorizontalStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_flow_firstVerticalBias = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_firstVerticalBias;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_flow_firstVerticalStyle = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_firstVerticalStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_flow_horizontalAlign = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_horizontalAlign;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_flow_horizontalBias = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_horizontalBias;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_flow_horizontalGap = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_horizontalGap;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_flow_horizontalStyle = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_horizontalStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_flow_lastHorizontalBias = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_lastHorizontalBias;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_flow_lastHorizontalStyle = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_lastHorizontalStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_flow_lastVerticalBias = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_lastVerticalBias;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_flow_lastVerticalStyle = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_lastVerticalStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_flow_maxElementsWrap = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_maxElementsWrap;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_flow_verticalAlign = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_verticalAlign;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_flow_verticalBias = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_verticalBias;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_flow_verticalGap = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_verticalGap;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_flow_verticalStyle = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_verticalStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_flow_wrapMode = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_wrapMode;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layoutDescription = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_layoutDescription;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constrainedHeight = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constrainedHeight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constrainedWidth = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constrainedWidth;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBaseline_creator = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBaseline_creator;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBaseline_toBottomOf = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBaseline_toBottomOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBaseline_toTopOf = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBaseline_toTopOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBottom_creator = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBottom_creator;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBottom_toBottomOf = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBottom_toBottomOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBottom_toTopOf = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBottom_toTopOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintCircle = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintCircle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintCircleAngle = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintCircleAngle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintCircleRadius = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintCircleRadius;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintDimensionRatio = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintDimensionRatio;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintEnd_toEndOf = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintEnd_toEndOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintEnd_toStartOf = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintEnd_toStartOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintGuide_begin = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintGuide_begin;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintGuide_end = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintGuide_end;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintGuide_percent = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintGuide_percent;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight_default = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight_default;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight_max = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight_max;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight_min = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight_min;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight_percent = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight_percent;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHorizontal_bias = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHorizontal_bias;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHorizontal_weight = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHorizontal_weight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintLeft_creator = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintLeft_creator;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintLeft_toLeftOf = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintLeft_toLeftOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintLeft_toRightOf = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintLeft_toRightOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintRight_creator = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintRight_creator;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintRight_toLeftOf = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintRight_toLeftOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintRight_toRightOf = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintRight_toRightOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintStart_toEndOf = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintStart_toEndOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintStart_toStartOf = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintStart_toStartOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintTag = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintTag;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintTop_creator = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintTop_creator;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintTop_toBottomOf = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintTop_toBottomOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintTop_toTopOf = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintTop_toTopOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintVertical_bias = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintVertical_bias;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintVertical_chainStyle = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintVertical_chainStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintVertical_weight = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintVertical_weight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth_default = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth_default;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth_max = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth_max;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth_min = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth_min;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth_percent = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth_percent;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_editor_absoluteX = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_editor_absoluteX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_editor_absoluteY = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_editor_absoluteY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginBaseline = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginBaseline;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginBottom = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginBottom;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginEnd = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginEnd;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginLeft = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginLeft;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginRight = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginRight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginStart = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginStart;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginTop = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginTop;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_marginBaseline = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_marginBaseline;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_optimizationLevel = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_optimizationLevel;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_wrapBehaviorInParent = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_wrapBehaviorInParent;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_placeholder = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_placeholder;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_placeholder_content = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_placeholder_content;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_placeholder_placeholder_emptyVisibility = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_placeholder_placeholder_emptyVisibility;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_ReactiveGuide = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_ReactiveGuide;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_ReactiveGuide_reactiveGuide_animateChange = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_ReactiveGuide_reactiveGuide_animateChange;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_ReactiveGuide_reactiveGuide_applyToAllConstraintSets = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_ReactiveGuide_reactiveGuide_applyToAllConstraintSets;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_ReactiveGuide_reactiveGuide_applyToConstraintSet = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_ReactiveGuide_reactiveGuide_applyToConstraintSet;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_ReactiveGuide_reactiveGuide_valueId = global::AppPSOne.Droid.Resource.Styleable.ConstraintLayout_ReactiveGuide_reactiveGuide_valueId;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_android_alpha = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_android_alpha;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_android_elevation = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_android_elevation;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_android_id = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_android_id;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_android_layout_height = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_android_layout_height;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_android_layout_marginBottom = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_android_layout_marginBottom;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_android_layout_marginEnd = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_android_layout_marginEnd;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_android_layout_marginLeft = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_android_layout_marginLeft;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_android_layout_marginRight = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_android_layout_marginRight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_android_layout_marginStart = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_android_layout_marginStart;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_android_layout_marginTop = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_android_layout_marginTop;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_android_layout_width = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_android_layout_width;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_android_maxHeight = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_android_maxHeight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_android_maxWidth = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_android_maxWidth;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_android_minHeight = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_android_minHeight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_android_minWidth = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_android_minWidth;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_android_orientation = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_android_orientation;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_android_rotation = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_android_rotation;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_android_rotationX = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_android_rotationX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_android_rotationY = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_android_rotationY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_android_scaleX = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_android_scaleX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_android_scaleY = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_android_scaleY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_android_transformPivotX = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_android_transformPivotX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_android_transformPivotY = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_android_transformPivotY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_android_translationX = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_android_translationX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_android_translationY = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_android_translationY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_android_translationZ = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_android_translationZ;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_android_visibility = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_android_visibility;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_animateCircleAngleTo = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_animateCircleAngleTo;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_animateRelativeTo = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_animateRelativeTo;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_barrierAllowsGoneWidgets = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_barrierAllowsGoneWidgets;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_barrierDirection = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_barrierDirection;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_barrierMargin = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_barrierMargin;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_chainUseRtl = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_chainUseRtl;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_constraint_referenced_ids = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_constraint_referenced_ids;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_drawPath = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_drawPath;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_flow_firstHorizontalBias = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_flow_firstHorizontalBias;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_flow_firstHorizontalStyle = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_flow_firstHorizontalStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_flow_firstVerticalBias = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_flow_firstVerticalBias;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_flow_firstVerticalStyle = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_flow_firstVerticalStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_flow_horizontalAlign = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_flow_horizontalAlign;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_flow_horizontalBias = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_flow_horizontalBias;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_flow_horizontalGap = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_flow_horizontalGap;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_flow_horizontalStyle = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_flow_horizontalStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_flow_lastHorizontalBias = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_flow_lastHorizontalBias;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_flow_lastHorizontalStyle = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_flow_lastHorizontalStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_flow_lastVerticalBias = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_flow_lastVerticalBias;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_flow_lastVerticalStyle = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_flow_lastVerticalStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_flow_maxElementsWrap = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_flow_maxElementsWrap;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_flow_verticalAlign = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_flow_verticalAlign;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_flow_verticalBias = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_flow_verticalBias;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_flow_verticalGap = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_flow_verticalGap;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_flow_verticalStyle = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_flow_verticalStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_flow_wrapMode = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_flow_wrapMode;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_layout_constrainedHeight = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_layout_constrainedHeight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_layout_constrainedWidth = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_layout_constrainedWidth;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_layout_constraintBaseline_creator = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_layout_constraintBaseline_creator;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_layout_constraintBottom_creator = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_layout_constraintBottom_creator;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_layout_constraintCircleAngle = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_layout_constraintCircleAngle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_layout_constraintCircleRadius = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_layout_constraintCircleRadius;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_layout_constraintDimensionRatio = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_layout_constraintDimensionRatio;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_layout_constraintGuide_begin = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_layout_constraintGuide_begin;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_layout_constraintGuide_end = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_layout_constraintGuide_end;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_layout_constraintGuide_percent = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_layout_constraintGuide_percent;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_layout_constraintHeight = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_layout_constraintHeight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_layout_constraintHeight_default = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_layout_constraintHeight_default;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_layout_constraintHeight_max = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_layout_constraintHeight_max;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_layout_constraintHeight_min = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_layout_constraintHeight_min;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_layout_constraintHeight_percent = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_layout_constraintHeight_percent;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_layout_constraintHorizontal_bias = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_layout_constraintHorizontal_bias;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_layout_constraintHorizontal_chainStyle = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_layout_constraintHorizontal_chainStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_layout_constraintHorizontal_weight = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_layout_constraintHorizontal_weight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_layout_constraintLeft_creator = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_layout_constraintLeft_creator;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_layout_constraintRight_creator = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_layout_constraintRight_creator;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_layout_constraintTag = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_layout_constraintTag;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_layout_constraintTop_creator = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_layout_constraintTop_creator;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_layout_constraintVertical_bias = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_layout_constraintVertical_bias;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_layout_constraintVertical_chainStyle = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_layout_constraintVertical_chainStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_layout_constraintVertical_weight = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_layout_constraintVertical_weight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_layout_constraintWidth = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_layout_constraintWidth;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_layout_constraintWidth_default = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_layout_constraintWidth_default;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_layout_constraintWidth_max = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_layout_constraintWidth_max;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_layout_constraintWidth_min = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_layout_constraintWidth_min;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_layout_constraintWidth_percent = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_layout_constraintWidth_percent;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_layout_editor_absoluteX = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_layout_editor_absoluteX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_layout_editor_absoluteY = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_layout_editor_absoluteY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_layout_goneMarginBaseline = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_layout_goneMarginBaseline;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_layout_goneMarginBottom = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_layout_goneMarginBottom;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_layout_goneMarginEnd = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_layout_goneMarginEnd;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_layout_goneMarginLeft = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_layout_goneMarginLeft;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_layout_goneMarginRight = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_layout_goneMarginRight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_layout_goneMarginStart = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_layout_goneMarginStart;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_layout_goneMarginTop = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_layout_goneMarginTop;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_layout_marginBaseline = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_layout_marginBaseline;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_layout_wrapBehaviorInParent = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_layout_wrapBehaviorInParent;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_motionProgress = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_motionProgress;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_motionStagger = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_motionStagger;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_motionTarget = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_motionTarget;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_pathMotionArc = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_pathMotionArc;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_pivotAnchor = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_pivotAnchor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_polarRelativeTo = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_polarRelativeTo;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_quantizeMotionInterpolator = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_quantizeMotionInterpolator;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_quantizeMotionPhase = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_quantizeMotionPhase;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_quantizeMotionSteps = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_quantizeMotionSteps;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_transformPivotTarget = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_transformPivotTarget;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_transitionEasing = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_transitionEasing;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_transitionPathRotate = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_transitionPathRotate;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintOverride_visibilityMode = global::AppPSOne.Droid.Resource.Styleable.ConstraintOverride_visibilityMode;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_android_alpha = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_android_alpha;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_android_elevation = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_android_elevation;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_android_id = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_android_id;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_android_layout_height = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_android_layout_height;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_android_layout_marginBottom = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_android_layout_marginBottom;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_android_layout_marginEnd = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_android_layout_marginEnd;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_android_layout_marginLeft = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_android_layout_marginLeft;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_android_layout_marginRight = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_android_layout_marginRight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_android_layout_marginStart = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_android_layout_marginStart;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_android_layout_marginTop = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_android_layout_marginTop;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_android_layout_width = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_android_layout_width;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_android_maxHeight = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_android_maxHeight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_android_maxWidth = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_android_maxWidth;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_android_minHeight = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_android_minHeight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_android_minWidth = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_android_minWidth;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_android_orientation = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_android_orientation;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_android_pivotX = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_android_pivotX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_android_pivotY = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_android_pivotY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_android_rotation = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_android_rotation;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_android_rotationX = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_android_rotationX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_android_rotationY = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_android_rotationY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_android_scaleX = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_android_scaleX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_android_scaleY = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_android_scaleY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_android_transformPivotX = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_android_transformPivotX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_android_transformPivotY = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_android_transformPivotY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_android_translationX = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_android_translationX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_android_translationY = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_android_translationY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_android_translationZ = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_android_translationZ;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_android_visibility = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_android_visibility;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_animateCircleAngleTo = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_animateCircleAngleTo;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_animateRelativeTo = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_animateRelativeTo;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_barrierAllowsGoneWidgets = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_barrierAllowsGoneWidgets;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_barrierDirection = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_barrierDirection;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_barrierMargin = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_barrierMargin;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_chainUseRtl = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_chainUseRtl;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_ConstraintRotate = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_ConstraintRotate;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_constraint_referenced_ids = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_constraint_referenced_ids;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_constraint_referenced_tags = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_constraint_referenced_tags;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_deriveConstraintsFrom = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_deriveConstraintsFrom;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_drawPath = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_drawPath;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_flow_firstHorizontalBias = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_flow_firstHorizontalBias;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_flow_firstHorizontalStyle = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_flow_firstHorizontalStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_flow_firstVerticalBias = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_flow_firstVerticalBias;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_flow_firstVerticalStyle = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_flow_firstVerticalStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_flow_horizontalAlign = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_flow_horizontalAlign;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_flow_horizontalBias = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_flow_horizontalBias;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_flow_horizontalGap = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_flow_horizontalGap;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_flow_horizontalStyle = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_flow_horizontalStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_flow_lastHorizontalBias = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_flow_lastHorizontalBias;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_flow_lastHorizontalStyle = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_flow_lastHorizontalStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_flow_lastVerticalBias = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_flow_lastVerticalBias;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_flow_lastVerticalStyle = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_flow_lastVerticalStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_flow_maxElementsWrap = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_flow_maxElementsWrap;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_flow_verticalAlign = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_flow_verticalAlign;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_flow_verticalBias = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_flow_verticalBias;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_flow_verticalGap = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_flow_verticalGap;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_flow_verticalStyle = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_flow_verticalStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_flow_wrapMode = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_flow_wrapMode;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constrainedHeight = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_layout_constrainedHeight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constrainedWidth = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_layout_constrainedWidth;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintBaseline_creator = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_layout_constraintBaseline_creator;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintBaseline_toBaselineOf = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_layout_constraintBaseline_toBaselineOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintBaseline_toBottomOf = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_layout_constraintBaseline_toBottomOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintBaseline_toTopOf = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_layout_constraintBaseline_toTopOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintBottom_creator = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_layout_constraintBottom_creator;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintBottom_toBottomOf = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_layout_constraintBottom_toBottomOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintBottom_toTopOf = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_layout_constraintBottom_toTopOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintCircle = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_layout_constraintCircle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintCircleAngle = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_layout_constraintCircleAngle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintCircleRadius = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_layout_constraintCircleRadius;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintDimensionRatio = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_layout_constraintDimensionRatio;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintEnd_toEndOf = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_layout_constraintEnd_toEndOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintEnd_toStartOf = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_layout_constraintEnd_toStartOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintGuide_begin = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_layout_constraintGuide_begin;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintGuide_end = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_layout_constraintGuide_end;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintGuide_percent = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_layout_constraintGuide_percent;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintHeight_default = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_layout_constraintHeight_default;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintHeight_max = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_layout_constraintHeight_max;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintHeight_min = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_layout_constraintHeight_min;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintHeight_percent = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_layout_constraintHeight_percent;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintHorizontal_bias = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_layout_constraintHorizontal_bias;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintHorizontal_chainStyle = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_layout_constraintHorizontal_chainStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintHorizontal_weight = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_layout_constraintHorizontal_weight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintLeft_creator = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_layout_constraintLeft_creator;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintLeft_toLeftOf = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_layout_constraintLeft_toLeftOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintLeft_toRightOf = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_layout_constraintLeft_toRightOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintRight_creator = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_layout_constraintRight_creator;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintRight_toLeftOf = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_layout_constraintRight_toLeftOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintRight_toRightOf = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_layout_constraintRight_toRightOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintStart_toEndOf = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_layout_constraintStart_toEndOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintStart_toStartOf = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_layout_constraintStart_toStartOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintTag = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_layout_constraintTag;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintTop_creator = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_layout_constraintTop_creator;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintTop_toBottomOf = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_layout_constraintTop_toBottomOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintTop_toTopOf = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_layout_constraintTop_toTopOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintVertical_bias = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_layout_constraintVertical_bias;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintVertical_chainStyle = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_layout_constraintVertical_chainStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintVertical_weight = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_layout_constraintVertical_weight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintWidth_default = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_layout_constraintWidth_default;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintWidth_max = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_layout_constraintWidth_max;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintWidth_min = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_layout_constraintWidth_min;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintWidth_percent = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_layout_constraintWidth_percent;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_editor_absoluteX = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_layout_editor_absoluteX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_editor_absoluteY = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_layout_editor_absoluteY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_goneMarginBaseline = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_layout_goneMarginBaseline;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_goneMarginBottom = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_layout_goneMarginBottom;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_goneMarginEnd = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_layout_goneMarginEnd;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_goneMarginLeft = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_layout_goneMarginLeft;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_goneMarginRight = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_layout_goneMarginRight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_goneMarginStart = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_layout_goneMarginStart;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_goneMarginTop = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_layout_goneMarginTop;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_marginBaseline = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_layout_marginBaseline;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_wrapBehaviorInParent = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_layout_wrapBehaviorInParent;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_motionProgress = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_motionProgress;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_motionStagger = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_motionStagger;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_pathMotionArc = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_pathMotionArc;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_pivotAnchor = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_pivotAnchor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_polarRelativeTo = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_polarRelativeTo;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_quantizeMotionSteps = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_quantizeMotionSteps;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_transitionEasing = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_transitionEasing;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_transitionPathRotate = global::AppPSOne.Droid.Resource.Styleable.ConstraintSet_transitionPathRotate;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_android_alpha = global::AppPSOne.Droid.Resource.Styleable.Constraint_android_alpha;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_android_elevation = global::AppPSOne.Droid.Resource.Styleable.Constraint_android_elevation;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_android_id = global::AppPSOne.Droid.Resource.Styleable.Constraint_android_id;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_android_layout_height = global::AppPSOne.Droid.Resource.Styleable.Constraint_android_layout_height;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_android_layout_marginBottom = global::AppPSOne.Droid.Resource.Styleable.Constraint_android_layout_marginBottom;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_android_layout_marginEnd = global::AppPSOne.Droid.Resource.Styleable.Constraint_android_layout_marginEnd;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_android_layout_marginLeft = global::AppPSOne.Droid.Resource.Styleable.Constraint_android_layout_marginLeft;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_android_layout_marginRight = global::AppPSOne.Droid.Resource.Styleable.Constraint_android_layout_marginRight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_android_layout_marginStart = global::AppPSOne.Droid.Resource.Styleable.Constraint_android_layout_marginStart;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_android_layout_marginTop = global::AppPSOne.Droid.Resource.Styleable.Constraint_android_layout_marginTop;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_android_layout_width = global::AppPSOne.Droid.Resource.Styleable.Constraint_android_layout_width;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_android_maxHeight = global::AppPSOne.Droid.Resource.Styleable.Constraint_android_maxHeight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_android_maxWidth = global::AppPSOne.Droid.Resource.Styleable.Constraint_android_maxWidth;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_android_minHeight = global::AppPSOne.Droid.Resource.Styleable.Constraint_android_minHeight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_android_minWidth = global::AppPSOne.Droid.Resource.Styleable.Constraint_android_minWidth;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_android_orientation = global::AppPSOne.Droid.Resource.Styleable.Constraint_android_orientation;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_android_rotation = global::AppPSOne.Droid.Resource.Styleable.Constraint_android_rotation;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_android_rotationX = global::AppPSOne.Droid.Resource.Styleable.Constraint_android_rotationX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_android_rotationY = global::AppPSOne.Droid.Resource.Styleable.Constraint_android_rotationY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_android_scaleX = global::AppPSOne.Droid.Resource.Styleable.Constraint_android_scaleX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_android_scaleY = global::AppPSOne.Droid.Resource.Styleable.Constraint_android_scaleY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_android_transformPivotX = global::AppPSOne.Droid.Resource.Styleable.Constraint_android_transformPivotX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_android_transformPivotY = global::AppPSOne.Droid.Resource.Styleable.Constraint_android_transformPivotY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_android_translationX = global::AppPSOne.Droid.Resource.Styleable.Constraint_android_translationX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_android_translationY = global::AppPSOne.Droid.Resource.Styleable.Constraint_android_translationY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_android_translationZ = global::AppPSOne.Droid.Resource.Styleable.Constraint_android_translationZ;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_android_visibility = global::AppPSOne.Droid.Resource.Styleable.Constraint_android_visibility;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_animateCircleAngleTo = global::AppPSOne.Droid.Resource.Styleable.Constraint_animateCircleAngleTo;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_animateRelativeTo = global::AppPSOne.Droid.Resource.Styleable.Constraint_animateRelativeTo;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_barrierAllowsGoneWidgets = global::AppPSOne.Droid.Resource.Styleable.Constraint_barrierAllowsGoneWidgets;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_barrierDirection = global::AppPSOne.Droid.Resource.Styleable.Constraint_barrierDirection;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_barrierMargin = global::AppPSOne.Droid.Resource.Styleable.Constraint_barrierMargin;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_chainUseRtl = global::AppPSOne.Droid.Resource.Styleable.Constraint_chainUseRtl;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_constraint_referenced_ids = global::AppPSOne.Droid.Resource.Styleable.Constraint_constraint_referenced_ids;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_constraint_referenced_tags = global::AppPSOne.Droid.Resource.Styleable.Constraint_constraint_referenced_tags;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_drawPath = global::AppPSOne.Droid.Resource.Styleable.Constraint_drawPath;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_flow_firstHorizontalBias = global::AppPSOne.Droid.Resource.Styleable.Constraint_flow_firstHorizontalBias;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_flow_firstHorizontalStyle = global::AppPSOne.Droid.Resource.Styleable.Constraint_flow_firstHorizontalStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_flow_firstVerticalBias = global::AppPSOne.Droid.Resource.Styleable.Constraint_flow_firstVerticalBias;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_flow_firstVerticalStyle = global::AppPSOne.Droid.Resource.Styleable.Constraint_flow_firstVerticalStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_flow_horizontalAlign = global::AppPSOne.Droid.Resource.Styleable.Constraint_flow_horizontalAlign;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_flow_horizontalBias = global::AppPSOne.Droid.Resource.Styleable.Constraint_flow_horizontalBias;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_flow_horizontalGap = global::AppPSOne.Droid.Resource.Styleable.Constraint_flow_horizontalGap;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_flow_horizontalStyle = global::AppPSOne.Droid.Resource.Styleable.Constraint_flow_horizontalStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_flow_lastHorizontalBias = global::AppPSOne.Droid.Resource.Styleable.Constraint_flow_lastHorizontalBias;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_flow_lastHorizontalStyle = global::AppPSOne.Droid.Resource.Styleable.Constraint_flow_lastHorizontalStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_flow_lastVerticalBias = global::AppPSOne.Droid.Resource.Styleable.Constraint_flow_lastVerticalBias;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_flow_lastVerticalStyle = global::AppPSOne.Droid.Resource.Styleable.Constraint_flow_lastVerticalStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_flow_maxElementsWrap = global::AppPSOne.Droid.Resource.Styleable.Constraint_flow_maxElementsWrap;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_flow_verticalAlign = global::AppPSOne.Droid.Resource.Styleable.Constraint_flow_verticalAlign;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_flow_verticalBias = global::AppPSOne.Droid.Resource.Styleable.Constraint_flow_verticalBias;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_flow_verticalGap = global::AppPSOne.Droid.Resource.Styleable.Constraint_flow_verticalGap;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_flow_verticalStyle = global::AppPSOne.Droid.Resource.Styleable.Constraint_flow_verticalStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_flow_wrapMode = global::AppPSOne.Droid.Resource.Styleable.Constraint_flow_wrapMode;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constrainedHeight = global::AppPSOne.Droid.Resource.Styleable.Constraint_layout_constrainedHeight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constrainedWidth = global::AppPSOne.Droid.Resource.Styleable.Constraint_layout_constrainedWidth;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintBaseline_creator = global::AppPSOne.Droid.Resource.Styleable.Constraint_layout_constraintBaseline_creator;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintBaseline_toBaselineOf = global::AppPSOne.Droid.Resource.Styleable.Constraint_layout_constraintBaseline_toBaselineOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintBaseline_toBottomOf = global::AppPSOne.Droid.Resource.Styleable.Constraint_layout_constraintBaseline_toBottomOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintBaseline_toTopOf = global::AppPSOne.Droid.Resource.Styleable.Constraint_layout_constraintBaseline_toTopOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintBottom_creator = global::AppPSOne.Droid.Resource.Styleable.Constraint_layout_constraintBottom_creator;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintBottom_toBottomOf = global::AppPSOne.Droid.Resource.Styleable.Constraint_layout_constraintBottom_toBottomOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintBottom_toTopOf = global::AppPSOne.Droid.Resource.Styleable.Constraint_layout_constraintBottom_toTopOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintCircle = global::AppPSOne.Droid.Resource.Styleable.Constraint_layout_constraintCircle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintCircleAngle = global::AppPSOne.Droid.Resource.Styleable.Constraint_layout_constraintCircleAngle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintCircleRadius = global::AppPSOne.Droid.Resource.Styleable.Constraint_layout_constraintCircleRadius;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintDimensionRatio = global::AppPSOne.Droid.Resource.Styleable.Constraint_layout_constraintDimensionRatio;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintEnd_toEndOf = global::AppPSOne.Droid.Resource.Styleable.Constraint_layout_constraintEnd_toEndOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintEnd_toStartOf = global::AppPSOne.Droid.Resource.Styleable.Constraint_layout_constraintEnd_toStartOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintGuide_begin = global::AppPSOne.Droid.Resource.Styleable.Constraint_layout_constraintGuide_begin;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintGuide_end = global::AppPSOne.Droid.Resource.Styleable.Constraint_layout_constraintGuide_end;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintGuide_percent = global::AppPSOne.Droid.Resource.Styleable.Constraint_layout_constraintGuide_percent;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintHeight = global::AppPSOne.Droid.Resource.Styleable.Constraint_layout_constraintHeight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintHeight_default = global::AppPSOne.Droid.Resource.Styleable.Constraint_layout_constraintHeight_default;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintHeight_max = global::AppPSOne.Droid.Resource.Styleable.Constraint_layout_constraintHeight_max;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintHeight_min = global::AppPSOne.Droid.Resource.Styleable.Constraint_layout_constraintHeight_min;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintHeight_percent = global::AppPSOne.Droid.Resource.Styleable.Constraint_layout_constraintHeight_percent;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintHorizontal_bias = global::AppPSOne.Droid.Resource.Styleable.Constraint_layout_constraintHorizontal_bias;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintHorizontal_chainStyle = global::AppPSOne.Droid.Resource.Styleable.Constraint_layout_constraintHorizontal_chainStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintHorizontal_weight = global::AppPSOne.Droid.Resource.Styleable.Constraint_layout_constraintHorizontal_weight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintLeft_creator = global::AppPSOne.Droid.Resource.Styleable.Constraint_layout_constraintLeft_creator;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintLeft_toLeftOf = global::AppPSOne.Droid.Resource.Styleable.Constraint_layout_constraintLeft_toLeftOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintLeft_toRightOf = global::AppPSOne.Droid.Resource.Styleable.Constraint_layout_constraintLeft_toRightOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintRight_creator = global::AppPSOne.Droid.Resource.Styleable.Constraint_layout_constraintRight_creator;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintRight_toLeftOf = global::AppPSOne.Droid.Resource.Styleable.Constraint_layout_constraintRight_toLeftOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintRight_toRightOf = global::AppPSOne.Droid.Resource.Styleable.Constraint_layout_constraintRight_toRightOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintStart_toEndOf = global::AppPSOne.Droid.Resource.Styleable.Constraint_layout_constraintStart_toEndOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintStart_toStartOf = global::AppPSOne.Droid.Resource.Styleable.Constraint_layout_constraintStart_toStartOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintTag = global::AppPSOne.Droid.Resource.Styleable.Constraint_layout_constraintTag;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintTop_creator = global::AppPSOne.Droid.Resource.Styleable.Constraint_layout_constraintTop_creator;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintTop_toBottomOf = global::AppPSOne.Droid.Resource.Styleable.Constraint_layout_constraintTop_toBottomOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintTop_toTopOf = global::AppPSOne.Droid.Resource.Styleable.Constraint_layout_constraintTop_toTopOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintVertical_bias = global::AppPSOne.Droid.Resource.Styleable.Constraint_layout_constraintVertical_bias;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintVertical_chainStyle = global::AppPSOne.Droid.Resource.Styleable.Constraint_layout_constraintVertical_chainStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintVertical_weight = global::AppPSOne.Droid.Resource.Styleable.Constraint_layout_constraintVertical_weight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintWidth = global::AppPSOne.Droid.Resource.Styleable.Constraint_layout_constraintWidth;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintWidth_default = global::AppPSOne.Droid.Resource.Styleable.Constraint_layout_constraintWidth_default;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintWidth_max = global::AppPSOne.Droid.Resource.Styleable.Constraint_layout_constraintWidth_max;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintWidth_min = global::AppPSOne.Droid.Resource.Styleable.Constraint_layout_constraintWidth_min;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintWidth_percent = global::AppPSOne.Droid.Resource.Styleable.Constraint_layout_constraintWidth_percent;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_editor_absoluteX = global::AppPSOne.Droid.Resource.Styleable.Constraint_layout_editor_absoluteX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_editor_absoluteY = global::AppPSOne.Droid.Resource.Styleable.Constraint_layout_editor_absoluteY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_goneMarginBaseline = global::AppPSOne.Droid.Resource.Styleable.Constraint_layout_goneMarginBaseline;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_goneMarginBottom = global::AppPSOne.Droid.Resource.Styleable.Constraint_layout_goneMarginBottom;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_goneMarginEnd = global::AppPSOne.Droid.Resource.Styleable.Constraint_layout_goneMarginEnd;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_goneMarginLeft = global::AppPSOne.Droid.Resource.Styleable.Constraint_layout_goneMarginLeft;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_goneMarginRight = global::AppPSOne.Droid.Resource.Styleable.Constraint_layout_goneMarginRight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_goneMarginStart = global::AppPSOne.Droid.Resource.Styleable.Constraint_layout_goneMarginStart;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_goneMarginTop = global::AppPSOne.Droid.Resource.Styleable.Constraint_layout_goneMarginTop;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_marginBaseline = global::AppPSOne.Droid.Resource.Styleable.Constraint_layout_marginBaseline;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_wrapBehaviorInParent = global::AppPSOne.Droid.Resource.Styleable.Constraint_layout_wrapBehaviorInParent;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_motionProgress = global::AppPSOne.Droid.Resource.Styleable.Constraint_motionProgress;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_motionStagger = global::AppPSOne.Droid.Resource.Styleable.Constraint_motionStagger;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_pathMotionArc = global::AppPSOne.Droid.Resource.Styleable.Constraint_pathMotionArc;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_pivotAnchor = global::AppPSOne.Droid.Resource.Styleable.Constraint_pivotAnchor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_polarRelativeTo = global::AppPSOne.Droid.Resource.Styleable.Constraint_polarRelativeTo;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_quantizeMotionInterpolator = global::AppPSOne.Droid.Resource.Styleable.Constraint_quantizeMotionInterpolator;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_quantizeMotionPhase = global::AppPSOne.Droid.Resource.Styleable.Constraint_quantizeMotionPhase;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_quantizeMotionSteps = global::AppPSOne.Droid.Resource.Styleable.Constraint_quantizeMotionSteps;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_transformPivotTarget = global::AppPSOne.Droid.Resource.Styleable.Constraint_transformPivotTarget;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_transitionEasing = global::AppPSOne.Droid.Resource.Styleable.Constraint_transitionEasing;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_transitionPathRotate = global::AppPSOne.Droid.Resource.Styleable.Constraint_transitionPathRotate;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_visibilityMode = global::AppPSOne.Droid.Resource.Styleable.Constraint_visibilityMode;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CoordinatorLayout = global::AppPSOne.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CoordinatorLayout_keylines = global::AppPSOne.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CoordinatorLayout_Layout = global::AppPSOne.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::AppPSOne.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::AppPSOne.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::AppPSOne.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::AppPSOne.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::AppPSOne.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::AppPSOne.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::AppPSOne.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::AppPSOne.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CustomAttribute = global::AppPSOne.Droid.Resource.Styleable.CustomAttribute;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CustomAttribute_attributeName = global::AppPSOne.Droid.Resource.Styleable.CustomAttribute_attributeName;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CustomAttribute_customBoolean = global::AppPSOne.Droid.Resource.Styleable.CustomAttribute_customBoolean;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CustomAttribute_customColorDrawableValue = global::AppPSOne.Droid.Resource.Styleable.CustomAttribute_customColorDrawableValue;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CustomAttribute_customColorValue = global::AppPSOne.Droid.Resource.Styleable.CustomAttribute_customColorValue;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CustomAttribute_customDimension = global::AppPSOne.Droid.Resource.Styleable.CustomAttribute_customDimension;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CustomAttribute_customFloatValue = global::AppPSOne.Droid.Resource.Styleable.CustomAttribute_customFloatValue;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CustomAttribute_customIntegerValue = global::AppPSOne.Droid.Resource.Styleable.CustomAttribute_customIntegerValue;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CustomAttribute_customPixelDimension = global::AppPSOne.Droid.Resource.Styleable.CustomAttribute_customPixelDimension;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CustomAttribute_customReference = global::AppPSOne.Droid.Resource.Styleable.CustomAttribute_customReference;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CustomAttribute_customStringValue = global::AppPSOne.Droid.Resource.Styleable.CustomAttribute_customStringValue;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CustomAttribute_methodName = global::AppPSOne.Droid.Resource.Styleable.CustomAttribute_methodName;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.DialogPreference = global::AppPSOne.Droid.Resource.Styleable.DialogPreference;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.DialogPreference_android_dialogIcon = global::AppPSOne.Droid.Resource.Styleable.DialogPreference_android_dialogIcon;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.DialogPreference_android_dialogLayout = global::AppPSOne.Droid.Resource.Styleable.DialogPreference_android_dialogLayout;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.DialogPreference_android_dialogMessage = global::AppPSOne.Droid.Resource.Styleable.DialogPreference_android_dialogMessage;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.DialogPreference_android_dialogTitle = global::AppPSOne.Droid.Resource.Styleable.DialogPreference_android_dialogTitle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.DialogPreference_android_negativeButtonText = global::AppPSOne.Droid.Resource.Styleable.DialogPreference_android_negativeButtonText;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.DialogPreference_android_positiveButtonText = global::AppPSOne.Droid.Resource.Styleable.DialogPreference_android_positiveButtonText;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.DialogPreference_dialogIcon = global::AppPSOne.Droid.Resource.Styleable.DialogPreference_dialogIcon;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.DialogPreference_dialogLayout = global::AppPSOne.Droid.Resource.Styleable.DialogPreference_dialogLayout;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.DialogPreference_dialogMessage = global::AppPSOne.Droid.Resource.Styleable.DialogPreference_dialogMessage;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.DialogPreference_dialogTitle = global::AppPSOne.Droid.Resource.Styleable.DialogPreference_dialogTitle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.DialogPreference_negativeButtonText = global::AppPSOne.Droid.Resource.Styleable.DialogPreference_negativeButtonText;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.DialogPreference_positiveButtonText = global::AppPSOne.Droid.Resource.Styleable.DialogPreference_positiveButtonText;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.DrawerArrowToggle = global::AppPSOne.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::AppPSOne.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::AppPSOne.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.DrawerArrowToggle_barLength = global::AppPSOne.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.DrawerArrowToggle_color = global::AppPSOne.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.DrawerArrowToggle_drawableSize = global::AppPSOne.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::AppPSOne.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.DrawerArrowToggle_spinBars = global::AppPSOne.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.DrawerArrowToggle_thickness = global::AppPSOne.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.DrawerLayout = global::AppPSOne.Droid.Resource.Styleable.DrawerLayout;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.DrawerLayout_elevation = global::AppPSOne.Droid.Resource.Styleable.DrawerLayout_elevation;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.EditTextPreference = global::AppPSOne.Droid.Resource.Styleable.EditTextPreference;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.EditTextPreference_useSimpleSummaryProvider = global::AppPSOne.Droid.Resource.Styleable.EditTextPreference_useSimpleSummaryProvider;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ExtendedFloatingActionButton = global::AppPSOne.Droid.Resource.Styleable.ExtendedFloatingActionButton;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout = global::AppPSOne.Droid.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoHide = global::AppPSOne.Droid.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoShrink = global::AppPSOne.Droid.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoShrink;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ExtendedFloatingActionButton_collapsedSize = global::AppPSOne.Droid.Resource.Styleable.ExtendedFloatingActionButton_collapsedSize;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ExtendedFloatingActionButton_elevation = global::AppPSOne.Droid.Resource.Styleable.ExtendedFloatingActionButton_elevation;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ExtendedFloatingActionButton_extendMotionSpec = global::AppPSOne.Droid.Resource.Styleable.ExtendedFloatingActionButton_extendMotionSpec;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ExtendedFloatingActionButton_hideMotionSpec = global::AppPSOne.Droid.Resource.Styleable.ExtendedFloatingActionButton_hideMotionSpec;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ExtendedFloatingActionButton_showMotionSpec = global::AppPSOne.Droid.Resource.Styleable.ExtendedFloatingActionButton_showMotionSpec;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ExtendedFloatingActionButton_shrinkMotionSpec = global::AppPSOne.Droid.Resource.Styleable.ExtendedFloatingActionButton_shrinkMotionSpec;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.FloatingActionButton = global::AppPSOne.Droid.Resource.Styleable.FloatingActionButton;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.FloatingActionButton_android_enabled = global::AppPSOne.Droid.Resource.Styleable.FloatingActionButton_android_enabled;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.FloatingActionButton_backgroundTint = global::AppPSOne.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::AppPSOne.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::AppPSOne.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::AppPSOne.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.FloatingActionButton_borderWidth = global::AppPSOne.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.FloatingActionButton_elevation = global::AppPSOne.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.FloatingActionButton_ensureMinTouchTargetSize = global::AppPSOne.Droid.Resource.Styleable.FloatingActionButton_ensureMinTouchTargetSize;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.FloatingActionButton_fabCustomSize = global::AppPSOne.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.FloatingActionButton_fabSize = global::AppPSOne.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.FloatingActionButton_hideMotionSpec = global::AppPSOne.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ = global::AppPSOne.Droid.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.FloatingActionButton_maxImageSize = global::AppPSOne.Droid.Resource.Styleable.FloatingActionButton_maxImageSize;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::AppPSOne.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.FloatingActionButton_rippleColor = global::AppPSOne.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.FloatingActionButton_shapeAppearance = global::AppPSOne.Droid.Resource.Styleable.FloatingActionButton_shapeAppearance;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.FloatingActionButton_shapeAppearanceOverlay = global::AppPSOne.Droid.Resource.Styleable.FloatingActionButton_shapeAppearanceOverlay;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.FloatingActionButton_showMotionSpec = global::AppPSOne.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.FloatingActionButton_useCompatPadding = global::AppPSOne.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.FlowLayout = global::AppPSOne.Droid.Resource.Styleable.FlowLayout;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.FlowLayout_itemSpacing = global::AppPSOne.Droid.Resource.Styleable.FlowLayout_itemSpacing;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.FlowLayout_lineSpacing = global::AppPSOne.Droid.Resource.Styleable.FlowLayout_lineSpacing;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.FontFamily = global::AppPSOne.Droid.Resource.Styleable.FontFamily;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.FontFamilyFont = global::AppPSOne.Droid.Resource.Styleable.FontFamilyFont;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.FontFamilyFont_android_font = global::AppPSOne.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.FontFamilyFont_android_fontStyle = global::AppPSOne.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::AppPSOne.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.FontFamilyFont_android_fontWeight = global::AppPSOne.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::AppPSOne.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.FontFamilyFont_font = global::AppPSOne.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.FontFamilyFont_fontStyle = global::AppPSOne.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::AppPSOne.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.FontFamilyFont_fontWeight = global::AppPSOne.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.FontFamilyFont_ttcIndex = global::AppPSOne.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.FontFamily_fontProviderAuthority = global::AppPSOne.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.FontFamily_fontProviderCerts = global::AppPSOne.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::AppPSOne.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::AppPSOne.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.FontFamily_fontProviderPackage = global::AppPSOne.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.FontFamily_fontProviderQuery = global::AppPSOne.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.FontFamily_fontProviderSystemFontFamily = global::AppPSOne.Droid.Resource.Styleable.FontFamily_fontProviderSystemFontFamily;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ForegroundLinearLayout = global::AppPSOne.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::AppPSOne.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::AppPSOne.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::AppPSOne.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Fragment = global::AppPSOne.Droid.Resource.Styleable.Fragment;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.FragmentContainerView = global::AppPSOne.Droid.Resource.Styleable.FragmentContainerView;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.FragmentContainerView_android_name = global::AppPSOne.Droid.Resource.Styleable.FragmentContainerView_android_name;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.FragmentContainerView_android_tag = global::AppPSOne.Droid.Resource.Styleable.FragmentContainerView_android_tag;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Fragment_android_id = global::AppPSOne.Droid.Resource.Styleable.Fragment_android_id;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Fragment_android_name = global::AppPSOne.Droid.Resource.Styleable.Fragment_android_name;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Fragment_android_tag = global::AppPSOne.Droid.Resource.Styleable.Fragment_android_tag;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.GradientColor = global::AppPSOne.Droid.Resource.Styleable.GradientColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.GradientColorItem = global::AppPSOne.Droid.Resource.Styleable.GradientColorItem;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.GradientColorItem_android_color = global::AppPSOne.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.GradientColorItem_android_offset = global::AppPSOne.Droid.Resource.Styleable.GradientColorItem_android_offset;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.GradientColor_android_centerColor = global::AppPSOne.Droid.Resource.Styleable.GradientColor_android_centerColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.GradientColor_android_centerX = global::AppPSOne.Droid.Resource.Styleable.GradientColor_android_centerX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.GradientColor_android_centerY = global::AppPSOne.Droid.Resource.Styleable.GradientColor_android_centerY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.GradientColor_android_endColor = global::AppPSOne.Droid.Resource.Styleable.GradientColor_android_endColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.GradientColor_android_endX = global::AppPSOne.Droid.Resource.Styleable.GradientColor_android_endX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.GradientColor_android_endY = global::AppPSOne.Droid.Resource.Styleable.GradientColor_android_endY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.GradientColor_android_gradientRadius = global::AppPSOne.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.GradientColor_android_startColor = global::AppPSOne.Droid.Resource.Styleable.GradientColor_android_startColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.GradientColor_android_startX = global::AppPSOne.Droid.Resource.Styleable.GradientColor_android_startX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.GradientColor_android_startY = global::AppPSOne.Droid.Resource.Styleable.GradientColor_android_startY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.GradientColor_android_tileMode = global::AppPSOne.Droid.Resource.Styleable.GradientColor_android_tileMode;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.GradientColor_android_type = global::AppPSOne.Droid.Resource.Styleable.GradientColor_android_type;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ImageFilterView = global::AppPSOne.Droid.Resource.Styleable.ImageFilterView;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ImageFilterView_altSrc = global::AppPSOne.Droid.Resource.Styleable.ImageFilterView_altSrc;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ImageFilterView_blendSrc = global::AppPSOne.Droid.Resource.Styleable.ImageFilterView_blendSrc;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ImageFilterView_brightness = global::AppPSOne.Droid.Resource.Styleable.ImageFilterView_brightness;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ImageFilterView_contrast = global::AppPSOne.Droid.Resource.Styleable.ImageFilterView_contrast;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ImageFilterView_crossfade = global::AppPSOne.Droid.Resource.Styleable.ImageFilterView_crossfade;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ImageFilterView_imagePanX = global::AppPSOne.Droid.Resource.Styleable.ImageFilterView_imagePanX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ImageFilterView_imagePanY = global::AppPSOne.Droid.Resource.Styleable.ImageFilterView_imagePanY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ImageFilterView_imageRotate = global::AppPSOne.Droid.Resource.Styleable.ImageFilterView_imageRotate;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ImageFilterView_imageZoom = global::AppPSOne.Droid.Resource.Styleable.ImageFilterView_imageZoom;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ImageFilterView_overlay = global::AppPSOne.Droid.Resource.Styleable.ImageFilterView_overlay;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ImageFilterView_round = global::AppPSOne.Droid.Resource.Styleable.ImageFilterView_round;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ImageFilterView_roundPercent = global::AppPSOne.Droid.Resource.Styleable.ImageFilterView_roundPercent;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ImageFilterView_saturation = global::AppPSOne.Droid.Resource.Styleable.ImageFilterView_saturation;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ImageFilterView_warmth = global::AppPSOne.Droid.Resource.Styleable.ImageFilterView_warmth;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.include = global::AppPSOne.Droid.Resource.Styleable.include;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.include_constraintSet = global::AppPSOne.Droid.Resource.Styleable.include_constraintSet;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Insets = global::AppPSOne.Droid.Resource.Styleable.Insets;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Insets_paddingBottomSystemWindowInsets = global::AppPSOne.Droid.Resource.Styleable.Insets_paddingBottomSystemWindowInsets;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Insets_paddingLeftSystemWindowInsets = global::AppPSOne.Droid.Resource.Styleable.Insets_paddingLeftSystemWindowInsets;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Insets_paddingRightSystemWindowInsets = global::AppPSOne.Droid.Resource.Styleable.Insets_paddingRightSystemWindowInsets;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Insets_paddingTopSystemWindowInsets = global::AppPSOne.Droid.Resource.Styleable.Insets_paddingTopSystemWindowInsets;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ItemsViewRendererTheme = global::AppPSOne.Droid.Resource.Styleable.ItemsViewRendererTheme;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle = global::AppPSOne.Droid.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyAttribute = global::AppPSOne.Droid.Resource.Styleable.KeyAttribute;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyAttribute_android_alpha = global::AppPSOne.Droid.Resource.Styleable.KeyAttribute_android_alpha;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyAttribute_android_elevation = global::AppPSOne.Droid.Resource.Styleable.KeyAttribute_android_elevation;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyAttribute_android_rotation = global::AppPSOne.Droid.Resource.Styleable.KeyAttribute_android_rotation;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyAttribute_android_rotationX = global::AppPSOne.Droid.Resource.Styleable.KeyAttribute_android_rotationX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyAttribute_android_rotationY = global::AppPSOne.Droid.Resource.Styleable.KeyAttribute_android_rotationY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyAttribute_android_scaleX = global::AppPSOne.Droid.Resource.Styleable.KeyAttribute_android_scaleX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyAttribute_android_scaleY = global::AppPSOne.Droid.Resource.Styleable.KeyAttribute_android_scaleY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyAttribute_android_transformPivotX = global::AppPSOne.Droid.Resource.Styleable.KeyAttribute_android_transformPivotX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyAttribute_android_transformPivotY = global::AppPSOne.Droid.Resource.Styleable.KeyAttribute_android_transformPivotY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyAttribute_android_translationX = global::AppPSOne.Droid.Resource.Styleable.KeyAttribute_android_translationX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyAttribute_android_translationY = global::AppPSOne.Droid.Resource.Styleable.KeyAttribute_android_translationY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyAttribute_android_translationZ = global::AppPSOne.Droid.Resource.Styleable.KeyAttribute_android_translationZ;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyAttribute_curveFit = global::AppPSOne.Droid.Resource.Styleable.KeyAttribute_curveFit;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyAttribute_framePosition = global::AppPSOne.Droid.Resource.Styleable.KeyAttribute_framePosition;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyAttribute_motionProgress = global::AppPSOne.Droid.Resource.Styleable.KeyAttribute_motionProgress;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyAttribute_motionTarget = global::AppPSOne.Droid.Resource.Styleable.KeyAttribute_motionTarget;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyAttribute_transformPivotTarget = global::AppPSOne.Droid.Resource.Styleable.KeyAttribute_transformPivotTarget;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyAttribute_transitionEasing = global::AppPSOne.Droid.Resource.Styleable.KeyAttribute_transitionEasing;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyAttribute_transitionPathRotate = global::AppPSOne.Droid.Resource.Styleable.KeyAttribute_transitionPathRotate;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyCycle = global::AppPSOne.Droid.Resource.Styleable.KeyCycle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyCycle_android_alpha = global::AppPSOne.Droid.Resource.Styleable.KeyCycle_android_alpha;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyCycle_android_elevation = global::AppPSOne.Droid.Resource.Styleable.KeyCycle_android_elevation;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyCycle_android_rotation = global::AppPSOne.Droid.Resource.Styleable.KeyCycle_android_rotation;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyCycle_android_rotationX = global::AppPSOne.Droid.Resource.Styleable.KeyCycle_android_rotationX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyCycle_android_rotationY = global::AppPSOne.Droid.Resource.Styleable.KeyCycle_android_rotationY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyCycle_android_scaleX = global::AppPSOne.Droid.Resource.Styleable.KeyCycle_android_scaleX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyCycle_android_scaleY = global::AppPSOne.Droid.Resource.Styleable.KeyCycle_android_scaleY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyCycle_android_translationX = global::AppPSOne.Droid.Resource.Styleable.KeyCycle_android_translationX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyCycle_android_translationY = global::AppPSOne.Droid.Resource.Styleable.KeyCycle_android_translationY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyCycle_android_translationZ = global::AppPSOne.Droid.Resource.Styleable.KeyCycle_android_translationZ;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyCycle_curveFit = global::AppPSOne.Droid.Resource.Styleable.KeyCycle_curveFit;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyCycle_framePosition = global::AppPSOne.Droid.Resource.Styleable.KeyCycle_framePosition;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyCycle_motionProgress = global::AppPSOne.Droid.Resource.Styleable.KeyCycle_motionProgress;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyCycle_motionTarget = global::AppPSOne.Droid.Resource.Styleable.KeyCycle_motionTarget;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyCycle_transitionEasing = global::AppPSOne.Droid.Resource.Styleable.KeyCycle_transitionEasing;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyCycle_transitionPathRotate = global::AppPSOne.Droid.Resource.Styleable.KeyCycle_transitionPathRotate;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyCycle_waveOffset = global::AppPSOne.Droid.Resource.Styleable.KeyCycle_waveOffset;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyCycle_wavePeriod = global::AppPSOne.Droid.Resource.Styleable.KeyCycle_wavePeriod;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyCycle_wavePhase = global::AppPSOne.Droid.Resource.Styleable.KeyCycle_wavePhase;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyCycle_waveShape = global::AppPSOne.Droid.Resource.Styleable.KeyCycle_waveShape;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyCycle_waveVariesBy = global::AppPSOne.Droid.Resource.Styleable.KeyCycle_waveVariesBy;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyFrame = global::AppPSOne.Droid.Resource.Styleable.KeyFrame;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyFramesAcceleration = global::AppPSOne.Droid.Resource.Styleable.KeyFramesAcceleration;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyFramesVelocity = global::AppPSOne.Droid.Resource.Styleable.KeyFramesVelocity;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyPosition = global::AppPSOne.Droid.Resource.Styleable.KeyPosition;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyPosition_curveFit = global::AppPSOne.Droid.Resource.Styleable.KeyPosition_curveFit;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyPosition_drawPath = global::AppPSOne.Droid.Resource.Styleable.KeyPosition_drawPath;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyPosition_framePosition = global::AppPSOne.Droid.Resource.Styleable.KeyPosition_framePosition;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyPosition_keyPositionType = global::AppPSOne.Droid.Resource.Styleable.KeyPosition_keyPositionType;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyPosition_motionTarget = global::AppPSOne.Droid.Resource.Styleable.KeyPosition_motionTarget;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyPosition_pathMotionArc = global::AppPSOne.Droid.Resource.Styleable.KeyPosition_pathMotionArc;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyPosition_percentHeight = global::AppPSOne.Droid.Resource.Styleable.KeyPosition_percentHeight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyPosition_percentWidth = global::AppPSOne.Droid.Resource.Styleable.KeyPosition_percentWidth;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyPosition_percentX = global::AppPSOne.Droid.Resource.Styleable.KeyPosition_percentX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyPosition_percentY = global::AppPSOne.Droid.Resource.Styleable.KeyPosition_percentY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyPosition_sizePercent = global::AppPSOne.Droid.Resource.Styleable.KeyPosition_sizePercent;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyPosition_transitionEasing = global::AppPSOne.Droid.Resource.Styleable.KeyPosition_transitionEasing;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTimeCycle = global::AppPSOne.Droid.Resource.Styleable.KeyTimeCycle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTimeCycle_android_alpha = global::AppPSOne.Droid.Resource.Styleable.KeyTimeCycle_android_alpha;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTimeCycle_android_elevation = global::AppPSOne.Droid.Resource.Styleable.KeyTimeCycle_android_elevation;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTimeCycle_android_rotation = global::AppPSOne.Droid.Resource.Styleable.KeyTimeCycle_android_rotation;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTimeCycle_android_rotationX = global::AppPSOne.Droid.Resource.Styleable.KeyTimeCycle_android_rotationX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTimeCycle_android_rotationY = global::AppPSOne.Droid.Resource.Styleable.KeyTimeCycle_android_rotationY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTimeCycle_android_scaleX = global::AppPSOne.Droid.Resource.Styleable.KeyTimeCycle_android_scaleX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTimeCycle_android_scaleY = global::AppPSOne.Droid.Resource.Styleable.KeyTimeCycle_android_scaleY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTimeCycle_android_translationX = global::AppPSOne.Droid.Resource.Styleable.KeyTimeCycle_android_translationX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTimeCycle_android_translationY = global::AppPSOne.Droid.Resource.Styleable.KeyTimeCycle_android_translationY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTimeCycle_android_translationZ = global::AppPSOne.Droid.Resource.Styleable.KeyTimeCycle_android_translationZ;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTimeCycle_curveFit = global::AppPSOne.Droid.Resource.Styleable.KeyTimeCycle_curveFit;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTimeCycle_framePosition = global::AppPSOne.Droid.Resource.Styleable.KeyTimeCycle_framePosition;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTimeCycle_motionProgress = global::AppPSOne.Droid.Resource.Styleable.KeyTimeCycle_motionProgress;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTimeCycle_motionTarget = global::AppPSOne.Droid.Resource.Styleable.KeyTimeCycle_motionTarget;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTimeCycle_transitionEasing = global::AppPSOne.Droid.Resource.Styleable.KeyTimeCycle_transitionEasing;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTimeCycle_transitionPathRotate = global::AppPSOne.Droid.Resource.Styleable.KeyTimeCycle_transitionPathRotate;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTimeCycle_waveDecay = global::AppPSOne.Droid.Resource.Styleable.KeyTimeCycle_waveDecay;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTimeCycle_waveOffset = global::AppPSOne.Droid.Resource.Styleable.KeyTimeCycle_waveOffset;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTimeCycle_wavePeriod = global::AppPSOne.Droid.Resource.Styleable.KeyTimeCycle_wavePeriod;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTimeCycle_wavePhase = global::AppPSOne.Droid.Resource.Styleable.KeyTimeCycle_wavePhase;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTimeCycle_waveShape = global::AppPSOne.Droid.Resource.Styleable.KeyTimeCycle_waveShape;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTrigger = global::AppPSOne.Droid.Resource.Styleable.KeyTrigger;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTrigger_framePosition = global::AppPSOne.Droid.Resource.Styleable.KeyTrigger_framePosition;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTrigger_motionTarget = global::AppPSOne.Droid.Resource.Styleable.KeyTrigger_motionTarget;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTrigger_motion_postLayoutCollision = global::AppPSOne.Droid.Resource.Styleable.KeyTrigger_motion_postLayoutCollision;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTrigger_motion_triggerOnCollision = global::AppPSOne.Droid.Resource.Styleable.KeyTrigger_motion_triggerOnCollision;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTrigger_onCross = global::AppPSOne.Droid.Resource.Styleable.KeyTrigger_onCross;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTrigger_onNegativeCross = global::AppPSOne.Droid.Resource.Styleable.KeyTrigger_onNegativeCross;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTrigger_onPositiveCross = global::AppPSOne.Droid.Resource.Styleable.KeyTrigger_onPositiveCross;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTrigger_triggerId = global::AppPSOne.Droid.Resource.Styleable.KeyTrigger_triggerId;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTrigger_triggerReceiver = global::AppPSOne.Droid.Resource.Styleable.KeyTrigger_triggerReceiver;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTrigger_triggerSlack = global::AppPSOne.Droid.Resource.Styleable.KeyTrigger_triggerSlack;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTrigger_viewTransitionOnCross = global::AppPSOne.Droid.Resource.Styleable.KeyTrigger_viewTransitionOnCross;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTrigger_viewTransitionOnNegativeCross = global::AppPSOne.Droid.Resource.Styleable.KeyTrigger_viewTransitionOnNegativeCross;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTrigger_viewTransitionOnPositiveCross = global::AppPSOne.Droid.Resource.Styleable.KeyTrigger_viewTransitionOnPositiveCross;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout = global::AppPSOne.Droid.Resource.Styleable.Layout;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_android_layout_height = global::AppPSOne.Droid.Resource.Styleable.Layout_android_layout_height;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_android_layout_marginBottom = global::AppPSOne.Droid.Resource.Styleable.Layout_android_layout_marginBottom;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_android_layout_marginEnd = global::AppPSOne.Droid.Resource.Styleable.Layout_android_layout_marginEnd;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_android_layout_marginLeft = global::AppPSOne.Droid.Resource.Styleable.Layout_android_layout_marginLeft;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_android_layout_marginRight = global::AppPSOne.Droid.Resource.Styleable.Layout_android_layout_marginRight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_android_layout_marginStart = global::AppPSOne.Droid.Resource.Styleable.Layout_android_layout_marginStart;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_android_layout_marginTop = global::AppPSOne.Droid.Resource.Styleable.Layout_android_layout_marginTop;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_android_layout_width = global::AppPSOne.Droid.Resource.Styleable.Layout_android_layout_width;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_android_orientation = global::AppPSOne.Droid.Resource.Styleable.Layout_android_orientation;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_barrierAllowsGoneWidgets = global::AppPSOne.Droid.Resource.Styleable.Layout_barrierAllowsGoneWidgets;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_barrierDirection = global::AppPSOne.Droid.Resource.Styleable.Layout_barrierDirection;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_barrierMargin = global::AppPSOne.Droid.Resource.Styleable.Layout_barrierMargin;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_chainUseRtl = global::AppPSOne.Droid.Resource.Styleable.Layout_chainUseRtl;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_constraint_referenced_ids = global::AppPSOne.Droid.Resource.Styleable.Layout_constraint_referenced_ids;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_constraint_referenced_tags = global::AppPSOne.Droid.Resource.Styleable.Layout_constraint_referenced_tags;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constrainedHeight = global::AppPSOne.Droid.Resource.Styleable.Layout_layout_constrainedHeight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constrainedWidth = global::AppPSOne.Droid.Resource.Styleable.Layout_layout_constrainedWidth;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintBaseline_creator = global::AppPSOne.Droid.Resource.Styleable.Layout_layout_constraintBaseline_creator;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintBaseline_toBaselineOf = global::AppPSOne.Droid.Resource.Styleable.Layout_layout_constraintBaseline_toBaselineOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintBaseline_toBottomOf = global::AppPSOne.Droid.Resource.Styleable.Layout_layout_constraintBaseline_toBottomOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintBaseline_toTopOf = global::AppPSOne.Droid.Resource.Styleable.Layout_layout_constraintBaseline_toTopOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintBottom_creator = global::AppPSOne.Droid.Resource.Styleable.Layout_layout_constraintBottom_creator;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintBottom_toBottomOf = global::AppPSOne.Droid.Resource.Styleable.Layout_layout_constraintBottom_toBottomOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintBottom_toTopOf = global::AppPSOne.Droid.Resource.Styleable.Layout_layout_constraintBottom_toTopOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintCircle = global::AppPSOne.Droid.Resource.Styleable.Layout_layout_constraintCircle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintCircleAngle = global::AppPSOne.Droid.Resource.Styleable.Layout_layout_constraintCircleAngle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintCircleRadius = global::AppPSOne.Droid.Resource.Styleable.Layout_layout_constraintCircleRadius;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintDimensionRatio = global::AppPSOne.Droid.Resource.Styleable.Layout_layout_constraintDimensionRatio;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintEnd_toEndOf = global::AppPSOne.Droid.Resource.Styleable.Layout_layout_constraintEnd_toEndOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintEnd_toStartOf = global::AppPSOne.Droid.Resource.Styleable.Layout_layout_constraintEnd_toStartOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintGuide_begin = global::AppPSOne.Droid.Resource.Styleable.Layout_layout_constraintGuide_begin;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintGuide_end = global::AppPSOne.Droid.Resource.Styleable.Layout_layout_constraintGuide_end;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintGuide_percent = global::AppPSOne.Droid.Resource.Styleable.Layout_layout_constraintGuide_percent;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintHeight = global::AppPSOne.Droid.Resource.Styleable.Layout_layout_constraintHeight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintHeight_default = global::AppPSOne.Droid.Resource.Styleable.Layout_layout_constraintHeight_default;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintHeight_max = global::AppPSOne.Droid.Resource.Styleable.Layout_layout_constraintHeight_max;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintHeight_min = global::AppPSOne.Droid.Resource.Styleable.Layout_layout_constraintHeight_min;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintHeight_percent = global::AppPSOne.Droid.Resource.Styleable.Layout_layout_constraintHeight_percent;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintHorizontal_bias = global::AppPSOne.Droid.Resource.Styleable.Layout_layout_constraintHorizontal_bias;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintHorizontal_chainStyle = global::AppPSOne.Droid.Resource.Styleable.Layout_layout_constraintHorizontal_chainStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintHorizontal_weight = global::AppPSOne.Droid.Resource.Styleable.Layout_layout_constraintHorizontal_weight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintLeft_creator = global::AppPSOne.Droid.Resource.Styleable.Layout_layout_constraintLeft_creator;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintLeft_toLeftOf = global::AppPSOne.Droid.Resource.Styleable.Layout_layout_constraintLeft_toLeftOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintLeft_toRightOf = global::AppPSOne.Droid.Resource.Styleable.Layout_layout_constraintLeft_toRightOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintRight_creator = global::AppPSOne.Droid.Resource.Styleable.Layout_layout_constraintRight_creator;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintRight_toLeftOf = global::AppPSOne.Droid.Resource.Styleable.Layout_layout_constraintRight_toLeftOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintRight_toRightOf = global::AppPSOne.Droid.Resource.Styleable.Layout_layout_constraintRight_toRightOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintStart_toEndOf = global::AppPSOne.Droid.Resource.Styleable.Layout_layout_constraintStart_toEndOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintStart_toStartOf = global::AppPSOne.Droid.Resource.Styleable.Layout_layout_constraintStart_toStartOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintTop_creator = global::AppPSOne.Droid.Resource.Styleable.Layout_layout_constraintTop_creator;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintTop_toBottomOf = global::AppPSOne.Droid.Resource.Styleable.Layout_layout_constraintTop_toBottomOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintTop_toTopOf = global::AppPSOne.Droid.Resource.Styleable.Layout_layout_constraintTop_toTopOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintVertical_bias = global::AppPSOne.Droid.Resource.Styleable.Layout_layout_constraintVertical_bias;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintVertical_chainStyle = global::AppPSOne.Droid.Resource.Styleable.Layout_layout_constraintVertical_chainStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintVertical_weight = global::AppPSOne.Droid.Resource.Styleable.Layout_layout_constraintVertical_weight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintWidth = global::AppPSOne.Droid.Resource.Styleable.Layout_layout_constraintWidth;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintWidth_default = global::AppPSOne.Droid.Resource.Styleable.Layout_layout_constraintWidth_default;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintWidth_max = global::AppPSOne.Droid.Resource.Styleable.Layout_layout_constraintWidth_max;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintWidth_min = global::AppPSOne.Droid.Resource.Styleable.Layout_layout_constraintWidth_min;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintWidth_percent = global::AppPSOne.Droid.Resource.Styleable.Layout_layout_constraintWidth_percent;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_editor_absoluteX = global::AppPSOne.Droid.Resource.Styleable.Layout_layout_editor_absoluteX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_editor_absoluteY = global::AppPSOne.Droid.Resource.Styleable.Layout_layout_editor_absoluteY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_goneMarginBaseline = global::AppPSOne.Droid.Resource.Styleable.Layout_layout_goneMarginBaseline;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_goneMarginBottom = global::AppPSOne.Droid.Resource.Styleable.Layout_layout_goneMarginBottom;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_goneMarginEnd = global::AppPSOne.Droid.Resource.Styleable.Layout_layout_goneMarginEnd;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_goneMarginLeft = global::AppPSOne.Droid.Resource.Styleable.Layout_layout_goneMarginLeft;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_goneMarginRight = global::AppPSOne.Droid.Resource.Styleable.Layout_layout_goneMarginRight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_goneMarginStart = global::AppPSOne.Droid.Resource.Styleable.Layout_layout_goneMarginStart;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_goneMarginTop = global::AppPSOne.Droid.Resource.Styleable.Layout_layout_goneMarginTop;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_marginBaseline = global::AppPSOne.Droid.Resource.Styleable.Layout_layout_marginBaseline;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_wrapBehaviorInParent = global::AppPSOne.Droid.Resource.Styleable.Layout_layout_wrapBehaviorInParent;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_maxHeight = global::AppPSOne.Droid.Resource.Styleable.Layout_maxHeight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_maxWidth = global::AppPSOne.Droid.Resource.Styleable.Layout_maxWidth;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_minHeight = global::AppPSOne.Droid.Resource.Styleable.Layout_minHeight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_minWidth = global::AppPSOne.Droid.Resource.Styleable.Layout_minWidth;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.LinearLayoutCompat = global::AppPSOne.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::AppPSOne.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::AppPSOne.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.LinearLayoutCompat_android_gravity = global::AppPSOne.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.LinearLayoutCompat_android_orientation = global::AppPSOne.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::AppPSOne.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.LinearLayoutCompat_divider = global::AppPSOne.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::AppPSOne.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.LinearLayoutCompat_Layout = global::AppPSOne.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::AppPSOne.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::AppPSOne.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::AppPSOne.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::AppPSOne.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::AppPSOne.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.LinearLayoutCompat_showDividers = global::AppPSOne.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.LinearProgressIndicator = global::AppPSOne.Droid.Resource.Styleable.LinearProgressIndicator;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.LinearProgressIndicator_indeterminateAnimationType = global::AppPSOne.Droid.Resource.Styleable.LinearProgressIndicator_indeterminateAnimationType;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.LinearProgressIndicator_indicatorDirectionLinear = global::AppPSOne.Droid.Resource.Styleable.LinearProgressIndicator_indicatorDirectionLinear;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ListPopupWindow = global::AppPSOne.Droid.Resource.Styleable.ListPopupWindow;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::AppPSOne.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::AppPSOne.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ListPreference = global::AppPSOne.Droid.Resource.Styleable.ListPreference;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ListPreference_android_entries = global::AppPSOne.Droid.Resource.Styleable.ListPreference_android_entries;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ListPreference_android_entryValues = global::AppPSOne.Droid.Resource.Styleable.ListPreference_android_entryValues;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ListPreference_entries = global::AppPSOne.Droid.Resource.Styleable.ListPreference_entries;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ListPreference_entryValues = global::AppPSOne.Droid.Resource.Styleable.ListPreference_entryValues;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ListPreference_useSimpleSummaryProvider = global::AppPSOne.Droid.Resource.Styleable.ListPreference_useSimpleSummaryProvider;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialAlertDialog = global::AppPSOne.Droid.Resource.Styleable.MaterialAlertDialog;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialAlertDialogTheme = global::AppPSOne.Droid.Resource.Styleable.MaterialAlertDialogTheme;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogBodyTextStyle = global::AppPSOne.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogBodyTextStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTheme = global::AppPSOne.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTheme;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitleIconStyle = global::AppPSOne.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitleIconStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitlePanelStyle = global::AppPSOne.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitlePanelStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitleTextStyle = global::AppPSOne.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitleTextStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialAlertDialog_backgroundInsetBottom = global::AppPSOne.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetBottom;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialAlertDialog_backgroundInsetEnd = global::AppPSOne.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetEnd;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialAlertDialog_backgroundInsetStart = global::AppPSOne.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetStart;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialAlertDialog_backgroundInsetTop = global::AppPSOne.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetTop;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialAutoCompleteTextView = global::AppPSOne.Droid.Resource.Styleable.MaterialAutoCompleteTextView;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialAutoCompleteTextView_android_inputType = global::AppPSOne.Droid.Resource.Styleable.MaterialAutoCompleteTextView_android_inputType;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialButton = global::AppPSOne.Droid.Resource.Styleable.MaterialButton;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialButtonToggleGroup = global::AppPSOne.Droid.Resource.Styleable.MaterialButtonToggleGroup;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialButtonToggleGroup_checkedButton = global::AppPSOne.Droid.Resource.Styleable.MaterialButtonToggleGroup_checkedButton;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialButtonToggleGroup_selectionRequired = global::AppPSOne.Droid.Resource.Styleable.MaterialButtonToggleGroup_selectionRequired;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialButtonToggleGroup_singleSelection = global::AppPSOne.Droid.Resource.Styleable.MaterialButtonToggleGroup_singleSelection;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialButton_android_background = global::AppPSOne.Droid.Resource.Styleable.MaterialButton_android_background;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialButton_android_checkable = global::AppPSOne.Droid.Resource.Styleable.MaterialButton_android_checkable;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialButton_android_insetBottom = global::AppPSOne.Droid.Resource.Styleable.MaterialButton_android_insetBottom;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialButton_android_insetLeft = global::AppPSOne.Droid.Resource.Styleable.MaterialButton_android_insetLeft;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialButton_android_insetRight = global::AppPSOne.Droid.Resource.Styleable.MaterialButton_android_insetRight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialButton_android_insetTop = global::AppPSOne.Droid.Resource.Styleable.MaterialButton_android_insetTop;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialButton_backgroundTint = global::AppPSOne.Droid.Resource.Styleable.MaterialButton_backgroundTint;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialButton_backgroundTintMode = global::AppPSOne.Droid.Resource.Styleable.MaterialButton_backgroundTintMode;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialButton_cornerRadius = global::AppPSOne.Droid.Resource.Styleable.MaterialButton_cornerRadius;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialButton_elevation = global::AppPSOne.Droid.Resource.Styleable.MaterialButton_elevation;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialButton_icon = global::AppPSOne.Droid.Resource.Styleable.MaterialButton_icon;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialButton_iconGravity = global::AppPSOne.Droid.Resource.Styleable.MaterialButton_iconGravity;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialButton_iconPadding = global::AppPSOne.Droid.Resource.Styleable.MaterialButton_iconPadding;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialButton_iconSize = global::AppPSOne.Droid.Resource.Styleable.MaterialButton_iconSize;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialButton_iconTint = global::AppPSOne.Droid.Resource.Styleable.MaterialButton_iconTint;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialButton_iconTintMode = global::AppPSOne.Droid.Resource.Styleable.MaterialButton_iconTintMode;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialButton_rippleColor = global::AppPSOne.Droid.Resource.Styleable.MaterialButton_rippleColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialButton_shapeAppearance = global::AppPSOne.Droid.Resource.Styleable.MaterialButton_shapeAppearance;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialButton_shapeAppearanceOverlay = global::AppPSOne.Droid.Resource.Styleable.MaterialButton_shapeAppearanceOverlay;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialButton_strokeColor = global::AppPSOne.Droid.Resource.Styleable.MaterialButton_strokeColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialButton_strokeWidth = global::AppPSOne.Droid.Resource.Styleable.MaterialButton_strokeWidth;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCalendar = global::AppPSOne.Droid.Resource.Styleable.MaterialCalendar;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCalendarItem = global::AppPSOne.Droid.Resource.Styleable.MaterialCalendarItem;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCalendarItem_android_insetBottom = global::AppPSOne.Droid.Resource.Styleable.MaterialCalendarItem_android_insetBottom;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCalendarItem_android_insetLeft = global::AppPSOne.Droid.Resource.Styleable.MaterialCalendarItem_android_insetLeft;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCalendarItem_android_insetRight = global::AppPSOne.Droid.Resource.Styleable.MaterialCalendarItem_android_insetRight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCalendarItem_android_insetTop = global::AppPSOne.Droid.Resource.Styleable.MaterialCalendarItem_android_insetTop;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCalendarItem_itemFillColor = global::AppPSOne.Droid.Resource.Styleable.MaterialCalendarItem_itemFillColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCalendarItem_itemShapeAppearance = global::AppPSOne.Droid.Resource.Styleable.MaterialCalendarItem_itemShapeAppearance;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCalendarItem_itemShapeAppearanceOverlay = global::AppPSOne.Droid.Resource.Styleable.MaterialCalendarItem_itemShapeAppearanceOverlay;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCalendarItem_itemStrokeColor = global::AppPSOne.Droid.Resource.Styleable.MaterialCalendarItem_itemStrokeColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCalendarItem_itemStrokeWidth = global::AppPSOne.Droid.Resource.Styleable.MaterialCalendarItem_itemStrokeWidth;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCalendarItem_itemTextColor = global::AppPSOne.Droid.Resource.Styleable.MaterialCalendarItem_itemTextColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCalendar_android_windowFullscreen = global::AppPSOne.Droid.Resource.Styleable.MaterialCalendar_android_windowFullscreen;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCalendar_dayInvalidStyle = global::AppPSOne.Droid.Resource.Styleable.MaterialCalendar_dayInvalidStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCalendar_daySelectedStyle = global::AppPSOne.Droid.Resource.Styleable.MaterialCalendar_daySelectedStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCalendar_dayStyle = global::AppPSOne.Droid.Resource.Styleable.MaterialCalendar_dayStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCalendar_dayTodayStyle = global::AppPSOne.Droid.Resource.Styleable.MaterialCalendar_dayTodayStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCalendar_nestedScrollable = global::AppPSOne.Droid.Resource.Styleable.MaterialCalendar_nestedScrollable;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCalendar_rangeFillColor = global::AppPSOne.Droid.Resource.Styleable.MaterialCalendar_rangeFillColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCalendar_yearSelectedStyle = global::AppPSOne.Droid.Resource.Styleable.MaterialCalendar_yearSelectedStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCalendar_yearStyle = global::AppPSOne.Droid.Resource.Styleable.MaterialCalendar_yearStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCalendar_yearTodayStyle = global::AppPSOne.Droid.Resource.Styleable.MaterialCalendar_yearTodayStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCardView = global::AppPSOne.Droid.Resource.Styleable.MaterialCardView;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCardView_android_checkable = global::AppPSOne.Droid.Resource.Styleable.MaterialCardView_android_checkable;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCardView_cardForegroundColor = global::AppPSOne.Droid.Resource.Styleable.MaterialCardView_cardForegroundColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCardView_checkedIcon = global::AppPSOne.Droid.Resource.Styleable.MaterialCardView_checkedIcon;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCardView_checkedIconMargin = global::AppPSOne.Droid.Resource.Styleable.MaterialCardView_checkedIconMargin;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCardView_checkedIconSize = global::AppPSOne.Droid.Resource.Styleable.MaterialCardView_checkedIconSize;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCardView_checkedIconTint = global::AppPSOne.Droid.Resource.Styleable.MaterialCardView_checkedIconTint;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCardView_rippleColor = global::AppPSOne.Droid.Resource.Styleable.MaterialCardView_rippleColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCardView_shapeAppearance = global::AppPSOne.Droid.Resource.Styleable.MaterialCardView_shapeAppearance;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCardView_shapeAppearanceOverlay = global::AppPSOne.Droid.Resource.Styleable.MaterialCardView_shapeAppearanceOverlay;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCardView_state_dragged = global::AppPSOne.Droid.Resource.Styleable.MaterialCardView_state_dragged;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCardView_strokeColor = global::AppPSOne.Droid.Resource.Styleable.MaterialCardView_strokeColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCardView_strokeWidth = global::AppPSOne.Droid.Resource.Styleable.MaterialCardView_strokeWidth;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCheckBox = global::AppPSOne.Droid.Resource.Styleable.MaterialCheckBox;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCheckBox_buttonTint = global::AppPSOne.Droid.Resource.Styleable.MaterialCheckBox_buttonTint;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCheckBox_useMaterialThemeColors = global::AppPSOne.Droid.Resource.Styleable.MaterialCheckBox_useMaterialThemeColors;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialRadioButton = global::AppPSOne.Droid.Resource.Styleable.MaterialRadioButton;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialRadioButton_buttonTint = global::AppPSOne.Droid.Resource.Styleable.MaterialRadioButton_buttonTint;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialRadioButton_useMaterialThemeColors = global::AppPSOne.Droid.Resource.Styleable.MaterialRadioButton_useMaterialThemeColors;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialShape = global::AppPSOne.Droid.Resource.Styleable.MaterialShape;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialShape_shapeAppearance = global::AppPSOne.Droid.Resource.Styleable.MaterialShape_shapeAppearance;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialShape_shapeAppearanceOverlay = global::AppPSOne.Droid.Resource.Styleable.MaterialShape_shapeAppearanceOverlay;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialTextAppearance = global::AppPSOne.Droid.Resource.Styleable.MaterialTextAppearance;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialTextAppearance_android_letterSpacing = global::AppPSOne.Droid.Resource.Styleable.MaterialTextAppearance_android_letterSpacing;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialTextAppearance_android_lineHeight = global::AppPSOne.Droid.Resource.Styleable.MaterialTextAppearance_android_lineHeight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialTextAppearance_lineHeight = global::AppPSOne.Droid.Resource.Styleable.MaterialTextAppearance_lineHeight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialTextView = global::AppPSOne.Droid.Resource.Styleable.MaterialTextView;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialTextView_android_lineHeight = global::AppPSOne.Droid.Resource.Styleable.MaterialTextView_android_lineHeight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialTextView_android_textAppearance = global::AppPSOne.Droid.Resource.Styleable.MaterialTextView_android_textAppearance;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialTextView_lineHeight = global::AppPSOne.Droid.Resource.Styleable.MaterialTextView_lineHeight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialTimePicker = global::AppPSOne.Droid.Resource.Styleable.MaterialTimePicker;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialTimePicker_clockIcon = global::AppPSOne.Droid.Resource.Styleable.MaterialTimePicker_clockIcon;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialTimePicker_keyboardIcon = global::AppPSOne.Droid.Resource.Styleable.MaterialTimePicker_keyboardIcon;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialToolbar = global::AppPSOne.Droid.Resource.Styleable.MaterialToolbar;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialToolbar_navigationIconTint = global::AppPSOne.Droid.Resource.Styleable.MaterialToolbar_navigationIconTint;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialToolbar_subtitleCentered = global::AppPSOne.Droid.Resource.Styleable.MaterialToolbar_subtitleCentered;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialToolbar_titleCentered = global::AppPSOne.Droid.Resource.Styleable.MaterialToolbar_titleCentered;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MenuGroup = global::AppPSOne.Droid.Resource.Styleable.MenuGroup;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MenuGroup_android_checkableBehavior = global::AppPSOne.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MenuGroup_android_enabled = global::AppPSOne.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MenuGroup_android_id = global::AppPSOne.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MenuGroup_android_menuCategory = global::AppPSOne.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MenuGroup_android_orderInCategory = global::AppPSOne.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MenuGroup_android_visible = global::AppPSOne.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MenuItem = global::AppPSOne.Droid.Resource.Styleable.MenuItem;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MenuItem_actionLayout = global::AppPSOne.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MenuItem_actionProviderClass = global::AppPSOne.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MenuItem_actionViewClass = global::AppPSOne.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MenuItem_alphabeticModifiers = global::AppPSOne.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::AppPSOne.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MenuItem_android_checkable = global::AppPSOne.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MenuItem_android_checked = global::AppPSOne.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MenuItem_android_enabled = global::AppPSOne.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MenuItem_android_icon = global::AppPSOne.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MenuItem_android_id = global::AppPSOne.Droid.Resource.Styleable.MenuItem_android_id;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MenuItem_android_menuCategory = global::AppPSOne.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MenuItem_android_numericShortcut = global::AppPSOne.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MenuItem_android_onClick = global::AppPSOne.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MenuItem_android_orderInCategory = global::AppPSOne.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MenuItem_android_title = global::AppPSOne.Droid.Resource.Styleable.MenuItem_android_title;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MenuItem_android_titleCondensed = global::AppPSOne.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MenuItem_android_visible = global::AppPSOne.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MenuItem_contentDescription = global::AppPSOne.Droid.Resource.Styleable.MenuItem_contentDescription;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MenuItem_iconTint = global::AppPSOne.Droid.Resource.Styleable.MenuItem_iconTint;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MenuItem_iconTintMode = global::AppPSOne.Droid.Resource.Styleable.MenuItem_iconTintMode;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MenuItem_numericModifiers = global::AppPSOne.Droid.Resource.Styleable.MenuItem_numericModifiers;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MenuItem_showAsAction = global::AppPSOne.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MenuItem_tooltipText = global::AppPSOne.Droid.Resource.Styleable.MenuItem_tooltipText;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MenuView = global::AppPSOne.Droid.Resource.Styleable.MenuView;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MenuView_android_headerBackground = global::AppPSOne.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MenuView_android_horizontalDivider = global::AppPSOne.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MenuView_android_itemBackground = global::AppPSOne.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::AppPSOne.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MenuView_android_itemTextAppearance = global::AppPSOne.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MenuView_android_verticalDivider = global::AppPSOne.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MenuView_android_windowAnimationStyle = global::AppPSOne.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MenuView_preserveIconSpacing = global::AppPSOne.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MenuView_subMenuArrow = global::AppPSOne.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MockView = global::AppPSOne.Droid.Resource.Styleable.MockView;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MockView_mock_diagonalsColor = global::AppPSOne.Droid.Resource.Styleable.MockView_mock_diagonalsColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MockView_mock_label = global::AppPSOne.Droid.Resource.Styleable.MockView_mock_label;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MockView_mock_labelBackgroundColor = global::AppPSOne.Droid.Resource.Styleable.MockView_mock_labelBackgroundColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MockView_mock_labelColor = global::AppPSOne.Droid.Resource.Styleable.MockView_mock_labelColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MockView_mock_showDiagonals = global::AppPSOne.Droid.Resource.Styleable.MockView_mock_showDiagonals;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MockView_mock_showLabel = global::AppPSOne.Droid.Resource.Styleable.MockView_mock_showLabel;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Motion = global::AppPSOne.Droid.Resource.Styleable.Motion;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionEffect = global::AppPSOne.Droid.Resource.Styleable.MotionEffect;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionEffect_motionEffect_alpha = global::AppPSOne.Droid.Resource.Styleable.MotionEffect_motionEffect_alpha;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionEffect_motionEffect_end = global::AppPSOne.Droid.Resource.Styleable.MotionEffect_motionEffect_end;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionEffect_motionEffect_move = global::AppPSOne.Droid.Resource.Styleable.MotionEffect_motionEffect_move;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionEffect_motionEffect_start = global::AppPSOne.Droid.Resource.Styleable.MotionEffect_motionEffect_start;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionEffect_motionEffect_strict = global::AppPSOne.Droid.Resource.Styleable.MotionEffect_motionEffect_strict;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionEffect_motionEffect_translationX = global::AppPSOne.Droid.Resource.Styleable.MotionEffect_motionEffect_translationX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionEffect_motionEffect_translationY = global::AppPSOne.Droid.Resource.Styleable.MotionEffect_motionEffect_translationY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionEffect_motionEffect_viewTransition = global::AppPSOne.Droid.Resource.Styleable.MotionEffect_motionEffect_viewTransition;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionHelper = global::AppPSOne.Droid.Resource.Styleable.MotionHelper;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionHelper_onHide = global::AppPSOne.Droid.Resource.Styleable.MotionHelper_onHide;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionHelper_onShow = global::AppPSOne.Droid.Resource.Styleable.MotionHelper_onShow;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionLabel = global::AppPSOne.Droid.Resource.Styleable.MotionLabel;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionLabel_android_autoSizeTextType = global::AppPSOne.Droid.Resource.Styleable.MotionLabel_android_autoSizeTextType;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionLabel_android_fontFamily = global::AppPSOne.Droid.Resource.Styleable.MotionLabel_android_fontFamily;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionLabel_android_gravity = global::AppPSOne.Droid.Resource.Styleable.MotionLabel_android_gravity;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionLabel_android_shadowRadius = global::AppPSOne.Droid.Resource.Styleable.MotionLabel_android_shadowRadius;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionLabel_android_text = global::AppPSOne.Droid.Resource.Styleable.MotionLabel_android_text;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionLabel_android_textColor = global::AppPSOne.Droid.Resource.Styleable.MotionLabel_android_textColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionLabel_android_textSize = global::AppPSOne.Droid.Resource.Styleable.MotionLabel_android_textSize;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionLabel_android_textStyle = global::AppPSOne.Droid.Resource.Styleable.MotionLabel_android_textStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionLabel_android_typeface = global::AppPSOne.Droid.Resource.Styleable.MotionLabel_android_typeface;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionLabel_borderRound = global::AppPSOne.Droid.Resource.Styleable.MotionLabel_borderRound;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionLabel_borderRoundPercent = global::AppPSOne.Droid.Resource.Styleable.MotionLabel_borderRoundPercent;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionLabel_scaleFromTextSize = global::AppPSOne.Droid.Resource.Styleable.MotionLabel_scaleFromTextSize;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionLabel_textBackground = global::AppPSOne.Droid.Resource.Styleable.MotionLabel_textBackground;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionLabel_textBackgroundPanX = global::AppPSOne.Droid.Resource.Styleable.MotionLabel_textBackgroundPanX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionLabel_textBackgroundPanY = global::AppPSOne.Droid.Resource.Styleable.MotionLabel_textBackgroundPanY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionLabel_textBackgroundRotate = global::AppPSOne.Droid.Resource.Styleable.MotionLabel_textBackgroundRotate;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionLabel_textBackgroundZoom = global::AppPSOne.Droid.Resource.Styleable.MotionLabel_textBackgroundZoom;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionLabel_textOutlineColor = global::AppPSOne.Droid.Resource.Styleable.MotionLabel_textOutlineColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionLabel_textOutlineThickness = global::AppPSOne.Droid.Resource.Styleable.MotionLabel_textOutlineThickness;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionLabel_textPanX = global::AppPSOne.Droid.Resource.Styleable.MotionLabel_textPanX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionLabel_textPanY = global::AppPSOne.Droid.Resource.Styleable.MotionLabel_textPanY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionLabel_textureBlurFactor = global::AppPSOne.Droid.Resource.Styleable.MotionLabel_textureBlurFactor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionLabel_textureEffect = global::AppPSOne.Droid.Resource.Styleable.MotionLabel_textureEffect;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionLabel_textureHeight = global::AppPSOne.Droid.Resource.Styleable.MotionLabel_textureHeight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionLabel_textureWidth = global::AppPSOne.Droid.Resource.Styleable.MotionLabel_textureWidth;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionLayout = global::AppPSOne.Droid.Resource.Styleable.MotionLayout;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionLayout_applyMotionScene = global::AppPSOne.Droid.Resource.Styleable.MotionLayout_applyMotionScene;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionLayout_currentState = global::AppPSOne.Droid.Resource.Styleable.MotionLayout_currentState;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionLayout_layoutDescription = global::AppPSOne.Droid.Resource.Styleable.MotionLayout_layoutDescription;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionLayout_motionDebug = global::AppPSOne.Droid.Resource.Styleable.MotionLayout_motionDebug;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionLayout_motionProgress = global::AppPSOne.Droid.Resource.Styleable.MotionLayout_motionProgress;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionLayout_showPaths = global::AppPSOne.Droid.Resource.Styleable.MotionLayout_showPaths;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionScene = global::AppPSOne.Droid.Resource.Styleable.MotionScene;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionScene_defaultDuration = global::AppPSOne.Droid.Resource.Styleable.MotionScene_defaultDuration;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionScene_layoutDuringTransition = global::AppPSOne.Droid.Resource.Styleable.MotionScene_layoutDuringTransition;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionTelltales = global::AppPSOne.Droid.Resource.Styleable.MotionTelltales;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionTelltales_telltales_tailColor = global::AppPSOne.Droid.Resource.Styleable.MotionTelltales_telltales_tailColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionTelltales_telltales_tailScale = global::AppPSOne.Droid.Resource.Styleable.MotionTelltales_telltales_tailScale;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionTelltales_telltales_velocityMode = global::AppPSOne.Droid.Resource.Styleable.MotionTelltales_telltales_velocityMode;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Motion_animateCircleAngleTo = global::AppPSOne.Droid.Resource.Styleable.Motion_animateCircleAngleTo;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Motion_animateRelativeTo = global::AppPSOne.Droid.Resource.Styleable.Motion_animateRelativeTo;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Motion_drawPath = global::AppPSOne.Droid.Resource.Styleable.Motion_drawPath;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Motion_motionPathRotate = global::AppPSOne.Droid.Resource.Styleable.Motion_motionPathRotate;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Motion_motionStagger = global::AppPSOne.Droid.Resource.Styleable.Motion_motionStagger;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Motion_pathMotionArc = global::AppPSOne.Droid.Resource.Styleable.Motion_pathMotionArc;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Motion_quantizeMotionInterpolator = global::AppPSOne.Droid.Resource.Styleable.Motion_quantizeMotionInterpolator;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Motion_quantizeMotionPhase = global::AppPSOne.Droid.Resource.Styleable.Motion_quantizeMotionPhase;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Motion_quantizeMotionSteps = global::AppPSOne.Droid.Resource.Styleable.Motion_quantizeMotionSteps;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Motion_transitionEasing = global::AppPSOne.Droid.Resource.Styleable.Motion_transitionEasing;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MultiSelectListPreference = global::AppPSOne.Droid.Resource.Styleable.MultiSelectListPreference;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MultiSelectListPreference_android_entries = global::AppPSOne.Droid.Resource.Styleable.MultiSelectListPreference_android_entries;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MultiSelectListPreference_android_entryValues = global::AppPSOne.Droid.Resource.Styleable.MultiSelectListPreference_android_entryValues;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MultiSelectListPreference_entries = global::AppPSOne.Droid.Resource.Styleable.MultiSelectListPreference_entries;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MultiSelectListPreference_entryValues = global::AppPSOne.Droid.Resource.Styleable.MultiSelectListPreference_entryValues;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.NavAction = global::AppPSOne.Droid.Resource.Styleable.NavAction;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.NavAction_android_id = global::AppPSOne.Droid.Resource.Styleable.NavAction_android_id;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.NavAction_destination = global::AppPSOne.Droid.Resource.Styleable.NavAction_destination;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.NavAction_enterAnim = global::AppPSOne.Droid.Resource.Styleable.NavAction_enterAnim;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.NavAction_exitAnim = global::AppPSOne.Droid.Resource.Styleable.NavAction_exitAnim;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.NavAction_launchSingleTop = global::AppPSOne.Droid.Resource.Styleable.NavAction_launchSingleTop;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.NavAction_popEnterAnim = global::AppPSOne.Droid.Resource.Styleable.NavAction_popEnterAnim;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.NavAction_popExitAnim = global::AppPSOne.Droid.Resource.Styleable.NavAction_popExitAnim;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.NavAction_popUpTo = global::AppPSOne.Droid.Resource.Styleable.NavAction_popUpTo;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.NavAction_popUpToInclusive = global::AppPSOne.Droid.Resource.Styleable.NavAction_popUpToInclusive;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.NavArgument = global::AppPSOne.Droid.Resource.Styleable.NavArgument;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.NavArgument_android_defaultValue = global::AppPSOne.Droid.Resource.Styleable.NavArgument_android_defaultValue;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.NavArgument_android_name = global::AppPSOne.Droid.Resource.Styleable.NavArgument_android_name;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.NavArgument_argType = global::AppPSOne.Droid.Resource.Styleable.NavArgument_argType;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.NavArgument_nullable = global::AppPSOne.Droid.Resource.Styleable.NavArgument_nullable;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.NavDeepLink = global::AppPSOne.Droid.Resource.Styleable.NavDeepLink;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.NavDeepLink_action = global::AppPSOne.Droid.Resource.Styleable.NavDeepLink_action;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.NavDeepLink_android_autoVerify = global::AppPSOne.Droid.Resource.Styleable.NavDeepLink_android_autoVerify;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.NavDeepLink_mimeType = global::AppPSOne.Droid.Resource.Styleable.NavDeepLink_mimeType;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.NavDeepLink_uri = global::AppPSOne.Droid.Resource.Styleable.NavDeepLink_uri;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.NavGraphNavigator = global::AppPSOne.Droid.Resource.Styleable.NavGraphNavigator;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.NavGraphNavigator_startDestination = global::AppPSOne.Droid.Resource.Styleable.NavGraphNavigator_startDestination;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.NavHost = global::AppPSOne.Droid.Resource.Styleable.NavHost;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.NavHost_navGraph = global::AppPSOne.Droid.Resource.Styleable.NavHost_navGraph;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.NavigationBarView = global::AppPSOne.Droid.Resource.Styleable.NavigationBarView;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.NavigationBarView_backgroundTint = global::AppPSOne.Droid.Resource.Styleable.NavigationBarView_backgroundTint;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.NavigationBarView_elevation = global::AppPSOne.Droid.Resource.Styleable.NavigationBarView_elevation;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.NavigationBarView_itemBackground = global::AppPSOne.Droid.Resource.Styleable.NavigationBarView_itemBackground;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.NavigationBarView_itemIconSize = global::AppPSOne.Droid.Resource.Styleable.NavigationBarView_itemIconSize;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.NavigationBarView_itemIconTint = global::AppPSOne.Droid.Resource.Styleable.NavigationBarView_itemIconTint;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.NavigationBarView_itemRippleColor = global::AppPSOne.Droid.Resource.Styleable.NavigationBarView_itemRippleColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.NavigationBarView_itemTextAppearanceActive = global::AppPSOne.Droid.Resource.Styleable.NavigationBarView_itemTextAppearanceActive;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.NavigationBarView_itemTextAppearanceInactive = global::AppPSOne.Droid.Resource.Styleable.NavigationBarView_itemTextAppearanceInactive;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.NavigationBarView_itemTextColor = global::AppPSOne.Droid.Resource.Styleable.NavigationBarView_itemTextColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.NavigationBarView_labelVisibilityMode = global::AppPSOne.Droid.Resource.Styleable.NavigationBarView_labelVisibilityMode;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.NavigationBarView_menu = global::AppPSOne.Droid.Resource.Styleable.NavigationBarView_menu;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.NavigationRailView = global::AppPSOne.Droid.Resource.Styleable.NavigationRailView;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.NavigationRailView_headerLayout = global::AppPSOne.Droid.Resource.Styleable.NavigationRailView_headerLayout;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.NavigationRailView_menuGravity = global::AppPSOne.Droid.Resource.Styleable.NavigationRailView_menuGravity;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.NavigationView = global::AppPSOne.Droid.Resource.Styleable.NavigationView;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.NavigationView_android_background = global::AppPSOne.Droid.Resource.Styleable.NavigationView_android_background;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::AppPSOne.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.NavigationView_android_maxWidth = global::AppPSOne.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.NavigationView_elevation = global::AppPSOne.Droid.Resource.Styleable.NavigationView_elevation;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.NavigationView_headerLayout = global::AppPSOne.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.NavigationView_itemBackground = global::AppPSOne.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.NavigationView_itemHorizontalPadding = global::AppPSOne.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.NavigationView_itemIconPadding = global::AppPSOne.Droid.Resource.Styleable.NavigationView_itemIconPadding;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.NavigationView_itemIconSize = global::AppPSOne.Droid.Resource.Styleable.NavigationView_itemIconSize;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.NavigationView_itemIconTint = global::AppPSOne.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.NavigationView_itemMaxLines = global::AppPSOne.Droid.Resource.Styleable.NavigationView_itemMaxLines;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.NavigationView_itemShapeAppearance = global::AppPSOne.Droid.Resource.Styleable.NavigationView_itemShapeAppearance;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.NavigationView_itemShapeAppearanceOverlay = global::AppPSOne.Droid.Resource.Styleable.NavigationView_itemShapeAppearanceOverlay;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.NavigationView_itemShapeFillColor = global::AppPSOne.Droid.Resource.Styleable.NavigationView_itemShapeFillColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.NavigationView_itemShapeInsetBottom = global::AppPSOne.Droid.Resource.Styleable.NavigationView_itemShapeInsetBottom;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.NavigationView_itemShapeInsetEnd = global::AppPSOne.Droid.Resource.Styleable.NavigationView_itemShapeInsetEnd;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.NavigationView_itemShapeInsetStart = global::AppPSOne.Droid.Resource.Styleable.NavigationView_itemShapeInsetStart;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.NavigationView_itemShapeInsetTop = global::AppPSOne.Droid.Resource.Styleable.NavigationView_itemShapeInsetTop;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.NavigationView_itemTextAppearance = global::AppPSOne.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.NavigationView_itemTextColor = global::AppPSOne.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.NavigationView_menu = global::AppPSOne.Droid.Resource.Styleable.NavigationView_menu;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.NavigationView_shapeAppearance = global::AppPSOne.Droid.Resource.Styleable.NavigationView_shapeAppearance;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.NavigationView_shapeAppearanceOverlay = global::AppPSOne.Droid.Resource.Styleable.NavigationView_shapeAppearanceOverlay;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Navigator = global::AppPSOne.Droid.Resource.Styleable.Navigator;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Navigator_android_id = global::AppPSOne.Droid.Resource.Styleable.Navigator_android_id;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Navigator_android_label = global::AppPSOne.Droid.Resource.Styleable.Navigator_android_label;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.NavInclude = global::AppPSOne.Droid.Resource.Styleable.NavInclude;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.NavInclude_graph = global::AppPSOne.Droid.Resource.Styleable.NavInclude_graph;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.OnClick = global::AppPSOne.Droid.Resource.Styleable.OnClick;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.OnClick_clickAction = global::AppPSOne.Droid.Resource.Styleable.OnClick_clickAction;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.OnClick_targetId = global::AppPSOne.Droid.Resource.Styleable.OnClick_targetId;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.OnSwipe = global::AppPSOne.Droid.Resource.Styleable.OnSwipe;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.OnSwipe_autoCompleteMode = global::AppPSOne.Droid.Resource.Styleable.OnSwipe_autoCompleteMode;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.OnSwipe_dragDirection = global::AppPSOne.Droid.Resource.Styleable.OnSwipe_dragDirection;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.OnSwipe_dragScale = global::AppPSOne.Droid.Resource.Styleable.OnSwipe_dragScale;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.OnSwipe_dragThreshold = global::AppPSOne.Droid.Resource.Styleable.OnSwipe_dragThreshold;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.OnSwipe_limitBoundsTo = global::AppPSOne.Droid.Resource.Styleable.OnSwipe_limitBoundsTo;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.OnSwipe_maxAcceleration = global::AppPSOne.Droid.Resource.Styleable.OnSwipe_maxAcceleration;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.OnSwipe_maxVelocity = global::AppPSOne.Droid.Resource.Styleable.OnSwipe_maxVelocity;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.OnSwipe_moveWhenScrollAtTop = global::AppPSOne.Droid.Resource.Styleable.OnSwipe_moveWhenScrollAtTop;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.OnSwipe_nestedScrollFlags = global::AppPSOne.Droid.Resource.Styleable.OnSwipe_nestedScrollFlags;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.OnSwipe_onTouchUp = global::AppPSOne.Droid.Resource.Styleable.OnSwipe_onTouchUp;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.OnSwipe_rotationCenterId = global::AppPSOne.Droid.Resource.Styleable.OnSwipe_rotationCenterId;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.OnSwipe_springBoundary = global::AppPSOne.Droid.Resource.Styleable.OnSwipe_springBoundary;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.OnSwipe_springDamping = global::AppPSOne.Droid.Resource.Styleable.OnSwipe_springDamping;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.OnSwipe_springMass = global::AppPSOne.Droid.Resource.Styleable.OnSwipe_springMass;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.OnSwipe_springStiffness = global::AppPSOne.Droid.Resource.Styleable.OnSwipe_springStiffness;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.OnSwipe_springStopThreshold = global::AppPSOne.Droid.Resource.Styleable.OnSwipe_springStopThreshold;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.OnSwipe_touchAnchorId = global::AppPSOne.Droid.Resource.Styleable.OnSwipe_touchAnchorId;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.OnSwipe_touchAnchorSide = global::AppPSOne.Droid.Resource.Styleable.OnSwipe_touchAnchorSide;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.OnSwipe_touchRegionId = global::AppPSOne.Droid.Resource.Styleable.OnSwipe_touchRegionId;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.PopupWindow = global::AppPSOne.Droid.Resource.Styleable.PopupWindow;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.PopupWindowBackgroundState = global::AppPSOne.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::AppPSOne.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::AppPSOne.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.PopupWindow_android_popupBackground = global::AppPSOne.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.PopupWindow_overlapAnchor = global::AppPSOne.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Preference = global::AppPSOne.Droid.Resource.Styleable.Preference;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.PreferenceFragment = global::AppPSOne.Droid.Resource.Styleable.PreferenceFragment;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.PreferenceFragmentCompat = global::AppPSOne.Droid.Resource.Styleable.PreferenceFragmentCompat;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.PreferenceFragmentCompat_allowDividerAfterLastItem = global::AppPSOne.Droid.Resource.Styleable.PreferenceFragmentCompat_allowDividerAfterLastItem;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.PreferenceFragmentCompat_android_divider = global::AppPSOne.Droid.Resource.Styleable.PreferenceFragmentCompat_android_divider;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.PreferenceFragmentCompat_android_dividerHeight = global::AppPSOne.Droid.Resource.Styleable.PreferenceFragmentCompat_android_dividerHeight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.PreferenceFragmentCompat_android_layout = global::AppPSOne.Droid.Resource.Styleable.PreferenceFragmentCompat_android_layout;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.PreferenceFragment_allowDividerAfterLastItem = global::AppPSOne.Droid.Resource.Styleable.PreferenceFragment_allowDividerAfterLastItem;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.PreferenceFragment_android_divider = global::AppPSOne.Droid.Resource.Styleable.PreferenceFragment_android_divider;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.PreferenceFragment_android_dividerHeight = global::AppPSOne.Droid.Resource.Styleable.PreferenceFragment_android_dividerHeight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.PreferenceFragment_android_layout = global::AppPSOne.Droid.Resource.Styleable.PreferenceFragment_android_layout;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.PreferenceGroup = global::AppPSOne.Droid.Resource.Styleable.PreferenceGroup;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.PreferenceGroup_android_orderingFromXml = global::AppPSOne.Droid.Resource.Styleable.PreferenceGroup_android_orderingFromXml;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.PreferenceGroup_initialExpandedChildrenCount = global::AppPSOne.Droid.Resource.Styleable.PreferenceGroup_initialExpandedChildrenCount;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.PreferenceGroup_orderingFromXml = global::AppPSOne.Droid.Resource.Styleable.PreferenceGroup_orderingFromXml;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.PreferenceImageView = global::AppPSOne.Droid.Resource.Styleable.PreferenceImageView;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.PreferenceImageView_android_maxHeight = global::AppPSOne.Droid.Resource.Styleable.PreferenceImageView_android_maxHeight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.PreferenceImageView_android_maxWidth = global::AppPSOne.Droid.Resource.Styleable.PreferenceImageView_android_maxWidth;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.PreferenceImageView_maxHeight = global::AppPSOne.Droid.Resource.Styleable.PreferenceImageView_maxHeight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.PreferenceImageView_maxWidth = global::AppPSOne.Droid.Resource.Styleable.PreferenceImageView_maxWidth;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.PreferenceTheme = global::AppPSOne.Droid.Resource.Styleable.PreferenceTheme;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.PreferenceTheme_checkBoxPreferenceStyle = global::AppPSOne.Droid.Resource.Styleable.PreferenceTheme_checkBoxPreferenceStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.PreferenceTheme_dialogPreferenceStyle = global::AppPSOne.Droid.Resource.Styleable.PreferenceTheme_dialogPreferenceStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.PreferenceTheme_dropdownPreferenceStyle = global::AppPSOne.Droid.Resource.Styleable.PreferenceTheme_dropdownPreferenceStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.PreferenceTheme_editTextPreferenceStyle = global::AppPSOne.Droid.Resource.Styleable.PreferenceTheme_editTextPreferenceStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.PreferenceTheme_preferenceCategoryStyle = global::AppPSOne.Droid.Resource.Styleable.PreferenceTheme_preferenceCategoryStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.PreferenceTheme_preferenceCategoryTitleTextAppearance = global::AppPSOne.Droid.Resource.Styleable.PreferenceTheme_preferenceCategoryTitleTextAppearance;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.PreferenceTheme_preferenceFragmentCompatStyle = global::AppPSOne.Droid.Resource.Styleable.PreferenceTheme_preferenceFragmentCompatStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.PreferenceTheme_preferenceFragmentListStyle = global::AppPSOne.Droid.Resource.Styleable.PreferenceTheme_preferenceFragmentListStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.PreferenceTheme_preferenceFragmentStyle = global::AppPSOne.Droid.Resource.Styleable.PreferenceTheme_preferenceFragmentStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.PreferenceTheme_preferenceInformationStyle = global::AppPSOne.Droid.Resource.Styleable.PreferenceTheme_preferenceInformationStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.PreferenceTheme_preferenceScreenStyle = global::AppPSOne.Droid.Resource.Styleable.PreferenceTheme_preferenceScreenStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.PreferenceTheme_preferenceStyle = global::AppPSOne.Droid.Resource.Styleable.PreferenceTheme_preferenceStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.PreferenceTheme_preferenceTheme = global::AppPSOne.Droid.Resource.Styleable.PreferenceTheme_preferenceTheme;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.PreferenceTheme_seekBarPreferenceStyle = global::AppPSOne.Droid.Resource.Styleable.PreferenceTheme_seekBarPreferenceStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.PreferenceTheme_switchPreferenceCompatStyle = global::AppPSOne.Droid.Resource.Styleable.PreferenceTheme_switchPreferenceCompatStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.PreferenceTheme_switchPreferenceStyle = global::AppPSOne.Droid.Resource.Styleable.PreferenceTheme_switchPreferenceStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Preference_allowDividerAbove = global::AppPSOne.Droid.Resource.Styleable.Preference_allowDividerAbove;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Preference_allowDividerBelow = global::AppPSOne.Droid.Resource.Styleable.Preference_allowDividerBelow;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Preference_android_defaultValue = global::AppPSOne.Droid.Resource.Styleable.Preference_android_defaultValue;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Preference_android_dependency = global::AppPSOne.Droid.Resource.Styleable.Preference_android_dependency;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Preference_android_enabled = global::AppPSOne.Droid.Resource.Styleable.Preference_android_enabled;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Preference_android_fragment = global::AppPSOne.Droid.Resource.Styleable.Preference_android_fragment;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Preference_android_icon = global::AppPSOne.Droid.Resource.Styleable.Preference_android_icon;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Preference_android_iconSpaceReserved = global::AppPSOne.Droid.Resource.Styleable.Preference_android_iconSpaceReserved;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Preference_android_key = global::AppPSOne.Droid.Resource.Styleable.Preference_android_key;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Preference_android_layout = global::AppPSOne.Droid.Resource.Styleable.Preference_android_layout;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Preference_android_order = global::AppPSOne.Droid.Resource.Styleable.Preference_android_order;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Preference_android_persistent = global::AppPSOne.Droid.Resource.Styleable.Preference_android_persistent;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Preference_android_selectable = global::AppPSOne.Droid.Resource.Styleable.Preference_android_selectable;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Preference_android_shouldDisableView = global::AppPSOne.Droid.Resource.Styleable.Preference_android_shouldDisableView;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Preference_android_singleLineTitle = global::AppPSOne.Droid.Resource.Styleable.Preference_android_singleLineTitle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Preference_android_summary = global::AppPSOne.Droid.Resource.Styleable.Preference_android_summary;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Preference_android_title = global::AppPSOne.Droid.Resource.Styleable.Preference_android_title;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Preference_android_widgetLayout = global::AppPSOne.Droid.Resource.Styleable.Preference_android_widgetLayout;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Preference_defaultValue = global::AppPSOne.Droid.Resource.Styleable.Preference_defaultValue;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Preference_dependency = global::AppPSOne.Droid.Resource.Styleable.Preference_dependency;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Preference_enableCopying = global::AppPSOne.Droid.Resource.Styleable.Preference_enableCopying;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Preference_enabled = global::AppPSOne.Droid.Resource.Styleable.Preference_enabled;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Preference_fragment = global::AppPSOne.Droid.Resource.Styleable.Preference_fragment;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Preference_icon = global::AppPSOne.Droid.Resource.Styleable.Preference_icon;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Preference_iconSpaceReserved = global::AppPSOne.Droid.Resource.Styleable.Preference_iconSpaceReserved;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Preference_isPreferenceVisible = global::AppPSOne.Droid.Resource.Styleable.Preference_isPreferenceVisible;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Preference_key = global::AppPSOne.Droid.Resource.Styleable.Preference_key;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Preference_layout = global::AppPSOne.Droid.Resource.Styleable.Preference_layout;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Preference_order = global::AppPSOne.Droid.Resource.Styleable.Preference_order;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Preference_persistent = global::AppPSOne.Droid.Resource.Styleable.Preference_persistent;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Preference_selectable = global::AppPSOne.Droid.Resource.Styleable.Preference_selectable;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Preference_shouldDisableView = global::AppPSOne.Droid.Resource.Styleable.Preference_shouldDisableView;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Preference_singleLineTitle = global::AppPSOne.Droid.Resource.Styleable.Preference_singleLineTitle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Preference_summary = global::AppPSOne.Droid.Resource.Styleable.Preference_summary;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Preference_title = global::AppPSOne.Droid.Resource.Styleable.Preference_title;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Preference_widgetLayout = global::AppPSOne.Droid.Resource.Styleable.Preference_widgetLayout;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.PropertySet = global::AppPSOne.Droid.Resource.Styleable.PropertySet;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.PropertySet_android_alpha = global::AppPSOne.Droid.Resource.Styleable.PropertySet_android_alpha;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.PropertySet_android_visibility = global::AppPSOne.Droid.Resource.Styleable.PropertySet_android_visibility;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.PropertySet_layout_constraintTag = global::AppPSOne.Droid.Resource.Styleable.PropertySet_layout_constraintTag;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.PropertySet_motionProgress = global::AppPSOne.Droid.Resource.Styleable.PropertySet_motionProgress;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.PropertySet_visibilityMode = global::AppPSOne.Droid.Resource.Styleable.PropertySet_visibilityMode;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.RadialViewGroup = global::AppPSOne.Droid.Resource.Styleable.RadialViewGroup;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.RadialViewGroup_materialCircleRadius = global::AppPSOne.Droid.Resource.Styleable.RadialViewGroup_materialCircleRadius;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.RangeSlider = global::AppPSOne.Droid.Resource.Styleable.RangeSlider;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.RangeSlider_minSeparation = global::AppPSOne.Droid.Resource.Styleable.RangeSlider_minSeparation;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.RangeSlider_values = global::AppPSOne.Droid.Resource.Styleable.RangeSlider_values;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.RecycleListView = global::AppPSOne.Droid.Resource.Styleable.RecycleListView;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::AppPSOne.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::AppPSOne.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.RecyclerView = global::AppPSOne.Droid.Resource.Styleable.RecyclerView;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.RecyclerView_android_clipToPadding = global::AppPSOne.Droid.Resource.Styleable.RecyclerView_android_clipToPadding;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.RecyclerView_android_descendantFocusability = global::AppPSOne.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.RecyclerView_android_orientation = global::AppPSOne.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.RecyclerView_fastScrollEnabled = global::AppPSOne.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::AppPSOne.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::AppPSOne.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::AppPSOne.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::AppPSOne.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.RecyclerView_layoutManager = global::AppPSOne.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.RecyclerView_reverseLayout = global::AppPSOne.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.RecyclerView_spanCount = global::AppPSOne.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.RecyclerView_stackFromEnd = global::AppPSOne.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ScrimInsetsFrameLayout = global::AppPSOne.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::AppPSOne.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ScrollingViewBehavior_Layout = global::AppPSOne.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::AppPSOne.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ScrollViewRendererTheme = global::AppPSOne.Droid.Resource.Styleable.ScrollViewRendererTheme;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ScrollViewRendererTheme_scrollViewStyle = global::AppPSOne.Droid.Resource.Styleable.ScrollViewRendererTheme_scrollViewStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SearchView = global::AppPSOne.Droid.Resource.Styleable.SearchView;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SearchView_android_focusable = global::AppPSOne.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SearchView_android_imeOptions = global::AppPSOne.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SearchView_android_inputType = global::AppPSOne.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SearchView_android_maxWidth = global::AppPSOne.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SearchView_closeIcon = global::AppPSOne.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SearchView_commitIcon = global::AppPSOne.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SearchView_defaultQueryHint = global::AppPSOne.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SearchView_goIcon = global::AppPSOne.Droid.Resource.Styleable.SearchView_goIcon;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SearchView_iconifiedByDefault = global::AppPSOne.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SearchView_layout = global::AppPSOne.Droid.Resource.Styleable.SearchView_layout;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SearchView_queryBackground = global::AppPSOne.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SearchView_queryHint = global::AppPSOne.Droid.Resource.Styleable.SearchView_queryHint;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SearchView_searchHintIcon = global::AppPSOne.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SearchView_searchIcon = global::AppPSOne.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SearchView_submitBackground = global::AppPSOne.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SearchView_suggestionRowLayout = global::AppPSOne.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SearchView_voiceIcon = global::AppPSOne.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SeekBarPreference = global::AppPSOne.Droid.Resource.Styleable.SeekBarPreference;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SeekBarPreference_adjustable = global::AppPSOne.Droid.Resource.Styleable.SeekBarPreference_adjustable;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SeekBarPreference_android_layout = global::AppPSOne.Droid.Resource.Styleable.SeekBarPreference_android_layout;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SeekBarPreference_android_max = global::AppPSOne.Droid.Resource.Styleable.SeekBarPreference_android_max;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SeekBarPreference_min = global::AppPSOne.Droid.Resource.Styleable.SeekBarPreference_min;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SeekBarPreference_seekBarIncrement = global::AppPSOne.Droid.Resource.Styleable.SeekBarPreference_seekBarIncrement;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SeekBarPreference_showSeekBarValue = global::AppPSOne.Droid.Resource.Styleable.SeekBarPreference_showSeekBarValue;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SeekBarPreference_updatesContinuously = global::AppPSOne.Droid.Resource.Styleable.SeekBarPreference_updatesContinuously;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ShapeableImageView = global::AppPSOne.Droid.Resource.Styleable.ShapeableImageView;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ShapeableImageView_contentPadding = global::AppPSOne.Droid.Resource.Styleable.ShapeableImageView_contentPadding;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ShapeableImageView_contentPaddingBottom = global::AppPSOne.Droid.Resource.Styleable.ShapeableImageView_contentPaddingBottom;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ShapeableImageView_contentPaddingEnd = global::AppPSOne.Droid.Resource.Styleable.ShapeableImageView_contentPaddingEnd;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ShapeableImageView_contentPaddingLeft = global::AppPSOne.Droid.Resource.Styleable.ShapeableImageView_contentPaddingLeft;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ShapeableImageView_contentPaddingRight = global::AppPSOne.Droid.Resource.Styleable.ShapeableImageView_contentPaddingRight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ShapeableImageView_contentPaddingStart = global::AppPSOne.Droid.Resource.Styleable.ShapeableImageView_contentPaddingStart;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ShapeableImageView_contentPaddingTop = global::AppPSOne.Droid.Resource.Styleable.ShapeableImageView_contentPaddingTop;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ShapeableImageView_shapeAppearance = global::AppPSOne.Droid.Resource.Styleable.ShapeableImageView_shapeAppearance;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ShapeableImageView_shapeAppearanceOverlay = global::AppPSOne.Droid.Resource.Styleable.ShapeableImageView_shapeAppearanceOverlay;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ShapeableImageView_strokeColor = global::AppPSOne.Droid.Resource.Styleable.ShapeableImageView_strokeColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ShapeableImageView_strokeWidth = global::AppPSOne.Droid.Resource.Styleable.ShapeableImageView_strokeWidth;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ShapeAppearance = global::AppPSOne.Droid.Resource.Styleable.ShapeAppearance;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ShapeAppearance_cornerFamily = global::AppPSOne.Droid.Resource.Styleable.ShapeAppearance_cornerFamily;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ShapeAppearance_cornerFamilyBottomLeft = global::AppPSOne.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyBottomLeft;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ShapeAppearance_cornerFamilyBottomRight = global::AppPSOne.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyBottomRight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ShapeAppearance_cornerFamilyTopLeft = global::AppPSOne.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyTopLeft;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ShapeAppearance_cornerFamilyTopRight = global::AppPSOne.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyTopRight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ShapeAppearance_cornerSize = global::AppPSOne.Droid.Resource.Styleable.ShapeAppearance_cornerSize;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ShapeAppearance_cornerSizeBottomLeft = global::AppPSOne.Droid.Resource.Styleable.ShapeAppearance_cornerSizeBottomLeft;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ShapeAppearance_cornerSizeBottomRight = global::AppPSOne.Droid.Resource.Styleable.ShapeAppearance_cornerSizeBottomRight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ShapeAppearance_cornerSizeTopLeft = global::AppPSOne.Droid.Resource.Styleable.ShapeAppearance_cornerSizeTopLeft;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ShapeAppearance_cornerSizeTopRight = global::AppPSOne.Droid.Resource.Styleable.ShapeAppearance_cornerSizeTopRight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Slider = global::AppPSOne.Droid.Resource.Styleable.Slider;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Slider_android_enabled = global::AppPSOne.Droid.Resource.Styleable.Slider_android_enabled;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Slider_android_stepSize = global::AppPSOne.Droid.Resource.Styleable.Slider_android_stepSize;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Slider_android_value = global::AppPSOne.Droid.Resource.Styleable.Slider_android_value;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Slider_android_valueFrom = global::AppPSOne.Droid.Resource.Styleable.Slider_android_valueFrom;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Slider_android_valueTo = global::AppPSOne.Droid.Resource.Styleable.Slider_android_valueTo;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Slider_haloColor = global::AppPSOne.Droid.Resource.Styleable.Slider_haloColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Slider_haloRadius = global::AppPSOne.Droid.Resource.Styleable.Slider_haloRadius;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Slider_labelBehavior = global::AppPSOne.Droid.Resource.Styleable.Slider_labelBehavior;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Slider_labelStyle = global::AppPSOne.Droid.Resource.Styleable.Slider_labelStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Slider_thumbColor = global::AppPSOne.Droid.Resource.Styleable.Slider_thumbColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Slider_thumbElevation = global::AppPSOne.Droid.Resource.Styleable.Slider_thumbElevation;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Slider_thumbRadius = global::AppPSOne.Droid.Resource.Styleable.Slider_thumbRadius;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Slider_thumbStrokeColor = global::AppPSOne.Droid.Resource.Styleable.Slider_thumbStrokeColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Slider_thumbStrokeWidth = global::AppPSOne.Droid.Resource.Styleable.Slider_thumbStrokeWidth;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Slider_tickColor = global::AppPSOne.Droid.Resource.Styleable.Slider_tickColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Slider_tickColorActive = global::AppPSOne.Droid.Resource.Styleable.Slider_tickColorActive;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Slider_tickColorInactive = global::AppPSOne.Droid.Resource.Styleable.Slider_tickColorInactive;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Slider_tickVisible = global::AppPSOne.Droid.Resource.Styleable.Slider_tickVisible;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Slider_trackColor = global::AppPSOne.Droid.Resource.Styleable.Slider_trackColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Slider_trackColorActive = global::AppPSOne.Droid.Resource.Styleable.Slider_trackColorActive;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Slider_trackColorInactive = global::AppPSOne.Droid.Resource.Styleable.Slider_trackColorInactive;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Slider_trackHeight = global::AppPSOne.Droid.Resource.Styleable.Slider_trackHeight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Snackbar = global::AppPSOne.Droid.Resource.Styleable.Snackbar;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SnackbarLayout = global::AppPSOne.Droid.Resource.Styleable.SnackbarLayout;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SnackbarLayout_actionTextColorAlpha = global::AppPSOne.Droid.Resource.Styleable.SnackbarLayout_actionTextColorAlpha;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SnackbarLayout_android_maxWidth = global::AppPSOne.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SnackbarLayout_animationMode = global::AppPSOne.Droid.Resource.Styleable.SnackbarLayout_animationMode;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SnackbarLayout_backgroundOverlayColorAlpha = global::AppPSOne.Droid.Resource.Styleable.SnackbarLayout_backgroundOverlayColorAlpha;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SnackbarLayout_backgroundTint = global::AppPSOne.Droid.Resource.Styleable.SnackbarLayout_backgroundTint;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SnackbarLayout_backgroundTintMode = global::AppPSOne.Droid.Resource.Styleable.SnackbarLayout_backgroundTintMode;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SnackbarLayout_elevation = global::AppPSOne.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::AppPSOne.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Snackbar_snackbarButtonStyle = global::AppPSOne.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Snackbar_snackbarStyle = global::AppPSOne.Droid.Resource.Styleable.Snackbar_snackbarStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Snackbar_snackbarTextViewStyle = global::AppPSOne.Droid.Resource.Styleable.Snackbar_snackbarTextViewStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Spinner = global::AppPSOne.Droid.Resource.Styleable.Spinner;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Spinner_android_dropDownWidth = global::AppPSOne.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Spinner_android_entries = global::AppPSOne.Droid.Resource.Styleable.Spinner_android_entries;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Spinner_android_popupBackground = global::AppPSOne.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Spinner_android_prompt = global::AppPSOne.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Spinner_popupTheme = global::AppPSOne.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.State = global::AppPSOne.Droid.Resource.Styleable.State;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.StateListDrawable = global::AppPSOne.Droid.Resource.Styleable.StateListDrawable;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.StateListDrawableItem = global::AppPSOne.Droid.Resource.Styleable.StateListDrawableItem;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.StateListDrawableItem_android_drawable = global::AppPSOne.Droid.Resource.Styleable.StateListDrawableItem_android_drawable;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.StateListDrawable_android_constantSize = global::AppPSOne.Droid.Resource.Styleable.StateListDrawable_android_constantSize;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.StateListDrawable_android_dither = global::AppPSOne.Droid.Resource.Styleable.StateListDrawable_android_dither;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::AppPSOne.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::AppPSOne.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.StateListDrawable_android_variablePadding = global::AppPSOne.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.StateListDrawable_android_visible = global::AppPSOne.Droid.Resource.Styleable.StateListDrawable_android_visible;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.StateSet = global::AppPSOne.Droid.Resource.Styleable.StateSet;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.StateSet_defaultState = global::AppPSOne.Droid.Resource.Styleable.StateSet_defaultState;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.State_android_id = global::AppPSOne.Droid.Resource.Styleable.State_android_id;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.State_constraints = global::AppPSOne.Droid.Resource.Styleable.State_constraints;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SwipeRefreshLayout = global::AppPSOne.Droid.Resource.Styleable.SwipeRefreshLayout;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SwipeRefreshLayout_swipeRefreshLayoutProgressSpinnerBackgroundColor = global::AppPSOne.Droid.Resource.Styleable.SwipeRefreshLayout_swipeRefreshLayoutProgressSpinnerBackgroundColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SwitchCompat = global::AppPSOne.Droid.Resource.Styleable.SwitchCompat;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SwitchCompat_android_textOff = global::AppPSOne.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SwitchCompat_android_textOn = global::AppPSOne.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SwitchCompat_android_thumb = global::AppPSOne.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SwitchCompat_showText = global::AppPSOne.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SwitchCompat_splitTrack = global::AppPSOne.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SwitchCompat_switchMinWidth = global::AppPSOne.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SwitchCompat_switchPadding = global::AppPSOne.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SwitchCompat_switchTextAppearance = global::AppPSOne.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SwitchCompat_thumbTextPadding = global::AppPSOne.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SwitchCompat_thumbTint = global::AppPSOne.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SwitchCompat_thumbTintMode = global::AppPSOne.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SwitchCompat_track = global::AppPSOne.Droid.Resource.Styleable.SwitchCompat_track;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SwitchCompat_trackTint = global::AppPSOne.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SwitchCompat_trackTintMode = global::AppPSOne.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SwitchMaterial = global::AppPSOne.Droid.Resource.Styleable.SwitchMaterial;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SwitchMaterial_useMaterialThemeColors = global::AppPSOne.Droid.Resource.Styleable.SwitchMaterial_useMaterialThemeColors;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SwitchPreference = global::AppPSOne.Droid.Resource.Styleable.SwitchPreference;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SwitchPreferenceCompat = global::AppPSOne.Droid.Resource.Styleable.SwitchPreferenceCompat;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SwitchPreferenceCompat_android_disableDependentsState = global::AppPSOne.Droid.Resource.Styleable.SwitchPreferenceCompat_android_disableDependentsState;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SwitchPreferenceCompat_android_summaryOff = global::AppPSOne.Droid.Resource.Styleable.SwitchPreferenceCompat_android_summaryOff;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SwitchPreferenceCompat_android_summaryOn = global::AppPSOne.Droid.Resource.Styleable.SwitchPreferenceCompat_android_summaryOn;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SwitchPreferenceCompat_android_switchTextOff = global::AppPSOne.Droid.Resource.Styleable.SwitchPreferenceCompat_android_switchTextOff;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SwitchPreferenceCompat_android_switchTextOn = global::AppPSOne.Droid.Resource.Styleable.SwitchPreferenceCompat_android_switchTextOn;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SwitchPreferenceCompat_disableDependentsState = global::AppPSOne.Droid.Resource.Styleable.SwitchPreferenceCompat_disableDependentsState;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SwitchPreferenceCompat_summaryOff = global::AppPSOne.Droid.Resource.Styleable.SwitchPreferenceCompat_summaryOff;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SwitchPreferenceCompat_summaryOn = global::AppPSOne.Droid.Resource.Styleable.SwitchPreferenceCompat_summaryOn;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SwitchPreferenceCompat_switchTextOff = global::AppPSOne.Droid.Resource.Styleable.SwitchPreferenceCompat_switchTextOff;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SwitchPreferenceCompat_switchTextOn = global::AppPSOne.Droid.Resource.Styleable.SwitchPreferenceCompat_switchTextOn;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SwitchPreference_android_disableDependentsState = global::AppPSOne.Droid.Resource.Styleable.SwitchPreference_android_disableDependentsState;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SwitchPreference_android_summaryOff = global::AppPSOne.Droid.Resource.Styleable.SwitchPreference_android_summaryOff;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SwitchPreference_android_summaryOn = global::AppPSOne.Droid.Resource.Styleable.SwitchPreference_android_summaryOn;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SwitchPreference_android_switchTextOff = global::AppPSOne.Droid.Resource.Styleable.SwitchPreference_android_switchTextOff;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SwitchPreference_android_switchTextOn = global::AppPSOne.Droid.Resource.Styleable.SwitchPreference_android_switchTextOn;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SwitchPreference_disableDependentsState = global::AppPSOne.Droid.Resource.Styleable.SwitchPreference_disableDependentsState;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SwitchPreference_summaryOff = global::AppPSOne.Droid.Resource.Styleable.SwitchPreference_summaryOff;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SwitchPreference_summaryOn = global::AppPSOne.Droid.Resource.Styleable.SwitchPreference_summaryOn;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SwitchPreference_switchTextOff = global::AppPSOne.Droid.Resource.Styleable.SwitchPreference_switchTextOff;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.SwitchPreference_switchTextOn = global::AppPSOne.Droid.Resource.Styleable.SwitchPreference_switchTextOn;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TabItem = global::AppPSOne.Droid.Resource.Styleable.TabItem;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TabItem_android_icon = global::AppPSOne.Droid.Resource.Styleable.TabItem_android_icon;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TabItem_android_layout = global::AppPSOne.Droid.Resource.Styleable.TabItem_android_layout;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TabItem_android_text = global::AppPSOne.Droid.Resource.Styleable.TabItem_android_text;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TabLayout = global::AppPSOne.Droid.Resource.Styleable.TabLayout;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TabLayout_tabBackground = global::AppPSOne.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TabLayout_tabContentStart = global::AppPSOne.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TabLayout_tabGravity = global::AppPSOne.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TabLayout_tabIconTint = global::AppPSOne.Droid.Resource.Styleable.TabLayout_tabIconTint;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TabLayout_tabIconTintMode = global::AppPSOne.Droid.Resource.Styleable.TabLayout_tabIconTintMode;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TabLayout_tabIndicator = global::AppPSOne.Droid.Resource.Styleable.TabLayout_tabIndicator;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration = global::AppPSOne.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TabLayout_tabIndicatorAnimationMode = global::AppPSOne.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationMode;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TabLayout_tabIndicatorColor = global::AppPSOne.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TabLayout_tabIndicatorFullWidth = global::AppPSOne.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TabLayout_tabIndicatorGravity = global::AppPSOne.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TabLayout_tabIndicatorHeight = global::AppPSOne.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TabLayout_tabInlineLabel = global::AppPSOne.Droid.Resource.Styleable.TabLayout_tabInlineLabel;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TabLayout_tabMaxWidth = global::AppPSOne.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TabLayout_tabMinWidth = global::AppPSOne.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TabLayout_tabMode = global::AppPSOne.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TabLayout_tabPadding = global::AppPSOne.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TabLayout_tabPaddingBottom = global::AppPSOne.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TabLayout_tabPaddingEnd = global::AppPSOne.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TabLayout_tabPaddingStart = global::AppPSOne.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TabLayout_tabPaddingTop = global::AppPSOne.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TabLayout_tabRippleColor = global::AppPSOne.Droid.Resource.Styleable.TabLayout_tabRippleColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TabLayout_tabSelectedTextColor = global::AppPSOne.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TabLayout_tabTextAppearance = global::AppPSOne.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TabLayout_tabTextColor = global::AppPSOne.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TabLayout_tabUnboundedRipple = global::AppPSOne.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextAppearance = global::AppPSOne.Droid.Resource.Styleable.TextAppearance;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextAppearance_android_fontFamily = global::AppPSOne.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextAppearance_android_shadowColor = global::AppPSOne.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextAppearance_android_shadowDx = global::AppPSOne.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextAppearance_android_shadowDy = global::AppPSOne.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextAppearance_android_shadowRadius = global::AppPSOne.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextAppearance_android_textColor = global::AppPSOne.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextAppearance_android_textColorHint = global::AppPSOne.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextAppearance_android_textColorLink = global::AppPSOne.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextAppearance_android_textFontWeight = global::AppPSOne.Droid.Resource.Styleable.TextAppearance_android_textFontWeight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextAppearance_android_textSize = global::AppPSOne.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextAppearance_android_textStyle = global::AppPSOne.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextAppearance_android_typeface = global::AppPSOne.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextAppearance_fontFamily = global::AppPSOne.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextAppearance_fontVariationSettings = global::AppPSOne.Droid.Resource.Styleable.TextAppearance_fontVariationSettings;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextAppearance_textAllCaps = global::AppPSOne.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextAppearance_textLocale = global::AppPSOne.Droid.Resource.Styleable.TextAppearance_textLocale;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextEffects = global::AppPSOne.Droid.Resource.Styleable.TextEffects;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextEffects_android_fontFamily = global::AppPSOne.Droid.Resource.Styleable.TextEffects_android_fontFamily;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextEffects_android_shadowColor = global::AppPSOne.Droid.Resource.Styleable.TextEffects_android_shadowColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextEffects_android_shadowDx = global::AppPSOne.Droid.Resource.Styleable.TextEffects_android_shadowDx;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextEffects_android_shadowDy = global::AppPSOne.Droid.Resource.Styleable.TextEffects_android_shadowDy;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextEffects_android_shadowRadius = global::AppPSOne.Droid.Resource.Styleable.TextEffects_android_shadowRadius;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextEffects_android_text = global::AppPSOne.Droid.Resource.Styleable.TextEffects_android_text;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextEffects_android_textSize = global::AppPSOne.Droid.Resource.Styleable.TextEffects_android_textSize;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextEffects_android_textStyle = global::AppPSOne.Droid.Resource.Styleable.TextEffects_android_textStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextEffects_android_typeface = global::AppPSOne.Droid.Resource.Styleable.TextEffects_android_typeface;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextEffects_borderRound = global::AppPSOne.Droid.Resource.Styleable.TextEffects_borderRound;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextEffects_borderRoundPercent = global::AppPSOne.Droid.Resource.Styleable.TextEffects_borderRoundPercent;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextEffects_textFillColor = global::AppPSOne.Droid.Resource.Styleable.TextEffects_textFillColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextEffects_textOutlineColor = global::AppPSOne.Droid.Resource.Styleable.TextEffects_textOutlineColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextEffects_textOutlineThickness = global::AppPSOne.Droid.Resource.Styleable.TextEffects_textOutlineThickness;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputEditText = global::AppPSOne.Droid.Resource.Styleable.TextInputEditText;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputEditText_textInputLayoutFocusedRectEnabled = global::AppPSOne.Droid.Resource.Styleable.TextInputEditText_textInputLayoutFocusedRectEnabled;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout = global::AppPSOne.Droid.Resource.Styleable.TextInputLayout;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_android_enabled = global::AppPSOne.Droid.Resource.Styleable.TextInputLayout_android_enabled;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_android_hint = global::AppPSOne.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_android_maxWidth = global::AppPSOne.Droid.Resource.Styleable.TextInputLayout_android_maxWidth;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_android_minWidth = global::AppPSOne.Droid.Resource.Styleable.TextInputLayout_android_minWidth;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_android_textColorHint = global::AppPSOne.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::AppPSOne.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_boxBackgroundMode = global::AppPSOne.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop = global::AppPSOne.Droid.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd = global::AppPSOne.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart = global::AppPSOne.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::AppPSOne.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::AppPSOne.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_boxStrokeColor = global::AppPSOne.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_boxStrokeErrorColor = global::AppPSOne.Droid.Resource.Styleable.TextInputLayout_boxStrokeErrorColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::AppPSOne.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_boxStrokeWidthFocused = global::AppPSOne.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidthFocused;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_counterEnabled = global::AppPSOne.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_counterMaxLength = global::AppPSOne.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::AppPSOne.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_counterOverflowTextColor = global::AppPSOne.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_counterTextAppearance = global::AppPSOne.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_counterTextColor = global::AppPSOne.Droid.Resource.Styleable.TextInputLayout_counterTextColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_endIconCheckable = global::AppPSOne.Droid.Resource.Styleable.TextInputLayout_endIconCheckable;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_endIconContentDescription = global::AppPSOne.Droid.Resource.Styleable.TextInputLayout_endIconContentDescription;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_endIconDrawable = global::AppPSOne.Droid.Resource.Styleable.TextInputLayout_endIconDrawable;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_endIconMode = global::AppPSOne.Droid.Resource.Styleable.TextInputLayout_endIconMode;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_endIconTint = global::AppPSOne.Droid.Resource.Styleable.TextInputLayout_endIconTint;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_endIconTintMode = global::AppPSOne.Droid.Resource.Styleable.TextInputLayout_endIconTintMode;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_errorContentDescription = global::AppPSOne.Droid.Resource.Styleable.TextInputLayout_errorContentDescription;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_errorEnabled = global::AppPSOne.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_errorIconDrawable = global::AppPSOne.Droid.Resource.Styleable.TextInputLayout_errorIconDrawable;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_errorIconTint = global::AppPSOne.Droid.Resource.Styleable.TextInputLayout_errorIconTint;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_errorIconTintMode = global::AppPSOne.Droid.Resource.Styleable.TextInputLayout_errorIconTintMode;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_errorTextAppearance = global::AppPSOne.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_errorTextColor = global::AppPSOne.Droid.Resource.Styleable.TextInputLayout_errorTextColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_expandedHintEnabled = global::AppPSOne.Droid.Resource.Styleable.TextInputLayout_expandedHintEnabled;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_helperText = global::AppPSOne.Droid.Resource.Styleable.TextInputLayout_helperText;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_helperTextEnabled = global::AppPSOne.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::AppPSOne.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_helperTextTextColor = global::AppPSOne.Droid.Resource.Styleable.TextInputLayout_helperTextTextColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::AppPSOne.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_hintEnabled = global::AppPSOne.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_hintTextAppearance = global::AppPSOne.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_hintTextColor = global::AppPSOne.Droid.Resource.Styleable.TextInputLayout_hintTextColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::AppPSOne.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::AppPSOne.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::AppPSOne.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_passwordToggleTint = global::AppPSOne.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::AppPSOne.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_placeholderText = global::AppPSOne.Droid.Resource.Styleable.TextInputLayout_placeholderText;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_placeholderTextAppearance = global::AppPSOne.Droid.Resource.Styleable.TextInputLayout_placeholderTextAppearance;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_placeholderTextColor = global::AppPSOne.Droid.Resource.Styleable.TextInputLayout_placeholderTextColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_prefixText = global::AppPSOne.Droid.Resource.Styleable.TextInputLayout_prefixText;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_prefixTextAppearance = global::AppPSOne.Droid.Resource.Styleable.TextInputLayout_prefixTextAppearance;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_prefixTextColor = global::AppPSOne.Droid.Resource.Styleable.TextInputLayout_prefixTextColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_shapeAppearance = global::AppPSOne.Droid.Resource.Styleable.TextInputLayout_shapeAppearance;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_shapeAppearanceOverlay = global::AppPSOne.Droid.Resource.Styleable.TextInputLayout_shapeAppearanceOverlay;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_startIconCheckable = global::AppPSOne.Droid.Resource.Styleable.TextInputLayout_startIconCheckable;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_startIconContentDescription = global::AppPSOne.Droid.Resource.Styleable.TextInputLayout_startIconContentDescription;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_startIconDrawable = global::AppPSOne.Droid.Resource.Styleable.TextInputLayout_startIconDrawable;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_startIconTint = global::AppPSOne.Droid.Resource.Styleable.TextInputLayout_startIconTint;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_startIconTintMode = global::AppPSOne.Droid.Resource.Styleable.TextInputLayout_startIconTintMode;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_suffixText = global::AppPSOne.Droid.Resource.Styleable.TextInputLayout_suffixText;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_suffixTextAppearance = global::AppPSOne.Droid.Resource.Styleable.TextInputLayout_suffixTextAppearance;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_suffixTextColor = global::AppPSOne.Droid.Resource.Styleable.TextInputLayout_suffixTextColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ThemeEnforcement = global::AppPSOne.Droid.Resource.Styleable.ThemeEnforcement;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::AppPSOne.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::AppPSOne.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ThemeEnforcement_enforceTextAppearance = global::AppPSOne.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Toolbar = global::AppPSOne.Droid.Resource.Styleable.Toolbar;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Toolbar_android_gravity = global::AppPSOne.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Toolbar_android_minHeight = global::AppPSOne.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Toolbar_buttonGravity = global::AppPSOne.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Toolbar_collapseContentDescription = global::AppPSOne.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Toolbar_collapseIcon = global::AppPSOne.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Toolbar_contentInsetEnd = global::AppPSOne.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::AppPSOne.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Toolbar_contentInsetLeft = global::AppPSOne.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Toolbar_contentInsetRight = global::AppPSOne.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Toolbar_contentInsetStart = global::AppPSOne.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::AppPSOne.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Toolbar_logo = global::AppPSOne.Droid.Resource.Styleable.Toolbar_logo;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Toolbar_logoDescription = global::AppPSOne.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Toolbar_maxButtonHeight = global::AppPSOne.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Toolbar_menu = global::AppPSOne.Droid.Resource.Styleable.Toolbar_menu;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Toolbar_navigationContentDescription = global::AppPSOne.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Toolbar_navigationIcon = global::AppPSOne.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Toolbar_popupTheme = global::AppPSOne.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Toolbar_subtitle = global::AppPSOne.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Toolbar_subtitleTextAppearance = global::AppPSOne.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Toolbar_subtitleTextColor = global::AppPSOne.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Toolbar_title = global::AppPSOne.Droid.Resource.Styleable.Toolbar_title;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Toolbar_titleMargin = global::AppPSOne.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Toolbar_titleMarginBottom = global::AppPSOne.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Toolbar_titleMarginEnd = global::AppPSOne.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Toolbar_titleMargins = global::AppPSOne.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Toolbar_titleMarginStart = global::AppPSOne.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Toolbar_titleMarginTop = global::AppPSOne.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Toolbar_titleTextAppearance = global::AppPSOne.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Toolbar_titleTextColor = global::AppPSOne.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Tooltip = global::AppPSOne.Droid.Resource.Styleable.Tooltip;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Tooltip_android_layout_margin = global::AppPSOne.Droid.Resource.Styleable.Tooltip_android_layout_margin;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Tooltip_android_minHeight = global::AppPSOne.Droid.Resource.Styleable.Tooltip_android_minHeight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Tooltip_android_minWidth = global::AppPSOne.Droid.Resource.Styleable.Tooltip_android_minWidth;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Tooltip_android_padding = global::AppPSOne.Droid.Resource.Styleable.Tooltip_android_padding;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Tooltip_android_text = global::AppPSOne.Droid.Resource.Styleable.Tooltip_android_text;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Tooltip_android_textAppearance = global::AppPSOne.Droid.Resource.Styleable.Tooltip_android_textAppearance;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Tooltip_backgroundTint = global::AppPSOne.Droid.Resource.Styleable.Tooltip_backgroundTint;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Transform = global::AppPSOne.Droid.Resource.Styleable.Transform;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Transform_android_elevation = global::AppPSOne.Droid.Resource.Styleable.Transform_android_elevation;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Transform_android_rotation = global::AppPSOne.Droid.Resource.Styleable.Transform_android_rotation;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Transform_android_rotationX = global::AppPSOne.Droid.Resource.Styleable.Transform_android_rotationX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Transform_android_rotationY = global::AppPSOne.Droid.Resource.Styleable.Transform_android_rotationY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Transform_android_scaleX = global::AppPSOne.Droid.Resource.Styleable.Transform_android_scaleX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Transform_android_scaleY = global::AppPSOne.Droid.Resource.Styleable.Transform_android_scaleY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Transform_android_transformPivotX = global::AppPSOne.Droid.Resource.Styleable.Transform_android_transformPivotX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Transform_android_transformPivotY = global::AppPSOne.Droid.Resource.Styleable.Transform_android_transformPivotY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Transform_android_translationX = global::AppPSOne.Droid.Resource.Styleable.Transform_android_translationX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Transform_android_translationY = global::AppPSOne.Droid.Resource.Styleable.Transform_android_translationY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Transform_android_translationZ = global::AppPSOne.Droid.Resource.Styleable.Transform_android_translationZ;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Transform_transformPivotTarget = global::AppPSOne.Droid.Resource.Styleable.Transform_transformPivotTarget;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Transition = global::AppPSOne.Droid.Resource.Styleable.Transition;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Transition_android_id = global::AppPSOne.Droid.Resource.Styleable.Transition_android_id;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Transition_autoTransition = global::AppPSOne.Droid.Resource.Styleable.Transition_autoTransition;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Transition_constraintSetEnd = global::AppPSOne.Droid.Resource.Styleable.Transition_constraintSetEnd;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Transition_constraintSetStart = global::AppPSOne.Droid.Resource.Styleable.Transition_constraintSetStart;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Transition_duration = global::AppPSOne.Droid.Resource.Styleable.Transition_duration;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Transition_layoutDuringTransition = global::AppPSOne.Droid.Resource.Styleable.Transition_layoutDuringTransition;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Transition_motionInterpolator = global::AppPSOne.Droid.Resource.Styleable.Transition_motionInterpolator;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Transition_pathMotionArc = global::AppPSOne.Droid.Resource.Styleable.Transition_pathMotionArc;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Transition_staggered = global::AppPSOne.Droid.Resource.Styleable.Transition_staggered;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Transition_transitionDisable = global::AppPSOne.Droid.Resource.Styleable.Transition_transitionDisable;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Transition_transitionFlags = global::AppPSOne.Droid.Resource.Styleable.Transition_transitionFlags;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Variant = global::AppPSOne.Droid.Resource.Styleable.Variant;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Variant_constraints = global::AppPSOne.Droid.Resource.Styleable.Variant_constraints;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Variant_region_heightLessThan = global::AppPSOne.Droid.Resource.Styleable.Variant_region_heightLessThan;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Variant_region_heightMoreThan = global::AppPSOne.Droid.Resource.Styleable.Variant_region_heightMoreThan;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Variant_region_widthLessThan = global::AppPSOne.Droid.Resource.Styleable.Variant_region_widthLessThan;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Variant_region_widthMoreThan = global::AppPSOne.Droid.Resource.Styleable.Variant_region_widthMoreThan;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.View = global::AppPSOne.Droid.Resource.Styleable.View;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ViewBackgroundHelper = global::AppPSOne.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ViewBackgroundHelper_android_background = global::AppPSOne.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::AppPSOne.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::AppPSOne.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ViewPager2 = global::AppPSOne.Droid.Resource.Styleable.ViewPager2;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ViewPager2_android_orientation = global::AppPSOne.Droid.Resource.Styleable.ViewPager2_android_orientation;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ViewStubCompat = global::AppPSOne.Droid.Resource.Styleable.ViewStubCompat;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ViewStubCompat_android_id = global::AppPSOne.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ViewStubCompat_android_inflatedId = global::AppPSOne.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ViewStubCompat_android_layout = global::AppPSOne.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ViewTransition = global::AppPSOne.Droid.Resource.Styleable.ViewTransition;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ViewTransition_android_id = global::AppPSOne.Droid.Resource.Styleable.ViewTransition_android_id;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ViewTransition_clearsTag = global::AppPSOne.Droid.Resource.Styleable.ViewTransition_clearsTag;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ViewTransition_duration = global::AppPSOne.Droid.Resource.Styleable.ViewTransition_duration;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ViewTransition_ifTagNotSet = global::AppPSOne.Droid.Resource.Styleable.ViewTransition_ifTagNotSet;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ViewTransition_ifTagSet = global::AppPSOne.Droid.Resource.Styleable.ViewTransition_ifTagSet;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ViewTransition_motionInterpolator = global::AppPSOne.Droid.Resource.Styleable.ViewTransition_motionInterpolator;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ViewTransition_motionTarget = global::AppPSOne.Droid.Resource.Styleable.ViewTransition_motionTarget;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ViewTransition_onStateTransition = global::AppPSOne.Droid.Resource.Styleable.ViewTransition_onStateTransition;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ViewTransition_pathMotionArc = global::AppPSOne.Droid.Resource.Styleable.ViewTransition_pathMotionArc;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ViewTransition_setsTag = global::AppPSOne.Droid.Resource.Styleable.ViewTransition_setsTag;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ViewTransition_SharedValue = global::AppPSOne.Droid.Resource.Styleable.ViewTransition_SharedValue;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ViewTransition_SharedValueId = global::AppPSOne.Droid.Resource.Styleable.ViewTransition_SharedValueId;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ViewTransition_transitionDisable = global::AppPSOne.Droid.Resource.Styleable.ViewTransition_transitionDisable;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ViewTransition_upDuration = global::AppPSOne.Droid.Resource.Styleable.ViewTransition_upDuration;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ViewTransition_viewTransitionMode = global::AppPSOne.Droid.Resource.Styleable.ViewTransition_viewTransitionMode;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.View_android_focusable = global::AppPSOne.Droid.Resource.Styleable.View_android_focusable;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.View_android_theme = global::AppPSOne.Droid.Resource.Styleable.View_android_theme;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.View_paddingEnd = global::AppPSOne.Droid.Resource.Styleable.View_paddingEnd;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.View_paddingStart = global::AppPSOne.Droid.Resource.Styleable.View_paddingStart;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.View_theme = global::AppPSOne.Droid.Resource.Styleable.View_theme;
+			global::Xamarin.CommunityToolkit.Resource.Xml.image_share_filepaths = global::AppPSOne.Droid.Resource.Xml.image_share_filepaths;
+			global::Xamarin.CommunityToolkit.Resource.Xml.standalone_badge = global::AppPSOne.Droid.Resource.Xml.standalone_badge;
+			global::Xamarin.CommunityToolkit.Resource.Xml.standalone_badge_gravity_bottom_end = global::AppPSOne.Droid.Resource.Xml.standalone_badge_gravity_bottom_end;
+			global::Xamarin.CommunityToolkit.Resource.Xml.standalone_badge_gravity_bottom_start = global::AppPSOne.Droid.Resource.Xml.standalone_badge_gravity_bottom_start;
+			global::Xamarin.CommunityToolkit.Resource.Xml.standalone_badge_gravity_top_start = global::AppPSOne.Droid.Resource.Xml.standalone_badge_gravity_top_start;
+			global::Xamarin.CommunityToolkit.Resource.Xml.standalone_badge_offset = global::AppPSOne.Droid.Resource.Xml.standalone_badge_offset;
 			global::Xamarin.Essentials.Resource.Attribute.alpha = global::AppPSOne.Droid.Resource.Attribute.alpha;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::AppPSOne.Droid.Resource.Attribute.font;
 			global::Xamarin.Essentials.Resource.Attribute.fontProviderAuthority = global::AppPSOne.Droid.Resource.Attribute.fontProviderAuthority;
@@ -16980,853 +22552,856 @@ namespace AppPSOne.Droid
 			public const int cache_measures = 2131230827;
 			
 			// aapt resource value: 0x7F08006C
-			public const int cancel_action = 2131230828;
+			public const int cameratexture = 2131230828;
 			
 			// aapt resource value: 0x7F08006D
-			public const int cancel_button = 2131230829;
+			public const int cancel_action = 2131230829;
 			
 			// aapt resource value: 0x7F08006E
-			public const int carryVelocity = 2131230830;
+			public const int cancel_button = 2131230830;
 			
 			// aapt resource value: 0x7F08006F
-			public const int center = 2131230831;
+			public const int carryVelocity = 2131230831;
 			
 			// aapt resource value: 0x7F080070
-			public const int center_horizontal = 2131230832;
+			public const int center = 2131230832;
 			
 			// aapt resource value: 0x7F080071
-			public const int center_vertical = 2131230833;
+			public const int center_horizontal = 2131230833;
 			
 			// aapt resource value: 0x7F080072
-			public const int chain = 2131230834;
+			public const int center_vertical = 2131230834;
 			
 			// aapt resource value: 0x7F080073
-			public const int chains = 2131230835;
+			public const int chain = 2131230835;
 			
 			// aapt resource value: 0x7F080074
-			public const int checkbox = 2131230836;
+			public const int chains = 2131230836;
 			
 			// aapt resource value: 0x7F080075
-			public const int @checked = 2131230837;
+			public const int checkbox = 2131230837;
 			
 			// aapt resource value: 0x7F080076
-			public const int chip = 2131230838;
+			public const int @checked = 2131230838;
 			
 			// aapt resource value: 0x7F080077
-			public const int chip1 = 2131230839;
+			public const int chip = 2131230839;
 			
 			// aapt resource value: 0x7F080078
-			public const int chip2 = 2131230840;
+			public const int chip1 = 2131230840;
 			
 			// aapt resource value: 0x7F080079
-			public const int chip3 = 2131230841;
+			public const int chip2 = 2131230841;
 			
 			// aapt resource value: 0x7F08007A
-			public const int chip_group = 2131230842;
+			public const int chip3 = 2131230842;
 			
 			// aapt resource value: 0x7F08007B
-			public const int chronometer = 2131230843;
+			public const int chip_group = 2131230843;
 			
 			// aapt resource value: 0x7F08007C
-			public const int circle_center = 2131230844;
+			public const int chronometer = 2131230844;
 			
 			// aapt resource value: 0x7F08007D
-			public const int clear_text = 2131230845;
+			public const int circle_center = 2131230845;
 			
 			// aapt resource value: 0x7F08007E
-			public const int clip_horizontal = 2131230846;
+			public const int clear_text = 2131230846;
 			
 			// aapt resource value: 0x7F08007F
-			public const int clip_vertical = 2131230847;
+			public const int clip_horizontal = 2131230847;
 			
 			// aapt resource value: 0x7F080080
-			public const int clockwise = 2131230848;
+			public const int clip_vertical = 2131230848;
 			
 			// aapt resource value: 0x7F080081
-			public const int closest = 2131230849;
+			public const int clockwise = 2131230849;
 			
 			// aapt resource value: 0x7F080082
-			public const int collapseActionView = 2131230850;
+			public const int closest = 2131230850;
 			
 			// aapt resource value: 0x7F080083
-			public const int confirm_button = 2131230851;
+			public const int collapseActionView = 2131230851;
 			
 			// aapt resource value: 0x7F080084
-			public const int constraint = 2131230852;
+			public const int confirm_button = 2131230852;
 			
 			// aapt resource value: 0x7F080085
-			public const int container = 2131230853;
+			public const int constraint = 2131230853;
 			
 			// aapt resource value: 0x7F080086
-			public const int content = 2131230854;
+			public const int container = 2131230854;
 			
 			// aapt resource value: 0x7F080087
-			public const int contentPanel = 2131230855;
+			public const int content = 2131230855;
 			
 			// aapt resource value: 0x7F080088
-			public const int contiguous = 2131230856;
+			public const int contentPanel = 2131230856;
 			
 			// aapt resource value: 0x7F080089
-			public const int continuousVelocity = 2131230857;
+			public const int contiguous = 2131230857;
 			
 			// aapt resource value: 0x7F08008A
-			public const int coordinator = 2131230858;
+			public const int continuousVelocity = 2131230858;
 			
 			// aapt resource value: 0x7F08008B
-			public const int cos = 2131230859;
+			public const int coordinator = 2131230859;
 			
 			// aapt resource value: 0x7F08008C
-			public const int counterclockwise = 2131230860;
+			public const int cos = 2131230860;
+			
+			// aapt resource value: 0x7F08008D
+			public const int counterclockwise = 2131230861;
 			
 			// aapt resource value: 0x7F080003
 			public const int CTRL = 2131230723;
 			
-			// aapt resource value: 0x7F08008D
-			public const int currentState = 2131230861;
-			
 			// aapt resource value: 0x7F08008E
-			public const int custom = 2131230862;
+			public const int currentState = 2131230862;
 			
 			// aapt resource value: 0x7F08008F
-			public const int customPanel = 2131230863;
+			public const int custom = 2131230863;
 			
 			// aapt resource value: 0x7F080090
-			public const int cut = 2131230864;
+			public const int customPanel = 2131230864;
 			
 			// aapt resource value: 0x7F080091
-			public const int date_picker_actions = 2131230865;
+			public const int cut = 2131230865;
 			
 			// aapt resource value: 0x7F080092
-			public const int decelerate = 2131230866;
+			public const int date_picker_actions = 2131230866;
 			
 			// aapt resource value: 0x7F080093
-			public const int decelerateAndComplete = 2131230867;
+			public const int decelerate = 2131230867;
 			
 			// aapt resource value: 0x7F080094
-			public const int decor_content_parent = 2131230868;
+			public const int decelerateAndComplete = 2131230868;
 			
 			// aapt resource value: 0x7F080095
-			public const int default_activity_button = 2131230869;
+			public const int decor_content_parent = 2131230869;
 			
 			// aapt resource value: 0x7F080096
-			public const int deltaRelative = 2131230870;
+			public const int default_activity_button = 2131230870;
 			
 			// aapt resource value: 0x7F080097
-			public const int dependency_ordering = 2131230871;
+			public const int deltaRelative = 2131230871;
 			
 			// aapt resource value: 0x7F080098
-			public const int design_bottom_sheet = 2131230872;
+			public const int dependency_ordering = 2131230872;
 			
 			// aapt resource value: 0x7F080099
-			public const int design_menu_item_action_area = 2131230873;
+			public const int design_bottom_sheet = 2131230873;
 			
 			// aapt resource value: 0x7F08009A
-			public const int design_menu_item_action_area_stub = 2131230874;
+			public const int design_menu_item_action_area = 2131230874;
 			
 			// aapt resource value: 0x7F08009B
-			public const int design_menu_item_text = 2131230875;
+			public const int design_menu_item_action_area_stub = 2131230875;
 			
 			// aapt resource value: 0x7F08009C
-			public const int design_navigation_view = 2131230876;
+			public const int design_menu_item_text = 2131230876;
 			
 			// aapt resource value: 0x7F08009D
-			public const int dialog_button = 2131230877;
+			public const int design_navigation_view = 2131230877;
 			
 			// aapt resource value: 0x7F08009E
-			public const int dimensions = 2131230878;
+			public const int dialog_button = 2131230878;
 			
 			// aapt resource value: 0x7F08009F
-			public const int direct = 2131230879;
+			public const int dimensions = 2131230879;
 			
 			// aapt resource value: 0x7F0800A0
-			public const int disableHome = 2131230880;
+			public const int direct = 2131230880;
 			
 			// aapt resource value: 0x7F0800A1
-			public const int disableIntraAutoTransition = 2131230881;
+			public const int disableHome = 2131230881;
 			
 			// aapt resource value: 0x7F0800A2
-			public const int disablePostScroll = 2131230882;
+			public const int disableIntraAutoTransition = 2131230882;
 			
 			// aapt resource value: 0x7F0800A3
-			public const int disableScroll = 2131230883;
+			public const int disablePostScroll = 2131230883;
 			
 			// aapt resource value: 0x7F0800A4
-			public const int disjoint = 2131230884;
+			public const int disableScroll = 2131230884;
 			
 			// aapt resource value: 0x7F0800A5
-			public const int dragAnticlockwise = 2131230885;
+			public const int disjoint = 2131230885;
 			
 			// aapt resource value: 0x7F0800A6
-			public const int dragClockwise = 2131230886;
+			public const int dragAnticlockwise = 2131230886;
 			
 			// aapt resource value: 0x7F0800A7
-			public const int dragDown = 2131230887;
+			public const int dragClockwise = 2131230887;
 			
 			// aapt resource value: 0x7F0800A8
-			public const int dragEnd = 2131230888;
+			public const int dragDown = 2131230888;
 			
 			// aapt resource value: 0x7F0800A9
-			public const int dragLeft = 2131230889;
+			public const int dragEnd = 2131230889;
 			
 			// aapt resource value: 0x7F0800AA
-			public const int dragRight = 2131230890;
+			public const int dragLeft = 2131230890;
 			
 			// aapt resource value: 0x7F0800AB
-			public const int dragStart = 2131230891;
+			public const int dragRight = 2131230891;
 			
 			// aapt resource value: 0x7F0800AC
-			public const int dragUp = 2131230892;
+			public const int dragStart = 2131230892;
 			
 			// aapt resource value: 0x7F0800AD
-			public const int dropdown_menu = 2131230893;
+			public const int dragUp = 2131230893;
 			
 			// aapt resource value: 0x7F0800AE
-			public const int easeIn = 2131230894;
+			public const int dropdown_menu = 2131230894;
 			
 			// aapt resource value: 0x7F0800AF
-			public const int easeInOut = 2131230895;
+			public const int easeIn = 2131230895;
 			
 			// aapt resource value: 0x7F0800B0
-			public const int easeOut = 2131230896;
+			public const int easeInOut = 2131230896;
 			
 			// aapt resource value: 0x7F0800B1
-			public const int east = 2131230897;
+			public const int easeOut = 2131230897;
 			
 			// aapt resource value: 0x7F0800B2
-			public const int edit_query = 2131230898;
+			public const int east = 2131230898;
 			
 			// aapt resource value: 0x7F0800B3
-			public const int elastic = 2131230899;
+			public const int edit_query = 2131230899;
 			
 			// aapt resource value: 0x7F0800B4
-			public const int end = 2131230900;
+			public const int elastic = 2131230900;
 			
 			// aapt resource value: 0x7F0800B5
-			public const int endToStart = 2131230901;
+			public const int end = 2131230901;
 			
 			// aapt resource value: 0x7F0800B6
-			public const int end_padder = 2131230902;
+			public const int endToStart = 2131230902;
 			
 			// aapt resource value: 0x7F0800B7
-			public const int enterAlways = 2131230903;
+			public const int end_padder = 2131230903;
 			
 			// aapt resource value: 0x7F0800B8
-			public const int enterAlwaysCollapsed = 2131230904;
+			public const int enterAlways = 2131230904;
 			
 			// aapt resource value: 0x7F0800B9
-			public const int exitUntilCollapsed = 2131230905;
-			
-			// aapt resource value: 0x7F0800BB
-			public const int expanded_menu = 2131230907;
+			public const int enterAlwaysCollapsed = 2131230905;
 			
 			// aapt resource value: 0x7F0800BA
-			public const int expand_activities_button = 2131230906;
+			public const int exitUntilCollapsed = 2131230906;
 			
 			// aapt resource value: 0x7F0800BC
-			public const int fade = 2131230908;
+			public const int expanded_menu = 2131230908;
+			
+			// aapt resource value: 0x7F0800BB
+			public const int expand_activities_button = 2131230907;
 			
 			// aapt resource value: 0x7F0800BD
-			public const int fill = 2131230909;
-			
-			// aapt resource value: 0x7F0800C0
-			public const int filled = 2131230912;
+			public const int fade = 2131230909;
 			
 			// aapt resource value: 0x7F0800BE
-			public const int fill_horizontal = 2131230910;
-			
-			// aapt resource value: 0x7F0800BF
-			public const int fill_vertical = 2131230911;
+			public const int fill = 2131230910;
 			
 			// aapt resource value: 0x7F0800C1
-			public const int fitToContents = 2131230913;
+			public const int filled = 2131230913;
+			
+			// aapt resource value: 0x7F0800BF
+			public const int fill_horizontal = 2131230911;
+			
+			// aapt resource value: 0x7F0800C0
+			public const int fill_vertical = 2131230912;
 			
 			// aapt resource value: 0x7F0800C2
-			public const int @fixed = 2131230914;
+			public const int fitToContents = 2131230914;
 			
 			// aapt resource value: 0x7F0800C3
-			public const int flip = 2131230915;
+			public const int @fixed = 2131230915;
 			
 			// aapt resource value: 0x7F0800C4
-			public const int floating = 2131230916;
+			public const int flip = 2131230916;
 			
 			// aapt resource value: 0x7F0800C5
-			public const int flyoutcontent_appbar = 2131230917;
+			public const int floating = 2131230917;
 			
 			// aapt resource value: 0x7F0800C6
-			public const int forever = 2131230918;
+			public const int flyoutcontent_appbar = 2131230918;
 			
 			// aapt resource value: 0x7F0800C7
-			public const int fragment_container_view_tag = 2131230919;
+			public const int forever = 2131230919;
 			
 			// aapt resource value: 0x7F0800C8
-			public const int frost = 2131230920;
+			public const int fragment_container_view_tag = 2131230920;
+			
+			// aapt resource value: 0x7F0800C9
+			public const int frost = 2131230921;
 			
 			// aapt resource value: 0x7F080004
 			public const int FUNCTION = 2131230724;
 			
-			// aapt resource value: 0x7F0800C9
-			public const int ghost_view = 2131230921;
-			
 			// aapt resource value: 0x7F0800CA
-			public const int ghost_view_holder = 2131230922;
+			public const int ghost_view = 2131230922;
 			
 			// aapt resource value: 0x7F0800CB
-			public const int gone = 2131230923;
+			public const int ghost_view_holder = 2131230923;
 			
 			// aapt resource value: 0x7F0800CC
-			public const int graph = 2131230924;
+			public const int gone = 2131230924;
 			
 			// aapt resource value: 0x7F0800CD
-			public const int graph_wrap = 2131230925;
-			
-			// aapt resource value: 0x7F0800CF
-			public const int grouping = 2131230927;
-			
-			// aapt resource value: 0x7F0800D0
-			public const int groups = 2131230928;
+			public const int graph = 2131230925;
 			
 			// aapt resource value: 0x7F0800CE
-			public const int group_divider = 2131230926;
+			public const int graph_wrap = 2131230926;
+			
+			// aapt resource value: 0x7F0800D0
+			public const int grouping = 2131230928;
 			
 			// aapt resource value: 0x7F0800D1
-			public const int guideline = 2131230929;
+			public const int groups = 2131230929;
+			
+			// aapt resource value: 0x7F0800CF
+			public const int group_divider = 2131230927;
 			
 			// aapt resource value: 0x7F0800D2
-			public const int header_title = 2131230930;
+			public const int guideline = 2131230930;
 			
 			// aapt resource value: 0x7F0800D3
-			public const int hideable = 2131230931;
+			public const int header_title = 2131230931;
 			
 			// aapt resource value: 0x7F0800D4
-			public const int home = 2131230932;
+			public const int hideable = 2131230932;
 			
 			// aapt resource value: 0x7F0800D5
-			public const int homeAsUp = 2131230933;
+			public const int home = 2131230933;
 			
 			// aapt resource value: 0x7F0800D6
-			public const int honorRequest = 2131230934;
+			public const int homeAsUp = 2131230934;
 			
 			// aapt resource value: 0x7F0800D7
-			public const int horizontal_only = 2131230935;
+			public const int honorRequest = 2131230935;
 			
 			// aapt resource value: 0x7F0800D8
-			public const int icon = 2131230936;
+			public const int horizontal_only = 2131230936;
 			
 			// aapt resource value: 0x7F0800D9
-			public const int icon_frame = 2131230937;
+			public const int icon = 2131230937;
 			
 			// aapt resource value: 0x7F0800DA
-			public const int icon_group = 2131230938;
+			public const int icon_frame = 2131230938;
 			
 			// aapt resource value: 0x7F0800DB
-			public const int ifRoom = 2131230939;
+			public const int icon_group = 2131230939;
 			
 			// aapt resource value: 0x7F0800DC
-			public const int ignore = 2131230940;
+			public const int ifRoom = 2131230940;
 			
 			// aapt resource value: 0x7F0800DD
-			public const int ignoreRequest = 2131230941;
+			public const int ignore = 2131230941;
 			
 			// aapt resource value: 0x7F0800DE
-			public const int image = 2131230942;
+			public const int ignoreRequest = 2131230942;
 			
 			// aapt resource value: 0x7F0800DF
-			public const int immediateStop = 2131230943;
+			public const int image = 2131230943;
 			
 			// aapt resource value: 0x7F0800E0
-			public const int included = 2131230944;
+			public const int immediateStop = 2131230944;
 			
 			// aapt resource value: 0x7F0800E1
-			public const int info = 2131230945;
+			public const int included = 2131230945;
 			
 			// aapt resource value: 0x7F0800E2
-			public const int invisible = 2131230946;
+			public const int info = 2131230946;
 			
 			// aapt resource value: 0x7F0800E3
-			public const int inward = 2131230947;
+			public const int invisible = 2131230947;
 			
 			// aapt resource value: 0x7F0800E4
-			public const int italic = 2131230948;
+			public const int inward = 2131230948;
 			
 			// aapt resource value: 0x7F0800E5
-			public const int item_touch_helper_previous_elevation = 2131230949;
+			public const int italic = 2131230949;
 			
 			// aapt resource value: 0x7F0800E6
-			public const int jumpToEnd = 2131230950;
+			public const int item_touch_helper_previous_elevation = 2131230950;
 			
 			// aapt resource value: 0x7F0800E7
-			public const int jumpToStart = 2131230951;
+			public const int jumpToEnd = 2131230951;
 			
 			// aapt resource value: 0x7F0800E8
-			public const int labeled = 2131230952;
+			public const int jumpToStart = 2131230952;
 			
 			// aapt resource value: 0x7F0800E9
-			public const int layout = 2131230953;
+			public const int labeled = 2131230953;
 			
 			// aapt resource value: 0x7F0800EA
-			public const int left = 2131230954;
+			public const int layout = 2131230954;
 			
 			// aapt resource value: 0x7F0800EB
-			public const int leftToRight = 2131230955;
+			public const int left = 2131230955;
 			
 			// aapt resource value: 0x7F0800EC
-			public const int legacy = 2131230956;
+			public const int leftToRight = 2131230956;
 			
 			// aapt resource value: 0x7F0800ED
-			public const int line1 = 2131230957;
+			public const int legacy = 2131230957;
 			
 			// aapt resource value: 0x7F0800EE
-			public const int line3 = 2131230958;
+			public const int line1 = 2131230958;
 			
 			// aapt resource value: 0x7F0800EF
-			public const int linear = 2131230959;
+			public const int line3 = 2131230959;
 			
 			// aapt resource value: 0x7F0800F0
-			public const int listMode = 2131230960;
+			public const int linear = 2131230960;
 			
 			// aapt resource value: 0x7F0800F1
-			public const int list_item = 2131230961;
+			public const int listMode = 2131230961;
 			
 			// aapt resource value: 0x7F0800F2
-			public const int main_appbar = 2131230962;
+			public const int list_item = 2131230962;
 			
 			// aapt resource value: 0x7F0800F3
-			public const int main_tablayout = 2131230963;
+			public const int main_appbar = 2131230963;
 			
 			// aapt resource value: 0x7F0800F4
-			public const int main_toolbar = 2131230964;
+			public const int main_tablayout = 2131230964;
 			
 			// aapt resource value: 0x7F0800F5
-			public const int main_viewpager = 2131230965;
+			public const int main_toolbar = 2131230965;
 			
 			// aapt resource value: 0x7F0800F6
-			public const int masked = 2131230966;
+			public const int main_viewpager = 2131230966;
 			
 			// aapt resource value: 0x7F0800F7
-			public const int match_constraint = 2131230967;
+			public const int masked = 2131230967;
 			
 			// aapt resource value: 0x7F0800F8
-			public const int match_parent = 2131230968;
+			public const int match_constraint = 2131230968;
 			
 			// aapt resource value: 0x7F0800F9
-			public const int material_clock_display = 2131230969;
+			public const int match_parent = 2131230969;
 			
 			// aapt resource value: 0x7F0800FA
-			public const int material_clock_face = 2131230970;
+			public const int material_clock_display = 2131230970;
 			
 			// aapt resource value: 0x7F0800FB
-			public const int material_clock_hand = 2131230971;
+			public const int material_clock_face = 2131230971;
 			
 			// aapt resource value: 0x7F0800FC
-			public const int material_clock_period_am_button = 2131230972;
+			public const int material_clock_hand = 2131230972;
 			
 			// aapt resource value: 0x7F0800FD
-			public const int material_clock_period_pm_button = 2131230973;
+			public const int material_clock_period_am_button = 2131230973;
 			
 			// aapt resource value: 0x7F0800FE
-			public const int material_clock_period_toggle = 2131230974;
+			public const int material_clock_period_pm_button = 2131230974;
 			
 			// aapt resource value: 0x7F0800FF
-			public const int material_hour_text_input = 2131230975;
+			public const int material_clock_period_toggle = 2131230975;
 			
 			// aapt resource value: 0x7F080100
-			public const int material_hour_tv = 2131230976;
+			public const int material_hour_text_input = 2131230976;
 			
 			// aapt resource value: 0x7F080101
-			public const int material_label = 2131230977;
+			public const int material_hour_tv = 2131230977;
 			
 			// aapt resource value: 0x7F080102
-			public const int material_minute_text_input = 2131230978;
+			public const int material_label = 2131230978;
 			
 			// aapt resource value: 0x7F080103
-			public const int material_minute_tv = 2131230979;
+			public const int material_minute_text_input = 2131230979;
 			
 			// aapt resource value: 0x7F080104
-			public const int material_textinput_timepicker = 2131230980;
+			public const int material_minute_tv = 2131230980;
 			
 			// aapt resource value: 0x7F080105
-			public const int material_timepicker_cancel_button = 2131230981;
+			public const int material_textinput_timepicker = 2131230981;
 			
 			// aapt resource value: 0x7F080106
-			public const int material_timepicker_container = 2131230982;
+			public const int material_timepicker_cancel_button = 2131230982;
 			
 			// aapt resource value: 0x7F080107
-			public const int material_timepicker_edit_text = 2131230983;
+			public const int material_timepicker_container = 2131230983;
 			
 			// aapt resource value: 0x7F080108
-			public const int material_timepicker_mode_button = 2131230984;
+			public const int material_timepicker_edit_text = 2131230984;
 			
 			// aapt resource value: 0x7F080109
-			public const int material_timepicker_ok_button = 2131230985;
+			public const int material_timepicker_mode_button = 2131230985;
 			
 			// aapt resource value: 0x7F08010A
-			public const int material_timepicker_view = 2131230986;
+			public const int material_timepicker_ok_button = 2131230986;
 			
 			// aapt resource value: 0x7F08010B
-			public const int material_value_index = 2131230987;
+			public const int material_timepicker_view = 2131230987;
 			
 			// aapt resource value: 0x7F08010C
-			public const int media_actions = 2131230988;
+			public const int material_value_index = 2131230988;
 			
 			// aapt resource value: 0x7F08010D
-			public const int media_controller_compat_view_tag = 2131230989;
+			public const int media_actions = 2131230989;
 			
 			// aapt resource value: 0x7F08010E
-			public const int message = 2131230990;
+			public const int media_controller_compat_view_tag = 2131230990;
+			
+			// aapt resource value: 0x7F08010F
+			public const int message = 2131230991;
 			
 			// aapt resource value: 0x7F080005
 			public const int META = 2131230725;
 			
-			// aapt resource value: 0x7F08010F
-			public const int middle = 2131230991;
-			
 			// aapt resource value: 0x7F080110
-			public const int mini = 2131230992;
+			public const int middle = 2131230992;
 			
 			// aapt resource value: 0x7F080111
-			public const int month_grid = 2131230993;
+			public const int mini = 2131230993;
 			
 			// aapt resource value: 0x7F080112
-			public const int month_navigation_bar = 2131230994;
+			public const int month_grid = 2131230994;
 			
 			// aapt resource value: 0x7F080113
-			public const int month_navigation_fragment_toggle = 2131230995;
+			public const int month_navigation_bar = 2131230995;
 			
 			// aapt resource value: 0x7F080114
-			public const int month_navigation_next = 2131230996;
+			public const int month_navigation_fragment_toggle = 2131230996;
 			
 			// aapt resource value: 0x7F080115
-			public const int month_navigation_previous = 2131230997;
+			public const int month_navigation_next = 2131230997;
 			
 			// aapt resource value: 0x7F080116
-			public const int month_title = 2131230998;
+			public const int month_navigation_previous = 2131230998;
 			
 			// aapt resource value: 0x7F080117
-			public const int motion_base = 2131230999;
+			public const int month_title = 2131230999;
 			
 			// aapt resource value: 0x7F080118
-			public const int mtrl_anchor_parent = 2131231000;
-			
-			// aapt resource value: 0x7F08011A
-			public const int mtrl_calendar_days_of_week = 2131231002;
+			public const int motion_base = 2131231000;
 			
 			// aapt resource value: 0x7F080119
-			public const int mtrl_calendar_day_selector_frame = 2131231001;
+			public const int mtrl_anchor_parent = 2131231001;
 			
 			// aapt resource value: 0x7F08011B
-			public const int mtrl_calendar_frame = 2131231003;
+			public const int mtrl_calendar_days_of_week = 2131231003;
+			
+			// aapt resource value: 0x7F08011A
+			public const int mtrl_calendar_day_selector_frame = 2131231002;
 			
 			// aapt resource value: 0x7F08011C
-			public const int mtrl_calendar_main_pane = 2131231004;
+			public const int mtrl_calendar_frame = 2131231004;
 			
 			// aapt resource value: 0x7F08011D
-			public const int mtrl_calendar_months = 2131231005;
+			public const int mtrl_calendar_main_pane = 2131231005;
 			
 			// aapt resource value: 0x7F08011E
-			public const int mtrl_calendar_selection_frame = 2131231006;
+			public const int mtrl_calendar_months = 2131231006;
 			
 			// aapt resource value: 0x7F08011F
-			public const int mtrl_calendar_text_input_frame = 2131231007;
+			public const int mtrl_calendar_selection_frame = 2131231007;
 			
 			// aapt resource value: 0x7F080120
-			public const int mtrl_calendar_year_selector_frame = 2131231008;
+			public const int mtrl_calendar_text_input_frame = 2131231008;
 			
 			// aapt resource value: 0x7F080121
-			public const int mtrl_card_checked_layer_id = 2131231009;
+			public const int mtrl_calendar_year_selector_frame = 2131231009;
 			
 			// aapt resource value: 0x7F080122
-			public const int mtrl_child_content_container = 2131231010;
+			public const int mtrl_card_checked_layer_id = 2131231010;
 			
 			// aapt resource value: 0x7F080123
-			public const int mtrl_internal_children_alpha_tag = 2131231011;
+			public const int mtrl_child_content_container = 2131231011;
 			
 			// aapt resource value: 0x7F080124
-			public const int mtrl_motion_snapshot_view = 2131231012;
+			public const int mtrl_internal_children_alpha_tag = 2131231012;
 			
 			// aapt resource value: 0x7F080125
-			public const int mtrl_picker_fullscreen = 2131231013;
+			public const int mtrl_motion_snapshot_view = 2131231013;
 			
 			// aapt resource value: 0x7F080126
-			public const int mtrl_picker_header = 2131231014;
+			public const int mtrl_picker_fullscreen = 2131231014;
 			
 			// aapt resource value: 0x7F080127
-			public const int mtrl_picker_header_selection_text = 2131231015;
+			public const int mtrl_picker_header = 2131231015;
 			
 			// aapt resource value: 0x7F080128
-			public const int mtrl_picker_header_title_and_selection = 2131231016;
+			public const int mtrl_picker_header_selection_text = 2131231016;
 			
 			// aapt resource value: 0x7F080129
-			public const int mtrl_picker_header_toggle = 2131231017;
+			public const int mtrl_picker_header_title_and_selection = 2131231017;
 			
 			// aapt resource value: 0x7F08012A
-			public const int mtrl_picker_text_input_date = 2131231018;
+			public const int mtrl_picker_header_toggle = 2131231018;
 			
 			// aapt resource value: 0x7F08012B
-			public const int mtrl_picker_text_input_range_end = 2131231019;
+			public const int mtrl_picker_text_input_date = 2131231019;
 			
 			// aapt resource value: 0x7F08012C
-			public const int mtrl_picker_text_input_range_start = 2131231020;
+			public const int mtrl_picker_text_input_range_end = 2131231020;
 			
 			// aapt resource value: 0x7F08012D
-			public const int mtrl_picker_title_text = 2131231021;
+			public const int mtrl_picker_text_input_range_start = 2131231021;
 			
 			// aapt resource value: 0x7F08012E
-			public const int mtrl_view_tag_bottom_padding = 2131231022;
+			public const int mtrl_picker_title_text = 2131231022;
 			
 			// aapt resource value: 0x7F08012F
-			public const int multiply = 2131231023;
-			
-			// aapt resource value: 0x7F080131
-			public const int navigation_bar_item_icon_view = 2131231025;
-			
-			// aapt resource value: 0x7F080132
-			public const int navigation_bar_item_labels_group = 2131231026;
-			
-			// aapt resource value: 0x7F080133
-			public const int navigation_bar_item_large_label_view = 2131231027;
-			
-			// aapt resource value: 0x7F080134
-			public const int navigation_bar_item_small_label_view = 2131231028;
-			
-			// aapt resource value: 0x7F080135
-			public const int navigation_header_container = 2131231029;
+			public const int mtrl_view_tag_bottom_padding = 2131231023;
 			
 			// aapt resource value: 0x7F080130
-			public const int nav_controller_view_tag = 2131231024;
+			public const int multiply = 2131231024;
+			
+			// aapt resource value: 0x7F080132
+			public const int navigation_bar_item_icon_view = 2131231026;
+			
+			// aapt resource value: 0x7F080133
+			public const int navigation_bar_item_labels_group = 2131231027;
+			
+			// aapt resource value: 0x7F080134
+			public const int navigation_bar_item_large_label_view = 2131231028;
+			
+			// aapt resource value: 0x7F080135
+			public const int navigation_bar_item_small_label_view = 2131231029;
 			
 			// aapt resource value: 0x7F080136
-			public const int never = 2131231030;
+			public const int navigation_header_container = 2131231030;
+			
+			// aapt resource value: 0x7F080131
+			public const int nav_controller_view_tag = 2131231025;
 			
 			// aapt resource value: 0x7F080137
-			public const int neverCompleteToEnd = 2131231031;
+			public const int never = 2131231031;
 			
 			// aapt resource value: 0x7F080138
-			public const int neverCompleteToStart = 2131231032;
-			
-			// aapt resource value: 0x7F08013B
-			public const int none = 2131231035;
-			
-			// aapt resource value: 0x7F08013C
-			public const int normal = 2131231036;
-			
-			// aapt resource value: 0x7F08013D
-			public const int north = 2131231037;
+			public const int neverCompleteToEnd = 2131231032;
 			
 			// aapt resource value: 0x7F080139
-			public const int noScroll = 2131231033;
+			public const int neverCompleteToStart = 2131231033;
 			
-			// aapt resource value: 0x7F08013A
-			public const int noState = 2131231034;
+			// aapt resource value: 0x7F08013C
+			public const int none = 2131231036;
+			
+			// aapt resource value: 0x7F08013D
+			public const int normal = 2131231037;
 			
 			// aapt resource value: 0x7F08013E
-			public const int notification_background = 2131231038;
+			public const int north = 2131231038;
+			
+			// aapt resource value: 0x7F08013A
+			public const int noScroll = 2131231034;
+			
+			// aapt resource value: 0x7F08013B
+			public const int noState = 2131231035;
 			
 			// aapt resource value: 0x7F08013F
-			public const int notification_main_column = 2131231039;
+			public const int notification_background = 2131231039;
 			
 			// aapt resource value: 0x7F080140
-			public const int notification_main_column_container = 2131231040;
+			public const int notification_main_column = 2131231040;
+			
+			// aapt resource value: 0x7F080141
+			public const int notification_main_column_container = 2131231041;
 			
 			// aapt resource value: 0x7F080006
 			public const int NO_DEBUG = 2131230726;
 			
-			// aapt resource value: 0x7F080141
-			public const int off = 2131231041;
-			
 			// aapt resource value: 0x7F080142
-			public const int on = 2131231042;
+			public const int off = 2131231042;
 			
 			// aapt resource value: 0x7F080143
-			public const int outline = 2131231043;
+			public const int on = 2131231043;
 			
 			// aapt resource value: 0x7F080144
-			public const int outward = 2131231044;
+			public const int outline = 2131231044;
 			
 			// aapt resource value: 0x7F080145
-			public const int overshoot = 2131231045;
+			public const int outward = 2131231045;
 			
 			// aapt resource value: 0x7F080146
-			public const int packed = 2131231046;
+			public const int overshoot = 2131231046;
 			
 			// aapt resource value: 0x7F080147
-			public const int parallax = 2131231047;
+			public const int packed = 2131231047;
 			
 			// aapt resource value: 0x7F080148
-			public const int parent = 2131231048;
+			public const int parallax = 2131231048;
 			
 			// aapt resource value: 0x7F080149
-			public const int parentPanel = 2131231049;
+			public const int parent = 2131231049;
 			
 			// aapt resource value: 0x7F08014A
-			public const int parentRelative = 2131231050;
+			public const int parentPanel = 2131231050;
 			
 			// aapt resource value: 0x7F08014B
-			public const int parent_matrix = 2131231051;
+			public const int parentRelative = 2131231051;
 			
 			// aapt resource value: 0x7F08014C
-			public const int password_toggle = 2131231052;
+			public const int parent_matrix = 2131231052;
 			
 			// aapt resource value: 0x7F08014D
-			public const int path = 2131231053;
+			public const int password_toggle = 2131231053;
 			
 			// aapt resource value: 0x7F08014E
-			public const int pathRelative = 2131231054;
+			public const int path = 2131231054;
 			
 			// aapt resource value: 0x7F08014F
-			public const int peekHeight = 2131231055;
+			public const int pathRelative = 2131231055;
 			
 			// aapt resource value: 0x7F080150
-			public const int percent = 2131231056;
+			public const int peekHeight = 2131231056;
 			
 			// aapt resource value: 0x7F080151
-			public const int pin = 2131231057;
+			public const int percent = 2131231057;
 			
 			// aapt resource value: 0x7F080152
-			public const int position = 2131231058;
+			public const int pin = 2131231058;
 			
 			// aapt resource value: 0x7F080153
-			public const int postLayout = 2131231059;
+			public const int position = 2131231059;
 			
 			// aapt resource value: 0x7F080154
-			public const int progress_circular = 2131231060;
+			public const int postLayout = 2131231060;
 			
 			// aapt resource value: 0x7F080155
-			public const int progress_horizontal = 2131231061;
+			public const int progress_circular = 2131231061;
 			
 			// aapt resource value: 0x7F080156
-			public const int radio = 2131231062;
+			public const int progress_horizontal = 2131231062;
 			
 			// aapt resource value: 0x7F080157
-			public const int ratio = 2131231063;
+			public const int radio = 2131231063;
 			
 			// aapt resource value: 0x7F080158
-			public const int rectangles = 2131231064;
+			public const int ratio = 2131231064;
 			
 			// aapt resource value: 0x7F080159
-			public const int recycler_view = 2131231065;
+			public const int rectangles = 2131231065;
 			
 			// aapt resource value: 0x7F08015A
-			public const int reverseSawtooth = 2131231066;
+			public const int recycler_view = 2131231066;
 			
 			// aapt resource value: 0x7F08015B
-			public const int right = 2131231067;
+			public const int reverseSawtooth = 2131231067;
 			
 			// aapt resource value: 0x7F08015C
-			public const int rightToLeft = 2131231068;
+			public const int right = 2131231068;
 			
 			// aapt resource value: 0x7F08015D
-			public const int right_icon = 2131231069;
+			public const int rightToLeft = 2131231069;
 			
 			// aapt resource value: 0x7F08015E
-			public const int right_side = 2131231070;
+			public const int right_icon = 2131231070;
 			
 			// aapt resource value: 0x7F08015F
-			public const int rounded = 2131231071;
+			public const int right_side = 2131231071;
 			
 			// aapt resource value: 0x7F080160
-			public const int row_index_key = 2131231072;
+			public const int rounded = 2131231072;
 			
 			// aapt resource value: 0x7F080161
-			public const int save_non_transition_alpha = 2131231073;
+			public const int row_index_key = 2131231073;
 			
 			// aapt resource value: 0x7F080162
-			public const int save_overlay_view = 2131231074;
+			public const int save_non_transition_alpha = 2131231074;
 			
 			// aapt resource value: 0x7F080163
-			public const int sawtooth = 2131231075;
+			public const int save_overlay_view = 2131231075;
 			
 			// aapt resource value: 0x7F080164
-			public const int scale = 2131231076;
+			public const int sawtooth = 2131231076;
 			
 			// aapt resource value: 0x7F080165
-			public const int screen = 2131231077;
+			public const int scale = 2131231077;
 			
 			// aapt resource value: 0x7F080166
-			public const int scroll = 2131231078;
-			
-			// aapt resource value: 0x7F08016A
-			public const int scrollable = 2131231082;
+			public const int screen = 2131231078;
 			
 			// aapt resource value: 0x7F080167
-			public const int scrollIndicatorDown = 2131231079;
-			
-			// aapt resource value: 0x7F080168
-			public const int scrollIndicatorUp = 2131231080;
-			
-			// aapt resource value: 0x7F080169
-			public const int scrollView = 2131231081;
+			public const int scroll = 2131231079;
 			
 			// aapt resource value: 0x7F08016B
-			public const int search_badge = 2131231083;
+			public const int scrollable = 2131231083;
+			
+			// aapt resource value: 0x7F080168
+			public const int scrollIndicatorDown = 2131231080;
+			
+			// aapt resource value: 0x7F080169
+			public const int scrollIndicatorUp = 2131231081;
+			
+			// aapt resource value: 0x7F08016A
+			public const int scrollView = 2131231082;
 			
 			// aapt resource value: 0x7F08016C
-			public const int search_bar = 2131231084;
+			public const int search_badge = 2131231084;
 			
 			// aapt resource value: 0x7F08016D
-			public const int search_button = 2131231085;
+			public const int search_bar = 2131231085;
 			
 			// aapt resource value: 0x7F08016E
-			public const int search_close_btn = 2131231086;
+			public const int search_button = 2131231086;
 			
 			// aapt resource value: 0x7F08016F
-			public const int search_edit_frame = 2131231087;
+			public const int search_close_btn = 2131231087;
 			
 			// aapt resource value: 0x7F080170
-			public const int search_go_btn = 2131231088;
+			public const int search_edit_frame = 2131231088;
 			
 			// aapt resource value: 0x7F080171
-			public const int search_mag_icon = 2131231089;
+			public const int search_go_btn = 2131231089;
 			
 			// aapt resource value: 0x7F080172
-			public const int search_plate = 2131231090;
+			public const int search_mag_icon = 2131231090;
 			
 			// aapt resource value: 0x7F080173
-			public const int search_src_text = 2131231091;
+			public const int search_plate = 2131231091;
 			
 			// aapt resource value: 0x7F080174
-			public const int search_voice_btn = 2131231092;
+			public const int search_src_text = 2131231092;
 			
 			// aapt resource value: 0x7F080175
-			public const int seekbar = 2131231093;
+			public const int search_voice_btn = 2131231093;
 			
 			// aapt resource value: 0x7F080176
-			public const int seekbar_value = 2131231094;
-			
-			// aapt resource value: 0x7F080178
-			public const int selected = 2131231096;
-			
-			// aapt resource value: 0x7F080179
-			public const int selection_type = 2131231097;
+			public const int seekbar = 2131231094;
 			
 			// aapt resource value: 0x7F080177
-			public const int select_dialog_listview = 2131231095;
+			public const int seekbar_value = 2131231095;
+			
+			// aapt resource value: 0x7F080179
+			public const int selected = 2131231097;
 			
 			// aapt resource value: 0x7F08017A
-			public const int sharedValueSet = 2131231098;
+			public const int selection_type = 2131231098;
+			
+			// aapt resource value: 0x7F080178
+			public const int select_dialog_listview = 2131231096;
 			
 			// aapt resource value: 0x7F08017B
-			public const int sharedValueUnset = 2131231099;
+			public const int sharedValueSet = 2131231099;
 			
 			// aapt resource value: 0x7F08017C
-			public const int shellcontent_appbar = 2131231100;
+			public const int sharedValueUnset = 2131231100;
 			
 			// aapt resource value: 0x7F08017D
-			public const int shellcontent_toolbar = 2131231101;
+			public const int shellcontent_appbar = 2131231101;
+			
+			// aapt resource value: 0x7F08017E
+			public const int shellcontent_toolbar = 2131231102;
 			
 			// aapt resource value: 0x7F080007
 			public const int SHIFT = 2131230727;
 			
-			// aapt resource value: 0x7F08017E
-			public const int shortcut = 2131231102;
-			
 			// aapt resource value: 0x7F08017F
-			public const int showCustom = 2131231103;
+			public const int shortcut = 2131231103;
 			
 			// aapt resource value: 0x7F080180
-			public const int showHome = 2131231104;
+			public const int showCustom = 2131231104;
 			
 			// aapt resource value: 0x7F080181
-			public const int showTitle = 2131231105;
+			public const int showHome = 2131231105;
+			
+			// aapt resource value: 0x7F080182
+			public const int showTitle = 2131231106;
 			
 			// aapt resource value: 0x7F080008
 			public const int SHOW_ALL = 2131230728;
@@ -17837,242 +23412,242 @@ namespace AppPSOne.Droid
 			// aapt resource value: 0x7F08000A
 			public const int SHOW_PROGRESS = 2131230730;
 			
-			// aapt resource value: 0x7F080182
-			public const int sin = 2131231106;
-			
 			// aapt resource value: 0x7F080183
-			public const int skipCollapsed = 2131231107;
+			public const int sin = 2131231107;
 			
 			// aapt resource value: 0x7F080184
-			public const int skipped = 2131231108;
+			public const int skipCollapsed = 2131231108;
 			
 			// aapt resource value: 0x7F080185
-			public const int slide = 2131231109;
+			public const int skipped = 2131231109;
 			
 			// aapt resource value: 0x7F080186
-			public const int sliding_tabs = 2131231110;
+			public const int slide = 2131231110;
 			
 			// aapt resource value: 0x7F080187
-			public const int snackbar_action = 2131231111;
+			public const int sliding_tabs = 2131231111;
 			
 			// aapt resource value: 0x7F080188
-			public const int snackbar_text = 2131231112;
+			public const int snackbar_action = 2131231112;
 			
 			// aapt resource value: 0x7F080189
-			public const int snap = 2131231113;
+			public const int snackbar_text = 2131231113;
 			
 			// aapt resource value: 0x7F08018A
-			public const int snapMargins = 2131231114;
+			public const int snap = 2131231114;
 			
 			// aapt resource value: 0x7F08018B
-			public const int south = 2131231115;
+			public const int snapMargins = 2131231115;
 			
 			// aapt resource value: 0x7F08018C
-			public const int spacer = 2131231116;
+			public const int south = 2131231116;
 			
 			// aapt resource value: 0x7F08018D
-			public const int special_effects_controller_view_tag = 2131231117;
+			public const int spacer = 2131231117;
 			
 			// aapt resource value: 0x7F08018E
-			public const int spinner = 2131231118;
+			public const int special_effects_controller_view_tag = 2131231118;
 			
 			// aapt resource value: 0x7F08018F
-			public const int spline = 2131231119;
+			public const int spinner = 2131231119;
 			
 			// aapt resource value: 0x7F080190
-			public const int split_action_bar = 2131231120;
+			public const int spline = 2131231120;
 			
 			// aapt resource value: 0x7F080191
-			public const int spread = 2131231121;
+			public const int split_action_bar = 2131231121;
 			
 			// aapt resource value: 0x7F080192
-			public const int spread_inside = 2131231122;
+			public const int spread = 2131231122;
 			
 			// aapt resource value: 0x7F080193
-			public const int spring = 2131231123;
+			public const int spread_inside = 2131231123;
 			
 			// aapt resource value: 0x7F080194
-			public const int square = 2131231124;
+			public const int spring = 2131231124;
 			
 			// aapt resource value: 0x7F080195
-			public const int src_atop = 2131231125;
+			public const int square = 2131231125;
 			
 			// aapt resource value: 0x7F080196
-			public const int src_in = 2131231126;
+			public const int src_atop = 2131231126;
 			
 			// aapt resource value: 0x7F080197
-			public const int src_over = 2131231127;
+			public const int src_in = 2131231127;
 			
 			// aapt resource value: 0x7F080198
-			public const int standard = 2131231128;
+			public const int src_over = 2131231128;
 			
 			// aapt resource value: 0x7F080199
-			public const int start = 2131231129;
+			public const int standard = 2131231129;
 			
 			// aapt resource value: 0x7F08019A
-			public const int startHorizontal = 2131231130;
+			public const int start = 2131231130;
 			
 			// aapt resource value: 0x7F08019B
-			public const int startToEnd = 2131231131;
+			public const int startHorizontal = 2131231131;
 			
 			// aapt resource value: 0x7F08019C
-			public const int startVertical = 2131231132;
+			public const int startToEnd = 2131231132;
 			
 			// aapt resource value: 0x7F08019D
-			public const int staticLayout = 2131231133;
+			public const int startVertical = 2131231133;
 			
 			// aapt resource value: 0x7F08019E
-			public const int staticPostLayout = 2131231134;
+			public const int staticLayout = 2131231134;
 			
 			// aapt resource value: 0x7F08019F
-			public const int status_bar_latest_event_content = 2131231135;
+			public const int staticPostLayout = 2131231135;
 			
 			// aapt resource value: 0x7F0801A0
-			public const int stop = 2131231136;
+			public const int status_bar_latest_event_content = 2131231136;
 			
 			// aapt resource value: 0x7F0801A1
-			public const int stretch = 2131231137;
+			public const int stop = 2131231137;
 			
 			// aapt resource value: 0x7F0801A2
-			public const int submenuarrow = 2131231138;
+			public const int stretch = 2131231138;
 			
 			// aapt resource value: 0x7F0801A3
-			public const int submit_area = 2131231139;
+			public const int submenuarrow = 2131231139;
 			
 			// aapt resource value: 0x7F0801A4
-			public const int supportScrollUp = 2131231140;
+			public const int submit_area = 2131231140;
 			
 			// aapt resource value: 0x7F0801A5
-			public const int switchWidget = 2131231141;
+			public const int supportScrollUp = 2131231141;
+			
+			// aapt resource value: 0x7F0801A6
+			public const int switchWidget = 2131231142;
 			
 			// aapt resource value: 0x7F08000B
 			public const int SYM = 2131230731;
 			
-			// aapt resource value: 0x7F0801A6
-			public const int tabMode = 2131231142;
-			
 			// aapt resource value: 0x7F0801A7
-			public const int tag_accessibility_actions = 2131231143;
+			public const int tabMode = 2131231143;
 			
 			// aapt resource value: 0x7F0801A8
-			public const int tag_accessibility_clickable_spans = 2131231144;
+			public const int tag_accessibility_actions = 2131231144;
 			
 			// aapt resource value: 0x7F0801A9
-			public const int tag_accessibility_heading = 2131231145;
+			public const int tag_accessibility_clickable_spans = 2131231145;
 			
 			// aapt resource value: 0x7F0801AA
-			public const int tag_accessibility_pane_title = 2131231146;
+			public const int tag_accessibility_heading = 2131231146;
 			
 			// aapt resource value: 0x7F0801AB
-			public const int tag_on_apply_window_listener = 2131231147;
+			public const int tag_accessibility_pane_title = 2131231147;
 			
 			// aapt resource value: 0x7F0801AC
-			public const int tag_on_receive_content_listener = 2131231148;
+			public const int tag_on_apply_window_listener = 2131231148;
 			
 			// aapt resource value: 0x7F0801AD
-			public const int tag_on_receive_content_mime_types = 2131231149;
+			public const int tag_on_receive_content_listener = 2131231149;
 			
 			// aapt resource value: 0x7F0801AE
-			public const int tag_screen_reader_focusable = 2131231150;
+			public const int tag_on_receive_content_mime_types = 2131231150;
 			
 			// aapt resource value: 0x7F0801AF
-			public const int tag_state_description = 2131231151;
+			public const int tag_screen_reader_focusable = 2131231151;
 			
 			// aapt resource value: 0x7F0801B0
-			public const int tag_transition_group = 2131231152;
+			public const int tag_state_description = 2131231152;
 			
 			// aapt resource value: 0x7F0801B1
-			public const int tag_unhandled_key_event_manager = 2131231153;
+			public const int tag_transition_group = 2131231153;
 			
 			// aapt resource value: 0x7F0801B2
-			public const int tag_unhandled_key_listeners = 2131231154;
+			public const int tag_unhandled_key_event_manager = 2131231154;
 			
 			// aapt resource value: 0x7F0801B3
-			public const int tag_window_insets_animation_callback = 2131231155;
+			public const int tag_unhandled_key_listeners = 2131231155;
 			
 			// aapt resource value: 0x7F0801B4
-			public const int test_checkbox_android_button_tint = 2131231156;
+			public const int tag_window_insets_animation_callback = 2131231156;
 			
 			// aapt resource value: 0x7F0801B5
-			public const int test_checkbox_app_button_tint = 2131231157;
+			public const int test_checkbox_android_button_tint = 2131231157;
 			
 			// aapt resource value: 0x7F0801B6
-			public const int test_radiobutton_android_button_tint = 2131231158;
+			public const int test_checkbox_app_button_tint = 2131231158;
 			
 			// aapt resource value: 0x7F0801B7
-			public const int test_radiobutton_app_button_tint = 2131231159;
+			public const int test_radiobutton_android_button_tint = 2131231159;
 			
 			// aapt resource value: 0x7F0801B8
-			public const int text = 2131231160;
+			public const int test_radiobutton_app_button_tint = 2131231160;
 			
 			// aapt resource value: 0x7F0801B9
-			public const int text2 = 2131231161;
+			public const int text = 2131231161;
 			
 			// aapt resource value: 0x7F0801BA
-			public const int textEnd = 2131231162;
-			
-			// aapt resource value: 0x7F0801C2
-			public const int textinput_counter = 2131231170;
-			
-			// aapt resource value: 0x7F0801C3
-			public const int textinput_error = 2131231171;
-			
-			// aapt resource value: 0x7F0801C4
-			public const int textinput_helper_text = 2131231172;
-			
-			// aapt resource value: 0x7F0801C5
-			public const int textinput_placeholder = 2131231173;
-			
-			// aapt resource value: 0x7F0801C6
-			public const int textinput_prefix_text = 2131231174;
-			
-			// aapt resource value: 0x7F0801C7
-			public const int textinput_suffix_text = 2131231175;
+			public const int text2 = 2131231162;
 			
 			// aapt resource value: 0x7F0801BB
-			public const int textSpacerNoButtons = 2131231163;
+			public const int textEnd = 2131231163;
 			
-			// aapt resource value: 0x7F0801BC
-			public const int textSpacerNoTitle = 2131231164;
+			// aapt resource value: 0x7F0801C3
+			public const int textinput_counter = 2131231171;
 			
-			// aapt resource value: 0x7F0801BD
-			public const int textStart = 2131231165;
+			// aapt resource value: 0x7F0801C4
+			public const int textinput_error = 2131231172;
 			
-			// aapt resource value: 0x7F0801BE
-			public const int textTop = 2131231166;
+			// aapt resource value: 0x7F0801C5
+			public const int textinput_helper_text = 2131231173;
 			
-			// aapt resource value: 0x7F0801BF
-			public const int text_input_end_icon = 2131231167;
+			// aapt resource value: 0x7F0801C6
+			public const int textinput_placeholder = 2131231174;
 			
-			// aapt resource value: 0x7F0801C0
-			public const int text_input_error_icon = 2131231168;
-			
-			// aapt resource value: 0x7F0801C1
-			public const int text_input_start_icon = 2131231169;
+			// aapt resource value: 0x7F0801C7
+			public const int textinput_prefix_text = 2131231175;
 			
 			// aapt resource value: 0x7F0801C8
-			public const int time = 2131231176;
+			public const int textinput_suffix_text = 2131231176;
+			
+			// aapt resource value: 0x7F0801BC
+			public const int textSpacerNoButtons = 2131231164;
+			
+			// aapt resource value: 0x7F0801BD
+			public const int textSpacerNoTitle = 2131231165;
+			
+			// aapt resource value: 0x7F0801BE
+			public const int textStart = 2131231166;
+			
+			// aapt resource value: 0x7F0801BF
+			public const int textTop = 2131231167;
+			
+			// aapt resource value: 0x7F0801C0
+			public const int text_input_end_icon = 2131231168;
+			
+			// aapt resource value: 0x7F0801C1
+			public const int text_input_error_icon = 2131231169;
+			
+			// aapt resource value: 0x7F0801C2
+			public const int text_input_start_icon = 2131231170;
 			
 			// aapt resource value: 0x7F0801C9
-			public const int title = 2131231177;
+			public const int time = 2131231177;
 			
 			// aapt resource value: 0x7F0801CA
-			public const int titleDividerNoCustom = 2131231178;
+			public const int title = 2131231178;
 			
 			// aapt resource value: 0x7F0801CB
-			public const int title_template = 2131231179;
+			public const int titleDividerNoCustom = 2131231179;
 			
 			// aapt resource value: 0x7F0801CC
-			public const int toggle = 2131231180;
+			public const int title_template = 2131231180;
 			
 			// aapt resource value: 0x7F0801CD
-			public const int toolbar = 2131231181;
+			public const int toggle = 2131231181;
 			
 			// aapt resource value: 0x7F0801CE
-			public const int top = 2131231182;
+			public const int toolbar = 2131231182;
 			
 			// aapt resource value: 0x7F0801CF
-			public const int topPanel = 2131231183;
+			public const int top = 2131231183;
+			
+			// aapt resource value: 0x7F0801D0
+			public const int topPanel = 2131231184;
 			
 			// aapt resource value: 0x7F08000C
 			public const int TOP_END = 2131230732;
@@ -18080,98 +23655,98 @@ namespace AppPSOne.Droid
 			// aapt resource value: 0x7F08000D
 			public const int TOP_START = 2131230733;
 			
-			// aapt resource value: 0x7F0801D0
-			public const int touch_outside = 2131231184;
-			
 			// aapt resource value: 0x7F0801D1
-			public const int transitionToEnd = 2131231185;
+			public const int touch_outside = 2131231185;
 			
 			// aapt resource value: 0x7F0801D2
-			public const int transitionToStart = 2131231186;
+			public const int transitionToEnd = 2131231186;
 			
 			// aapt resource value: 0x7F0801D3
-			public const int transition_current_scene = 2131231187;
+			public const int transitionToStart = 2131231187;
 			
 			// aapt resource value: 0x7F0801D4
-			public const int transition_layout_save = 2131231188;
+			public const int transition_current_scene = 2131231188;
 			
 			// aapt resource value: 0x7F0801D5
-			public const int transition_position = 2131231189;
+			public const int transition_layout_save = 2131231189;
 			
 			// aapt resource value: 0x7F0801D6
-			public const int transition_scene_layoutid_cache = 2131231190;
+			public const int transition_position = 2131231190;
 			
 			// aapt resource value: 0x7F0801D7
-			public const int transition_transform = 2131231191;
+			public const int transition_scene_layoutid_cache = 2131231191;
 			
 			// aapt resource value: 0x7F0801D8
-			public const int triangle = 2131231192;
+			public const int transition_transform = 2131231192;
 			
 			// aapt resource value: 0x7F0801D9
-			public const int @unchecked = 2131231193;
+			public const int triangle = 2131231193;
 			
 			// aapt resource value: 0x7F0801DA
-			public const int uniform = 2131231194;
+			public const int @unchecked = 2131231194;
 			
 			// aapt resource value: 0x7F0801DB
-			public const int unlabeled = 2131231195;
+			public const int uniform = 2131231195;
 			
 			// aapt resource value: 0x7F0801DC
-			public const int up = 2131231196;
+			public const int unlabeled = 2131231196;
 			
 			// aapt resource value: 0x7F0801DD
-			public const int useLogo = 2131231197;
+			public const int up = 2131231197;
 			
 			// aapt resource value: 0x7F0801DE
-			public const int vertical_only = 2131231198;
+			public const int useLogo = 2131231198;
 			
 			// aapt resource value: 0x7F0801DF
-			public const int view_offset_helper = 2131231199;
+			public const int vertical_only = 2131231199;
 			
 			// aapt resource value: 0x7F0801E0
-			public const int view_transition = 2131231200;
+			public const int view_offset_helper = 2131231200;
 			
 			// aapt resource value: 0x7F0801E1
-			public const int view_tree_lifecycle_owner = 2131231201;
+			public const int view_transition = 2131231201;
 			
 			// aapt resource value: 0x7F0801E2
-			public const int view_tree_saved_state_registry_owner = 2131231202;
+			public const int view_tree_lifecycle_owner = 2131231202;
 			
 			// aapt resource value: 0x7F0801E3
-			public const int view_tree_view_model_store_owner = 2131231203;
+			public const int view_tree_saved_state_registry_owner = 2131231203;
 			
 			// aapt resource value: 0x7F0801E4
-			public const int visible = 2131231204;
+			public const int view_tree_view_model_store_owner = 2131231204;
 			
 			// aapt resource value: 0x7F0801E5
-			public const int visible_removing_fragment_view_tag = 2131231205;
+			public const int visible = 2131231205;
 			
 			// aapt resource value: 0x7F0801E6
-			public const int west = 2131231206;
-			
-			// aapt resource value: 0x7F0801E8
-			public const int withinBounds = 2131231208;
+			public const int visible_removing_fragment_view_tag = 2131231206;
 			
 			// aapt resource value: 0x7F0801E7
-			public const int withText = 2131231207;
+			public const int west = 2131231207;
 			
 			// aapt resource value: 0x7F0801E9
-			public const int wrap = 2131231209;
+			public const int withinBounds = 2131231209;
+			
+			// aapt resource value: 0x7F0801E8
+			public const int withText = 2131231208;
 			
 			// aapt resource value: 0x7F0801EA
-			public const int wrap_content = 2131231210;
+			public const int wrap = 2131231210;
 			
 			// aapt resource value: 0x7F0801EB
-			public const int wrap_content_constrained = 2131231211;
+			public const int wrap_content = 2131231211;
 			
 			// aapt resource value: 0x7F0801EC
-			public const int x_left = 2131231212;
+			public const int wrap_content_constrained = 2131231212;
 			
 			// aapt resource value: 0x7F0801ED
-			public const int x_right = 2131231213;
+			public const int x_left = 2131231213;
 			
 			// aapt resource value: 0x7F0801EE
-			public const int zero_corner_chip = 2131231214;
+			public const int x_right = 2131231214;
+			
+			// aapt resource value: 0x7F0801EF
+			public const int zero_corner_chip = 2131231215;
 			
 			static Id()
 			{
@@ -18426,358 +24001,361 @@ namespace AppPSOne.Droid
 			public const int browser_actions_context_menu_row = 2131427358;
 			
 			// aapt resource value: 0x7F0B001F
-			public const int custom_dialog = 2131427359;
+			public const int CameraFragment = 2131427359;
 			
 			// aapt resource value: 0x7F0B0020
-			public const int design_bottom_navigation_item = 2131427360;
+			public const int custom_dialog = 2131427360;
 			
 			// aapt resource value: 0x7F0B0021
-			public const int design_bottom_sheet_dialog = 2131427361;
+			public const int design_bottom_navigation_item = 2131427361;
 			
 			// aapt resource value: 0x7F0B0022
-			public const int design_layout_snackbar = 2131427362;
+			public const int design_bottom_sheet_dialog = 2131427362;
 			
 			// aapt resource value: 0x7F0B0023
-			public const int design_layout_snackbar_include = 2131427363;
+			public const int design_layout_snackbar = 2131427363;
 			
 			// aapt resource value: 0x7F0B0024
-			public const int design_layout_tab_icon = 2131427364;
+			public const int design_layout_snackbar_include = 2131427364;
 			
 			// aapt resource value: 0x7F0B0025
-			public const int design_layout_tab_text = 2131427365;
+			public const int design_layout_tab_icon = 2131427365;
 			
 			// aapt resource value: 0x7F0B0026
-			public const int design_menu_item_action_area = 2131427366;
+			public const int design_layout_tab_text = 2131427366;
 			
 			// aapt resource value: 0x7F0B0027
-			public const int design_navigation_item = 2131427367;
+			public const int design_menu_item_action_area = 2131427367;
 			
 			// aapt resource value: 0x7F0B0028
-			public const int design_navigation_item_header = 2131427368;
+			public const int design_navigation_item = 2131427368;
 			
 			// aapt resource value: 0x7F0B0029
-			public const int design_navigation_item_separator = 2131427369;
+			public const int design_navigation_item_header = 2131427369;
 			
 			// aapt resource value: 0x7F0B002A
-			public const int design_navigation_item_subheader = 2131427370;
+			public const int design_navigation_item_separator = 2131427370;
 			
 			// aapt resource value: 0x7F0B002B
-			public const int design_navigation_menu = 2131427371;
+			public const int design_navigation_item_subheader = 2131427371;
 			
 			// aapt resource value: 0x7F0B002C
-			public const int design_navigation_menu_item = 2131427372;
+			public const int design_navigation_menu = 2131427372;
 			
 			// aapt resource value: 0x7F0B002D
-			public const int design_text_input_end_icon = 2131427373;
+			public const int design_navigation_menu_item = 2131427373;
 			
 			// aapt resource value: 0x7F0B002E
-			public const int design_text_input_start_icon = 2131427374;
+			public const int design_text_input_end_icon = 2131427374;
 			
 			// aapt resource value: 0x7F0B002F
-			public const int expand_button = 2131427375;
+			public const int design_text_input_start_icon = 2131427375;
 			
 			// aapt resource value: 0x7F0B0030
-			public const int FallbackTabbarDoNotUse = 2131427376;
+			public const int expand_button = 2131427376;
 			
 			// aapt resource value: 0x7F0B0031
-			public const int FallbackToolbarDoNotUse = 2131427377;
+			public const int FallbackTabbarDoNotUse = 2131427377;
 			
 			// aapt resource value: 0x7F0B0032
-			public const int FlyoutContent = 2131427378;
+			public const int FallbackToolbarDoNotUse = 2131427378;
 			
 			// aapt resource value: 0x7F0B0033
-			public const int image_frame = 2131427379;
+			public const int FlyoutContent = 2131427379;
 			
 			// aapt resource value: 0x7F0B0034
-			public const int material_chip_input_combo = 2131427380;
-			
-			// aapt resource value: 0x7F0B0039
-			public const int material_clockface_textview = 2131427385;
-			
-			// aapt resource value: 0x7F0B003A
-			public const int material_clockface_view = 2131427386;
+			public const int image_frame = 2131427380;
 			
 			// aapt resource value: 0x7F0B0035
-			public const int material_clock_display = 2131427381;
+			public const int material_chip_input_combo = 2131427381;
 			
-			// aapt resource value: 0x7F0B0036
-			public const int material_clock_display_divider = 2131427382;
-			
-			// aapt resource value: 0x7F0B0037
-			public const int material_clock_period_toggle = 2131427383;
-			
-			// aapt resource value: 0x7F0B0038
-			public const int material_clock_period_toggle_land = 2131427384;
+			// aapt resource value: 0x7F0B003A
+			public const int material_clockface_textview = 2131427386;
 			
 			// aapt resource value: 0x7F0B003B
-			public const int material_radial_view_group = 2131427387;
+			public const int material_clockface_view = 2131427387;
+			
+			// aapt resource value: 0x7F0B0036
+			public const int material_clock_display = 2131427382;
+			
+			// aapt resource value: 0x7F0B0037
+			public const int material_clock_display_divider = 2131427383;
+			
+			// aapt resource value: 0x7F0B0038
+			public const int material_clock_period_toggle = 2131427384;
+			
+			// aapt resource value: 0x7F0B0039
+			public const int material_clock_period_toggle_land = 2131427385;
 			
 			// aapt resource value: 0x7F0B003C
-			public const int material_textinput_timepicker = 2131427388;
-			
-			// aapt resource value: 0x7F0B003F
-			public const int material_timepicker = 2131427391;
-			
-			// aapt resource value: 0x7F0B0040
-			public const int material_timepicker_dialog = 2131427392;
-			
-			// aapt resource value: 0x7F0B0041
-			public const int material_timepicker_textinput_display = 2131427393;
+			public const int material_radial_view_group = 2131427388;
 			
 			// aapt resource value: 0x7F0B003D
-			public const int material_time_chip = 2131427389;
+			public const int material_textinput_timepicker = 2131427389;
 			
-			// aapt resource value: 0x7F0B003E
-			public const int material_time_input = 2131427390;
+			// aapt resource value: 0x7F0B0040
+			public const int material_timepicker = 2131427392;
+			
+			// aapt resource value: 0x7F0B0041
+			public const int material_timepicker_dialog = 2131427393;
 			
 			// aapt resource value: 0x7F0B0042
-			public const int mtrl_alert_dialog = 2131427394;
+			public const int material_timepicker_textinput_display = 2131427394;
+			
+			// aapt resource value: 0x7F0B003E
+			public const int material_time_chip = 2131427390;
+			
+			// aapt resource value: 0x7F0B003F
+			public const int material_time_input = 2131427391;
 			
 			// aapt resource value: 0x7F0B0043
-			public const int mtrl_alert_dialog_actions = 2131427395;
+			public const int mtrl_alert_dialog = 2131427395;
 			
 			// aapt resource value: 0x7F0B0044
-			public const int mtrl_alert_dialog_title = 2131427396;
+			public const int mtrl_alert_dialog_actions = 2131427396;
 			
 			// aapt resource value: 0x7F0B0045
-			public const int mtrl_alert_select_dialog_item = 2131427397;
+			public const int mtrl_alert_dialog_title = 2131427397;
 			
 			// aapt resource value: 0x7F0B0046
-			public const int mtrl_alert_select_dialog_multichoice = 2131427398;
+			public const int mtrl_alert_select_dialog_item = 2131427398;
 			
 			// aapt resource value: 0x7F0B0047
-			public const int mtrl_alert_select_dialog_singlechoice = 2131427399;
+			public const int mtrl_alert_select_dialog_multichoice = 2131427399;
 			
 			// aapt resource value: 0x7F0B0048
-			public const int mtrl_calendar_day = 2131427400;
-			
-			// aapt resource value: 0x7F0B004A
-			public const int mtrl_calendar_days_of_week = 2131427402;
+			public const int mtrl_alert_select_dialog_singlechoice = 2131427400;
 			
 			// aapt resource value: 0x7F0B0049
-			public const int mtrl_calendar_day_of_week = 2131427401;
+			public const int mtrl_calendar_day = 2131427401;
 			
 			// aapt resource value: 0x7F0B004B
-			public const int mtrl_calendar_horizontal = 2131427403;
+			public const int mtrl_calendar_days_of_week = 2131427403;
+			
+			// aapt resource value: 0x7F0B004A
+			public const int mtrl_calendar_day_of_week = 2131427402;
 			
 			// aapt resource value: 0x7F0B004C
-			public const int mtrl_calendar_month = 2131427404;
-			
-			// aapt resource value: 0x7F0B004F
-			public const int mtrl_calendar_months = 2131427407;
+			public const int mtrl_calendar_horizontal = 2131427404;
 			
 			// aapt resource value: 0x7F0B004D
-			public const int mtrl_calendar_month_labeled = 2131427405;
-			
-			// aapt resource value: 0x7F0B004E
-			public const int mtrl_calendar_month_navigation = 2131427406;
+			public const int mtrl_calendar_month = 2131427405;
 			
 			// aapt resource value: 0x7F0B0050
-			public const int mtrl_calendar_vertical = 2131427408;
+			public const int mtrl_calendar_months = 2131427408;
+			
+			// aapt resource value: 0x7F0B004E
+			public const int mtrl_calendar_month_labeled = 2131427406;
+			
+			// aapt resource value: 0x7F0B004F
+			public const int mtrl_calendar_month_navigation = 2131427407;
 			
 			// aapt resource value: 0x7F0B0051
-			public const int mtrl_calendar_year = 2131427409;
+			public const int mtrl_calendar_vertical = 2131427409;
 			
 			// aapt resource value: 0x7F0B0052
-			public const int mtrl_layout_snackbar = 2131427410;
+			public const int mtrl_calendar_year = 2131427410;
 			
 			// aapt resource value: 0x7F0B0053
-			public const int mtrl_layout_snackbar_include = 2131427411;
+			public const int mtrl_layout_snackbar = 2131427411;
 			
 			// aapt resource value: 0x7F0B0054
-			public const int mtrl_navigation_rail_item = 2131427412;
+			public const int mtrl_layout_snackbar_include = 2131427412;
 			
 			// aapt resource value: 0x7F0B0055
-			public const int mtrl_picker_actions = 2131427413;
+			public const int mtrl_navigation_rail_item = 2131427413;
 			
 			// aapt resource value: 0x7F0B0056
-			public const int mtrl_picker_dialog = 2131427414;
+			public const int mtrl_picker_actions = 2131427414;
 			
 			// aapt resource value: 0x7F0B0057
-			public const int mtrl_picker_fullscreen = 2131427415;
+			public const int mtrl_picker_dialog = 2131427415;
 			
 			// aapt resource value: 0x7F0B0058
-			public const int mtrl_picker_header_dialog = 2131427416;
+			public const int mtrl_picker_fullscreen = 2131427416;
 			
 			// aapt resource value: 0x7F0B0059
-			public const int mtrl_picker_header_fullscreen = 2131427417;
+			public const int mtrl_picker_header_dialog = 2131427417;
 			
 			// aapt resource value: 0x7F0B005A
-			public const int mtrl_picker_header_selection_text = 2131427418;
+			public const int mtrl_picker_header_fullscreen = 2131427418;
 			
 			// aapt resource value: 0x7F0B005B
-			public const int mtrl_picker_header_title_text = 2131427419;
+			public const int mtrl_picker_header_selection_text = 2131427419;
 			
 			// aapt resource value: 0x7F0B005C
-			public const int mtrl_picker_header_toggle = 2131427420;
+			public const int mtrl_picker_header_title_text = 2131427420;
 			
 			// aapt resource value: 0x7F0B005D
-			public const int mtrl_picker_text_input_date = 2131427421;
+			public const int mtrl_picker_header_toggle = 2131427421;
 			
 			// aapt resource value: 0x7F0B005E
-			public const int mtrl_picker_text_input_date_range = 2131427422;
+			public const int mtrl_picker_text_input_date = 2131427422;
 			
 			// aapt resource value: 0x7F0B005F
-			public const int notification_action = 2131427423;
+			public const int mtrl_picker_text_input_date_range = 2131427423;
 			
 			// aapt resource value: 0x7F0B0060
-			public const int notification_action_tombstone = 2131427424;
+			public const int notification_action = 2131427424;
 			
 			// aapt resource value: 0x7F0B0061
-			public const int notification_media_action = 2131427425;
+			public const int notification_action_tombstone = 2131427425;
 			
 			// aapt resource value: 0x7F0B0062
-			public const int notification_media_cancel_action = 2131427426;
+			public const int notification_media_action = 2131427426;
 			
 			// aapt resource value: 0x7F0B0063
-			public const int notification_template_big_media = 2131427427;
+			public const int notification_media_cancel_action = 2131427427;
 			
 			// aapt resource value: 0x7F0B0064
-			public const int notification_template_big_media_custom = 2131427428;
+			public const int notification_template_big_media = 2131427428;
 			
 			// aapt resource value: 0x7F0B0065
-			public const int notification_template_big_media_narrow = 2131427429;
+			public const int notification_template_big_media_custom = 2131427429;
 			
 			// aapt resource value: 0x7F0B0066
-			public const int notification_template_big_media_narrow_custom = 2131427430;
+			public const int notification_template_big_media_narrow = 2131427430;
 			
 			// aapt resource value: 0x7F0B0067
-			public const int notification_template_custom_big = 2131427431;
+			public const int notification_template_big_media_narrow_custom = 2131427431;
 			
 			// aapt resource value: 0x7F0B0068
-			public const int notification_template_icon_group = 2131427432;
+			public const int notification_template_custom_big = 2131427432;
 			
 			// aapt resource value: 0x7F0B0069
-			public const int notification_template_lines_media = 2131427433;
+			public const int notification_template_icon_group = 2131427433;
 			
 			// aapt resource value: 0x7F0B006A
-			public const int notification_template_media = 2131427434;
+			public const int notification_template_lines_media = 2131427434;
 			
 			// aapt resource value: 0x7F0B006B
-			public const int notification_template_media_custom = 2131427435;
+			public const int notification_template_media = 2131427435;
 			
 			// aapt resource value: 0x7F0B006C
-			public const int notification_template_part_chronometer = 2131427436;
+			public const int notification_template_media_custom = 2131427436;
 			
 			// aapt resource value: 0x7F0B006D
-			public const int notification_template_part_time = 2131427437;
+			public const int notification_template_part_chronometer = 2131427437;
 			
 			// aapt resource value: 0x7F0B006E
-			public const int preference = 2131427438;
+			public const int notification_template_part_time = 2131427438;
 			
 			// aapt resource value: 0x7F0B006F
-			public const int preference_category = 2131427439;
+			public const int preference = 2131427439;
 			
 			// aapt resource value: 0x7F0B0070
-			public const int preference_category_material = 2131427440;
+			public const int preference_category = 2131427440;
 			
 			// aapt resource value: 0x7F0B0071
-			public const int preference_dialog_edittext = 2131427441;
+			public const int preference_category_material = 2131427441;
 			
 			// aapt resource value: 0x7F0B0072
-			public const int preference_dropdown = 2131427442;
+			public const int preference_dialog_edittext = 2131427442;
 			
 			// aapt resource value: 0x7F0B0073
-			public const int preference_dropdown_material = 2131427443;
+			public const int preference_dropdown = 2131427443;
 			
 			// aapt resource value: 0x7F0B0074
-			public const int preference_information = 2131427444;
+			public const int preference_dropdown_material = 2131427444;
 			
 			// aapt resource value: 0x7F0B0075
-			public const int preference_information_material = 2131427445;
+			public const int preference_information = 2131427445;
 			
 			// aapt resource value: 0x7F0B0076
-			public const int preference_list_fragment = 2131427446;
+			public const int preference_information_material = 2131427446;
 			
 			// aapt resource value: 0x7F0B0077
-			public const int preference_material = 2131427447;
+			public const int preference_list_fragment = 2131427447;
 			
 			// aapt resource value: 0x7F0B0078
-			public const int preference_recyclerview = 2131427448;
+			public const int preference_material = 2131427448;
 			
 			// aapt resource value: 0x7F0B0079
-			public const int preference_widget_checkbox = 2131427449;
+			public const int preference_recyclerview = 2131427449;
 			
 			// aapt resource value: 0x7F0B007A
-			public const int preference_widget_seekbar = 2131427450;
+			public const int preference_widget_checkbox = 2131427450;
 			
 			// aapt resource value: 0x7F0B007B
-			public const int preference_widget_seekbar_material = 2131427451;
+			public const int preference_widget_seekbar = 2131427451;
 			
 			// aapt resource value: 0x7F0B007C
-			public const int preference_widget_switch = 2131427452;
+			public const int preference_widget_seekbar_material = 2131427452;
 			
 			// aapt resource value: 0x7F0B007D
-			public const int preference_widget_switch_compat = 2131427453;
+			public const int preference_widget_switch = 2131427453;
 			
 			// aapt resource value: 0x7F0B007E
-			public const int RootLayout = 2131427454;
+			public const int preference_widget_switch_compat = 2131427454;
 			
 			// aapt resource value: 0x7F0B007F
-			public const int select_dialog_item_material = 2131427455;
+			public const int RootLayout = 2131427455;
 			
 			// aapt resource value: 0x7F0B0080
-			public const int select_dialog_multichoice_material = 2131427456;
+			public const int select_dialog_item_material = 2131427456;
 			
 			// aapt resource value: 0x7F0B0081
-			public const int select_dialog_singlechoice_material = 2131427457;
+			public const int select_dialog_multichoice_material = 2131427457;
 			
 			// aapt resource value: 0x7F0B0082
-			public const int ShellContent = 2131427458;
+			public const int select_dialog_singlechoice_material = 2131427458;
 			
 			// aapt resource value: 0x7F0B0083
-			public const int support_simple_spinner_dropdown_item = 2131427459;
+			public const int ShellContent = 2131427459;
 			
 			// aapt resource value: 0x7F0B0084
-			public const int Tabbar = 2131427460;
+			public const int support_simple_spinner_dropdown_item = 2131427460;
 			
 			// aapt resource value: 0x7F0B0085
-			public const int test_action_chip = 2131427461;
+			public const int Tabbar = 2131427461;
 			
 			// aapt resource value: 0x7F0B0086
-			public const int test_chip_zero_corner_radius = 2131427462;
+			public const int test_action_chip = 2131427462;
 			
 			// aapt resource value: 0x7F0B0087
-			public const int test_design_checkbox = 2131427463;
+			public const int test_chip_zero_corner_radius = 2131427463;
 			
 			// aapt resource value: 0x7F0B0088
-			public const int test_design_radiobutton = 2131427464;
+			public const int test_design_checkbox = 2131427464;
 			
 			// aapt resource value: 0x7F0B0089
-			public const int test_navigation_bar_item_layout = 2131427465;
+			public const int test_design_radiobutton = 2131427465;
 			
 			// aapt resource value: 0x7F0B008A
-			public const int test_reflow_chipgroup = 2131427466;
+			public const int test_navigation_bar_item_layout = 2131427466;
 			
 			// aapt resource value: 0x7F0B008B
-			public const int test_toolbar = 2131427467;
+			public const int test_reflow_chipgroup = 2131427467;
 			
 			// aapt resource value: 0x7F0B008C
-			public const int test_toolbar_custom_background = 2131427468;
+			public const int test_toolbar = 2131427468;
 			
 			// aapt resource value: 0x7F0B008D
-			public const int test_toolbar_elevation = 2131427469;
+			public const int test_toolbar_custom_background = 2131427469;
 			
 			// aapt resource value: 0x7F0B008E
-			public const int test_toolbar_surface = 2131427470;
-			
-			// aapt resource value: 0x7F0B0093
-			public const int text_view_without_line_height = 2131427475;
+			public const int test_toolbar_elevation = 2131427470;
 			
 			// aapt resource value: 0x7F0B008F
-			public const int text_view_with_line_height_from_appearance = 2131427471;
-			
-			// aapt resource value: 0x7F0B0090
-			public const int text_view_with_line_height_from_layout = 2131427472;
-			
-			// aapt resource value: 0x7F0B0091
-			public const int text_view_with_line_height_from_style = 2131427473;
-			
-			// aapt resource value: 0x7F0B0092
-			public const int text_view_with_theme_line_height = 2131427474;
+			public const int test_toolbar_surface = 2131427471;
 			
 			// aapt resource value: 0x7F0B0094
-			public const int Toolbar = 2131427476;
+			public const int text_view_without_line_height = 2131427476;
+			
+			// aapt resource value: 0x7F0B0090
+			public const int text_view_with_line_height_from_appearance = 2131427472;
+			
+			// aapt resource value: 0x7F0B0091
+			public const int text_view_with_line_height_from_layout = 2131427473;
+			
+			// aapt resource value: 0x7F0B0092
+			public const int text_view_with_line_height_from_style = 2131427474;
+			
+			// aapt resource value: 0x7F0B0093
+			public const int text_view_with_theme_line_height = 2131427475;
+			
+			// aapt resource value: 0x7F0B0095
+			public const int Toolbar = 2131427477;
 			
 			static Layout()
 			{

@@ -20,8 +20,7 @@
                             Aspect="AspectFill"
                             Margin="-20"
                             HeightRequest="50"
-                            WidthRequest="50"
-                        />
+                            WidthRequest="50"/>
                 </Frame>
                 <Entry Placeholder="Nome" x:Name="Perfil" Margin="10" ClearButtonVisibility="WhileEditing"/>
                 <Entry Placeholder="E-mail" Keyboard="Email" Margin="10" ClearButtonVisibility="WhileEditing"/>
