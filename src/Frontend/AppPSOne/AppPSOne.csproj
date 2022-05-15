@@ -28,9 +28,13 @@
     <PackageReference Include="Xam.Plugins.Forms.ImageCircle" Version="3.0.0.5" />
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />
     <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
+    <PackageReference Include="XCalendar.Forms" Version="3.0.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="PrincipalDetail.xaml.cs">
+      <DependentUpon>PrincipalDetail.xaml</DependentUpon>
+    </Compile>
     <Compile Update="MeuPerfil.xaml.cs">
       <DependentUpon>MeuPerfil.xaml</DependentUpon>
     </Compile>
@@ -40,6 +44,21 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Update="Calendario.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="CalendarioDetail.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="CalendarioFlyout.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="PrincipalDetail.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="PrincipalDetail.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Page1.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
