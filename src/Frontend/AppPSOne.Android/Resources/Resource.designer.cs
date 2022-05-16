@@ -14,7 +14,11 @@ namespace AppPSOne.Droid
 {
 	
 	
+<<<<<<< Updated upstream
 	[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Android.Build.Tasks", "12.2.0.155")]
+=======
+	[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Android.Build.Tasks", "12.2.4.160")]
+>>>>>>> Stashed changes
 	public partial class Resource
 	{
 		
@@ -72,7 +76,17 @@ namespace AppPSOne.Droid
 			public const int eleven = 2130837504;
 			
 			// aapt resource value: 0x7F020001
+<<<<<<< Updated upstream
 			public const int foto = 2130837505;
+=======
+			public const int exame = 2130837505;
+			
+			// aapt resource value: 0x7F020002
+			public const int foto = 2130837506;
+			
+			// aapt resource value: 0x7F020003
+			public const int upload = 2130837507;
+>>>>>>> Stashed changes
 			
 			static Drawable()
 			{
@@ -89,6 +103,7 @@ namespace AppPSOne.Droid
 			
 			// aapt resource value: 0x7F030000
 			public const int icon = 2130903040;
+<<<<<<< Updated upstream
 			
 			// aapt resource value: 0x7F030001
 			public const int icon_round = 2130903041;
@@ -117,6 +132,36 @@ namespace AppPSOne.Droid
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
 			}
 			
+=======
+			
+			// aapt resource value: 0x7F030001
+			public const int icon_round = 2130903041;
+			
+			// aapt resource value: 0x7F030002
+			public const int launcher_foreground = 2130903042;
+			
+			static Mipmap()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Mipmap()
+			{
+			}
+		}
+		
+		public partial class Style
+		{
+			
+			// aapt resource value: 0x7F040000
+			public const int MainTheme = 2130968576;
+			
+			static Style()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+>>>>>>> Stashed changes
 			private Style()
 			{
 			}
