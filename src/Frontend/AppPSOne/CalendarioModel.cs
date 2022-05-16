@@ -45,21 +45,17 @@ namespace AppPSOne
             {
                 [DateTime.Now] = new List<Agendamento>
             {
-                new Agendamento { Nome = "Ajuda", Descricao = "Levar o Milton Cortar o Cabelo" },
-                new Agendamento { Nome = "Artigos", Descricao = "Escrever Artigo de Calendario" }
+                new Agendamento { Nome = "Exame Cardíaco", Descricao = "Doutor Amilto - 13hrs" },
+                new Agendamento { Nome = "Exame Colesterol", Descricao = "Clinicas - 14hrs" }
             },
                 [DateTime.Now.AddDays(5)] = new List<Agendamento>
             {
-                new Agendamento { Nome = "Tweet", Descricao = "Postar Algo no Twitter estilo bloguerinho" },
-                new Agendamento { Nome = "Facebook", Descricao = "Postar Foto de Comida no Facebook" }
+                new Agendamento { Nome = "Exames de urina", Descricao = "Clinicas - 18hrs" },
+                new Agendamento { Nome = "Exame Transaminases ", Descricao = "Doutora Renatta - 10hrs" }
             },
                 [DateTime.Now.AddDays(-3)] = new List<Agendamento>
             {
-                new Agendamento { Nome = "Dentista", Descricao = "Manutenção na Dentadura" }
-            },
-                [new DateTime(2020, 5, 19)] = new List<Agendamento>
-            {
-                new Agendamento { Nome = "Microsoft Build", Descricao = "Vai Começar o Build" }
+                new Agendamento { Nome = "Dentista", Descricao = "Clareamento - 18hrs" }
             }
             };
         }
@@ -67,11 +63,6 @@ namespace AppPSOne
         public CalendarioModel()
         {
             CarregarAgendamentos();
-        }
-        public class Agendamento
-        {
-            public string Nome { get; set; }
-            public string Descricao { get; set; }
         }
 
     }

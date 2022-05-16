@@ -16,14 +16,8 @@ namespace AppPSOne
         public CalendarioDetail()
         {
             InitializeComponent();
-
             this.BindingContext = new CalendarioModel();
         }
-
-        /* private void CalendarView_DateSelectionChanged(object sender, EventArgs arg)
-         {
-             DisplayAlert("Date Changed", calendar.SelectedDates.ToString(), "OK");
-         }*/
 
     }
 }

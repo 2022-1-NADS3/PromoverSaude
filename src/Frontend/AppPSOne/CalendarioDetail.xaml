@@ -4,28 +4,8 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:controls="clr-namespace:Xamarin.Plugin.Calendar.Controls;assembly=Xamarin.Plugin.Calendar" 
-             xmlns:apppsone="clr-namespace:AppPSOne" x:DataType="apppsone:CalendarioModel"
              mc:Ignorable="d"
              x:Class="AppPSOne.CalendarioDetail">
-
-    <!--<controls:Calendar
-        Events="{Binding Events}">
-        <controls:Calendar.EventTemplate>
-            <DataTemplate>
-                <StackLayout
-                Padding="15,0,0,0">
-                    <Label
-                    Text="{Binding Nome}"
-                    FontAttributes="Bold"
-                    FontSize="Medium" />
-                    <Label
-                    Text="{Binding Descricao}"
-                    FontSize="Small"
-                    LineBreakMode="WordWrap" />
-                </StackLayout>
-            </DataTemplate>
-        </controls:Calendar.EventTemplate>
-    </controls:Calendar>-->
 
     <ContentPage.Resources>
         <ResourceDictionary>
