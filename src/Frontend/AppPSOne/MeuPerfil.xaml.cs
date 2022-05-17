@@ -17,6 +17,7 @@ namespace AppPSOne
         public MeuPerfil()
         {
             InitializeComponent();
+            this.BindingContext = new EditarDados { Enable = true, Texto = "Editar Dados" };
         }
 
         private string DataAtual(object sender, EventArgs e)
@@ -32,7 +33,7 @@ namespace AppPSOne
 
         private void Editar_Perfil(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new MeuPerfil());
+            //Trocar o texto do botão
         }
 
     }
