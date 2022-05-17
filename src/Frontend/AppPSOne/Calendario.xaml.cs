@@ -24,11 +24,22 @@ namespace AppPSOne
             if (item == null)
                 return;
 
-            var page = (Page)Activator.CreateInstance(item.TargetType);
-            page.Title = item.Title;
-
-            Detail = new NavigationPage(page);
-            IsPresented = false;
+            if (item.Title == "Meu Perfil")
+            {
+                Navigation.PushAsync(new MeuPerfil());
+            
+            } else if (item.Title == "Exames")
+            {
+                Navigation.PushAsync(new MeusDocumentos());
+            
+            } else if (item.Title == "Agenda")
+            {
+                Navigation.PushAsync(new Calendario());
+            
+            } else if (item.Title == "Sair")
+            {
+                Navigation.PushAsync(new MainPage());
+            }
 
             FlyoutPage.ListView.SelectedItem = null;
         }

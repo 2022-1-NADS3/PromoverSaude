@@ -28,7 +28,7 @@ namespace AppPSOne
 
         private void Salvar(object sender, EventArgs e)
         {
-            //Salva alteracoes
+            Navigation.PushAsync(new MeusDocumentos());
         }
     }
 }
