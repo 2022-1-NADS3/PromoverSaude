@@ -8,9 +8,9 @@
     <ContentPage.Content>
         <StackLayout>
             <Image Source="upload.webp" HeightRequest="150" WidthRequest="150" Margin="10" VerticalOptions="EndAndExpand"/>
-            
-            <Button Text="Carregar Arquivos" Clicked="Carregar" VerticalOptions="EndAndExpand" Margin="10" BorderRadius="10" BackgroundColor="DeepSkyBlue" TextColor="White"/>
-            <Button Text="Salvar" Clicked="Salvar" VerticalOptions="EndAndExpand" Margin="10" BorderRadius="10" BackgroundColor="DeepSkyBlue" TextColor="White"/>
+
+            <Button Text="Carregar Arquivos" Clicked="Carregar" VerticalOptions="End" Margin="10" BorderRadius="10" BackgroundColor="DeepSkyBlue" TextColor="White"/>
+            <Button Text="Salvar" Clicked="Salvar" VerticalOptions="End" Margin="10" BorderRadius="10" BackgroundColor="DeepSkyBlue" TextColor="White"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

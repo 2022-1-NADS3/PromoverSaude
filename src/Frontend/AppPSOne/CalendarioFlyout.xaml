@@ -21,21 +21,25 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="10"/>
           </Grid.RowDefinitions>
-          <Label
+            <Label
               Grid.Column="1"
               Grid.Row="2"
-              Text="AppName"
+              Text="Promover Saúde"
               Style="{DynamicResource SubtitleStyle}"/>
-        </Grid>
+                </Grid>
       </ListView.Header>
       <ListView.ItemTemplate>
         <DataTemplate>
           <ViewCell>
-            <StackLayout Padding="15,10" HorizontalOptions="FillAndExpand">
-              <Label VerticalOptions="FillAndExpand" 
-                    VerticalTextAlignment="Center" 
+            <StackLayout Padding="15,10" Orientation="Horizontal">
+                <Image Source="{Binding Image}" 
+                       WidthRequest="20"
+                       HeightRequest="20"
+                       VerticalOptions="Center"/>
+                <Label VerticalOptions="Start" 
+                    VerticalTextAlignment="Center"
                     Text="{Binding Title}" 
-                    FontSize="24"/>
+                    FontSize="20"/> 
             </StackLayout>
           </ViewCell>
         </DataTemplate>

@@ -1,26 +1,23 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.ComponentModel;
-
+﻿using System.ComponentModel;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using System;
+using System.Collections.Generic;
+using Xamarin.Plugin.Calendar.Models;
+using System.Runtime.CompilerServices;
+using System.Globalization;
 
 namespace AppPSOne
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class CalendarioDetail : ContentPage
+    public partial class CalendarioDetail : ContentPage, INotifyPropertyChanged
     {
+
         public CalendarioDetail()
         {
             InitializeComponent();
+            this.BindingContext = new CalendarioModel();
         }
 
-        private void CalendarView_DateSelectionChanged(object sender, EventArgs arg)
-        {
-            DisplayAlert("Date Changed", calendar.SelectedDates.ToString(), "OK");
-        }
     }
 }

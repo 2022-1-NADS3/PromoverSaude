@@ -33,11 +33,10 @@ namespace AppPSOne
             {
                 MenuItems = new ObservableCollection<CalendarioFlyoutMenuItem>(new[]
                 {
-                    new CalendarioFlyoutMenuItem { Id = 0, Title = "Page 1" },
-                    new CalendarioFlyoutMenuItem { Id = 1, Title = "Page 2" },
-                    new CalendarioFlyoutMenuItem { Id = 2, Title = "Page 3" },
-                    new CalendarioFlyoutMenuItem { Id = 3, Title = "Page 4" },
-                    new CalendarioFlyoutMenuItem { Id = 4, Title = "Page 5" },
+                    new CalendarioFlyoutMenuItem { Id = 0, Title = "Meu Perfil", Image = "perfil.png"},
+                    new CalendarioFlyoutMenuItem { Id = 1, Title = "Agenda", Image = "calendario.png" },
+                    new CalendarioFlyoutMenuItem { Id = 2, Title = "Exames", Image = "pasta.png" },
+                    new CalendarioFlyoutMenuItem { Id = 3, Title = "Sair", Image = "sair.png" },
                 });
             }
 
