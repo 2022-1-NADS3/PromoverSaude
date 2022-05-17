@@ -9,7 +9,7 @@ app.get("/", function (req, res){
 });
 
 app.get("/user", function(req,res){
-    console.log("Enviei po Get");
+    console.log("Enviei /user Get");
     res.send(JSON.stringify({
         nome:"Teo",
         sobrenome:"balão",
