@@ -7,11 +7,10 @@
     <ContentPage.Content>
         <StackLayout>
 
-            <Entry Placeholder="E-mail" x:Name="Cadastrar" Keyboard="Email" BackgroundColor="White" Margin="10" ClearButtonVisibility="WhileEditing"/>
-            <Entry Placeholder="Senha" IsPassword="True" Margin="10" ClearButtonVisibility="WhileEditing"/>
-            <Entry Placeholder="Nome" BackgroundColor="White" Margin="10" ClearButtonVisibility="WhileEditing"/>
-            <Entry Placeholder="Data de Nascimento" BackgroundColor="White" Margin="10" ClearButtonVisibility="WhileEditing"/>
-            <Picker x:Name="pckFinalidade" Title="Sexo" BackgroundColor="White" Margin="10" FontSize="18">
+            <Entry Placeholder="E-mail" x:Name="email" Keyboard="Email" BackgroundColor="White" Margin="10" ClearButtonVisibility="WhileEditing"/>
+            <Entry Placeholder="Senha" x:Name="senha" IsPassword="True" Margin="10" ClearButtonVisibility="WhileEditing"/>
+            <Entry Placeholder="Nome" x:Name="nome" BackgroundColor="White" Margin="10" ClearButtonVisibility="WhileEditing"/>
+            <Picker x:Name="sexo" Title="Sexo" BackgroundColor="White" Margin="10" FontSize="18">
                 <Picker.Items>
                     <x:String>Feminino</x:String>
                     <x:String>Masculino</x:String>

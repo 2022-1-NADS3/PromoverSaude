@@ -22,9 +22,9 @@ app.get("/user", function(req,res){
     res.send(JSON.stringify(
         {
             nome:"Vans",
-            sobrenome:"Ruama",
-            idade:25,
-            altura:1.69
+            email:"vans@vans.com",
+            senha:"1234",
+            sexo:"F"
         }
     ));
 
@@ -34,6 +34,15 @@ app.get("/user", function(req,res){
             console.log(req.body.sobrenome);
             console.log(req.body.idade);
             console.log(req.body.altura);
+            res.send("JSON Recebido!")
+    })
+
+    app.post("/user", function(req,res){
+        console.log("Recebi um dado");
+            console.log(req.body.nome);
+            console.log(req.body.email);
+            console.log(req.body.senha);
+            console.log(req.body.sexo);
             res.send("JSON Recebido!")
     })
 });

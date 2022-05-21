@@ -23,19 +23,17 @@
                             HeightRequest="50"
                             WidthRequest="50"/>
                 </Frame>
-                <Entry Placeholder="Nome" x:Name="Perfil" Margin="10" ClearButtonVisibility="WhileEditing" IsEnabled="{Binding Enable}"/>
-                <Entry Placeholder="E-mail" Keyboard="Email" Margin="10" ClearButtonVisibility="WhileEditing" IsEnabled="{Binding Enable}" />
-                <DatePicker Margin="10" MinimumDate="01/01/1900"
-                    MaximumDate="12/31/2050" IsEnabled="{Binding Enable}" />
-                <Picker x:Name="pckFinalidade" Title="Sexo"  Margin="10" FontSize="18" IsEnabled="{Binding Enable}">
+                <Entry Placeholder="Nome" x:Name="nome" Margin="10" ClearButtonVisibility="WhileEditing" IsEnabled="{Binding Enable}"/>
+                <Entry Placeholder="E-mail" x:Name="email" Keyboard="Email" Margin="10" ClearButtonVisibility="WhileEditing" IsEnabled="{Binding Enable}" />
+                <Picker x:Name="sexo" Title="Sexo"  Margin="10" FontSize="18" IsEnabled="{Binding Enable}">
                     <Picker.Items>
                         <x:String>Feminino</x:String>
                         <x:String>Masculino</x:String>
                         <x:String>Não quero informar</x:String>
                     </Picker.Items>
                 </Picker>
-                <Entry Placeholder="Senha" IsPassword="True" Margin="10" ClearButtonVisibility="WhileEditing" IsEnabled="{Binding Enable}"/>
-                <Button Text="Editar Dados" x:Name="Editar" Clicked="Editar_Perfil" VerticalOptions="CenterAndExpand" Margin="10" BorderRadius="10" BackgroundColor="DeepSkyBlue" TextColor="White"/>
+                <Entry Placeholder="Senha" x:Name="senha" IsPassword="True" Margin="10" ClearButtonVisibility="WhileEditing" IsEnabled="{Binding Enable}"/>
+                <Button Text="Editar Dados" x:Name="Editar" Clicked="Dados" VerticalOptions="CenterAndExpand" Margin="10" BorderRadius="10" BackgroundColor="DeepSkyBlue" TextColor="White"/>
                 <Button Text="Sair da Conta" Clicked="Voltar" 
                         VerticalOptions="CenterAndExpand" 
                         BorderColor="Black" BorderWidth="2" 
