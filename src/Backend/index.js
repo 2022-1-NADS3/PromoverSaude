@@ -6,34 +6,38 @@ const json ='[{"nome":"Vanessa","sobrenome":" Ruama","altura":1.69}]';
 //var objeto = JSON.parse(json);
 var bodyParser = require("body-parser");
 
-app.use(bodyParser.json("application/json"));
+const usuarios = [];
 
-app.get("/", function(req,res){
-    res.send("Bem Vindo!");
-});
+app.use(express.json());
 
-app.listen(port, hostname, () => {
-    console.log("Servidor http//"+hostname+":"+port);
-});
+app.listen(port);
 
+//Recupera usuário
 app.get("/user", function(req,res){
     console.log("Enviei o Get")
     var nome = req.query.nome;
     res.send(JSON.stringify(
         {
             nome:"Vans",
-            sobrenome:"Ruama",
-            idade:25,
-            altura:1.69
+            email:"vans@vans.com",
+            senha:"1234",
+            sexo:"F"
         }
-    ));
+    ))
+});
 
-    app.post("/add", function(req,res){
-        console.log("Recebi um dado");
-            console.log(req.body.nome);
-            console.log(req.body.sobrenome);
-            console.log(req.body.idade);
-            console.log(req.body.altura);
-            res.send("JSON Recebido!")
-    })
+//Adiciona usuário
+app.post("/user", function(req,res){
+    const { nome, email, senha, sexo } = req.body;
+
+    const usuario = {
+        nome,
+        email,
+        senha,
+        sexo
+    };
+    
+    usuarios.push(usuario);
+    
+    return res.json(usuario);
 });
