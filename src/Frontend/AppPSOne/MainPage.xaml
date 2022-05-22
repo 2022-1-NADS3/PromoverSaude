@@ -17,6 +17,19 @@
                 </FormattedString>
             </Label.FormattedText>
         </Label>
+
+        <!-- ____________ Teste _______________ -->
+        <Label Text="JSON was here!" x:Name="json"/>
+        <Button Text="Chama o Json!" Clicked="Dados"/>
+        <Label Text="Nome do usuário"/>
+        <Label Text="NNNN" x:Name="userName"/>
+        <Label Text="Sobrenome do usuário"/>
+        <Label Text="SSSSS" x:Name="sureName"/>
+        <Label Text="Idade do usuário"/>
+        <Label Text="IIII" x:Name="userAge"/>
+        <Label Text="Altura do usuário"/>
+        <Label Text="AAAA" x:Name="userHeight"/>
+
     </StackLayout>
 
 </ContentPage>
