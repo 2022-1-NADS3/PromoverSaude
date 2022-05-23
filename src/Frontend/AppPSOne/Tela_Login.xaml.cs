@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace AppPSOne
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Page1 : ContentPage
+    public partial class Tela_Login : ContentPage
     {
-        public Page1()
+        public Tela_Login()
         {
             InitializeComponent();
         }

@@ -16,7 +16,7 @@ namespace AppPSOne
         }
         private void Proximo(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new Page1());
+            Navigation.PushAsync(new Tela_Login());
         }
 
         private void CadastroPage(object sender, EventArgs e)
