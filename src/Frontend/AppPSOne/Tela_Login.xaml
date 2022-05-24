@@ -2,14 +2,15 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppPSOne.Tela_Login"
-             Title="Login">
+             Title="Login"
+             NavigationPage.HasNavigationBar="false">
     
     <ContentPage.Content>
         <StackLayout>
 
-            <Entry Placeholder="Seu usuário" x:Name="Login" BackgroundColor="White" Margin="10"/>
-            <Entry Placeholder="Sua senha" IsPassword="True" Margin="10"/>
-            <Button Text="Entrar" VerticalOptions="CenterAndExpand" Clicked="Entrar" Margin="10" BorderRadius="10" BackgroundColor="DeepSkyBlue" TextColor="White"/>
+            <Entry Placeholder="Seu e-mail" Text="vans" x:Name="email" BackgroundColor="White" Margin="10"/>
+            <Entry Placeholder="Sua senha" Text="1234" x:Name="senha" IsPassword="True" Margin="10"/>
+            <Button Text="Entrar" VerticalOptions="CenterAndExpand" Clicked="Dados" Margin="10" BorderRadius="10" BackgroundColor="DeepSkyBlue" TextColor="White"/>
             <Button Text="Voltar" x:Name="Next" Clicked="Voltar" 
                     VerticalOptions="CenterAndExpand" 
                     BorderColor="Black" BorderWidth="2" 

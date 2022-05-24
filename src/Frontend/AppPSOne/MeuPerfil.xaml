@@ -3,7 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
              x:Class="AppPSOne.MeuPerfil"
-             Title="Meu Perfil">
+             Title="Meu Perfil"
+             NavigationPage.HasNavigationBar="false">
 
     <ContentPage.Content>
         <ScrollView>
@@ -24,8 +25,6 @@
                 </Frame>
                 <Entry Placeholder="Nome" x:Name="Perfil" Margin="10" ClearButtonVisibility="WhileEditing"/>
                 <Entry Placeholder="E-mail" Keyboard="Email" Margin="10" ClearButtonVisibility="WhileEditing"/>
-                <DatePicker Margin="10" MinimumDate="01/01/1900"
-                    MaximumDate="12/31/2050"/>
                 <Picker x:Name="pckFinalidade" Title="Sexo"  Margin="10" FontSize="18">
                     <Picker.Items>
                         <x:String>Feminino</x:String>
