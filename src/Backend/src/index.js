@@ -1,13 +1,12 @@
 const express = require('express');
 const cors = require('cors');
 const { Pool } = require('pg');
-//const bodyParser = require('body-parser');
 require('dotenv').config();
 
 const PORT = process.env.PORT || 3000;
  
 const pool = new Pool({
-   connectionString: 'postgres://mlprsemr:2NwJQuD7b6lfH66RvxxbiyocQSwGg0DN@kesavan.db.elephantsql.com/mlprsemr',
+   connectionString: process.env.POSTGRES_URL,
    ssl: {
        rejectUnauthorized: false
    }
@@ -17,16 +16,13 @@ const app = express();
  
 app.use(express.json());
 app.use(cors());
-//app.use(bodyParser.json()) // for parsing application/json
-//app.use(bodyParser.urlencoded({ extended: false }))
-//app.use(express.urlencoded({ extended: true}));
  
 app.get('/', (req, res) => {
-    res.send("Teste de conexão com heroku!");
-    console.log("Ola Mundo!")
+    res.send({message: 'Server started at port ' + PORT});
+    console.log('Server started at port ' + PORT)
 });
 
-app.get('/users', async (req,res) => {
+app.get('/todos_usuarios', async (req,res) => {
     try {
         const { rows } = await pool.query('SELECT * FROM user_login')
         return res.status(200).send(rows)
@@ -34,17 +30,8 @@ app.get('/users', async (req,res) => {
         return res.status(400).send(err)
     }
  });
-/*app.get('/users', async (req,res) => {
-   try {
-       const { rows } = await pool.query('SELECT * FROM user_login')
-       //await pool.query("INSERT INTO user_login(user_email, user_name, user_password, user_sex) VALUES ('re@gmail.com','Bie Jeans', '1234', 'Masculino');")
-       return res.status(200).send(rows)
-   } catch(err) {
-       return res.status(400).send(err)
-   }
-});*/
 
-app.get('/exames/:user_id', async (req, res) => {
+app.get('/meus_exames/:user_id', async (req, res) => {
     const { user_id } = req.params
     try {
         const allTodos = await pool.query('SELECT * FROM todo_exarms WHERE user_id = ($1)', [user_id])
@@ -54,21 +41,75 @@ app.get('/exames/:user_id', async (req, res) => {
     }
 });
  
-app.post('/session', async (req, res) => {
+app.get('/login_validacao', async (req, res) => {
  
-   const { useremail, username, userpassword, usersex } = req.body
-   //const { password } = res.body
-   let user = ''
-   try {
-       user = await pool.query('SELECT * FROM user_login WHERE user_email = ($1)', [useremail])
-       if(!user.rows[0]){
-           user = await pool.query("INSERT INTO user_login(user_email, user_name, user_password, user_sex) VALUES($1, $2, $3, $4)", [useremail, username, userpassword, usersex])
-       }
-       return res.status(200).send(user.rows)
-   }catch(err){
-       return res.status(400).send(err)
-   }
- 
+   const { useremail, userpassword } = req.body
+   console.log(useremail,userpassword)
+try {
+    const allTodos = await pool.query('SELECT * FROM user_login WHERE user_email = ($1) AND user_password = ($2)', [useremail, userpassword])
+    return res.status(200).send(allTodos.rows)
+    } catch(err) {
+        return res.status(400).send(err)
+    }
 });
+
  
+app.post('/cadastrar_usuarios', async (req, res) => {
+ 
+    const { useremail, username, userpassword, usersex } = req.body
+
+    let user = ''
+    try {
+        user = await pool.query('SELECT * FROM user_login WHERE user_email = ($1)', [useremail])
+        if(!user.rows[0]){
+            user = await pool.query("INSERT INTO user_login(user_email, user_name, user_password, user_sex) VALUES($1, $2, $3, $4) RETURNING *", [useremail, username, userpassword, usersex])
+        }
+        return res.status(200).send(user.rows)
+    }catch(err){
+        return res.status(400).send(err)
+    }
+  
+ });
+
+app.post('/cadastrar_exames/:user_id', async (req, res) => {
+    const { title, description, dateExams } = req.body
+    const { user_id } = req.params
+    try {
+        const newExams = await pool.query("INSERT INTO todo_exarms (todo_description, todo_title, todo_done, todo_date, user_id) VALUES ($1, $2, $3 ,$4 , $5) RETURNING *", [description, title,false, dateExams, user_id])
+        return res.status(200).send(newExams.rows)
+    } catch(err) {
+        return res.status(400).send(err)
+    }
+})
+
+app.patch('/meus_exames/:user_id/:todo_id', async (req, res) => {
+    const { todo_id, user_id } = req.params
+    const data = req.body    
+    try {         
+        const validarExame = await pool.query('SELECT * FROM todo_exarms WHERE user_id = ($1) AND todo_id = ($2)', [user_id, todo_id])
+        if (!validarExame.rows[0]) return res.status(400).send('Operation not allowed')        
+        const AtualizarExame = await pool.query('UPDATE todo_exarms SET todo_description = ($1), todo_done = ($2), todo_date = ($3) WHERE todo_id = ($4) RETURNING *',
+        [data.description, data.done, data.dateExams, todo_id])
+        return res.status(200).send(AtualizarExame.rows)
+    } catch(err) {
+        return res.status(400).send(err)
+    }
+})
+
+app.delete('/meus_exames/:user_id/:todo_id', async (req, res) => {
+    const { user_id, todo_id } = req.params
+    try {
+        const validarExame = await pool.query('SELECT * FROM todo_exarms WHERE user_id = ($1) AND todo_id = ($2)', [user_id, todo_id])
+        if (!validarExame.rows[0]) return res.status(400).send('Operation not allowed')
+        const deletarExame = await pool.query('DELETE FROM todo_exarms WHERE todo_id = ($1) RETURNING *', [todo_id])
+        return res.status(200).send({
+            message: 'Todo successfully deleted',
+            deletarExame: deletarExame.rows
+        })
+    } catch(err) {
+        return res.status(400).send(err)
+    }
+})
+
+
 app.listen(PORT, () => console.log(`Server running in port ${PORT}`));
