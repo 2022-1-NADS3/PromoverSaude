@@ -22,6 +22,9 @@ app.get('/', (req, res) => {
     console.log('Server started at port ' + PORT)
 });
 
+/*-------------------------------------------------------
+  Api para retornar todos os usuários - /todos_usuarios
+-------------------------------------------------------*/
 app.get('/todos_usuarios', async (req,res) => {
     try {
         const { rows } = await pool.query('SELECT * FROM user_login')
@@ -31,6 +34,10 @@ app.get('/todos_usuarios', async (req,res) => {
     }
  });
 
+/*-------------------------------------------------------
+  Api para retornar todos os exames do usuário - 
+  GET | /meus_exames/:user_id
+-------------------------------------------------------*/
 app.get('/meus_exames/:user_id', async (req, res) => {
     const { user_id } = req.params
     try {
@@ -40,7 +47,11 @@ app.get('/meus_exames/:user_id', async (req, res) => {
         return res.status(400).send(err)
     }
 });
- 
+
+/*-------------------------------------------------------
+  Api para validar o login do usuário - 
+  GET | /login_validacao
+-------------------------------------------------------*/
 app.get('/login_validacao', async (req, res) => {
  
    const { useremail, userpassword } = req.body
@@ -53,7 +64,10 @@ try {
     }
 });
 
- 
+/*-------------------------------------------------------
+  Api para cadastrar o usuário - 
+  POST | /cadastrar_usuarios
+-------------------------------------------------------*/
 app.post('/cadastrar_usuarios', async (req, res) => {
  
     const { useremail, username, userpassword, usersex } = req.body
@@ -69,8 +83,12 @@ app.post('/cadastrar_usuarios', async (req, res) => {
         return res.status(400).send(err)
     }
   
- });
+});
 
+/*-------------------------------------------------------
+  Api para cadastrar os exames - 
+  POST | /cadastrar_exames/:user_id
+-------------------------------------------------------*/
 app.post('/cadastrar_exames/:user_id', async (req, res) => {
     const { title, description, dateExams } = req.body
     const { user_id } = req.params
@@ -82,6 +100,10 @@ app.post('/cadastrar_exames/:user_id', async (req, res) => {
     }
 })
 
+/*-------------------------------------------------------
+  Api para alterar os exames - 
+  PATCH | /meus_exames/:user_id/:todo_id
+-------------------------------------------------------*/
 app.patch('/meus_exames/:user_id/:todo_id', async (req, res) => {
     const { todo_id, user_id } = req.params
     const data = req.body    
@@ -96,6 +118,29 @@ app.patch('/meus_exames/:user_id/:todo_id', async (req, res) => {
     }
 })
 
+/*-------------------------------------------------------
+  Api para alterar os usuários - 
+  PATCH | /alterar_usuario
+-------------------------------------------------------*/
+app.patch('/alterar_usuario/:user_id', async (req, res) => {
+    const { user_id } = req.params
+    const data = req.body    
+    try {         
+        const validarUsuario = await pool.query('SELECT * FROM user_login WHERE user_id = ($1)', [user_id])
+        console.log(validarUsuario)
+        if (!validarUsuario.rows[0]) return res.status(400).send('Operation not allowed')        
+        const AtualizarUsuario = await pool.query('UPDATE user_login SET user_email = ($1), user_password = ($2) WHERE user_id = ($3) RETURNING *',
+        [data.email, data.password, user_id])
+        return res.status(200).send(AtualizarUsuario.rows)
+    } catch(err) {
+        return res.status(400).send(err)
+    }
+})
+
+/*-------------------------------------------------------
+  Api para deletar os exames - 
+  DELETE | /meus_exames/:user_id/:todo_id
+-------------------------------------------------------*/
 app.delete('/meus_exames/:user_id/:todo_id', async (req, res) => {
     const { user_id, todo_id } = req.params
     try {
