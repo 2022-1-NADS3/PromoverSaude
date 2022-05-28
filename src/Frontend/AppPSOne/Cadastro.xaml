@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppPSOne.Cadastro"
-             Title="Cadastro">
+             Title="Cadastro"
+             NavigationPage.HasNavigationBar="false">
     
     <ContentPage.Content>
         <StackLayout>
@@ -10,7 +11,6 @@
             <Entry Placeholder="E-mail" x:Name="Cadastrar" Keyboard="Email" BackgroundColor="White" Margin="10" ClearButtonVisibility="WhileEditing"/>
             <Entry Placeholder="Senha" IsPassword="True" Margin="10" ClearButtonVisibility="WhileEditing"/>
             <Entry Placeholder="Nome" BackgroundColor="White" Margin="10" ClearButtonVisibility="WhileEditing"/>
-            <Entry Placeholder="Data de Nascimento" BackgroundColor="White" Margin="10" ClearButtonVisibility="WhileEditing"/>
             <Picker x:Name="pckFinalidade" Title="Sexo" BackgroundColor="White" Margin="10" FontSize="18">
                 <Picker.Items>
                     <x:String>Feminino</x:String>

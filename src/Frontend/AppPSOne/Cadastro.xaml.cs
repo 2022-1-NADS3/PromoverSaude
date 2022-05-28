@@ -24,7 +24,7 @@ namespace AppPSOne
 
         private void Cad(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new Page1());
+            Navigation.PushAsync(new Tela_Login());
         }
 
     }

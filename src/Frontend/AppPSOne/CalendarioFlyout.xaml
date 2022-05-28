@@ -36,12 +36,10 @@
                        WidthRequest="20"
                        HeightRequest="20"
                        VerticalOptions="Center"/>
-                <Label VerticalOptions="Start" 
+                 <Label VerticalOptions="Start" 
                     VerticalTextAlignment="Center"
                     Text="{Binding Title}" 
                     FontSize="20"/>
-                            <Button Text="Ola">
-                            </Button>
             </StackLayout>
           </ViewCell>
         </DataTemplate>

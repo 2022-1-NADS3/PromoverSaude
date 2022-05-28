@@ -3,7 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
              x:Class="AppPSOne.MeusDocumentos"
-             Title="Meus Documentos">
+             Title="Meus Documentos"
+             NavigationPage.HasNavigationBar="false">
     
     <ContentPage.Content>
         <ScrollView>
