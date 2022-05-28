@@ -25,20 +25,14 @@
                 </Frame>
                 <Entry Placeholder="Nome" x:Name="Perfil" Margin="10" ClearButtonVisibility="WhileEditing"/>
                 <Entry Placeholder="E-mail" Keyboard="Email" Margin="10" ClearButtonVisibility="WhileEditing"/>
-                <Picker x:Name="pckFinalidade" Title="Sexo"  Margin="10" FontSize="18">
-                    <Picker.Items>
-                        <x:String>Feminino</x:String>
-                        <x:String>Masculino</x:String>
-                        <x:String>Não quero informar</x:String>
-                    </Picker.Items>
-                </Picker>
+                <Entry Placeholder="Sexo" Margin="10" ClearButtonVisibility="WhileEditing"/>
                 <Entry Placeholder="Senha" IsPassword="True" Margin="10" ClearButtonVisibility="WhileEditing"/>
                 <Button Text="Editar Perfil" VerticalOptions="CenterAndExpand" Margin="10" BorderRadius="10" BackgroundColor="DeepSkyBlue" TextColor="White"/>
                 <Button Text="Sair da Conta" Clicked="Voltar" 
                         VerticalOptions="CenterAndExpand" 
                         BorderColor="Black" BorderWidth="2" 
                         HorizontalOptions="Center" 
-                        BorderRadius="10" 
+                        BorderRadius="10"
                         BackgroundColor="White"/>
             </StackLayout>
         </ScrollView>

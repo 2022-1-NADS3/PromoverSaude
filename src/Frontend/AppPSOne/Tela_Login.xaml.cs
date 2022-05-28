@@ -8,6 +8,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Newtonsoft.Json;
 using System.Net.Http;
+using Newtonsoft.Json.Linq;
 
 namespace AppPSOne
 {
@@ -40,13 +41,6 @@ namespace AppPSOne
 
         async void Dados(object sender, EventArgs e)
         {
-            /*var httpClient = new HttpClient();
-            var resultados = await httpClient.GetStringAsync("https://fecap-promoversaude.herokuapp.com/users");
-            Console.WriteLine(resultados);
-
-            var resultadoFinal = JsonConvert.DeserializeObject<DadosUsuario>(resultados);
-
-            Console.WriteLine(resultadoFinal);*/
             var httpClient = new HttpClient();
             var novoPost = new DadosUsuario
             {
@@ -59,12 +53,16 @@ namespace AppPSOne
             var content = new StringContent(json, Encoding.UTF8, "application/json");
             // envia a requisição POST
             var uri = "https://fecap-promoversaude.herokuapp.com/login_validacao";
-            var result = await httpClient.PostAsync(uri, content);
-            // Se ocorrer um erro lança uma exceção
-            result.EnsureSuccessStatusCode();
-            if (result.IsSuccessStatusCode)
+            var post = await httpClient.PostAsync(uri, content);
+            var result = await post.Content.ReadAsStringAsync();
+            // exibe a saida no TextView 
+            if (post.IsSuccessStatusCode && result.Contains(useremail.Text))
             {
-                Navigation.PushAsync(new Calendario());
+                await Navigation.PushAsync(new Calendario());
+            }
+            else
+            {
+                await DisplayAlert("Atenção", @"Login Inválido, tente novamente", "Ok");
             }
         }
     }

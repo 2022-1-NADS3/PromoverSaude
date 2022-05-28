@@ -7,8 +7,21 @@
     
     <ContentPage.Content>
         <StackLayout>
-
-            <Entry Placeholder="Seu e-mail" Text="" x:Name="useremail" BackgroundColor="White" Margin="10"/>
+            <Frame Margin="10"
+                    BorderColor="Black"
+                    CornerRadius="150"
+                    HeightRequest="50"
+                    WidthRequest="50"
+                    IsClippedToBounds="True"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center">
+                <Image Source="logo_simples.jpg"
+                            Aspect="AspectFill"
+                            Margin="-20"
+                            HeightRequest="50"
+                            WidthRequest="50"/>
+            </Frame>
+            <Entry Placeholder="Seu e-mail" Text="" x:Name="useremail"  Margin="10"/>
             <Entry Placeholder="Sua senha" Text="" x:Name="userpassword" IsPassword="True" Margin="10"/>
             <Button Text="Entrar" VerticalOptions="CenterAndExpand" Clicked="Dados" Margin="10" BorderRadius="10" BackgroundColor="DeepSkyBlue" TextColor="White"/>
             <Button Text="Voltar" x:Name="Next" Clicked="Voltar" 
