@@ -39,7 +39,9 @@
                 <Label VerticalOptions="Start" 
                     VerticalTextAlignment="Center"
                     Text="{Binding Title}" 
-                    FontSize="20"/> 
+                    FontSize="20"/>
+                            <Button Text="Ola">
+                            </Button>
             </StackLayout>
           </ViewCell>
         </DataTemplate>
