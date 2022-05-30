@@ -118,10 +118,10 @@ app.patch('/meus_exames/:user_id/:todo_id', async (req, res) => {
     }
 })
 
-/*-------------------------------------------------------
+/*--------------------------------------------------------
   Api para alterar os usuários - 
   PATCH | /alterar_usuario
--------------------------------------------------------*/
+--------------------------------------------------------*/
 app.patch('/alterar_usuario/:user_id', async (req, res) => {
     const { user_id } = req.params
     const data = req.body    
