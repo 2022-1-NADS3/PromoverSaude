@@ -41,28 +41,35 @@ namespace AppPSOne
 
         async void Dados(object sender, EventArgs e)
         {
-            var httpClient = new HttpClient();
-            var novoPost = new DadosUsuario
+            if (string.IsNullOrWhiteSpace(useremail.Text) || string.IsNullOrWhiteSpace(userpassword.Text))
             {
-                useremail = useremail.Text,
-                userpassword = userpassword.Text,
-            };
-
-            // cria o conteudo da requisição e define o tipo Json
-            var json = JsonConvert.SerializeObject(novoPost);
-            var content = new StringContent(json, Encoding.UTF8, "application/json");
-            // envia a requisição POST
-            var uri = "https://fecap-promoversaude.herokuapp.com/login_validacao";
-            var post = await httpClient.PostAsync(uri, content);
-            var result = await post.Content.ReadAsStringAsync();
-            // exibe a saida no TextView 
-            if (post.IsSuccessStatusCode && result.Contains(useremail.Text))
-            {
-                await Navigation.PushAsync(new Calendario());
+                await DisplayAlert("Atenção", @"Todos os campos devem ser preenchidos com valores válidos", "Ok");
             }
             else
             {
-                await DisplayAlert("Atenção", @"Login Inválido, tente novamente", "Ok");
+                var httpClient = new HttpClient();
+                var novoPost = new DadosUsuario
+                {
+                    useremail = useremail.Text,
+                    userpassword = userpassword.Text,
+                };
+
+                // cria o conteudo da requisição e define o tipo Json
+                var json = JsonConvert.SerializeObject(novoPost);
+                var content = new StringContent(json, Encoding.UTF8, "application/json");
+                // envia a requisição POST
+                var uri = "https://fecap-promoversaude.herokuapp.com/login_validacao";
+                var post = await httpClient.PostAsync(uri, content);
+                var result = await post.Content.ReadAsStringAsync();
+                // exibe a saida no TextView 
+                if (post.IsSuccessStatusCode && result.Contains(useremail.Text))
+                {
+                    await Navigation.PushAsync(new Calendario());
+                }
+                else
+                {
+                    await DisplayAlert("Atenção", @"Login Inválido, tente novamente", "Ok");
+                }
             }
         }
     }
