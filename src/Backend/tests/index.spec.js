@@ -32,7 +32,7 @@ describe("POST /cadastrar_usuarios", () => {
         .expect(200)
         .then(() => {
           return request(ApiUrl)
-          .get("/login_validacao")
+          .post("/login_validacao")
           .query({"useremail":"smoothcri@mj.com", "userpassword":"1234"})
           .expect(200)
           .then(response => {
