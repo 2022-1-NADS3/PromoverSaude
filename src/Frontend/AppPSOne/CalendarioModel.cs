@@ -46,7 +46,8 @@ namespace AppPSOne
                 [DateTime.Now] = new List<Agendamento>
             {
                 new Agendamento { Nome = "Exame Cardíaco", Descricao = "Doutor Amilto - 13hrs" },
-                new Agendamento { Nome = "Exame Colesterol", Descricao = "Clinicas - 14hrs" }
+                new Agendamento { Nome = "Exame Colesterol", Descricao = "Clinicas - 14hrs" },
+                new Agendamento { Nome = "Exame 3", Descricao = "Exemplo 3 - 14hrs" }
             },
                 [DateTime.Now.AddDays(5)] = new List<Agendamento>
             {

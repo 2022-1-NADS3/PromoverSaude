@@ -18,6 +18,10 @@ namespace AppPSOne
             InitializeComponent();
             this.BindingContext = new CalendarioModel();
         }
+        private void Adicionar_Evento(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new AdicionarEvento());
+        }
 
     }
 }

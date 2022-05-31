@@ -53,6 +53,9 @@
     <Compile Update="MeuPerfil.xaml.cs">
       <DependentUpon>MeuPerfil.xaml</DependentUpon>
     </Compile>
+    <Compile Update="AdicionarEvento.xaml.cs">
+      <DependentUpon>AdicionarEvento.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
 
   <ItemGroup>
@@ -81,6 +84,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="MeuPerfil.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="AdicionarEvento.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
