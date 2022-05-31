@@ -50,9 +50,9 @@ app.get('/meus_exames/:user_id', async (req, res) => {
 
 /*-------------------------------------------------------
   Api para validar o login do usuário - 
-  GET | /login_validacao
+  POST | /login_validacao
 -------------------------------------------------------*/
-app.get('/login_validacao', async (req, res) => {
+app.post('/login_validacao', async (req, res) => {
  
    const { useremail, userpassword } = req.body
    console.log(useremail,userpassword)
@@ -118,10 +118,10 @@ app.patch('/meus_exames/:user_id/:todo_id', async (req, res) => {
     }
 })
 
-/*--------------------------------------------------------
+/*-------------------------------------------------------
   Api para alterar os usuários - 
   PATCH | /alterar_usuario
---------------------------------------------------------*/
+-------------------------------------------------------*/
 app.patch('/alterar_usuario/:user_id', async (req, res) => {
     const { user_id } = req.params
     const data = req.body    
