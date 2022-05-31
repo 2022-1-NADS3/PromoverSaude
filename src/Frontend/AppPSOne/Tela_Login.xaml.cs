@@ -61,9 +61,15 @@ namespace AppPSOne
                 var uri = "https://fecap-promoversaude.herokuapp.com/login_validacao";
                 var post = await httpClient.PostAsync(uri, content);
                 var result = await post.Content.ReadAsStringAsync();
+                JObject textresult = JsonConvert.DeserializeObject<JObject>(result);
                 // exibe a saida no TextView 
                 if (post.IsSuccessStatusCode && result.Contains(useremail.Text))
                 {
+                    DadosModel.EmailJson = textresult["user_email"].ToString();
+                    DadosModel.NomeJson = textresult["user_name"].ToString();
+                    DadosModel.SenhaJson = textresult["user_password"].ToString();
+                    DadosModel.SexoJson = textresult["user_sex"].ToString();
+                    DadosModel.UserId = (int)textresult["user_id"];
                     await Navigation.PushAsync(new Calendario());
                 }
                 else
