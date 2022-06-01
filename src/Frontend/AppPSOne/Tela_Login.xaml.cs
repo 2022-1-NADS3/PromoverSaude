@@ -65,10 +65,10 @@ namespace AppPSOne
                 // exibe a saida no TextView 
                 if (post.IsSuccessStatusCode && result.Contains(useremail.Text))
                 {
-                    DadosModel.EmailJson = textresult["user_email"].ToString();
-                    DadosModel.NomeJson = textresult["user_name"].ToString();
-                    DadosModel.SenhaJson = textresult["user_password"].ToString();
-                    DadosModel.SexoJson = textresult["user_sex"].ToString();
+                    DadosModel.EmailModel = textresult["user_email"].ToString();
+                    DadosModel.NomeModel = textresult["user_name"].ToString();
+                    DadosModel.SenhaModel = textresult["user_password"].ToString();
+                    DadosModel.SexoModel = textresult["user_sex"].ToString();
                     DadosModel.UserId = (int)textresult["user_id"];
                     await Navigation.PushAsync(new Calendario());
                 }
