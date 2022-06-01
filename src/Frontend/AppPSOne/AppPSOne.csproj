@@ -13,6 +13,7 @@
   <ItemGroup>
     <Compile Remove="Cadastro - Cópia %282%29.xaml.cs" />
     <Compile Remove="Cadastro - Cópia.xaml.cs" />
+    <Compile Remove="Page2.xaml.cs" />
     <Compile Remove="Tela_Login - Cópia.xaml.cs" />
     <Compile Remove="View1.xaml.cs" />
   </ItemGroup>
@@ -20,6 +21,7 @@
   <ItemGroup>
     <EmbeddedResource Remove="Cadastro - Cópia %282%29.xaml" />
     <EmbeddedResource Remove="Cadastro - Cópia.xaml" />
+    <EmbeddedResource Remove="Page2.xaml" />
     <EmbeddedResource Remove="Tela_Login - Cópia.xaml" />
     <EmbeddedResource Remove="View1.xaml" />
   </ItemGroup>
@@ -78,9 +80,6 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Tela_LoginTela_Login.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Page2.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="MeuPerfil.xaml">
