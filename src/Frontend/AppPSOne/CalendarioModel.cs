@@ -4,9 +4,37 @@ using System.ComponentModel;
 using Xamarin.Plugin.Calendar.Models;
 using System.Runtime.CompilerServices;
 using System.Globalization;
+using Newtonsoft.Json.Linq;
+using Newtonsoft.Json;
+using System.Net.Http;
+using System.Text;
+using System.Threading.Tasks;
+using System.Collections.ObjectModel;
+using Microsoft.Azure.Management.ContainerInstance.Fluent.Models;
 
 namespace AppPSOne
 {
+    public class DadosAgenda
+    {
+        [JsonProperty("todo_description")]
+        public string todo_description { get; set; }
+
+        [JsonProperty("todo_title")]
+        public string todo_title { get; set; }
+
+        [JsonProperty("todo_id")]
+        public string todo_id { get; set; }
+
+        [JsonProperty("todo_done")]
+        public string todo_done { get; set; }
+
+        [JsonProperty("todo_date")]
+        public string todo_date { get; set; }
+
+        [JsonProperty("user_id")]
+        public string user_id { get; set; }
+
+    }
     public class CalendarioModel : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler PropertyChanged;
@@ -27,8 +55,7 @@ namespace AppPSOne
             OnPropertyChanged(propertyName);
             return true;
         }
-
-        public EventCollection Events { get; set; }
+        public static List<DadosAgenda> listaPub { get; set; }
 
         private CultureInfo _culture = CultureInfo.InvariantCulture;
         public CultureInfo Culture
@@ -36,37 +63,45 @@ namespace AppPSOne
             get => _culture;
             set => SetProperty(ref _culture, value);
         }
-
+        public EventCollection Events { get; set; }
         public void CarregarAgendamentos()
         {
             Culture = CultureInfo.CreateSpecificCulture("pt-BR");
+            /*string datestring = listaPub[0].todo_date.Replace("-", "");
+            datestring = datestring.Replace(":", "");
+            datestring = datestring.Replace(".", "");
+            datestring = datestring.Substring(0, 15) + "Z";
+            var datahora = DateTime.ParseExact(datestring, "yyyyMMddTHHmmssZ", Culture);*/
+            //acessa assim: convert[0].todo_date*/
+            //foreach (DadosAgenda aExames in listaPub)
+            //{
+            //}
+            string datestring = listaPub[0].todo_date.Replace("-", "");
+            datestring = datestring.Replace(":", "");
+            datestring = datestring.Replace(".", "");
+            datestring = datestring.Substring(0, 15) + "Z";
+            var datahora = DateTime.ParseExact(datestring, "yyyyMMddTHHmmssZ", Culture);
+            var datateste = DateTime.ParseExact(datestring, "yyyyMMddTHHmmssZ", Culture);
 
-            Events = new EventCollection
+            Events = new EventCollection{};
+
+            foreach (DadosAgenda aExames in listaPub)
             {
-                [DateTime.Now] = new List<Agendamento>
-            {
-                new Agendamento { Nome = "Exame Cardíaco", Descricao = "Doutor Amilto - 13hrs" },
-                new Agendamento { Nome = "Exame Colesterol", Descricao = "Clinicas - 14hrs" },
-                new Agendamento { Nome = "Exame 3", Descricao = "Exemplo 3 - 14hrs" }
-            },
-                [DateTime.Now.AddDays(5)] = new List<Agendamento>
-            {
-                new Agendamento { Nome = "Exames de urina", Descricao = "Clinicas - 18hrs" },
-                new Agendamento { Nome = "Exame Transaminases ", Descricao = "Doutora Renatta - 10hrs" }
-            },
-                [DateTime.Now.AddDays(-3)] = new List<Agendamento>
-            {
-                new Agendamento { Nome = "Dentista", Descricao = "Clareamento - 18hrs" }
+                string dataok = aExames.todo_date.Replace("-", "");
+                dataok = dataok.Replace(":", "");
+                dataok = dataok.Replace(".", "");
+                dataok = dataok.Substring(0, 15) + "Z";
+                var dataform = DateTime.ParseExact(dataok, "yyyyMMddTHHmmssZ", Culture);
+
+                Events.Add(dataform, new List<Agendamento> { new Agendamento { Nome = aExames.todo_title, Descricao = aExames.todo_description } });
             }
-            };
         }
-
         public CalendarioModel()
         {
             CarregarAgendamentos();
         }
 
     }
+}
 
-    }
 
