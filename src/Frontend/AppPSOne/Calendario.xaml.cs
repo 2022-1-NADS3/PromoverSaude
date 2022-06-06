@@ -40,6 +40,10 @@ namespace AppPSOne
             
             } else if (item.Title == "Sair")
             {
+                DadosModel.NomeModel = "";
+                DadosModel.EmailModel = "";
+                DadosModel.SenhaModel = "";
+                DadosModel.SexoModel = "";
                 Navigation.PushAsync(new MainPage());
             }
 

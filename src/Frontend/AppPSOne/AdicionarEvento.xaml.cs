@@ -63,7 +63,7 @@ namespace AppPSOne
                 var json = JsonConvert.SerializeObject(novoPost);
                 var content = new StringContent(json, Encoding.UTF8, "application/json");
                 // envia a requisição POST
-                var uri = "https://fecap-promoversaude.herokuapp.com/cadastrar_exames/" + DadosModel.UserId.ToString(); ;
+                var uri = "https://fecap-promoversaude.herokuapp.com/cadastrar_exames/" + DadosModel.UserId.ToString();
                 var post = await httpClient.PostAsync(uri, content);
                 var result = await post.Content.ReadAsStringAsync();
                 // exibe a saida no TextView 
