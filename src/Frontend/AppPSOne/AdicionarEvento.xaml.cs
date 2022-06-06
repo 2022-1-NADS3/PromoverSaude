@@ -82,7 +82,7 @@ namespace AppPSOne
         public string FormatarData(string Hora, string Data)
         {
 
-            string dataFormatada = Data + "T" + Hora + "000.Z";
+            string dataFormatada = Data + "T" + Hora + ".000Z";
 
             return dataFormatada.Replace("/", "-");
         }
