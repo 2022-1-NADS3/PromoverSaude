@@ -28,12 +28,33 @@ Nosso lema é: Lembrar do mais importante, <b>VOCÊ<b/>!!
   
 ## :brain: Insights do Projeto
   
-Persona:
+Resultado da pesquisa sobre publico alvo:
+  
+  Persona principal:
+  <b>https://github.com/2022S1P3/PromoverSaude/blob/main/documentos/PersonaPrincipalPromoverSaude.pdf</b>
+  
+  Persona secundária:
+  <b>https://github.com/2022S1P3/PromoverSaude/blob/main/documentos/PersonaSecundariaPromoverSaude.pdf</b>
+  
+  Mapa de empatia persona 1:
+  <b>https://github.com/2022S1P3/PromoverSaude/blob/main/documentos/MapaDeEmpatiaPersonaPrincipal.jpeg</b>
+  
   
 Design Sistem:
+  <b>https://www.figma.com/file/oyYzU8gHXWnurPamT7Z1VL/ProSaude---Design-System?node-id=8876%3A6247</b>
   
 Prototipágem:
+  <b>https://www.figma.com/file/erp9Qb74ldnPLikSNxrDsx/Promover-Sa%C3%BAde?node-id=0%3A1</b>
+
+## :vertical_traffic_light: Plano de Qualidade:
+Plano de gerenciamento de qualidade de software:
+  <b>https://docs.google.com/document/d/1rwVQRZj_h-QNjLTSrfhlVDhvz3eakVJr2UQGK415P2Q/edit?usp=sharing</b>
   
+Quadro referente o plano:
+  <b>https://docs.google.com/spreadsheets/d/1VJV7fLApPO-OCVeu5SufqsfR6f0JdImuQmdUe30FHYs/edit#gid=0</b>
+  
+Fluxo processo de qualidade de entrega:
+  <b>https://lucid.app/lucidchart/3af652b8-2691-4cf8-a2e0-5921a091e909/edit?viewport_loc=-368%2C-365%2C1955%2C870%2C0_0&invitationId=inv_1d1f5eb4-a029-498c-8eee-7f6816dd9ade#</b>
   
 
 ## 🛠 Estrutura de pastas
@@ -48,13 +69,11 @@ Prototipágem:
   &emsp;|-->Frontend<br>
 |readme.md<br>
 
-A pasta raiz contem dois arquivos que devem ser alterados:
-
 <b>README.MD</b>: Arquivo que serve como guia e explicação geral sobre seu projeto. O mesmo que você está lendo agora.
 
-Há também 4 pastas que seguem da seguinte forma:
+Existem 4 pastas que seguem da seguinte forma:
 
-<b>documentos</b>: Artigo e texto descritivos.
+<b>documentos</b>: Documentos do projeto e texto descritivos.
 
 <b>src</b>: Pasta que contém o código fonte.
 
