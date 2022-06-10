@@ -56,7 +56,7 @@ Quadro referente o plano:
 Fluxo processo de qualidade de entrega:
   <b>https://lucid.app/lucidchart/3af652b8-2691-4cf8-a2e0-5921a091e909/edit?viewport_loc=-368%2C-365%2C1955%2C870%2C0_0&invitationId=inv_1d1f5eb4-a029-498c-8eee-7f6816dd9ade#</b>
 
-Paste de testes:
+Pasta de testes:
   <b>https://github.com/2022S1P3/PromoverSaude/blob/main/src/Backend/tests/index.spec.js</b>
   
 
