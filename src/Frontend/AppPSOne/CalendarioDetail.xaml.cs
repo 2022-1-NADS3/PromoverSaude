@@ -8,18 +8,24 @@ using System.Runtime.CompilerServices;
 using System.Globalization;
 using System.Net.Http;
 using Newtonsoft.Json;
+using System.Collections.ObjectModel;
+using System.Linq;
 
 namespace AppPSOne
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class CalendarioDetail : ContentPage, INotifyPropertyChanged
     {
+        private string day;
+        private string month;
 
+        public DateTime SelectedDate { get; private set; }
+
+        public EventCollection Events { get; set; }
         public CalendarioDetail()
         {
             InitializeComponent();
             GetList();
-            //this.BindingContext = new CalendarioModel();
         }
         private void Adicionar_Evento(object sender, EventArgs e)
         {
@@ -28,6 +34,7 @@ namespace AppPSOne
 
         async void GetList()
         {
+
             var httpClient = new HttpClient();
 
             // envia a requisição POST
@@ -37,9 +44,55 @@ namespace AppPSOne
             //JObject textresult = JsonConvert.DeserializeObject<JObject>(responseBody);
             List<DadosAgenda> listaExames = JsonConvert.DeserializeObject<List<DadosAgenda>>(responseBody) as List<DadosAgenda>;
             CalendarioModel.listaPub = listaExames;
+
             if (result.IsSuccessStatusCode)
             {
                 this.BindingContext = new CalendarioModel();
+            }
+        }
+
+        private void Excluir_Evento(object sender, EventArgs e)
+        {
+            if (!CalendarioModel.evento_copia.Any())
+            {
+                return;
+            }
+
+            if (xcalendar.Day.ToString().Length == 1)
+            {
+                day = "0" + xcalendar.Day.ToString();
+            }
+            else
+            {
+                day = xcalendar.Day.ToString();
+            }
+
+            if (xcalendar.Month.ToString().Length == 1)
+            {
+                month = "0" + xcalendar.Month.ToString();
+            }
+            else
+            {
+                month = xcalendar.Month.ToString();
+            }
+
+            string datastring = xcalendar.Year.ToString() + month + day + "T133000Z";
+
+            var dataformat = (DateTime)xcalendar.SelectedDate;
+
+            if (CalendarioModel.evento_copia.ContainsKey(dataformat))
+            {
+                if (CalendarioModel.evento_copia[dataformat].Count == 1)
+                {
+                    CalendarioModel.evento_copia.Remove(dataformat);
+                    DisplayAlert("Atenção", @"Agendamento Excluído", "Ok");
+                }
+                else
+                {
+
+                    var events = CalendarioModel.evento_copia[dataformat] as ObservableCollection<Agendamento>;
+                    Navigation.PushAsync(new ExcluirEvento(events));
+                }
             }
         }
 

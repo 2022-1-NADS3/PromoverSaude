@@ -6,8 +6,8 @@
         <ScrollView>
             <StackLayout>
                 <Entry Placeholder="Título do Exame" Text="" x:Name="title"  Margin="10"/>
-                <DatePicker x:Name="dataFormat" Format="d" Margin="10"></DatePicker>
-                <TimePicker Margin="10" x:Name="hora"> </TimePicker>
+                <DatePicker x:Name="dataFormat" Format="dd/MM/yyyy" Margin="10"></DatePicker>
+                <TimePicker Margin="10" x:Name="hora"></TimePicker>
                 <Entry Placeholder="Detalhes" Text="" x:Name="description" Margin="10"/>
                 <Button Text="Cadastrar Exame" Clicked="Cadastro_Exame" VerticalOptions="StartAndExpand" Margin="10" BorderRadius="10" BackgroundColor="DeepSkyBlue" TextColor="White"/>
                 <Button Text="Voltar" x:Name="Next" Clicked="Voltar_" 
