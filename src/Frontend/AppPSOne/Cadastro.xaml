@@ -26,7 +26,7 @@
             <Entry Placeholder="Nome"  x:Name="nome" Margin="10" ClearButtonVisibility="WhileEditing"/>
             <Entry Placeholder="Sexo"  x:Name="sexo"  Margin="10" ClearButtonVisibility="WhileEditing"/>
             <Button Text="Cadastrar" VerticalOptions="CenterAndExpand" Clicked="Cad" Margin="10" BorderRadius="10" BackgroundColor="DeepSkyBlue" TextColor="White"/>
-                <Button Text="Voltar" x:Name="Next" Clicked="Voltar" 
+                <Button Text="Voltar" TextColor="Black" x:Name="Next" Clicked="Voltar" 
                     VerticalOptions="CenterAndExpand" 
                     BorderColor="Black" BorderWidth="2" 
                     HorizontalOptions="Center" 

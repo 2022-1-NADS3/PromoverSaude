@@ -29,6 +29,7 @@
                     BorderColor="Black" BorderWidth="2" 
                     HorizontalOptions="Center" 
                     BorderRadius="10" 
+                    TextColor="Black"
                     BackgroundColor="White"/>
             <Label Text=" "
                 VerticalOptions="CenterAndExpand" 

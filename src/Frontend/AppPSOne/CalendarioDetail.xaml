@@ -6,7 +6,7 @@
              xmlns:controls="clr-namespace:Xamarin.Plugin.Calendar.Controls;assembly=Xamarin.Plugin.Calendar" 
              xmlns:pancake="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
              mc:Ignorable="d"
-             x:Class="AppPSOne.CalendarioDetail">
+             x:Class="AppPSOne.CalendarioDetail" BackgroundColor="White">
 
     <ContentPage.Resources>
         <ResourceDictionary>
