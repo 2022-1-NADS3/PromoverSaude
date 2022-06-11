@@ -72,9 +72,12 @@ namespace AppPSOne
                     await DisplayAlert("Atenção", @"Exame cadastrado com sucesso", "Ok");
                     await Navigation.PushAsync(new Calendario());
                 }
-                else
+                else if (post.IsSuccessStatusCode && !result.Contains(description.Text))
                 {
-                    await DisplayAlert("Atenção", @"Todos os campos são obrigatórios", "Ok");
+                    await DisplayAlert("Atenção", @"Já existe um exame com esse horário", "Ok");
+                } else
+                {
+                    await DisplayAlert("Atenção", @"Não foi possível cadastrar o exame", "Ok");
                 }
             }
         }
