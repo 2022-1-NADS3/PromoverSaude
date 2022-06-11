@@ -26,6 +26,7 @@
             </Grid.RowDefinitions>
             <Grid Grid.Row="1" >
                 <controls:Calendar
+                    x:Name="xcalendar"
                     AnimateCalendar="True"
                     DayViewCornerRadius="50"
                     DayViewSize="40"
@@ -42,11 +43,12 @@
                     MonthLabelColor="Black"
                     OtherMonthDayColor="Gray"
                     SelectedDateColor="Black"
-                    SelectedDateTextFormat="ddd, dd MMM yyyy"
+                    SelectedDateTextFormat="dd/MM/yyyy"
                     SelectedDayBackgroundColor="DarkCyan"
                     SelectedDayTextColor="Cyan"
                     SwipeToChangeMonthEnabled="False"
                     SwipeUpToHideEnabled="False"
+                    SelectedDate="{Binding Source={x:Reference xcalendar},Path=SelectedDate}"
                     TodayFillColor="Silver"
                     TodayOutlineColor="#03A9F4"
                     VerticalOptions="FillAndExpand"
@@ -55,41 +57,42 @@
                         <DataTemplate>
                             <ScrollView>
                                 <StackLayout Padding="15,0,0,0">
-                                <pancake:PancakeView 
+                                    <pancake:PancakeView 
                                     BackgroundColor="#78ABE7"
                                     HorizontalOptions="FillAndExpand"
                                     Margin="1"
                                     HeightRequest="30"
                                     CornerRadius="0,0,0,0">
-                                    <Label
+                                        <Label
                                         Text="{Binding Nome}"
                                         TextColor="Black"
                                         FontAttributes="Bold"
                                         FontSize="Medium"
                                         Margin="5,0,0,0"/>
-                                </pancake:PancakeView>
-                                <pancake:PancakeView 
+                                    </pancake:PancakeView>
+                                    <pancake:PancakeView 
                                     BackgroundColor="#90EE90"
                                     HorizontalOptions="Fill"
                                     VerticalOptions="Fill"
                                     CornerRadius="0,0,30,0"
                                     Margin="0,-5,0,10"
                                     HeightRequest="25">
-                                    <Label
+                                        <Label
                                         Text="{Binding Descricao}"
                                         FontSize="Small"
                                         HorizontalOptions="Start"
                                         LineBreakMode="WordWrap" 
                                         Margin="15,0,0,0"/>
-                                </pancake:PancakeView>
-                            </StackLayout>
-                                </ScrollView>
+                                    </pancake:PancakeView>
+                                </StackLayout>
+                            </ScrollView>
                         </DataTemplate>
                     </controls:Calendar.EventTemplate>
                 </controls:Calendar>
             </Grid>
-            <Grid Grid.Row="3"  HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Margin="4">
-                <Button Text="Adicionar Exame" Clicked="Adicionar_Evento" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"  BorderRadius="10" BackgroundColor="DeepSkyBlue" TextColor="White"/>
+            <Grid Grid.Row="3"  HorizontalOptions="Fill" VerticalOptions="CenterAndExpand" Margin="4">
+                <Button Text="Adicionar Exame" Clicked="Adicionar_Evento" Margin="25,0,0,0" VerticalOptions="Start" HorizontalOptions="Start"  BorderRadius="10" BackgroundColor="DeepSkyBlue" TextColor="White"/>
+                <Button Text="Excluir Exames" Clicked="Excluir_Evento" Margin="0,0,25,0" VerticalOptions="End" HorizontalOptions="End"  BorderRadius="10" BackgroundColor="DeepSkyBlue" TextColor="White"/>
             </Grid>
         </Grid>
     </ContentPage.Content>

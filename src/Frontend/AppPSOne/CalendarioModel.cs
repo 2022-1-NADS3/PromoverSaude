@@ -4,12 +4,56 @@ using System.ComponentModel;
 using Xamarin.Plugin.Calendar.Models;
 using System.Runtime.CompilerServices;
 using System.Globalization;
+using Newtonsoft.Json.Linq;
+using Newtonsoft.Json;
+using System.Net.Http;
+using System.Text;
+using System.Threading.Tasks;
+using System.Collections.ObjectModel;
+using Microsoft.Azure.Management.ContainerInstance.Fluent.Models;
+using System.Linq;
+using System.Collections;
 
 namespace AppPSOne
 {
+    public class DadosAgenda
+    {
+        [JsonProperty("todo_description")]
+        public string todo_description { get; set; }
+
+        [JsonProperty("todo_title")]
+        public string todo_title { get; set; }
+
+        [JsonProperty("todo_id")]
+        public string todo_id { get; set; }
+
+        [JsonProperty("todo_done")]
+        public string todo_done { get; set; }
+
+        [JsonProperty("todo_date")]
+        public string todo_date { get; set; }
+
+        [JsonProperty("user_id")]
+        public string user_id { get; set; }
+
+    }
+
+    public class DadosItem
+    {
+        public string todo_description { get; set; }
+
+        public string todo_title { get; set; }
+
+        public string todo_id { get; set; }
+        public string hora { get; set; }
+
+    }
+
     public class CalendarioModel : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler PropertyChanged;
+
+        public static EventCollection evento_copia;
 
         protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
         {
@@ -27,38 +71,57 @@ namespace AppPSOne
             OnPropertyChanged(propertyName);
             return true;
         }
+        public static List<DadosAgenda> listaPub { get; set; }
 
-        public EventCollection Events { get; set; }
+        public static List<DadosItem> listaItem { get; set; }
 
         private CultureInfo _culture = CultureInfo.InvariantCulture;
+
         public CultureInfo Culture
         {
             get => _culture;
             set => SetProperty(ref _culture, value);
         }
 
+        public EventCollection Events { get; set; }
+        public static List<Agendamento> listAgenda { get; set; }
+
         public void CarregarAgendamentos()
         {
             Culture = CultureInfo.CreateSpecificCulture("pt-BR");
 
-            Events = new EventCollection
+            string datestring = listaPub[0].todo_date.Replace("-", "");
+            datestring = datestring.Replace(":", "");
+            datestring = datestring.Replace(".", "");
+            datestring = datestring.Substring(0, 15) + "Z";
+            var dataf = DateTime.ParseExact(datestring, "yyyyMMddTHHmmssZ", Culture);
+            var dataagr = DateTime.Now;
+            int result = DateTime.Compare(dataf, dataagr);
+
+            Events = new EventCollection{};
+
+            foreach (DadosAgenda aLista in listaPub)
             {
-                [DateTime.Now] = new List<Agendamento>
-            {
-                new Agendamento { Nome = "Exame Cardíaco", Descricao = "Doutor Amilto - 13hrs" },
-                new Agendamento { Nome = "Exame Colesterol", Descricao = "Clinicas - 14hrs" },
-                new Agendamento { Nome = "Exame 3", Descricao = "Exemplo 3 - 14hrs" }
-            },
-                [DateTime.Now.AddDays(5)] = new List<Agendamento>
-            {
-                new Agendamento { Nome = "Exames de urina", Descricao = "Clinicas - 18hrs" },
-                new Agendamento { Nome = "Exame Transaminases ", Descricao = "Doutora Renatta - 10hrs" }
-            },
-                [DateTime.Now.AddDays(-3)] = new List<Agendamento>
-            {
-                new Agendamento { Nome = "Dentista", Descricao = "Clareamento - 18hrs" }
-            }
+                string dataok = aLista.todo_date.Replace("-", "");
+                string hora = dataok.Substring(9, 5);
+                dataok = dataok.Replace(":", "");
+                dataok = dataok.Replace(".", "");
+                dataok = dataok.Substring(0, 15) + "Z";
+                var dataformat = DateTime.ParseExact(dataok, "yyyyMMddTHHmmssZ", Culture);
+                dataformat = dataformat.AddSeconds(30);
+
+                if (Events.ContainsKey(dataformat))
+                {
+                    var events = Events[dataformat] as ObservableCollection<Agendamento>;
+                    events.Add(new Agendamento { Nome = aLista.todo_title + " - " + hora, Descricao = aLista.todo_description, Id= aLista.todo_id});
+                }
+                else
+                {
+                    Events.Add(dataformat, new ObservableCollection<Agendamento> { new Agendamento { Nome = aLista.todo_title + " - " + hora, Descricao = aLista.todo_description, Id = aLista.todo_id } });
+                }
+
             };
+            evento_copia = Events;
         }
 
         public CalendarioModel()
@@ -68,5 +131,6 @@ namespace AppPSOne
 
     }
 
-    }
+}
+
 

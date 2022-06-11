@@ -1,6 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const { Pool } = require('pg');
+const { json } = require('express/lib/response');
 require('dotenv').config();
 
 const PORT = process.env.PORT || 3000;
@@ -41,7 +42,7 @@ app.get('/todos_usuarios', async (req,res) => {
 app.get('/meus_exames/:user_id', async (req, res) => {
     const { user_id } = req.params
     try {
-        const allTodos = await pool.query('SELECT * FROM todo_exarms WHERE user_id = ($1)', [user_id])
+        const allTodos = await pool.query('SELECT * FROM todo_exarms WHERE user_id = ($1) ORDER BY todo_date', [user_id])
         return res.status(200).send(allTodos.rows)
     } catch(err) {
         return res.status(400).send(err)
@@ -58,7 +59,7 @@ app.post('/login_validacao', async (req, res) => {
    console.log(useremail,userpassword)
 try {
     const allTodos = await pool.query('SELECT * FROM user_login WHERE user_email = ($1) AND user_password = ($2)', [useremail, userpassword])
-    return res.status(200).send(allTodos.rows)
+    return res.status(200).send(allTodos.rows[0])
     } catch(err) {
         return res.status(400).send(err)
     }
@@ -92,9 +93,15 @@ app.post('/cadastrar_usuarios', async (req, res) => {
 app.post('/cadastrar_exames/:user_id', async (req, res) => {
     const { title, description, dateExams } = req.body
     const { user_id } = req.params
+
+    let exames = ''
     try {
-        const newExams = await pool.query("INSERT INTO todo_exarms (todo_description, todo_title, todo_done, todo_date, user_id) VALUES ($1, $2, $3 ,$4 , $5) RETURNING *", [description, title,false, dateExams, user_id])
-        return res.status(200).send(newExams.rows)
+        exames = await pool.query('SELECT * FROM todo_exarms WHERE todo_date = ($1) AND user_id = ($2)', [dateExams, user_id])
+        if(!exames.rows[0]){
+            exames = await pool.query("INSERT INTO todo_exarms (todo_description, todo_title, todo_done, todo_date, user_id) VALUES ($1, $2, $3 ,$4 , $5) RETURNING *", [description, title,false, dateExams, user_id])    
+            return res.status(200).send(exames.rows)
+        }
+        return res.status(200).send("")
     } catch(err) {
         return res.status(400).send(err)
     }
@@ -102,9 +109,9 @@ app.post('/cadastrar_exames/:user_id', async (req, res) => {
 
 /*-------------------------------------------------------
   Api para alterar os exames - 
-  PATCH | /meus_exames/:user_id/:todo_id
+  PUT | /meus_exames/:user_id/:todo_id
 -------------------------------------------------------*/
-app.patch('/meus_exames/:user_id/:todo_id', async (req, res) => {
+app.put('/meus_exames/:user_id/:todo_id', async (req, res) => {
     const { todo_id, user_id } = req.params
     const data = req.body    
     try {         
@@ -120,9 +127,9 @@ app.patch('/meus_exames/:user_id/:todo_id', async (req, res) => {
 
 /*-------------------------------------------------------
   Api para alterar os usuários - 
-  PATCH | /alterar_usuario
+  PUT | /alterar_usuario
 -------------------------------------------------------*/
-app.patch('/alterar_usuario/:user_id', async (req, res) => {
+app.put('/alterar_usuario/:user_id', async (req, res) => {
     const { user_id } = req.params
     const data = req.body    
     try {         
@@ -130,7 +137,7 @@ app.patch('/alterar_usuario/:user_id', async (req, res) => {
         console.log(validarUsuario)
         if (!validarUsuario.rows[0]) return res.status(400).send('Operation not allowed')        
         const AtualizarUsuario = await pool.query('UPDATE user_login SET user_email = ($1), user_password = ($2) WHERE user_id = ($3) RETURNING *',
-        [data.email, data.password, user_id])
+        [data.user_email, data.user_password, user_id])
         return res.status(200).send(AtualizarUsuario.rows)
     } catch(err) {
         return res.status(400).send(err)

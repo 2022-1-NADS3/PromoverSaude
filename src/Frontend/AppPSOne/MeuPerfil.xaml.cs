@@ -16,27 +16,48 @@ namespace AppPSOne
 
     public static class DadosModel
     {
-        public static string NomeJson { get; set; }
-        public static string EmailJson { get; set; }
-        public static string SenhaJson { get; set; }
-        public static string SexoJson { get; set; }
+        public static string NomeModel { get; set; }
+        public static string EmailModel { get; set; }
+        public static string SenhaModel { get; set; }
+        public static string SexoModel { get; set; }
         public static int UserId { get; set; }
 
     }
+
+    public class DadosJson
+    {
+        [JsonProperty("user_name")]
+        public  string user_name { get; set; }
+        [JsonProperty("user_email")]
+        public  string user_email { get; set; }
+        [JsonProperty("user_password")]
+        public  string user_password { get; set; }
+        [JsonProperty("user_sex")]
+        public  string user_sex { get; set; }
+    }
+
     public partial class MeuPerfil : ContentPage
     {
 
         public MeuPerfil()
         {
             InitializeComponent();
-            Nome.Text = DadosModel.NomeJson;
-            Email.Text = DadosModel.EmailJson;
-            Senha.Text = DadosModel.SenhaJson;
-            Sexo.Text = DadosModel.SexoJson;
+            Nome.Text = DadosModel.NomeModel;
+            Email.Text = DadosModel.EmailModel;
+            Senha.Text = DadosModel.SenhaModel;
+            Sexo.Text = DadosModel.SexoModel;
         }
 
         private void Voltar(object sender, EventArgs e)
         {
+            Nome.Text = "";
+            DadosModel.NomeModel = "";
+            Email.Text = "";
+            DadosModel.EmailModel = "";
+            Senha.Text = "";
+            DadosModel.SenhaModel = "";
+            Sexo.Text = "";
+            DadosModel.SexoModel = "";
             Navigation.PushAsync(new MainPage());
         }
 
@@ -49,26 +70,30 @@ namespace AppPSOne
                 Text_Botao.Text = "Salvar";
             } else
             {
-                /*var httpClient = new HttpClient();
-                var novoPost = new DadosUsuario
+                if (Email.Text != DadosModel.EmailModel || Senha.Text != DadosModel.SenhaModel)
                 {
-                    useremail = Email.Text,
-                    userpassword = Senha.Text,
-                };
+                    var httpClient = new HttpClient();
+                    var novoPost = new DadosJson
+                    {
+                        user_name = Nome.Text,
+                        user_email = Email.Text,
+                        user_password = Senha.Text,
+                        user_sex = Sexo.Text
+                    };
 
-                // cria o conteudo da requisição e define o tipo Json
-                var json = JsonConvert.SerializeObject(novoPost);
-                var content = new StringContent(json, Encoding.UTF8, "application/json");
-                // envia a requisição POST
-                var uri = "https://fecap-promoversaude.herokuapp.com/alterar_usuario/" + DadosModel.UserId.ToString();
-                var post = await httpClient.PatchAsync(uri, content);
-                var result = await post.Content.ReadAsStringAsync();
-                JObject textresult = JsonConvert.DeserializeObject<JObject>(result);
-                // exibe a saida no TextView 
-                if (post.IsSuccessStatusCode && result.Contains(Email.Text))
-                {
-                    await DisplayAlert("Atenção", @"Dados Salvos", "Ok");
-                }*/
+                    // cria o conteudo da requisição e define o tipo Json
+                    var json = JsonConvert.SerializeObject(novoPost);
+                    var content = new StringContent(json, Encoding.UTF8, "application/json");
+                    // envia a requisição POST
+                    var uri = "https://fecap-promoversaude.herokuapp.com/alterar_usuario/" + DadosModel.UserId.ToString();
+                    var post = await httpClient.PutAsync(uri, content);
+                    var result = await post.Content.ReadAsStringAsync();
+                    // exibe a saida no TextView 
+                    if (post.IsSuccessStatusCode && result.Contains(Email.Text))
+                    {
+                        await DisplayAlert("Atenção", @"Dados Salvos", "Ok");
+                    }
+                }
 
                 Text_Botao.Text = "Editar Perfil";
                 Email.IsEnabled = false;

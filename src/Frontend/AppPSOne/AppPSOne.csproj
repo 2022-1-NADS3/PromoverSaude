@@ -13,6 +13,7 @@
   <ItemGroup>
     <Compile Remove="Cadastro - Cópia %282%29.xaml.cs" />
     <Compile Remove="Cadastro - Cópia.xaml.cs" />
+    <Compile Remove="Page2.xaml.cs" />
     <Compile Remove="Tela_Login - Cópia.xaml.cs" />
     <Compile Remove="View1.xaml.cs" />
   </ItemGroup>
@@ -20,11 +21,13 @@
   <ItemGroup>
     <EmbeddedResource Remove="Cadastro - Cópia %282%29.xaml" />
     <EmbeddedResource Remove="Cadastro - Cópia.xaml" />
+    <EmbeddedResource Remove="Page2.xaml" />
     <EmbeddedResource Remove="Tela_Login - Cópia.xaml" />
     <EmbeddedResource Remove="View1.xaml" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.Azure.Management.ContainerInstance.Fluent" Version="1.38.1" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="Xam.Plugins.Forms.ImageCircle" Version="3.0.0.5" />
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />
@@ -56,9 +59,15 @@
     <Compile Update="AdicionarEvento.xaml.cs">
       <DependentUpon>AdicionarEvento.xaml</DependentUpon>
     </Compile>
+    <Compile Update="Appointment.xaml.cs">
+      <DependentUpon>Appointment.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Update="CalendarFooterView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Calendario.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
@@ -66,6 +75,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="CalendarioFlyout.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="ExcluirEvento.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="MeuPerfilDetail.xaml">
@@ -80,13 +92,13 @@
     <EmbeddedResource Update="Tela_LoginTela_Login.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Page2.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
     <EmbeddedResource Update="MeuPerfil.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="AdicionarEvento.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Appointment.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Text;
 
@@ -8,5 +9,9 @@ namespace AppPSOne
     {
         public string Nome { get; set; }
         public string Descricao { get; set; }
+        public string Data { get; set; }
+        public bool IsSelected { get; internal set; }
+
+        public string Id { get; set; }
     }
 }
