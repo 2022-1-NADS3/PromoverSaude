@@ -90,14 +90,6 @@ namespace AppPSOne
         {
             Culture = CultureInfo.CreateSpecificCulture("pt-BR");
 
-            string datestring = listaPub[0].todo_date.Replace("-", "");
-            datestring = datestring.Replace(":", "");
-            datestring = datestring.Replace(".", "");
-            datestring = datestring.Substring(0, 15) + "Z";
-            var dataf = DateTime.ParseExact(datestring, "yyyyMMddTHHmmssZ", Culture);
-            var dataagr = DateTime.Now;
-            int result = DateTime.Compare(dataf, dataagr);
-
             Events = new EventCollection{};
 
             foreach (DadosAgenda aLista in listaPub)

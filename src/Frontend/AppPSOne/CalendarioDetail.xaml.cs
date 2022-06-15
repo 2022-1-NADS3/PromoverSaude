@@ -21,7 +21,6 @@ namespace AppPSOne
 
         public DateTime SelectedDate { get; private set; }
 
-        public EventCollection Events { get; set; }
         public CalendarioDetail()
         {
             InitializeComponent();
