@@ -6,11 +6,19 @@ namespace AppPSOne
 {
     public partial class App : Application
     {
+        public static bool UsuarioLogado { get; set; }
         public App()
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage (new MainPage());
+            if (!UsuarioLogado)
+            {
+                MainPage = new NavigationPage(new MainPage());
+            }
+            else
+            {
+                MainPage = new NavigationPage(new Calendario());
+            }
         }
 
         protected override void OnStart()

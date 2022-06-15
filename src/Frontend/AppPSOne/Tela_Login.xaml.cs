@@ -70,7 +70,9 @@ namespace AppPSOne
                     DadosModel.SenhaModel = textresult["user_password"].ToString();
                     DadosModel.SexoModel = textresult["user_sex"].ToString();
                     DadosModel.UserId = (int)textresult["user_id"];
-                    await Navigation.PushAsync(new Calendario());
+                    App.UsuarioLogado = true;
+                    Navigation.InsertPageBefore(new Calendario(), Navigation.NavigationStack.First());
+                    await Navigation.PopToRootAsync();
                 }
                 else
                 {

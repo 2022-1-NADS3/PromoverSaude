@@ -58,7 +58,9 @@ namespace AppPSOne
             DadosModel.SenhaModel = "";
             Sexo.Text = "";
             DadosModel.SexoModel = "";
-            Navigation.PushAsync(new MainPage());
+            App.UsuarioLogado = false;
+            Navigation.InsertPageBefore(new MainPage(), Navigation.NavigationStack.First());
+            Navigation.PopToRootAsync();
         }
 
         async void Editar_Perfil(object sender, EventArgs e)

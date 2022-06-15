@@ -44,7 +44,9 @@ namespace AppPSOne
                 DadosModel.EmailModel = "";
                 DadosModel.SenhaModel = "";
                 DadosModel.SexoModel = "";
-                Navigation.PushAsync(new MainPage());
+                App.UsuarioLogado = false;
+                Navigation.InsertPageBefore(new MainPage(), Navigation.NavigationStack.First());
+                Navigation.PopToRootAsync();
             }
 
             FlyoutPage.ListView.SelectedItem = null;
