@@ -8,6 +8,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Newtonsoft.Json;
 using System.Net.Http;
+using Newtonsoft.Json.Linq;
 
 namespace AppPSOne
 {
@@ -65,11 +66,16 @@ namespace AppPSOne
                 var content = new StringContent(json, Encoding.UTF8, "application/json");
                 // envia a requisição POST
                 var uri = "https://fecap-promoversaude.herokuapp.com/cadastrar_usuarios";
-                var result = await httpClient.PostAsync(uri, content);
+                var post = await httpClient.PostAsync(uri, content);
+                var result = await post.Content.ReadAsStringAsync();
                 // exibe a saida no TextView 
-                if (result.IsSuccessStatusCode)
+                if (post.IsSuccessStatusCode && result.Contains(email.Text))
                 {
                     await Navigation.PushAsync(new Tela_Login());
+                }
+                else
+                {
+                    await DisplayAlert("Atenção", @"E-mail já cadastrado, por favor utilize outro", "Ok");
                 }
             }
         }
