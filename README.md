@@ -25,7 +25,12 @@ O aplicativo facilitará para que você lembre de seus exames, além de ter a op
 <br><br>
 Nosso lema é: Lembrar do mais importante, <b>VOCÊ<b/>!!
 <br><br>
+
+## :rocket: Apresentação do Projeto
   
+  Show time:
+  <b>https://github.com/2022S1P3/PromoverSaude/blob/main/documentos/Promover%20Sau%CC%81de%20Apresentac%CC%A7a%CC%83o.pdf</b>
+
 ## :brain: Insights do Projeto
   
 Resultado da pesquisa sobre publico alvo:
